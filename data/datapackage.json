@@ -1,0 +1,187 @@
+{
+  "bytes": 552897,
+  "count_of_rows": 6503,
+  "hash": "866099caa1073c05b202246549723bdc",
+  "name": "Werkverzeichnis-JStraumann",
+  "profile": "data-package",
+  "resources": [
+    {
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "WERKVERZEICHNIS",
+      "path": "WERKVERZEICHNIS.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Nummer",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Jahr",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Technik",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Technik I",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Technik II",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Technik III",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Technik IV",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Ausrichtung",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Darstellungsformen",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Darstellungsformen",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gegenständlich/Ungegenständlich",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Motiv",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Motiv",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Motiv",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Motiv",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Serie",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Helligkeit",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Farbigkeit",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Paraphrasen",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Bildsprache",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Titel",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Standort",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Zus'arbeit",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Bildqualität",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Bemerkungen",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Nummer",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "MOTIVE",
+      "path": "motive.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Title",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Links",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "title": "Werkverzeichnis Jürg Straumann"
+}
