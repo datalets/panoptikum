@@ -1,4 +1,4 @@
-$.getJSON('/motive', function(data) {
+$.getJSON('/motive/json', function(data) {
   $out = $('#motive');
   console.log(data);
   $.each(data, function() {

@@ -40,11 +40,15 @@ def send_static(path):
     return send_from_directory('static', path)
 
 @app.route('/motive/')
-def motive():
+def motive_api():
     return dp_motive.to_dict(orient='records')
 
+@app.route('/motive/json')
+def motive_json():
+    return dp_motive.to_json(orient='records')
+
 @app.route('/works/')
-def works(offset=0, per_page=20):
+def works_api():
     return get_paginated()
 
 if __name__ == '__main__':
