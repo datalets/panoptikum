@@ -31,13 +31,7 @@ def get_paginated():
         # 'has_next': ppp.has_next, 'has_prev': ppp.has_prev
     }
 
-@app.route('/client/<path:path>')
-def send_client(path):
-    return send_from_directory('templates/public', path)
-
-@app.route('/static/<path:path>')
-def send_static(path):
-    return send_from_directory('static', path)
+# API endpoints
 
 @app.route('/motive/')
 def motive_api():
@@ -50,6 +44,17 @@ def motive_json():
 @app.route('/works/')
 def works_api():
     return get_paginated()
+
+# Static views
+
+@app.route('/')
+def send_home():
+    return render_template('public/index.html')
+
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

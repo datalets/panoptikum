@@ -2,7 +2,7 @@ __pycache__
 env/
 shell/
 
-data/
+static/art/
 node_modules
 npm-debug.log
 
