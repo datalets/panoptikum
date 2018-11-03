@@ -9,41 +9,48 @@ from flask import (
     send_from_directory,
 )
 
+from .util import *
+
 app = FlaskAPI(__name__)
-
-# From local data folder
-dp_werke = read_datapackage("data", "WERKVERZEICHNIS")
-# print(dp_werke.columns)
-# datastore = dp_werke.to_dict(orient='index')
-
-dp_motive = read_datapackage("data", "MOTIVE")
-
-def get_paginated():
-    page = int(request.args.get('page', 1))
-    per_page = int(request.args.get('per_page', 10))
-    total = len(dp_werke)
-    pages = round(total / per_page)
-    offset = (page - 1) * per_page
-    ppp = dp_werke[offset : offset + per_page].to_dict(orient='records')
-    return {
-        'items': ppp,
-        'page': page, 'pages': pages, 'total': total,
-        # 'has_next': ppp.has_next, 'has_prev': ppp.has_prev
-    }
 
 # API endpoints
 
-@app.route('/motive/')
-def motive_api():
-    return dp_motive.to_dict(orient='records')
+dp_werke = read_datapackage("data", "WERKVERZEICHNIS")
 
-@app.route('/motive/json')
-def motive_json():
-    return dp_motive.to_json(orient='records')
+@app.route('/api/works/')
+def api_works(): return get_paginated(request.args, dp_werke)
 
-@app.route('/works/')
-def works_api():
-    return get_paginated()
+
+dp_forms = read_datapackage("data", "form")
+
+@app.route('/api/forms/')
+def api_forms_dict(): return dp_forms.to_dict(orient='records')
+@app.route('/api/forms/json')
+def api_forms_json(): return dp_forms.to_json(orient='records')
+
+
+dp_inhalt = read_datapackage("data", "inhalt")
+
+@app.route('/api/inhalt/')
+def api_inhalt_dict(): return dp_inhalt.to_dict(orient='records')
+@app.route('/api/inhalt/json')
+def api_inhalt_json(): return dp_inhalt.to_json(orient='records')
+
+
+dp_themen = read_datapackage("data", "themen")
+
+@app.route('/api/themen/')
+def api_themen_dict(): return dp_themen.to_dict(orient='records')
+@app.route('/api/themen/json')
+def api_themen_json(): return dp_themen.to_json(orient='records')
+
+
+dp_zeiten = read_datapackage("data", "zeiten")
+
+@app.route('/api/zeiten/')
+def api_zeiten_dict(): return dp_zeiten.to_dict(orient='records')
+@app.route('/api/zeiten/json')
+def api_zeiten_json(): return dp_zeiten.to_json(orient='records')
 
 # Static views
 

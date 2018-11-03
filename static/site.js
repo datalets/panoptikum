@@ -2,7 +2,7 @@ jQuery(function($){
 
 $('div[data-tag]').each(function() {
   tag = $(this).attr('data-tag');
-  $.getJSON('/' + tag + '/json', function(data) {
+  $.getJSON('/api/' + tag + '/json', function(data) {
     render_form(tag, data);
   });
 });
