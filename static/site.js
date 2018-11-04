@@ -1,38 +1,34 @@
 var cache = {}; // global! TODO: sessionStorage / localStorage
+var filters = {};
 
 (function(){
 
-// TODO: load from DP
-var ds = {
-  'inhalt': [
-    "Motive",
-    "Paraphrasen, Variationen",
-    "Paraphrasen, Variationen: grössere Werkgruppen zu",
-    "Projekt „Klee revisited“"
-  ],
-  'forms': [
-    "Technik",
-    "Drucktechnik",
-    "mehrere Techniken",
-    "Helligkeit",
-    "Farbigkeit nach Dominanz",
-    "Format",
-    "Ausrichtung",
-    "Darstellungsformen",
-    "Darstellungsarten",
-    "Bildsprache"
-  ],
-  'zeiten': []
-};
+$.getJSON('/api/filters/all.json', function(data) {
+  cache = data;
 
-init_section('inhalt');
-init_section('forms');
-init_section('zeiten');
+  // Parse filter structure
+  data.forEach(function(d) {
+    dm = d.Mode.toLowerCase();
+    if (!filters[dm])
+      filters[dm] = [];
+    if (!filters[dm].includes(d.Type))
+      filters[dm].push(d.Type);
+  });
+  // console.log(filters);
+
+  Object.keys(filters).forEach(function(f) {
+    init_section(f);
+  });
+
+}).fail(function() {
+  alert('Could not load data!');
+});
 
 function init_section(sname) {
+  // Add section headers
   $('#' + sname).each(function() {
     var $tgt = $(this);
-    ds[sname].forEach(function(i) {
+    filters[sname].forEach(function(i) {
       $tgt.append(
         '<h5>' + i + '</h5>' +
         '<div class="form-group row" ' +
@@ -42,19 +38,20 @@ function init_section(sname) {
     });
   });
 
-  $.getJSON('/api/' + sname + '/json', function(data) {
-    console.log('Loading', sname);
-    cache[sname] = data;
-    $('div[data-tag="' + sname + '"]').each(function() {
-      var $obj = $(this),
-          tag = $obj.attr('data-tag'),
-          typ = $obj.attr('data-type'),
-          inp = $obj.attr('data-input');
+  // Subset the data
+  data = cache.filter(function(i) {
+    return i.Mode.toLowerCase() == sname;
+  });
 
-      console.log('Processing', tag, typ);
-      data = cache[tag];
-      render_form($obj, data, typ, inp);
-    });
+  // Process any tags
+  $('div[data-tag="' + sname + '"]').each(function() {
+    var $obj = $(this),
+        tag = $obj.attr('data-tag'),
+        typ = $obj.attr('data-type'),
+        inp = $obj.attr('data-input');
+
+    console.log('Processing', tag, typ);
+    render_form($obj, data, typ, inp);
   });
 }
 
@@ -63,7 +60,7 @@ function render_form($out, dp, wtype, inputtype) {
     inputtype = 'checkbox';
 
   data = dp.filter(function(i) {
-    return i.Type.toLowerCase() === wtype.toLowerCase()
+    return i.Type.toLowerCase() == wtype.toLowerCase()
   });
   // console.log(data);
   col_ix = 0; // $out.parent().find('div').count()
@@ -94,5 +91,39 @@ function render_form($out, dp, wtype, inputtype) {
     }
   });
 }
+
+// Run search
+$('#start').click(function() {
+  $.getJSON('/api/WERKVERZEICHNIS.json', function(data) {
+
+    $('#filters .tab-content').hide();
+    var $tgt = $('#results').show().find('div.row').empty();
+
+    data.forEach(function(item) {
+
+      $tgt.append(
+        '<div class="col-sm-3 item">' +
+        '<small>' + item.Nummer + '</small>' +
+        '</div>'
+      ).find('.item:last').click(function() {
+
+        console.log(item);
+
+      });
+
+    });
+
+  }).fail(function(jqxhr, textStatus, error) {
+    alert('Could not search!');
+    console.log(textStatus, error);
+  });
+}); // -button.click
+
+// Restore on click
+$('#filters .nav-link').click(function() {
+  $('#filters .tab-content').show();
+  $('#results').hide();
+
+});
 
 })();

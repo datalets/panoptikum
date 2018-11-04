@@ -13,44 +13,23 @@ from .util import *
 
 app = FlaskAPI(__name__)
 
-# API endpoints
 
-dp_werke = read_datapackage("data", "WERKVERZEICHNIS")
+# Create API endpoints
 
-@app.route('/api/works/')
-def api_works(): return get_paginated(request.args, dp_werke)
+data = read_datapackage("data")
 
+@app.route('/api/<resource>')
+def api_dict(resource):
+    return get_paginated(request.args, data[resource])
 
-dp_forms = read_datapackage("data", "form")
+@app.route('/api/<resource>.json')
+def api_json(resource):
+    return get_paginated(request.args, data[resource], True)
 
-@app.route('/api/forms/')
-def api_forms_dict(): return dp_forms.to_dict(orient='records')
-@app.route('/api/forms/json')
-def api_forms_json(): return dp_forms.to_json(orient='records')
+@app.route('/api/<resource>/all.json')
+def api_all_json(resource):
+    return data[resource].to_json(orient='records')
 
-
-dp_inhalt = read_datapackage("data", "inhalt")
-
-@app.route('/api/inhalt/')
-def api_inhalt_dict(): return dp_inhalt.to_dict(orient='records')
-@app.route('/api/inhalt/json')
-def api_inhalt_json(): return dp_inhalt.to_json(orient='records')
-
-
-dp_themen = read_datapackage("data", "themen")
-
-@app.route('/api/themen/')
-def api_themen_dict(): return dp_themen.to_dict(orient='records')
-@app.route('/api/themen/json')
-def api_themen_json(): return dp_themen.to_json(orient='records')
-
-
-dp_zeiten = read_datapackage("data", "zeiten")
-
-@app.route('/api/zeiten/')
-def api_zeiten_dict(): return dp_zeiten.to_dict(orient='records')
-@app.route('/api/zeiten/json')
-def api_zeiten_json(): return dp_zeiten.to_json(orient='records')
 
 # Static views
 

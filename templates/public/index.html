@@ -28,20 +28,18 @@
             <input id="total" type="text" size="4" disabled>
           </div>
           <div class="col-sm-1">
-            <button class="btn btn-md">Zeigen</button>
+            <button class="btn btn-md" id="start">Zeigen</button>
           </div>
         </div>
       </div>
 
-      <hr>
-
-      <div class="container bs-component">
+      <div class="container bs-component" id="filters">
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link active show" data-toggle="tab" href="#inhalt">Inhalt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#forms">Form</a>
+            <a class="nav-link" data-toggle="tab" href="#form">Form</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#anderes">Anderes</a>
@@ -49,19 +47,19 @@
         </ul>
         <div class="tab-content">
           <div class="tab-pane active show" id="inhalt"></div>
-          <div class="tab-pane" id="forms"></div>
+          <div class="tab-pane" id="form"></div>
           <div class="tab-pane" id="anderes">
             <div class="row">
               <div class="col-sm-6">
 
-                <h5>Chronologie</h5>
                 <div class="form-group">
                   <label class="col-form-label" for="inputJahr">Jahreszahl</label>
                   <input class="form-control" placeholder="1983" id="inputJahr" type="text">
                 </div>
 
+                <h5>Chronologie</h5>
                 <div class="form-group"
-                     data-tag="zeiten"
+                     data-tag="zeit"
                      data-type="Chronologie"></div>
 
                 <h5>Titel</h5>
@@ -80,6 +78,22 @@
 
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container main" id="results" style="display:none">
+        <h4>Werke</h4>
+        <div class="row"></div>
+      </div>
+
+      <div class="container main" id="details" style="display:none">
+        <h4 class="name"></h4>
+        <div class="row">
+          <div class="col-sm-8">
+            <img>
+          </div><div class="col-sm-4">
+
           </div>
         </div>
       </div>

@@ -159,25 +159,81 @@
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
-      "name": "form",
-      "path": "form.csv",
-      "schema": { "fields": [] }
+      "name": "filters",
+      "path": "filters.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Mode",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Column",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Link",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Info",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
     },
     {
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
-      "name": "inhalt",
-      "path": "inhalt.csv",
-      "schema": { "fields": [] }
-    },
-    {
-      "encoding": "utf-8",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "name": "zeiten",
-      "path": "zeiten.csv",
-      "schema": { "fields": [] }
+      "name": "diashow",
+      "path": "diashow.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Serie",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Nummer",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Diashow",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
     }
   ],
   "title": "Werkverzeichnis Jürg Straumann"
