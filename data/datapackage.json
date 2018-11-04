@@ -159,28 +159,25 @@
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
-      "name": "MOTIVE",
-      "path": "motive.csv",
-      "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "format": "default",
-            "name": "Code",
-            "type": "string"
-          },
-          {
-            "format": "default",
-            "name": "Title",
-            "type": "string"
-          },
-          {
-            "format": "default",
-            "name": "Links",
-            "type": "string"
-          }
-        ]
-      }
+      "name": "form",
+      "path": "form.csv",
+      "schema": { "fields": [] }
+    },
+    {
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "inhalt",
+      "path": "inhalt.csv",
+      "schema": { "fields": [] }
+    },
+    {
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "zeiten",
+      "path": "zeiten.csv",
+      "schema": { "fields": [] }
     }
   ],
   "title": "Werkverzeichnis Jürg Straumann"

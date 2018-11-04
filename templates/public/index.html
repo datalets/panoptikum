@@ -41,18 +41,15 @@
             <a class="nav-link active show" data-toggle="tab" href="#inhalt">Inhalt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#form">Form</a>
+            <a class="nav-link" data-toggle="tab" href="#forms">Form</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#anderes">Anderes</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane active show" id="inhalt">
-            <h5>Motive</h5>
-            <div data-tag="form"></div>
-          </div>
-          <div class="tab-pane" id="form"></div>
+          <div class="tab-pane active show" id="inhalt"></div>
+          <div class="tab-pane" id="forms"></div>
           <div class="tab-pane" id="anderes">
             <div class="row">
               <div class="col-sm-6">
@@ -63,21 +60,9 @@
                   <input class="form-control" placeholder="1983" id="inputJahr" type="text">
                 </div>
 
-                <div class="form-group">
-                  <div class="form-check"><label class="form-check-label">
-                    <input class="form-check-input" name="optionsJahr" value="2000-2018" type="radio">
-                    2000–2018
-                  </label></div><div class="form-check"><label class="form-check-label">
-                    <input class="form-check-input" name="optionsJahr" value="1985-1999" type="radio">
-                    1985–1999
-                  </label></div><div class="form-check"><label class="form-check-label">
-                    <input class="form-check-input" name="optionsJahr" value="1979-1984" type="radio">
-                    1979–1984
-                  </label></div><div class="form-check"><label class="form-check-label">
-                    <input class="form-check-input" name="optionsJahr" value="1973-1978" type="radio">
-                    1973–1978
-                  </label></div>
-                </div>
+                <div class="form-group"
+                     data-tag="zeiten"
+                     data-type="Chronologie"></div>
 
                 <h5>Titel</h5>
                 <div class="form-group">
