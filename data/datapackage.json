@@ -9,8 +9,8 @@
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
-      "name": "WERKVERZEICHNIS",
-      "path": "WERKVERZEICHNIS.csv",
+      "name": "images",
+      "path": "images.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -148,6 +148,16 @@
             "format": "default",
             "name": "Nummer",
             "type": "integer"
+          },
+          {
+            "name": "path",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "thumb",
+            "type": "string",
+            "format": "default"
           }
         ],
         "missingValues": [

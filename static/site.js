@@ -80,14 +80,15 @@ function render_form($out, dp, wtype, inputtype) {
     $col.append(
       '<div class="form-check">' + (this.Code == null ? '&nbsp;' :
         '<label class="form-check-label">' +
-        '<input class="form-check-input" ' +
-        'name="o_' + this.Column + '" ' +
-        'value="' + this.Code + '" ' +
-        'type="' + inputtype + '">' +
-        this.Title +
-        ' <small>1234</small>' +
-        '') +
-      '</label></div>'
+          '<input class="form-check-input" ' +
+          'name="o_' + this.Column + '" ' +
+          'value="' + this.Code + '" ' +
+          'type="' + inputtype + '">' +
+          this.Title +
+        '</label>' +
+        '<small>1234</small>' +
+      '') +
+      '</div>'
     );
 
     if (++col_ix == per_col) {
@@ -99,16 +100,25 @@ function render_form($out, dp, wtype, inputtype) {
 
 // Run search
 $('#start').click(function() {
-  $.getJSON('/api/WERKVERZEICHNIS.json', function(data) {
+  $.getJSON('/api/images.json', function(data) {
 
     $('#filters .tab-content').hide();
+
+    filterselect = '';
+    $('input:checked').each(function() {
+      filterselect += '<span>' + $(this).parent().text() + '</span>';
+    });
+
+    $('#selection').empty().append(filterselect);
+
     var $tgt = $('#results').show().find('div.row').empty();
 
     data.forEach(function(item) {
 
       $tgt.append(
         '<div class="col-sm-3 item">' +
-        '<small>' + item.Nummer + '</small>' +
+        '<img src="' + item.path + '" />' +
+        // '<small>' + item.Nummer + '</small>' +
         '</div>'
       ).find('.item:last').click(function() {
 

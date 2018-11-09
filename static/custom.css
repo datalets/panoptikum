@@ -15,9 +15,21 @@ body {
 }
 
 .container.main {
-  border-top: 1px solid #ddd;
   margin-top: 1em;
   padding-top: 1em;
+  background: #ccc;
+}
+
+#selection {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+#selection span {
+  background: #eee; color: #333;
+  padding: 0.2em 0.4em;
+  margin-right: 1em;
+  display: inline-block;
 }
 
 .form-group .form-check {
@@ -27,4 +39,13 @@ body {
   background: #eee; color: #333;
   padding: 0.2em 0.4em;
   display: inline-block;
+}
+
+#results .item {
+  padding: 20px;
+}
+
+#results .item img {
+  max-width: 256px;
+  max-height: 256px;
 }

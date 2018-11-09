@@ -41,6 +41,9 @@ def send_home():
 def send_static(path):
     return send_from_directory('static', path)
 
+@app.route('/images/<path:path>')
+def send_images(path):
+    return send_from_directory('images', path)
 
 if __name__ == '__main__':
     app.run(debug=True)

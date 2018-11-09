@@ -2,6 +2,7 @@ __pycache__
 env/
 shell/
 images/*
+images
 
 static/art/
 node_modules
