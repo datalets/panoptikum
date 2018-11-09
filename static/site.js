@@ -1,13 +1,15 @@
 var cache = {}; // global! TODO: sessionStorage / localStorage
 var filters = {};
 
+var DEFAULT_NUM_COLUMNS = 4;
+
 (function(){
 
-$.getJSON('/api/filters/all.json', function(data) {
-  cache = data;
+$.getJSON('/api/filters/all.json', function(jsondata) {
+  cache = jsondata;
 
   // Parse filter structure
-  data.forEach(function(d) {
+  cache.forEach(function(d) {
     dm = d.Mode.toLowerCase();
     if (!filters[dm])
       filters[dm] = [];
@@ -39,35 +41,36 @@ function init_section(sname) {
   });
 
   // Subset the data
-  data = cache.filter(function(i) {
-    return i.Mode.toLowerCase() == sname;
+  var data = cache.filter(function(i) {
+    return i.Mode.toLowerCase() == sname.toLowerCase();
   });
 
   // Process any tags
   $('div[data-tag="' + sname + '"]').each(function() {
-    var $obj = $(this),
-        tag = $obj.attr('data-tag'),
-        typ = $obj.attr('data-type'),
-        inp = $obj.attr('data-input');
-
-    console.log('Processing', tag, typ);
-    render_form($obj, data, typ, inp);
+    render_form($(this), data);
   });
 }
 
 function render_form($out, dp, wtype, inputtype) {
+  var wtag = $out.attr('data-tag'),
+      wcols = $out.attr('data-cols') || DEFAULT_NUM_COLUMNS,
+      wtype = $out.attr('data-type'),
+      inputtype = $out.attr('data-input');
+
+  console.log('Processing', wtag, wtype, wcols);
   if (typeof(inputtype) === 'undefined')
     inputtype = 'checkbox';
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
   });
-  // console.log(data);
+
   col_ix = 0; // $out.parent().find('div').count()
-  per_col = Math.round(data.length / 4);
+  per_col = Math.round(data.length / wcols);
+  col_size = 12 / wcols;
 
   get_col = function() {
-    return $out.append('<div class="col-sm-3" />')
+    return $out.append('<div class="col-sm-' + col_size + '" />')
                .find('div:last');
   };
 
@@ -75,13 +78,15 @@ function render_form($out, dp, wtype, inputtype) {
   $.each(data, function() {
 
     $col.append(
-      '<div class="form-check">' +
+      '<div class="form-check">' + (this.Code == null ? '&nbsp;' :
         '<label class="form-check-label">' +
         '<input class="form-check-input" ' +
         'name="o_' + this.Column + '" ' +
         'value="' + this.Code + '" ' +
         'type="' + inputtype + '">' +
         this.Title +
+        ' <small>1234</small>' +
+        '') +
       '</label></div>'
     );
 
