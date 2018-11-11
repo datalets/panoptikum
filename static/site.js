@@ -31,6 +31,8 @@ function init_section(sname) {
   $('#' + sname).each(function() {
     var $tgt = $(this);
     filters[sname].forEach(function(i) {
+      if ($('div[data-tag="' + sname + '"]').attr('data-type') == i)
+        return;
       $tgt.append(
         '<h5>' + i + '</h5>' +
         '<div class="form-group row" ' +
@@ -51,15 +53,22 @@ function init_section(sname) {
   });
 }
 
-function render_form($out, dp, wtype, inputtype) {
-  var wtag = $out.attr('data-tag'),
-      wcols = $out.attr('data-cols') || DEFAULT_NUM_COLUMNS,
-      wtype = $out.attr('data-type'),
-      inputtype = $out.attr('data-input');
+function attr_or(attr, defaultval) {
+  console.log(attr);
+  if (typeof attr !== typeof undefined && attr !== false) {
+    return attr;
+  } else {
+    return defaultval;
+  }
+}
 
-  console.log('Processing', wtag, wtype, wcols);
-  if (typeof(inputtype) === 'undefined')
-    inputtype = 'checkbox';
+function render_form($out, dp) {
+  var wtag = $out.attr('data-tag'),
+      wtype = $out.attr('data-type'),
+      wcols = attr_or($out.attr('data-cols'), DEFAULT_NUM_COLUMNS),
+      inputtype = attr_or($out.attr('data-input'), 'checkbox');
+
+  console.log('Processing', wtag, wtype, wcols, inputtype);
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
@@ -69,12 +78,12 @@ function render_form($out, dp, wtype, inputtype) {
   per_col = Math.round(data.length / wcols);
   col_size = 12 / wcols;
 
-  get_col = function() {
-    return $out.append('<div class="col-sm-' + col_size + '" />')
+  get_col = function(colsm) {
+    return $out.append('<div class="col-sm-' + colsm + '" />')
                .find('div:last');
   };
 
-  $col = get_col();
+  $col = get_col(col_size);
   $.each(data, function() {
 
     $col.append(
@@ -92,7 +101,7 @@ function render_form($out, dp, wtype, inputtype) {
     );
 
     if (++col_ix == per_col) {
-      $col = get_col();
+      $col = get_col(col_size);
       col_ix = 0;
     }
   });
@@ -100,29 +109,48 @@ function render_form($out, dp, wtype, inputtype) {
 
 // Run search
 $('#start').click(function() {
-  $.getJSON('/api/images.json', function(data) {
+  var q = '?';
+  q += 'per_page=18';
+
+  filterselect = '';
+  $('input:checked').each(function() {
+    filterselect += '<span>' + $(this).parent().text() + '</span>';
+    q += '&' + $(this).attr('name') + '=' + $(this).attr('value');
+  });
+  $('input[type=text]').each(function() {
+    var v = $(this).val();
+    if (!v.length) return;
+    filterselect += '<span>' + v + '</span>';
+    q += '&' + $(this).attr('name') + '=' + v;
+  });
+
+  $.getJSON('/api/images.json' + q, function(data) {
 
     $('#filters .tab-content').hide();
-
-    filterselect = '';
-    $('input:checked').each(function() {
-      filterselect += '<span>' + $(this).parent().text() + '</span>';
-    });
-
+    $('#filters .show.active').removeClass('show active');
     $('#selection').empty().append(filterselect);
 
-    var $tgt = $('#results').show().find('div.row').empty();
+    var $tgt = $('#results').show()
+                .find('div.row').empty();
 
     data.forEach(function(item) {
 
       $tgt.append(
-        '<div class="col-sm-3 item">' +
-        '<img src="' + item.path + '" />' +
+        '<div class="col-sm-2 item">' +
+        '<img src="' + item.thumb + '" />' +
         // '<small>' + item.Nummer + '</small>' +
         '</div>'
       ).find('.item:last').click(function() {
 
         console.log(item);
+        $tgt.hide();
+        var $det = $('#details').show();
+
+        $('img', $det).attr('src', item.path);
+        $('[data-fld]', $det).each(function() {
+          var fld = $(this).attr('data-fld');
+          $(this).html(item[fld]);
+        });
 
       });
 

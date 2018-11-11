@@ -54,23 +54,22 @@
 
                 <div class="form-group">
                   <label class="col-form-label" for="inputJahr">Jahreszahl</label>
-                  <input class="form-control" placeholder="1983" id="inputJahr" type="text">
+                  <input class="form-control" placeholder="1983" name="inputJahr" type="text">
                 </div>
 
                 <h5>Chronologie</h5>
-                <div class="form-group"
-                     data-cols="1"
+                <div class="form-group" data-cols="1"
                      data-tag="zeit"
-                     data-type="Chronologie"></div>
+                     data-type="Chronologie">
+                </div>
 
                 <h5>Titel</h5>
                 <div class="form-group">
                   <label class="col-form-label" for="inputTitel">(alphabetisch)</label>
-                  <input class="form-control" placeholder="" id="inputTitel" type="text">
+                  <input class="form-control" placeholder="" name="inputTitel" type="text">
                 </div>
 
-                <div class="form-group"
-                     data-cols="1"
+                <div class="form-group" data-cols="1"
                      data-tag="standort"
                      data-type="Standort">
                 </div>
@@ -89,19 +88,26 @@
         </div>
       </div>
 
-      <div class="container main" id="results" style="display:none">
+      <div id="results" style="display:none">
         <div id="selection"></div>
-        <h4>Werke</h4>
-        <div class="row"></div>
+        <div class="container main">
+          <h4>Werke</h4>
+          <div class="row"></div>
+        </div>
       </div>
 
       <div class="container main" id="details" style="display:none">
         <h4 class="name"></h4>
         <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-12">
             <img>
+          </div>
+        </div><div class="row">
+          <div class="col-sm-8">
+            <b data-fld="Titel"></b>
           </div><div class="col-sm-4">
-
+            <span data-fld="Jahr"></span>
+            <span data-fld="Format"></span>
           </div>
         </div>
       </div>

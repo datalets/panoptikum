@@ -14,16 +14,18 @@ body {
   margin-top: 1em;
 }
 
-.container.main {
-  margin-top: 1em;
-  padding-top: 1em;
-  background: #ccc;
+.form-group .form-check {
+  padding-bottom: 0.5em;
+}
+.form-group .form-check small {
+  background: #eee; color: #333;
+  padding: 0.2em 0.4em;
+  margin-left: 0.4em;
+  display: inline-block;
 }
 
 #selection {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  margin: 1em 0;
 }
 #selection span {
   background: #eee; color: #333;
@@ -32,13 +34,10 @@ body {
   display: inline-block;
 }
 
-.form-group .form-check {
-  padding-bottom: 0.5em;
-}
-.form-group .form-check small {
-  background: #eee; color: #333;
-  padding: 0.2em 0.4em;
-  display: inline-block;
+#results .container {
+  margin-top: 1em;
+  padding-top: 1em;
+  background: #ccc;
 }
 
 #results .item {
@@ -46,6 +45,5 @@ body {
 }
 
 #results .item img {
-  max-width: 256px;
-  max-height: 256px;
+  max-width: 100%;
 }
