@@ -11,7 +11,8 @@ def get_paginated(args, dp_werke, as_json=False):
     for f in df:
         val = args.get('o_' + f, None)
         if val is not None:
-            val = '(' + '|'.join(val.split(',')) + ')'
+            val = r'\b(%s)\b' % '|'.join(val.split(','))
+            # print(val)
             df = df.loc[df[f].str.contains(val, na=False, regex=True)]
             # df = df[df[f].apply(regex_filter, regex, val)]
     page = int(args.get('page', 1))
