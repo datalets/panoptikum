@@ -113,15 +113,24 @@ $('#start').click(function() {
   q += 'per_page=18';
 
   filterselect = '';
+  filterdata = {};
   $('input:checked').each(function() {
     filterselect += '<span>' + $(this).parent().text() + '</span>';
-    q += '&' + $(this).attr('name') + '=' + $(this).attr('value');
+    var nm = $(this).attr('name');
+    if (!filterdata[nm]) filterdata[nm] = [];
+    filterdata[nm].push($(this).attr('value'));
+    // q += '&' + $(this).attr('name') + '=' + ;
   });
   $('input[type=text]').each(function() {
     var v = $(this).val();
     if (!v.length) return;
     filterselect += '<span>' + v + '</span>';
-    q += '&' + $(this).attr('name') + '=' + v;
+    if (!filterdata[nm]) filterdata[nm] = [];
+    filterdata[nm].push(v);
+    // q += '&' + $(this).attr('name') + '=' + v;
+  });
+  $.each(Object.keys(filterdata), function() {
+    q += '&' + this + '=' + filterdata[this].join(',');
   });
 
   $.getJSON('/api/images.json' + q, function(data) {
