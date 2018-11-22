@@ -1,5 +1,6 @@
 body {
   margin-top: 1em;
+  background-color: #ccc !important;
 }
 
 .tab-content h5 {
@@ -37,7 +38,6 @@ body {
 #results .container {
   margin-top: 1em;
   padding-top: 1em;
-  background: #ccc;
 }
 
 #results .item {
@@ -46,4 +46,23 @@ body {
 
 #results .item img {
   max-width: 100%;
+}
+
+#details {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  max-width: none;
+}
+
+#details .image {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 760px;
+  overflow: hidden;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
 }

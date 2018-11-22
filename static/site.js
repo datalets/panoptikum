@@ -142,11 +142,13 @@ $('#start').click(function() {
         '</div>'
       ).find('.item:last').click(function() {
 
-        console.log(item);
-        $tgt.hide();
+        // console.log(item);
+
+        $('#results').hide();
         var $det = $('#details').show();
 
-        $('img', $det).attr('src', item.path);
+        $('.image', $det)
+          .attr('style', 'background-image:url("' + item.path + '")');
         $('[data-fld]', $det).each(function() {
           var fld = $(this).attr('data-fld');
           $(this).html(item[fld]);
@@ -161,6 +163,12 @@ $('#start').click(function() {
     console.log(textStatus, error);
   });
 }); // -button.click
+
+// Pop down image
+$('#details .image').click(function() {
+  var $det = $('#details').hide();
+  var $tgt = $('#results').show();
+});
 
 // Restore on click
 $('#filters .nav-link').click(function() {
