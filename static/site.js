@@ -54,7 +54,7 @@ function init_section(sname) {
 }
 
 function attr_or(attr, defaultval) {
-  console.log(attr);
+  // console.log(attr);
   if (typeof attr !== typeof undefined && attr !== false) {
     return attr;
   } else {
@@ -68,7 +68,7 @@ function render_form($out, dp) {
       wcols = attr_or($out.attr('data-cols'), DEFAULT_NUM_COLUMNS),
       inputtype = attr_or($out.attr('data-input'), 'checkbox');
 
-  console.log('Processing', wtag, wtype, wcols, inputtype);
+  // console.log('Processing', wtag, wtype, wcols, inputtype);
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
@@ -95,7 +95,7 @@ function render_form($out, dp) {
           'type="' + inputtype + '">' +
           this.Title +
         '</label>' +
-        '<small>1234</small>' +
+        // '<small>1234</small>' +
       '') +
       '</div>'
     );
@@ -154,7 +154,7 @@ $('#start').click(function() {
         $('[data-fld]', $det).each(function() {
           var fld = $(this).attr('data-fld');
 
-          if (fld == 'Titel' && item[fld].trim() === '')
+          if (fld == 'Titel' && item[fld] == null)
             return $(this).html('(Ohne Titel)');
           if (fld == 'Jahr')
             return $(this).html(item[fld].replace('a', ''));
