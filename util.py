@@ -11,9 +11,11 @@ def get_paginated(args, dp_werke, as_json=False):
     for f in df:
         val = args.get('o_' + f, None)
         if val is not None:
-            val = r'\b(%s)\b' % '|'.join(val.split(','))
-            # print(val)
-            df = df.loc[df[f].str.contains(val, na=False, regex=True)]
+            df = df.dropna(subset=[f])
+            val = r'\b%s\b' % '|'.join(val.split(','))
+            # print(f, val)
+            
+            df = df.loc[df[f].str.contains(val, regex=True)]
             # df = df[df[f].apply(regex_filter, regex, val)]
     page = int(args.get('page', 1))
     per_page = int(args.get('per_page', 10))
