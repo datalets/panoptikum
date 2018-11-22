@@ -144,13 +144,21 @@ $('#start').click(function() {
 
         // console.log(item);
 
-        $('#results').hide();
+        $('.top.container').css('visibility', 'hidden');
         var $det = $('#details').show();
 
         $('.image', $det)
-          .attr('style', 'background-image:url("' + item.path + '")');
+          .css('height', $(document).height() - 100)
+          .css('background-image', 'url("' + item.path + '")');
+
         $('[data-fld]', $det).each(function() {
           var fld = $(this).attr('data-fld');
+
+          if (fld == 'Titel' && item[fld].trim() === '')
+            return $(this).html('(Ohne Titel)');
+          if (fld == 'Jahr')
+            return $(this).html(item[fld].replace('a', ''));
+
           $(this).html(item[fld]);
         });
 
@@ -167,7 +175,7 @@ $('#start').click(function() {
 // Pop down image
 $('#details .image').click(function() {
   var $det = $('#details').hide();
-  var $tgt = $('#results').show();
+  $('.top.container').css('visibility', 'visible');
 });
 
 // Restore on click
