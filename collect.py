@@ -67,4 +67,6 @@ if __name__ == '__main__':
                     r['Darstellungsform I'],
                 ])
 
+                r['Jahr'] = r['Jahr'].strip().strip('a')
+
                 writer.writerow(r)
