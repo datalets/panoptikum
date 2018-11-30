@@ -40,4 +40,24 @@ if __name__ == '__main__':
                     continue
                 r['path'] = imagerow['path']
                 r['thumb'] = imagerow['thumb']
+
+                r['Technik+'] = ' '.join(
+                    r['Technik I'],
+                    r['Technik II'],
+                    r['Technik III'],
+                    r['Technik IV'],
+                )
+
+                r['Motiv'] = ' '.join(
+                    r['Motiv I'],
+                    r['Motiv II'],
+                    r['Motiv III'],
+                    r['Motiv IV'],
+                )
+
+                r['Darstellungsformen'] = ' '.join(
+                    r['Darstellungsformen'],
+                    r['Darstellungsformen I'],
+                )
+
                 writer.writerow(r)
