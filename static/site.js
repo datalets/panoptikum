@@ -119,13 +119,13 @@ $('.searchOnEnter').keypress(function (e) {
 $('#details .image').click(function() {
   var $det = $('#details').hide();
   $('.top.container').css('visibility', 'visible');
+  $('#results').show();
 });
 
 // Restore on click
 $('#filters .nav-link').click(function() {
   $('#filters .tab-content').show();
   $('#results').hide();
-
 });
 
 })();
