@@ -16,10 +16,11 @@ function werkSearch() {
     filterdata[nm].push($(this).attr('value'));
     filterselect += '<span>' + $(this).parent().text() + '</span>';
   });
-  
+
   $('input[type=text]').each(function() {
     var nm = $(this).attr('name');
     if (!hasAttr(nm)) return;
+    if (!nm.indexOf('o_') == 0) nm = 'o_' + nm;
     var v = $(this).val();
     if (!v.length) return;
     if (!filterdata[nm]) filterdata[nm] = [];

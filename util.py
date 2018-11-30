@@ -10,13 +10,21 @@ def get_paginated(args, dp_werke, as_json=False):
     df = dp_werke.copy()
     for f in df:
         val = args.get('o_' + f, None)
+        # print(f, df[f].dtype.name)
         if val is not None:
             df = df.dropna(subset=[f])
-            val = r'\b%s\b' % '|'.join(val.split(','))
-            # print(f, val)
-            
-            df = df.loc[df[f].str.contains(val, regex=True)]
-            # df = df[df[f].apply(regex_filter, regex, val)]
+            if 'object' in df[f].dtype.name:
+                val = r'\b%s\b' % '|'.join(val.split(','))
+                print(f, val)
+                df = df.loc[df[f].str.contains(val, regex=True)]
+                # df = df[df[f].apply(regex_filter, regex, val)]
+            elif 'int' in df[f].dtype.name:
+                try:
+                    val = int(val)
+                    df = df.loc[df[f] == val]
+                except:
+                    pass
+
     page = int(args.get('page', 1))
     per_page = int(args.get('per_page', 10))
     total = len(df)

@@ -24,8 +24,13 @@ if __name__ == '__main__':
 
         reader = csv.DictReader(csvin)
         fieldnames = reader.fieldnames
+
         if not 'path' in fieldnames: fieldnames.append('path')
         if not 'thumb' in fieldnames: fieldnames.append('thumb')
+
+        fieldnames.append('Techniken')
+        fieldnames.append('Motiven')
+        fieldnames.append('Darstellungsformen')
 
         with open(os.path.join('data','images.csv'), 'w+') as csvout:
             writer = csv.DictWriter(csvout, fieldnames=fieldnames,
@@ -38,26 +43,28 @@ if __name__ == '__main__':
                 except:
                     print('Missing image:', r['Nummer'])
                     continue
+
                 r['path'] = imagerow['path']
                 r['thumb'] = imagerow['thumb']
 
-                r['Technik+'] = ' '.join(
+                r['Techniken'] = ' '.join([
+                    r['Technik'],
                     r['Technik I'],
                     r['Technik II'],
                     r['Technik III'],
                     r['Technik IV'],
-                )
+                ])
 
-                r['Motiv'] = ' '.join(
+                r['Motiven'] = ' '.join([
                     r['Motiv I'],
                     r['Motiv II'],
                     r['Motiv III'],
                     r['Motiv IV'],
-                )
+                ])
 
-                r['Darstellungsformen'] = ' '.join(
-                    r['Darstellungsformen'],
-                    r['Darstellungsformen I'],
-                )
+                r['Darstellungsformen'] = ' '.join([
+                    r['Darstellungsform'],
+                    r['Darstellungsform I'],
+                ])
 
                 writer.writerow(r)
