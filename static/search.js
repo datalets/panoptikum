@@ -1,10 +1,12 @@
+var PER_PAGE = 18 * 10
+
 function hasAttr(attr) {
   return (typeof attr !== typeof undefined && attr !== false)
 }
 
 function werkSearch() {
   var q = '?';
-  q += 'per_page=18';
+  q += 'per_page=' + PER_PAGE;
 
   filterselect = '';
   filterdata = {};
