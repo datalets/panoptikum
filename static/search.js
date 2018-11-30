@@ -55,7 +55,7 @@ function werkSearch() {
         // console.log(item);
         window.scrollTo(0,0);
 
-        $('#results').hide();
+        // $('#results').hide();
         $('.top.container').css('visibility', 'hidden');
         var $det = $('#details').show();
 

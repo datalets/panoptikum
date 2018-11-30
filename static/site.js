@@ -119,7 +119,7 @@ $('.searchOnEnter').keypress(function (e) {
 $('#details .image').click(function() {
   var $det = $('#details').hide();
   $('.top.container').css('visibility', 'visible');
-  $('#results').show();
+  // $('#results').show();
 });
 
 // Restore on click
