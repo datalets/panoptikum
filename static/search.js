@@ -58,7 +58,7 @@ function werkSearch() {
         var $det = $('#details').show();
 
         $('.image', $det)
-          .css('height', $(document).height() - 100)
+          .css('height', $(window).height() - 100)
           .css('background-image', 'url("' + item.path + '")');
 
         $('[data-fld]', $det).each(function() {
