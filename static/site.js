@@ -110,6 +110,9 @@ function render_form($out, dp) {
 // Run search
 $('#start').click(werkSearch); // -button.click
 
+// Random search
+$('#random').click(werkSearchRandom); // -button.click
+
 // Pagination
 $('button#more').click(werkSearchNext); // -button.click
 

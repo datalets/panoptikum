@@ -9,11 +9,22 @@ function werkSearchNext(e) {
   werkSearch(e, ppp + 1);
 }
 
+function werkSearchRandom(e) {
+  werkSearch(e, -1);
+}
+
 function werkSearch(e, from_page) {
-  e.preventDefault(); e.stopPropagation();
+  if (typeof e !== typeof undefined)
+    e.preventDefault(); e.stopPropagation();
 
   var q = '?';
   q += 'per_page=' + PER_PAGE;
+
+  if (from_page === -1) {
+    from_page = 1;
+    ranval = Math.round(1+(Math.random() * 6669));
+    $('input[name="Nummer"]').click().val(ranval);
+  }
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
   $('button#more').data('page', ppp);
@@ -97,7 +108,10 @@ function werkSearch(e, from_page) {
 
       });
 
-    });
+    }); // -data each
+
+    if (data.length == 1)
+      $tgt.find('.item:last').click();
 
   }).fail(function(jqxhr, textStatus, error) {
     alert('Could not search!');
