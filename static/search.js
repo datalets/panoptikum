@@ -14,8 +14,7 @@ function werkSearch(from_page) {
   q += 'per_page=' + PER_PAGE;
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
-  console.log(ppp);
-  $('button#more').data('page', ppp).show();
+  $('button#more').data('page', ppp);
   q += '&page=' + ppp;
 
   if (ppp == 1) {
@@ -55,6 +54,10 @@ function werkSearch(from_page) {
     $('#selection').empty().append(filterselect);
 
     var $tgt = $('#results').show().find('div.row');
+
+    $('button#more').hide();
+    if (data.length == PER_PAGE)
+      $('button#more').show();
 
     data.forEach(function(item) {
 
