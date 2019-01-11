@@ -25,10 +25,12 @@ This script expects a `data/WERKVERZEICHNIS.csv` which is the UTF-8 encoded conv
 
 It also checks that images are present in the `images` folder.
 
-#
+# TODO
 
-- Zusammenarbeit
-- Zahle
+- (Anzahl)
+- Zufallsgenerator
+- Sort by year
+- Jahren
 - iPad
 
 // MD512GP/A

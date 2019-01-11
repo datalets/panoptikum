@@ -4,12 +4,14 @@ function hasAttr(attr) {
   return (typeof attr !== typeof undefined && attr !== false)
 }
 
-function werkSearchNext() {
+function werkSearchNext(e) {
   var ppp = $('button#more').data('page');
-  werkSearch(ppp + 1);
+  werkSearch(e, ppp + 1);
 }
 
-function werkSearch(from_page) {
+function werkSearch(e, from_page) {
+  e.preventDefault(); e.stopPropagation();
+
   var q = '?';
   q += 'per_page=' + PER_PAGE;
 

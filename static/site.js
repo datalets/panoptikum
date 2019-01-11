@@ -116,6 +116,9 @@ $('button#more').click(werkSearchNext); // -button.click
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
   if (e.which == 13) { werkSearch(); }
+}).click(function() {
+  // Clear the form when tapped
+  $('form')[0].reset();
 });
 
 // Pop down image
