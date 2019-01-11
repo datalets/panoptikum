@@ -14,10 +14,11 @@ def get_paginated(args, dp_werke, as_json=False):
         if val is not None:
             df = df.dropna(subset=[f])
             if 'object' in df[f].dtype.name:
-                val = r'\b%s\b' % '|'.join(val.split(','))
-                print(f, val)
-                df = df.loc[df[f].str.contains(val, regex=True)]
-                # df = df[df[f].apply(regex_filter, regex, val)]
+                for v in val.split(','):
+                    val = r'\b%s\b' % v
+                    # print(f, val)
+                    df = df.loc[df[f].str.contains(val, regex=True)]
+                    # df = df[df[f].apply(regex_filter, regex, val)]
             elif 'int' in df[f].dtype.name:
                 try:
                     val = int(val)
