@@ -87,6 +87,8 @@ function werkSearch(from_page) {
             return $(this).html('(Ohne Titel)');
           if (fld == 'Jahr')
             return $(this).html(item[fld].replace('a', ''));
+          if (fld == "Zus'arbeit" && item[fld] !== null)
+            return $(this).html('~ In Zusammenarbeit mit ' + item[fld]);
 
           $(this).html(item[fld]);
         });
