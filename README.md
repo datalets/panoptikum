@@ -28,7 +28,6 @@ It also checks that images are present in the `images` folder.
 # TODO
 
 - (Anzahl)
-- Zufallsgenerator
 - Sort by year
 - Jahren
 - iPad

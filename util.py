@@ -26,6 +26,14 @@ def get_paginated(args, dp_werke, as_json=False):
                 except:
                     pass
 
+    with_sort = args.get('sort', None)
+    if with_sort is not None:
+        is_asc = True
+        if with_sort.startswith('-'):
+            with_sort = with_sort.strip('-')
+            is_asc = False
+        df = df.sort_values(with_sort, ascending=is_asc)
+
     page = int(args.get('page', 1))
     per_page = int(args.get('per_page', 10))
     total = len(df)

@@ -17,7 +17,7 @@ function werkSearch(e, from_page) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
 
-  var q = '?';
+  var q = '?sort=-Jahr&';
   q += 'per_page=' + PER_PAGE;
 
   if (from_page === -1) {
