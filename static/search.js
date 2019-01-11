@@ -1,12 +1,26 @@
-var PER_PAGE = 18 * 10
+var PER_PAGE = 3 * 10
 
 function hasAttr(attr) {
   return (typeof attr !== typeof undefined && attr !== false)
 }
 
-function werkSearch() {
+function werkSearchNext() {
+  var ppp = $('button#more').data('page');
+  werkSearch(ppp + 1);
+}
+
+function werkSearch(from_page) {
   var q = '?';
   q += 'per_page=' + PER_PAGE;
+
+  var ppp = (typeof from_page === typeof 1) ? from_page : 1;
+  console.log(ppp);
+  $('button#more').data('page', ppp).show();
+  q += '&page=' + ppp;
+
+  if (ppp == 1) {
+      $('#results').find('div.row').empty();
+  }
 
   filterselect = '';
   filterdata = {};
@@ -40,8 +54,7 @@ function werkSearch() {
     $('#filters .show.active').removeClass('show active');
     $('#selection').empty().append(filterselect);
 
-    var $tgt = $('#results').show()
-                .find('div.row').empty();
+    var $tgt = $('#results').show().find('div.row');
 
     data.forEach(function(item) {
 
@@ -56,8 +69,8 @@ function werkSearch() {
         window.scrollTo(0,0);
 
         // Hide the results container
-        $('#results').hide();
-        var $det = $('#details').show();
+        var $det = $('#details').show(); $('#browser').hide();
+
         // $('.main.container').css('visibility', 'hidden');
 
         $('.image', $det)

@@ -67,3 +67,9 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
 }
+
+.pagination {
+  width: 100%; text-align: center; padding: 1em;
+  display: block;
+}
+.pagination button { font-size: 200%; }

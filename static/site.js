@@ -110,6 +110,9 @@ function render_form($out, dp) {
 // Run search
 $('#start').click(werkSearch); // -button.click
 
+// Pagination
+$('button#more').click(werkSearchNext); // -button.click
+
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
   if (e.which == 13) { werkSearch(); }
@@ -117,9 +120,10 @@ $('.searchOnEnter').keypress(function (e) {
 
 // Pop down image
 $('#details .image').click(function() {
-  var $det = $('#details').hide();
-  $('#results').show();
+  var $det = $('#details').hide(); $('#browser').show();
+
   // $('.top.container').css('visibility', 'visible');
+  // $('#results').show();
 });
 
 // Restore on click
