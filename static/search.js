@@ -55,9 +55,10 @@ function werkSearch() {
         // console.log(item);
         window.scrollTo(0,0);
 
-        // $('#results').hide();
-        $('.top.container').css('visibility', 'hidden');
+        // Hide the results container
+        $('#results').hide();
         var $det = $('#details').show();
+        // $('.main.container').css('visibility', 'hidden');
 
         $('.image', $det)
           .css('height', $(window).height() - 100)

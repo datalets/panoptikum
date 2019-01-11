@@ -118,8 +118,8 @@ $('.searchOnEnter').keypress(function (e) {
 // Pop down image
 $('#details .image').click(function() {
   var $det = $('#details').hide();
-  $('.top.container').css('visibility', 'visible');
-  // $('#results').show();
+  $('#results').show();
+  // $('.top.container').css('visibility', 'visible');
 });
 
 // Restore on click
