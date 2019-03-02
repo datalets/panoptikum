@@ -24,13 +24,3 @@ To update the metadata, run this script from the pipenv shell:
 This script expects a `data/WERKVERZEICHNIS.csv` which is the UTF-8 encoded conversion of the source Excel file.
 
 It also checks that images are present in the `images` folder.
-
-# TODO
-
-- (Anzahl)
-- Sort by year
-- Jahren
-- iPad
-
-// MD512GP/A
-// 8.4.1

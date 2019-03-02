@@ -95,7 +95,7 @@ function render_form($out, dp) {
           'type="' + inputtype + '">' +
           this.Title +
         '</label>' +
-        // '<small>1234</small>' +
+        '<small>' + this.Count + '</small>' +
       '') +
       '</div>'
     );

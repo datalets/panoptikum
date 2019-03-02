@@ -1,6 +1,8 @@
 import os, csv
 from csv import DictWriter
 
+from stats import *
+
 def list_files(dir):
     r = {}
     for root, dirs, files in os.walk(dir):
@@ -18,9 +20,8 @@ def list_files(dir):
             }
     return r
 
-if __name__ == '__main__':
-    lf = list_files('images')
-    with open(os.path.join('data','WERKVERZEICHNIS.csv'), 'r') as csvin:
+def update_files(lf, filename='WERKVERZEICHNIS.csv', outputfile='images.csv'):
+    with open(os.path.join('data',filename), 'r') as csvin:
 
         reader = csv.DictReader(csvin)
         fieldnames = reader.fieldnames
@@ -32,7 +33,9 @@ if __name__ == '__main__':
         fieldnames.append('Motiven')
         fieldnames.append('Darstellungsformen')
 
-        with open(os.path.join('data','images.csv'), 'w+') as csvout:
+        outputpath = os.path.join('data',outputfile)
+        print("Writing to %s" % outputpath)
+        with open(outputpath, 'w+') as csvout:
             writer = csv.DictWriter(csvout, fieldnames=fieldnames,
                 delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writeheader()
@@ -70,3 +73,11 @@ if __name__ == '__main__':
                 r['Jahr'] = r['Jahr'].strip().strip('a')
 
                 writer.writerow(r)
+
+
+
+
+if __name__ == '__main__':
+    lf = list_files('images')
+    update_files(lf)
+    update_stats()
