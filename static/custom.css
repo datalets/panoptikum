@@ -73,3 +73,14 @@ body {
   display: block;
 }
 .pagination button { font-size: 200%; }
+
+.Nummer, .Techniken { margin-right: 2em; }
+
+.Nummer::before { content:'[' }
+.Nummer::after { content:']' }
+
+.Techniken sm {
+  font-size: 80%;
+  background: #eee; color: #333;
+  padding: 0.2em 0.4em;
+}

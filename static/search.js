@@ -95,15 +95,28 @@ function werkSearch(e, from_page) {
 
         $('[data-fld]', $det).each(function() {
           var fld = $(this).attr('data-fld');
+          itemstr = item[fld]
 
           if (fld == 'Titel' && item[fld] == null)
-            return $(this).html('(Ohne Titel)');
+            itemstr = $(this).html('(Ohne Titel)');
           if (fld == 'Jahr')
-            return $(this).html(item[fld].replace('a', ''));
+            itemstr = $(this).html(item[fld].replace('a', ''));
           if (fld == "Zus'arbeit" && item[fld] !== null)
-            return $(this).html('~ In Zusammenarbeit mit ' + item[fld]);
+            itemstr = $(this).html('~ In Zusammenarbeit mit ' + item[fld]);
+          if (fld == "Techniken") {
+            itemarr = itemstr.split(' ')
+            itemstr = itemarr.length + ' '
+            itemstr = 'Techniken: <sm>'
+            itemarr.forEach(function(t) {
+              getcode = cache.find(f => f['Code'] == t.trim())
+              if (typeof getcode !== 'undefined') {
+                itemstr += getcode.Title + ' '
+              }
+            })
+            itemstr += '</sm>'
+          }
 
-          $(this).html(item[fld]);
+          $(this).html(itemstr);
         });
 
       });
