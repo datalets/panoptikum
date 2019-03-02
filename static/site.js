@@ -113,16 +113,16 @@ $('#start').click(werkSearch); // -button.click
 // Random search
 $('#random').click(werkSearchRandom); // -button.click
 
+// Reset search
+$('#restart').click(werkSearchReset); // -button.click
+
 // Pagination
 $('button#more').click(werkSearchNext); // -button.click
 
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
   if (e.which == 13) { werkSearch(); }
-}).click(function() {
-  // Clear the form when tapped
-  $('form')[0].reset();
-});
+}).click(werkSearchReset);
 
 // Pop down image
 $('#details .image').click(function() {

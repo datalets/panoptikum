@@ -13,6 +13,15 @@ function werkSearchRandom(e) {
   werkSearch(e, -1);
 }
 
+function werkSearchReset(e) {
+  if (typeof e !== typeof undefined)
+    e.preventDefault(); e.stopPropagation();
+
+  // Clear the form and return to start when tapped
+  $('form')[0].reset();
+  $('#filters a:first').click()
+}
+
 function werkSearch(e, from_page) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
