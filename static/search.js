@@ -98,11 +98,11 @@ function werkSearch(e, from_page) {
           itemstr = item[fld]
 
           if (fld == 'Titel' && item[fld] == null)
-            itemstr = $(this).html('(Ohne Titel)');
-          if (fld == 'Jahr')
-            itemstr = $(this).html(item[fld].replace('a', ''));
+            itemstr = '(Ohne Titel)';
+          if (fld == 'Jahr' && item[fld] !== null)
+            itemstr = item[fld].replace('a', '');
           if (fld == "Zus'arbeit" && item[fld] !== null)
-            itemstr = $(this).html('~ In Zusammenarbeit mit ' + item[fld]);
+            itemstr = '~ In Zusammenarbeit mit ' + item[fld];
           if (fld == "Techniken") {
             itemarr = itemstr.split(' ')
             itemstr = itemarr.length + ' '
