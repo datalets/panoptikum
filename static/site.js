@@ -88,11 +88,13 @@ function render_form($out, dp) {
 
     $col.append(
       '<div class="form-check">' + (this.Code == null ? '&nbsp;' :
-        '<label class="form-check-label">' +
-          '<input class="form-check-input" ' +
+        '<input class="form-check-input" ' +
+          'id="o_' + this.Column + this.Code + '" ' +
           'name="o_' + this.Column + '" ' +
           'value="' + this.Code + '" ' +
           'type="' + inputtype + '">' +
+        '<label class="form-check-label" ' +
+          'for="o_' + this.Column + this.Code + '">' +
           this.Title +
         '</label>' +
         '<small>' + this.Count + '</small>' +

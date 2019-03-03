@@ -18,11 +18,21 @@ body {
 .form-group .form-check {
   padding-bottom: 0.5em;
 }
+
 .form-group .form-check small {
   background: #eee; color: #333;
   padding: 0.2em 0.4em;
   margin-left: 0.4em;
   display: inline-block;
+}
+
+
+.form-group .form-check-input + label {
+  border: 1px solid transparent;
+}
+
+.form-group .form-check-input:checked + label {
+  border: 1px solid blue;
 }
 
 #selection {
