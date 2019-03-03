@@ -121,18 +121,16 @@ $('#restart').click(werkSearchReset); // -button.click
 // Pagination
 $('button#more').click(werkSearchNext); // -button.click
 
+// Close image
+$('button#back').click(werkSearchBack); // -button.click
+
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
   if (e.which == 13) { werkSearch(); }
 });
 
 // Pop down image
-$('#details .image').click(function() {
-  var $det = $('#details').hide(); $('#browser').show();
-
-  // $('.top.container').css('visibility', 'visible');
-  // $('#results').show();
-});
+$('#details .image').click(werkSearchBack);
 
 // Restore on click
 $('#filters .nav-link').click(function() {

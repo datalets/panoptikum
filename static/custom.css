@@ -26,13 +26,22 @@ body {
   display: inline-block;
 }
 
-
 .form-group .form-check-input + label {
   border: 1px solid transparent;
 }
 
 .form-group .form-check-input:checked + label {
   border: 1px solid blue;
+}
+
+button#back {
+  float: right;
+}
+
+#spinnerModal span {
+  font-size: 200%;
+  font-weight: bold;
+  color: blue;
 }
 
 #selection {

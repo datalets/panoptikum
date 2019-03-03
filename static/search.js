@@ -13,6 +13,16 @@ function werkSearchRandom(e) {
   werkSearch(e, -1);
 }
 
+function werkSearchBack(e) {
+  if (typeof e !== typeof undefined)
+    e.preventDefault(); e.stopPropagation();
+    
+  var $det = $('#details').hide(); $('#browser').show();
+
+  // $('.top.container').css('visibility', 'visible');
+  // $('#results').show();
+}
+
 function werkSearchReset(e) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
@@ -69,7 +79,12 @@ function werkSearch(e, from_page) {
     q += '&' + this + '=' + filterdata[this].join(',');
   });
 
+  $('.modal').modal('show');
+
   $.getJSON('/api/images.json' + q, function(data) {
+    setTimeout(function() {
+      $('.modal').modal('hide');
+    }, 500);
 
     $('#filters .tab-content').hide();
     $('#filters .show.active').removeClass('show active');
