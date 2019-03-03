@@ -19,20 +19,16 @@
             <h5>Projekt PANOPTIKUM</h5>
             <!-- <p class="lead">The medium is the message</p> -->
           </div>
-          <div class="col-sm-3">
-            Werknummer:
-            <input class="searchOnEnter" name="Nummer" type="text" size="4">
-          </div>
 <!--
           <div class="col-sm-4">
             ausgewählte Dokumente
             <input id="total" size="4" disabled>
           </div>
 -->
-          <div class="col-sm-3">
+          <div class="col-sm-6">
             <button class="btn btn-md btn-success" id="start">&#128065; Zeigen</button>
+            <button class="btn btn-md btn-default" id="restart">&cir; Neuauswahl</button>
             <button class="btn btn-md" id="random">&infin; Zufall</button>
-            <button class="btn btn-md" id="restart">&times; Neuauswahl</button>
           </div>
         </div>
       </div>
@@ -79,6 +75,11 @@
                 <div class="form-group" data-cols="1"
                      data-tag="standort"
                      data-type="Standort">
+                </div>
+
+                <div class="form-group">
+                  <label class="col-form-label" for="inputNummer">Werknummer</label>
+                  <input class="searchOnEnter" name="Nummer" type="text">
                 </div>
 
               </div>

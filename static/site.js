@@ -122,7 +122,7 @@ $('button#more').click(werkSearchNext); // -button.click
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
   if (e.which == 13) { werkSearch(); }
-}).click(werkSearchReset);
+});
 
 // Pop down image
 $('#details .image').click(function() {
