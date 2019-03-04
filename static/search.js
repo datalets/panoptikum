@@ -6,17 +6,17 @@ function hasAttr(attr) {
 
 function werkSearchNext(e) {
   var ppp = $('button#more').data('page');
-  werkSearch(e, ppp + 1);
+  werkSearchShow(e, ppp + 1);
 }
 
 function werkSearchRandom(e) {
-  werkSearch(e, -1);
+  werkSearchShow(e, -1);
 }
 
 function werkSearchBack(e) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
-    
+
   var $det = $('#details').hide(); $('#browser').show();
 
   // $('.top.container').css('visibility', 'visible');
@@ -29,13 +29,15 @@ function werkSearchReset(e) {
 
   // Clear the form and return to start when tapped
   $('form')[0].reset();
-  $('#filters a:first').click()
+  $('#filters a:first').click();
+
+  // Show the counters again
+  $('.form-check small').show();
+  $('#stats').hide();
 }
 
-function werkSearch(e, from_page) {
-  if (typeof e !== typeof undefined)
-    e.preventDefault(); e.stopPropagation();
-
+// Query builder
+function get_werkSearchQuery(from_page) {
   var q = '?sort=-Jahr&';
   q += 'per_page=' + PER_PAGE;
 
@@ -46,12 +48,7 @@ function werkSearch(e, from_page) {
   }
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
-  $('button#more').data('page', ppp);
   q += '&page=' + ppp;
-
-  if (ppp == 1) {
-      $('#results').find('div.row').empty();
-  }
 
   filterselect = '';
   filterdata = {};
@@ -79,7 +76,37 @@ function werkSearch(e, from_page) {
     q += '&' + this + '=' + filterdata[this].join(',');
   });
 
+  return {
+    data: filterdata,
+    html: filterselect,
+    page: ppp,
+    query: q
+  }
+}
+
+function werkSearchCount() {
+  qg = get_werkSearchQuery(1);
+  $('#selection').empty().append(qg.html);
+  $.getJSON('/api/images.json' + qg.query, function(data) {
+    $('#total').html(data.total);
+    $('#stats').show();
+  });
+}
+
+function werkSearchShow(e, from_page) {
+  if (typeof e !== typeof undefined)
+    e.preventDefault(); e.stopPropagation();
+
   $('.modal').modal('show');
+
+  wsq = get_werkSearchQuery(from_page);
+  q = wsq.query;
+
+  // Update page number
+  $('button#more').data('page', wsq.page);
+  if (wsq.page == 1) {
+      $('#results').find('div.row').empty();
+  }
 
   $.getJSON('/api/images.json' + q, function(data) {
     setTimeout(function() {
@@ -88,7 +115,6 @@ function werkSearch(e, from_page) {
 
     $('#filters .tab-content').hide();
     $('#filters .show.active').removeClass('show active');
-    $('#selection').empty().append(filterselect);
 
     var $tgt = $('#results').show().find('div.row');
 

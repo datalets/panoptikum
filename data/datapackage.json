@@ -170,7 +170,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "name": "filters",
-      "path": "filterstats.csv",
+      "path": "filters.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [

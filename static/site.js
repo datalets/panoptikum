@@ -110,7 +110,7 @@ function render_form($out, dp) {
 }
 
 // Run search
-$('#start').click(werkSearch); // -button.click
+$('#start').click(werkSearchShow); // -button.click
 
 // Random search
 $('#random').click(werkSearchRandom); // -button.click
@@ -126,7 +126,7 @@ $('button#back').click(werkSearchBack); // -button.click
 
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
-  if (e.which == 13) { werkSearch(); }
+  if (e.which == 13) { werkSearchShow(); }
 });
 
 // Pop down image
@@ -136,6 +136,14 @@ $('#details .image').click(werkSearchBack);
 $('#filters .nav-link').click(function() {
   $('#filters .tab-content').show();
   $('#results').hide();
+});
+
+// Counter on click
+$('.form-check-input').click(function() {
+  // Get total for this result
+  werkSearchCount();
+  // Hide the counters
+  $('.form-check small').hide();
 });
 
 })();

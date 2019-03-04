@@ -4,9 +4,10 @@ from pandas_datapackage_reader import read_datapackage
 
 from util import *
 
-def update_stats(filename = os.path.join('data', 'filterstats.csv')):
+def update_stats():
     data = read_datapackage("data")
     filters = data['filters']
+    filename = os.path.join('data', filters._metadata['path'])
     images = data['images']
 
     # Concatenate columns
