@@ -32,8 +32,8 @@ function werkSearchReset(e) {
   $('#filters a:first').click();
 
   // Show the counters again
-  $('.form-check small').show();
-  $('#stats').hide();
+  $('.form-check small').css('visibility', 'visible');
+  $('#stats').addClass('fade');
 }
 
 // Query builder
@@ -87,9 +87,9 @@ function get_werkSearchQuery(from_page) {
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
-  $.getJSON('/api/images.json' + qg.query, function(data) {
+  $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
-    $('#stats').show();
+    $('#stats').removeClass('fade');
   });
 }
 

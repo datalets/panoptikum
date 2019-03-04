@@ -106,6 +106,7 @@ function render_form($out, dp) {
       $col = get_col(col_size);
       col_ix = 0;
     }
+
   });
 }
 
@@ -139,11 +140,11 @@ $('#filters .nav-link').click(function() {
 });
 
 // Counter on click
-$('.form-check-input').click(function() {
+$('form').change(function() {
   // Get total for this result
   werkSearchCount();
-  // Hide the counters
-  $('.form-check small').hide();
+  // Hide all counters
+  $('.form-check small').css('visibility', 'hidden');
 });
 
 })();

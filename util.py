@@ -43,7 +43,7 @@ def get_paginated(args, dp_werke, as_json=False):
     if as_json:
         return dprange.to_json(orient='records')
     return {
-        'items': dprange.to_dict(orient='records'),
+        # 'items': dprange.to_dict(orient='records'),
         'page': page, 'pages': pages, 'total': total,
         # 'has_next': ppp.has_next, 'has_prev': ppp.has_prev
     }
