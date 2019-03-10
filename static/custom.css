@@ -3,6 +3,11 @@ body {
   background-color: #ccc !important;
 }
 
+#stats {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .tab-content h5 {
   margin-top: 1em;
 }
@@ -19,11 +24,23 @@ body {
   padding-bottom: 0.5em;
 }
 
-.form-group .form-check small {
-  background: #eee; color: #333;
-  padding: 0.2em 0.4em;
-  margin-left: 0.4em;
+.form-group .form-check count {
+  margin: 0;
+  width: 100%;
+  position: absolute;
   display: inline-block;
+  text-align: right;
+  z-index: -1;
+}
+.form-group .form-check count span {
+  padding: 0.2em 0.4em;
+  font-size: 80%;
+  background: #eee;
+  color: #555;
+  opacity: 0.4;
+}
+.form-group .form-check:hover count span {
+  opacity: 1.0;
 }
 
 .form-group .form-check-input + label {

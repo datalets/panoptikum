@@ -93,11 +93,11 @@ function render_form($out, dp) {
           'name="o_' + this.Column + '" ' +
           'value="' + this.Code + '" ' +
           'type="' + inputtype + '">' +
+        '<count><span>' + this.Count + '</span></count>' +
         '<label class="form-check-label" ' +
           'for="o_' + this.Column + this.Code + '">' +
           this.Title +
         '</label>' +
-        '<small>' + this.Count + '</small>' +
       '') +
       '</div>'
     );
@@ -144,7 +144,7 @@ $('form').change(function() {
   // Get total for this result
   werkSearchCount();
   // Hide all counters
-  $('.form-check small').css('visibility', 'hidden');
+  // $('.form-check count').css('visibility', 'hidden');
 });
 
 })();

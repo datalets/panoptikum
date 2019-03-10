@@ -10,9 +10,6 @@ def update_stats():
     filename = os.path.join('data', filters._metadata['path'])
     images = data['images']
 
-    # Concatenate columns
-    # images['Technik'] = images.apply()
-
     # Apply stats
     images.fillna('', inplace=True)
     # print(images.head)
@@ -21,13 +18,13 @@ def update_stats():
 
     filters['Count'] = filters.apply(
         lambda row: (
-            row['Code'] == '.*' and len(
+            (row['Code'] == '.*' and len(
                 images.loc[
                     images[row['Column']].str.len() > 0
                 ]
-            ) or len(
+            )) or len(
                 images.loc[
-                    images[row['Column']].str.match('^' + row['Code'] + '$', case=False)
+                    images[row['Column']].str.match(row['Code'] + ' ', case=True)
                 ]
             )
         ), axis = 1

@@ -32,7 +32,8 @@ function werkSearchReset(e) {
   $('#filters a:first').click();
 
   // Show the counters again
-  $('.form-check small').css('visibility', 'visible');
+  // $('.form-check small').css('visibility', 'visible');
+
   $('#stats').addClass('fade');
 }
 
