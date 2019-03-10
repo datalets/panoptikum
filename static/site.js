@@ -69,7 +69,7 @@ function render_form($out, dp) {
       wcols = attr_or($out.attr('data-cols'), DEFAULT_NUM_COLUMNS),
       inputtype = attr_or($out.attr('data-input'), 'checkbox');
 
-  console.log('Processing', wtag, wtype, wcols, inputtype);
+  // console.log('Processing', wtag, wtype, wcols, inputtype);
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
