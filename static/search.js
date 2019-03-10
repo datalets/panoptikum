@@ -154,18 +154,14 @@ function werkSearchShow(e, from_page) {
           if (fld == "Zus'arbeit" && item[fld] !== null)
             itemstr = '~ In Zusammenarbeit mit ' + item[fld];
           if (fld == "Techniken") {
-            itemarr = itemstr.split(' ')
-            itemstr = itemarr.length + ' '
-            itemstr = 'Techniken: <sm>'
+            itemarr = itemstr.split(' '); itemstr = '';
             itemarr.forEach(function(t) {
               getcode = cache.find(f => f['Code'] == t.trim())
               if (typeof getcode !== 'undefined') {
-                itemstr += getcode.Title + ' '
+                itemstr += '<sm>' + getcode.Title + '</sm> '
               }
             })
-            itemstr += '</sm>'
           }
-
           $(this).html(itemstr);
         });
 
