@@ -35,6 +35,7 @@ function werkSearchReset(e) {
   // $('.form-check small').css('visibility', 'visible');
 
   $('#stats').addClass('fade');
+  $('#start').removeClass('disable').addClass('btn-success');
 }
 
 // Query builder
