@@ -10,6 +10,7 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
 
   // Parse filter structure
   cache.forEach(function(d) {
+    if (d.Type == 'Format') return; // TODO: enable Format in the future
     dm = d.Mode.toLowerCase();
     if (!filters[dm])
       filters[dm] = [];

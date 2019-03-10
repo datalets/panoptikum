@@ -24,7 +24,10 @@ def update_stats():
                 ]
             )) or len(
                 images.loc[
-                    images[row['Column']].str.match(row['Code'] + ' ', case=True)
+                    images[row['Column']].str.match('^' + row['Code'] + '$', case=True) |
+                    images[row['Column']].str.contains(' ' + row['Code'] + ' ') |
+                    images[row['Column']].str.match('^' + row['Code'] + '[ |,]', case=True) |
+                    images[row['Column']].str.endswith(' ' + row['Code'])
                 ]
             )
         ), axis = 1
