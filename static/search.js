@@ -6,11 +6,11 @@ function hasAttr(attr) {
 
 function werkSearchNext(e) {
   var ppp = $('button#more').data('page');
-  werkSearchShow(e, ppp + 1);
+  werkSearchStart(e, ppp + 1);
 }
 
 function werkSearchRandom(e) {
-  werkSearchShow(e, -1);
+  werkSearchStart(e, -1);
 }
 
 function werkSearchBack(e) {
@@ -59,7 +59,7 @@ function get_werkSearchQuery(from_page) {
     if (!hasAttr(nm)) return;
     if (!filterdata[nm]) filterdata[nm] = [];
     filterdata[nm].push($(this).attr('value'));
-    filterselect += '<span>' + $(this).parent().text() + '</span>';
+    filterselect += '<span>' + $(this).parent().find('label').text() + '</span>';
   });
 
   $('input[type=text]').each(function() {
@@ -91,12 +91,16 @@ function werkSearchCount() {
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
     $('#stats').removeClass('fade');
+    $('#start').removeClass('btn-success disable')
+      .addClass(data.total > 0 ? 'btn-success' : 'disable');
   });
 }
 
-function werkSearchShow(e, from_page) {
+function werkSearchStart(e, from_page) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
+
+  if ($('#start').hasClass('disable')) return;
 
   $('.modal').modal('show');
 

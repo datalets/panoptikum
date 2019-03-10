@@ -4,8 +4,13 @@ body {
 }
 
 #stats {
-  font-weight: 600;
-  text-decoration: underline;
+  font-weight: 400;
+}
+#total {
+  padding: 0.2em 0.4em;
+  font-size: 80%;
+  background: #eee;
+  color: #555;
 }
 
 .tab-content h5 {

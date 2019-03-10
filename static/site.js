@@ -111,7 +111,7 @@ function render_form($out, dp) {
 }
 
 // Run search
-$('#start').click(werkSearchShow); // -button.click
+$('#start').click(werkSearchStart); // -button.click
 
 // Random search
 $('#random').click(werkSearchRandom); // -button.click
@@ -127,7 +127,7 @@ $('button#back').click(werkSearchBack); // -button.click
 
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
-  if (e.which == 13) { werkSearchShow(); }
+  if (e.which == 13) { werkSearchStart(); }
 });
 
 // Pop down image
