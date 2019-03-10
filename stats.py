@@ -20,10 +20,16 @@ def update_stats():
     # print(filters.head)
 
     filters['Count'] = filters.apply(
-        lambda row: len(
-            images.loc[
-                images[row['Column']].str.contains(row['Code'])
-            ]
+        lambda row: (
+            row['Code'] == '.*' and len(
+                images.loc[
+                    images[row['Column']].str.len() > 0
+                ]
+            ) or len(
+                images.loc[
+                    images[row['Column']].str.match('^' + row['Code'] + '$', case=False)
+                ]
+            )
         ), axis = 1
     )
 
