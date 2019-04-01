@@ -90,6 +90,7 @@ function get_werkSearchQuery(from_page) {
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
+  if (qg.html === '') return $('#stats').addClass('fade');
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
     $('#stats').removeClass('fade');
@@ -112,7 +113,7 @@ function werkTitle(item) {
     })
     itemstr = itemarr.join(', ');
   }
-  return '' +
+  var s = '' +
     '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> | ' +
     '' + item['Nummer'] + ' | ' +
     '' + itemstr + ' ' // Techniken
@@ -122,6 +123,7 @@ function werkTitle(item) {
     '' + (item["Zus'arbeit"] !== null ?
       '| In Zusammenarbeit mit ' + item["Zus'arbeit"] : '')
     ;
+  return s;
 }
 
 // Main function to run an search
@@ -177,7 +179,6 @@ function werkSearchStart(e, from_page) {
       ).find('.item:last').click(function() {
 
         // console.debug(item, ix);
-
         pswpGallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default,
           pswpItems, { index: ix });
         pswpGallery.listen('imageLoadComplete', function (index, item) {

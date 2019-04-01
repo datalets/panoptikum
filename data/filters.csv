@@ -1,27 +1,27 @@
 Code,Mode,Type,Column,Title,Link,Info,Count
-Ac,Form,Technik,Technik I,Acryl,,,94
-Aq,Form,Technik,Technik I,Aquarell,,,62
-B,Form,Technik,Technik I,"Bleistift, Grafitstift",,,3666
-C,Form,Technik,Technik I,"Collage, Assemblage",,,248
-Fa,Form,Technik,Technik I,Farbstift,,,479
-Fs,Form,Technik,Technik I,Filzstift,,,401
-G,Form,Technik,Technik I,Gouache,,,1427
-K,Form,Technik,Technik I,Kohle,,,74
-Ks,Form,Technik,Technik I,Kugelschreiber,,,214
-Opl,Form,Technik,Technik I,"Ölpastell, Wachsölkreiden",,,275
-OP,Form,Technik,Technik I,Ölfarbe auf Pavatex,,,607
-OL,Form,Technik,Technik I,Ölfarbe auf Leinwand,,,81
-OPa,Form,Technik,Technik I,Ölfarbe auf Papier,,,125
-T,Form,Technik,Technik I,Tusche,,,1496
-Dd,Form,Drucktechnik,Technik I,Digitaldruck,,,1287
-Hs,Form,Drucktechnik,Technik I,Holzschnitt,,,10
-Ls,Form,Drucktechnik,Technik I,Linolschnitt,,,64
-Lg,Form,Drucktechnik,Technik I,Lithografie,,,31
-Od,Form,Drucktechnik,Technik I,Offsetdruck,,,83
-R,Form,Drucktechnik,Technik I,Radierung,,,509
-S,Form,Drucktechnik,Technik I,Siebdruck,,,24
-zT,Form,mehrere Techniken,Technik I,zwei Techniken,,,2061
-Mt,Form,mehrere Techniken,Technik I,Mischtechnik (3 Techniken und mehr),,,1317
+Ac,Form,Technik,Technik I,Acryl,,,27
+Aq,Form,Technik,Technik I,Aquarell,,,34
+B,Form,Technik,Technik I,"Bleistift, Grafitstift",,,1517
+C,Form,Technik,Technik I,"Collage, Assemblage",,,18
+Fa,Form,Technik,Technik I,Farbstift,,,45
+Fs,Form,Technik,Technik I,Filzstift,,,30
+G,Form,Technik,Technik I,Gouache,,,140
+K,Form,Technik,Technik I,Kohle,,,8
+Ks,Form,Technik,Technik I,Kugelschreiber,,,42
+Opl,Form,Technik,Technik I,"Ölpastell, Wachsölkreiden",,,25
+OP,Form,Technik,Technik I,Ölfarbe auf Pavatex,,,3
+OL,Form,Technik,Technik I,Ölfarbe auf Leinwand,,,0
+OPa,Form,Technik,Technik I,Ölfarbe auf Papier,,,30
+T,Form,Technik,Technik I,Tusche,,,226
+Dd,Form,Drucktechnik,Technik I,Digitaldruck,,,1055
+Hs,Form,Drucktechnik,Technik I,Holzschnitt,,,0
+Ls,Form,Drucktechnik,Technik I,Linolschnitt,,,6
+Lg,Form,Drucktechnik,Technik I,Lithografie,,,6
+Od,Form,Drucktechnik,Technik I,Offsetdruck,,,52
+R,Form,Drucktechnik,Technik I,Radierung,,,79
+S,Form,Drucktechnik,Technik I,Siebdruck,,,6
+zT,Form,mehrere Techniken,Technik I,zwei Techniken,,,0
+Mt,Form,mehrere Techniken,Technik I,Mischtechnik (3 Techniken und mehr),,,20
 H1,Form,Helligkeit,Helligkeit,hell,,,671
 H2,Form,Helligkeit,Helligkeit,eher hell,,,2433
 H3,Form,Helligkeit,Helligkeit,mittlere Helligkeit,,,2097
@@ -61,7 +61,7 @@ UoG,Form,Darstellungsarten,Gegenständlich/Ungegenständlich,Ungegenständliches
 wid,Form,Bildsprache,Bildsprache,Widder-/Mars-Gestaltung,,,26
 sti,Form,Bildsprache,Bildsprache,Stier-/Venus-Gestaltung,,,18
 zwi,Form,Bildsprache,Bildsprache,Zwillinge-/Merkur-Gestaltung,,,169
-kre,Form,Bildsprache,Bildsprache,Krebs-/Mond-Gestaltung,,,85
+kre,Form,Bildsprache,Bildsprache,Krebs-/Mond-Gestaltung,,,86
 löw,Form,Bildsprache,Bildsprache,Löwe-/Sonne-Gestaltung,,,0
 jun,Form,Bildsprache,Bildsprache,Jungfrau-/Merkur-Gestaltung,,,52
 waa,Form,Bildsprache,Bildsprache,Waage-/Venus-Gestaltung,,,204
@@ -78,7 +78,7 @@ Z,Inhalt,Motive,Motiven,"ZeichnerInnen, MalerInnen",,,116
 ZM,Inhalt,Motive,Motiven,ZeichnerInnen/MalerInnen und Modell,,,212
 P,Inhalt,Motive,Motiven,Paare,,,477
 Ba,Inhalt,Motive,Motiven,Badende,,,102
-Ri,Inhalt,Motive,Motiven,"Porträts, Köpfe",,,154
+Ri,Inhalt,Motive,Motiven,"Porträts, Köpfe",,,155
 Sb,Inhalt,Motive,Motiven,Selbstbildnisse,,,163
 A,Inhalt,Motive,Motiven,Akt (nach Modell oder Vorstellung),,,1213
 AP,Inhalt,Motive,Motiven,Akt (Paraphrasen),,,526
@@ -111,10 +111,10 @@ Par2,Inhalt,"Paraphrasen, Variationen",Paraphrasen, bis und mit griechisch-römi
 Par3a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Malerei Frühmittelalter bis 15. Jh.,,,24
 Par4,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Malerei, Zeichnung 16.–18. Jh.",ParT,,93
 Par5,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Malerei, Zeichnung 19. Jh.","ParJHF, ParPC",,103
-Par7a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Malerei, Zeichnung 20. Jh. ","ParPK, ParME, ParGOK, ParEH, ParFV, ParRM, ParPP",,160
+Par7a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Malerei, Zeichnung 20. Jh. ","ParPK, ParME, ParGOK, ParEH, ParFV, ParRM, ParPP",,166
 Par3b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Skulptur Mittelalter bis 18. Jh.,,,45
 Par6,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Skulptur 19. Jh.,ParAR,,21
-Par7b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Plastik 20. Jh.,,,31
+Par7b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Plastik 20. Jh.,,,33
 Par8a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Fotografie,ParVB,,62
 Par8b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Film, Video",,,34
 Par9a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Installationen,,,46

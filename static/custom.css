@@ -68,6 +68,7 @@ button#back {
 
 #selection {
   margin: 1em 0;
+  text-align: center;
 }
 #selection span {
   background: #eee; color: #333;

@@ -50,6 +50,8 @@ def update_files(lf, filename='WERKVERZEICHNIS.csv', outputfile='images.csv'):
                 r['path'] = imagerow['path']
                 r['thumb'] = imagerow['thumb']
 
+                # TODO: load image to determine dimensions
+
                 r['Techniken'] = ' '.join([
                     r['Technik'],
                     r['Technik I'],
