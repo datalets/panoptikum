@@ -86,6 +86,7 @@ function get_werkSearchQuery(from_page) {
   }
 }
 
+// Obtains a count of search results
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
@@ -97,6 +98,33 @@ function werkSearchCount() {
   });
 }
 
+// Generates an image subtitle
+function werkTitle(item) {
+  var itemstr = '';
+  if (item['Techniken'] !== null) {
+    var itemarr = [];
+    item['Techniken'].split(' ').forEach(function(t) {
+      getcode = cache.find(f => f['Code'] == t.trim())
+      if (typeof getcode !== 'undefined') {
+        if (getcode.Title.toLowerCase().indexOf('technik') > 0) return;
+        itemarr.push( getcode.Title );
+      }
+    })
+    itemstr = itemarr.join(', ');
+  }
+  return '' +
+    '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> | ' +
+    '' + item['Nummer'] + ' | ' +
+    '' + itemstr + ' ' // Techniken
+    '' + item['Format'] + ' cm '
+    '' + (item['Jahr'] !== null ?
+      '(' + item['Jahr'].replace('a', '') + ') ' : '') +
+    '' + (item["Zus'arbeit"] !== null ?
+      '| In Zusammenarbeit mit ' + item["Zus'arbeit"] : '')
+    ;
+}
+
+// Main function to run an search
 function werkSearchStart(e, from_page) {
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
@@ -128,48 +156,44 @@ function werkSearchStart(e, from_page) {
     if (data.length == PER_PAGE)
       $('button#more').show();
 
-    data.forEach(function(item) {
+    var pswpElement = $('.pswp')[0];
+    var pswpItems = [];
+    var pswpGallery = null;
+
+    data.forEach(function(item, ix) {
+
+      pswpItems.push({
+        src: item.path, w: 0, h: 0,
+        title: werkTitle(item)
+      });
 
       $tgt.append(
+
         '<div class="col-sm-2 item">' +
-        '<img src="' + item.thumb + '" />' +
-        // '<small>' + item.Nummer + '</small>' +
+          '<img src="' + item.thumb + '" />' +
+          // '<small>' + item.Nummer + '</small>' +
         '</div>'
+
       ).find('.item:last').click(function() {
 
-        // console.log(item);
-        window.scrollTo(0,0);
+        // console.debug(item, ix);
 
-        // Hide the results container
-        var $det = $('#details').show(); $('#browser').hide();
-
-        // $('.main.container').css('visibility', 'hidden');
-
-        $('.image', $det)
-          .css('height', $(window).height() - 100)
-          .css('background-image', 'url("' + item.path + '")');
-
-        $('[data-fld]', $det).each(function() {
-          var fld = $(this).attr('data-fld');
-          itemstr = item[fld]
-
-          if (fld == 'Titel' && item[fld] == null)
-            itemstr = '(Ohne Titel)';
-          if (fld == 'Jahr' && item[fld] !== null)
-            itemstr = item[fld].replace('a', '');
-          if (fld == "Zus'arbeit" && item[fld] !== null)
-            itemstr = '~ In Zusammenarbeit mit ' + item[fld];
-          if (fld == "Techniken") {
-            itemarr = itemstr.split(' '); itemstr = '';
-            itemarr.forEach(function(t) {
-              getcode = cache.find(f => f['Code'] == t.trim())
-              if (typeof getcode !== 'undefined') {
-                itemstr += '<sm>' + getcode.Title + '</sm> '
-              }
-            })
+        pswpGallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default,
+          pswpItems, { index: ix });
+        pswpGallery.listen('imageLoadComplete', function (index, item) {
+          if (item.h < 1 || item.w < 1) {
+            let img = new Image();
+            img.onload = () => {
+              item.w = img.width;
+              item.h = img.height;
+              pswpGallery.invalidateCurrItems();
+              pswpGallery.updateSize(true);
+            }
+            img.src = item.src;
           }
-          $(this).html(itemstr);
         });
+        pswpGallery.init();
+        // pswpGallery.goTo(ix);
 
       });
 
