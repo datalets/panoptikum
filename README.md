@@ -7,6 +7,11 @@ Projekt PANOPTIKUM
 4. `pipenv sync`
 5. `flask run`
 
+```
+sudo apt-get install python3.6 python3-numpy
+virtualenv --system-site-packages -p python3.6 env
+```
+
 # Image collection
 
 Use the `convert.sh` script to prepare an `images` folder with consistent formats (JPEG) and resolutions (720p).

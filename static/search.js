@@ -45,8 +45,9 @@ function get_werkSearchQuery(from_page) {
 
   if (from_page === -1) {
     from_page = 1;
-    ranval = Math.round(1+(Math.random() * 6669));
-    $('input[name="Nummer"]').click().val(ranval);
+    ranval = Math.round(1+(Math.random() * 6899));
+    $('form')[0].reset();
+    $('input[name="Nummer"]').val(ranval);
   }
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
