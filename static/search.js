@@ -150,6 +150,7 @@ function werkSearchStart(e, from_page) {
     }, 500);
 
     $('#filters .tab-content').hide();
+    $('#filters .nav-item .nav-link').removeClass('active');
     $('#filters .show.active').removeClass('show active');
 
     var $tgt = $('#results').show().find('div.row');
@@ -162,13 +163,16 @@ function werkSearchStart(e, from_page) {
     var pswpItems = [];
     var pswpGallery = null;
 
+    // Create item index
     data.forEach(function(item, ix) {
-
       pswpItems.push({
         src: item.path, w: 0, h: 0,
         title: werkTitle(item)
       });
+    });
 
+    // Generate thumbnails
+    data.forEach(function(item, ix) {
       $tgt.append(
 
         '<div class="col-sm-2 item">' +
@@ -179,8 +183,9 @@ function werkSearchStart(e, from_page) {
       ).find('.item:last').click(function() {
 
         // console.debug(item, ix);
+        var pswpOptions = { index: ix, loop: false };
         pswpGallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default,
-          pswpItems, { index: ix });
+          pswpItems, pswpOptions);
         pswpGallery.listen('imageLoadComplete', function (index, item) {
           if (item.h < 1 || item.w < 1) {
             let img = new Image();

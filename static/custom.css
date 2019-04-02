@@ -126,3 +126,8 @@ button#back {
   background: #eee; color: #333;
   padding: 0.2em 0.4em;
 }
+
+.pswp__caption__center {
+  text-align: center;
+  max-width: 600px;
+}
