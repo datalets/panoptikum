@@ -9,6 +9,7 @@ name = "pypi"
 dataflows = "*"
 pandas-datapackage-reader = "*"
 flask-api = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"

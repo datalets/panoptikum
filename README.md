@@ -24,3 +24,13 @@ To update the metadata, run this script from the pipenv shell:
 This script expects a `data/WERKVERZEICHNIS.csv` which is the UTF-8 encoded conversion of the source Excel file.
 
 It also checks that images are present in the `images` folder.
+
+# Running
+
+In development, use:
+
+`env FLASK_DEBUG=1 flask run`
+
+In production, something like:
+
+`gunicorn --log-level=info -w 4 -b :8000 app:app`
