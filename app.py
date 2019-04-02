@@ -9,7 +9,10 @@ from flask import (
     send_from_directory,
 )
 
-from util import *
+try:
+    from .util import *
+except:
+    from util import *
 
 app = FlaskAPI(__name__)
 
