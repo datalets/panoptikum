@@ -1,6 +1,8 @@
 Projekt PANOPTIKUM
 ==================
 
+Made with [Frictionless Data](https://frictionlessdata.io), [Flask](http://flask.pocoo.org/), [Bootstrap](https://getbootstrap.com) and [PhotoSwipe](https://photoswipe.com/).
+
 1. Install pipenv
 2. `pipenv --python 3`
 3. `pipenv shell`

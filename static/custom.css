@@ -137,3 +137,7 @@ button#back {
   max-width: 600px;
   color: black;
 }
+
+#footer .row {
+  font-size: 80%; text-align: center;
+}
