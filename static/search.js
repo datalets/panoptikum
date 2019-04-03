@@ -102,7 +102,7 @@ function werkSearchCount() {
 
 // Generates an image subtitle
 function werkTitle(item) {
-  var itemstr = '';
+  var Techniken = '';
   if (item['Techniken'] !== null) {
     var itemarr = [];
     item['Techniken'].split(' ').forEach(function(t) {
@@ -112,17 +112,17 @@ function werkTitle(item) {
         itemarr.push( getcode.Title );
       }
     })
-    itemstr = itemarr.join(', ');
+    Techniken = itemarr.join(', ');
   }
   var s = '' +
-    '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> | ' +
-    '' + item['Nummer'] + ' | ' +
-    '' + itemstr + ' ' // Techniken
-    '' + item['Format'] + ' cm '
+    '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> ' +
+    '[' + item['Nummer'] + '] ' +
+    '' + Techniken + ', ' +
+    '' + item['Format'] + 'cm' +
     '' + (item['Jahr'] !== null ?
-      '(' + item['Jahr'].replace('a', '') + ') ' : '') +
+      ' &nbsp;&nbsp; ' + item['Jahr'].replace('a', '') + '' : '') +
     '' + (item["Zus'arbeit"] !== null ?
-      '| In Zusammenarbeit mit ' + item["Zus'arbeit"] : '')
+      ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '')
     ;
   return s;
 }

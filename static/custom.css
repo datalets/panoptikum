@@ -1,6 +1,11 @@
-body {
-  margin-top: 1em;
+body { margin-top: 1em; }
+}
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
   background-color: #ccc !important;
+}
+.pswp__bg, .pswp__caption, .pswp__top-bar, body {
+  background-color: #ccc !important;
+  color: #000;
 }
 
 #stats {
@@ -130,4 +135,5 @@ button#back {
 .pswp__caption__center {
   text-align: center;
   max-width: 600px;
+  color: black;
 }
