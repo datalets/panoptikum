@@ -1,27 +1,27 @@
 Code,Mode,Type,Column,Title,Link,Info,Count
-Ac,Form,Technik,Technik I,Acryl,,,27
-Aq,Form,Technik,Technik I,Aquarell,,,34
-B,Form,Technik,Technik I,"Bleistift, Grafitstift",,,1517
-C,Form,Technik,Technik I,"Collage, Assemblage",,,18
-Fa,Form,Technik,Technik I,Farbstift,,,45
-Fs,Form,Technik,Technik I,Filzstift,,,30
-G,Form,Technik,Technik I,Gouache,,,140
-K,Form,Technik,Technik I,Kohle,,,8
-Ks,Form,Technik,Technik I,Kugelschreiber,,,42
-Opl,Form,Technik,Technik I,"Ölpastell, Wachsölkreiden",,,25
-OP,Form,Technik,Technik I,Ölfarbe auf Pavatex,,,3
-OL,Form,Technik,Technik I,Ölfarbe auf Leinwand,,,0
-OPa,Form,Technik,Technik I,Ölfarbe auf Papier,,,30
-T,Form,Technik,Technik I,Tusche,,,226
-Dd,Form,Drucktechnik,Technik I,Digitaldruck,,,1055
-Hs,Form,Drucktechnik,Technik I,Holzschnitt,,,0
-Ls,Form,Drucktechnik,Technik I,Linolschnitt,,,6
-Lg,Form,Drucktechnik,Technik I,Lithografie,,,6
-Od,Form,Drucktechnik,Technik I,Offsetdruck,,,52
-R,Form,Drucktechnik,Technik I,Radierung,,,79
-S,Form,Drucktechnik,Technik I,Siebdruck,,,6
-zT,Form,mehrere Techniken,Technik I,zwei Techniken,,,0
-Mt,Form,mehrere Techniken,Technik I,Mischtechnik (3 Techniken und mehr),,,20
+Ac,Form,Technik,Technik,Acryl,,,18
+Aq,Form,Technik,Technik,Aquarell,,,14
+B,Form,Technik,Technik,"Bleistift, Grafitstift",,,1154
+C,Form,Technik,Technik,"Collage, Assemblage",,,104
+Fa,Form,Technik,Technik,Farbstift,,,12
+Fs,Form,Technik,Technik,Filzstift,,,15
+G,Form,Technik,Technik,Gouache,,,518
+K,Form,Technik,Technik,Kohle,,,28
+Ks,Form,Technik,Technik,Kugelschreiber,,,17
+Opl,Form,Technik,Technik,"Ölpastell, Wachsölkreiden",,,21
+OP,Form,Technik,Technik,Ölfarbe auf Pavatex,,,603
+OL,Form,Technik,Technik,Ölfarbe auf Leinwand,,,81
+OPa,Form,Technik,Technik,Ölfarbe auf Papier,,,40
+T,Form,Technik,Technik,Tusche,,,274
+Dd,Form,Drucktechnik,Technik,Digitaldruck,,,70
+Hs,Form,Drucktechnik,Technik,Holzschnitt,,,10
+Ls,Form,Drucktechnik,Technik,Linolschnitt,,,57
+Lg,Form,Drucktechnik,Technik,Lithografie,,,18
+Od,Form,Drucktechnik,Technik,Offsetdruck,,,8
+R,Form,Drucktechnik,Technik,Radierung,,,358
+S,Form,Drucktechnik,Technik,Siebdruck,,,4
+zT,Form,mehrere Techniken,Technik,zwei Techniken,,,2061
+Mt,Form,mehrere Techniken,Technik,Mischtechnik (3 Techniken und mehr),,,1270
 H1,Form,Helligkeit,Helligkeit,hell,,,671
 H2,Form,Helligkeit,Helligkeit,eher hell,,,2433
 H3,Form,Helligkeit,Helligkeit,mittlere Helligkeit,,,2097
