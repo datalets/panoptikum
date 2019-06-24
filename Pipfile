@@ -10,6 +10,6 @@ dataflows = "*"
 pandas-datapackage-reader = "*"
 flask-api = "*"
 gunicorn = "*"
+hypercorn = "*"
 
 [requires]
-python_version = "3.6"
