@@ -1,14 +1,15 @@
 Code,Mode,Type,Column,Title,Link,Info,Count
 Ac,Form,Technik,Technik,Acryl,,,18
 Aq,Form,Technik,Technik,Aquarell,,,14
-B,Form,Technik,Technik,"Bleistift, Grafitstift",,,1154
-C,Form,Technik,Technik,"Collage, Assemblage",,,104
+B,Form,Technik,Technik,Bleistift,,,1151
+C,Form,Technik,Technik,Collage,,,101
+Cb,Form,Technik,Technik,Collagebuch,,,0
 Fa,Form,Technik,Technik,Farbstift,,,12
 Fs,Form,Technik,Technik,Filzstift,,,15
 G,Form,Technik,Technik,Gouache,,,518
 K,Form,Technik,Technik,Kohle,,,28
 Ks,Form,Technik,Technik,Kugelschreiber,,,17
-Opl,Form,Technik,Technik,"Ölpastell, Wachsölkreiden",,,21
+Opl,Form,Technik,Technik,Ölpastell,,,0
 OP,Form,Technik,Technik,Ölfarbe auf Pavatex,,,602
 OL,Form,Technik,Technik,Ölfarbe auf Leinwand,,,82
 OPa,Form,Technik,Technik,Ölfarbe auf Papier,,,40
@@ -158,4 +159,6 @@ Kr12e,Inhalt,Projekt „Klee revisited“,Paraphrasen,Fünfklang,,,17
 1979-1984,Zeit,Chronologie,Jahr,1979–1984,,,0
 1973-1978,Zeit,Chronologie,Jahr,1973–1978,,,0
 iBdK,Anderes,Standort,Standort,im Besitz des Künstlers,,,6396
+PB,Anderes,Status,Status,Privatbesitz,,,0
+res,Aderes,Status,Status,reserviert,,,0
 .*,Anderes,Standort,Zus'arbeit,Zusammenarbeit,,,37
