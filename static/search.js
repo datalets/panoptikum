@@ -30,12 +30,13 @@ function werkSearchReset(e) {
   // Clear the form and return to start when tapped
   $('form')[0].reset();
   $('#filters a:first').click();
+  $('#total').text('0');
 
   // Show the counters again
   // $('.form-check small').css('visibility', 'visible');
 
-  $('#stats').addClass('fade');
-  $('#start').removeClass('disable').addClass('btn-success');
+/*  $('#stats').addClass('fade'); */
+  $('#start').addClass('disable');
 }
 
 // Query builder
@@ -68,6 +69,7 @@ function get_werkSearchQuery(from_page) {
     var nm = $(this).attr('name');
     if (!hasAttr(nm)) return;
     if (!nm.indexOf('o_') == 0) nm = 'o_' + nm;
+//    console.log("nm: "+nm);
     var v = $(this).val();
     if (!v.length) return;
     if (!filterdata[nm]) filterdata[nm] = [];
@@ -91,12 +93,12 @@ function get_werkSearchQuery(from_page) {
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
-  if (qg.html === '') return $('#stats').addClass('fade');
+  if (qg.html === '') return $('#total').text('0');
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
-    $('#stats').removeClass('fade');
-    $('#start').removeClass('btn-success disable')
-      .addClass(data.total > 0 ? 'btn-success' : 'disable');
+/*    $('#stats').removeClass('fade'); */
+    $('#start').removeClass('disable')
+      .addClass(data.total > 0 ? '' : 'disable');
   });
 }
 
@@ -153,8 +155,8 @@ function werkSearchStart(e, from_page) {
     }, 500);
 
     $('#filters .tab-content').hide();
-    $('#filters .nav-item .nav-link').removeClass('active');
-    $('#filters .show.active').removeClass('show active');
+    $('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
+    /*$('#filters .show.active').removeClass('show active');*/
 
     var $tgt = $('#results').show().find('div.row');
 

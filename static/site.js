@@ -136,6 +136,9 @@ $('#details .image').click(werkSearchBack);
 
 // Restore on click
 $('#filters .nav-link').click(function() {
+  $('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
+  $('#filters .show.active').removeClass('show active');
+
   $('#filters .tab-content').show();
   $('#results').hide();
 });
@@ -146,6 +149,14 @@ $('form').change(function() {
   werkSearchCount();
   // Hide all counters
   // $('.form-check count').css('visibility', 'hidden');
+});
+
+
+$('.form-check').click(function() {
+  if($(this).closest('form').data('changed')) {
+     //do something
+     console.log('click');
+  }
 });
 
 })();
