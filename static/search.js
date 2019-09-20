@@ -29,10 +29,12 @@ function werkSearchReset(e) {
 
   // Clear the form and return to start when tapped
   $('form')[0].reset();
-  $('#filters a:first').click();
+  /*$('#filters a:first').click();*/
   $('#total').text('0');
   $('#start').addClass('disable');
-
+  $('#results').hide(); /* hides results */
+  $('#filters .tab-content').show(); /*shows search form*/
+  
   // Show the counters again
   // $('.form-check small').css('visibility', 'visible');
 
@@ -156,7 +158,7 @@ function werkSearchStart(e, from_page) {
     }, 500);
 
     $('#filters .tab-content').hide();
-    $('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
+    //$('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
     /*$('#filters .show.active').removeClass('show active');*/
 
     var $tgt = $('#results').show().find('div.row');
