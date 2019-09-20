@@ -93,6 +93,7 @@ function render_form($out, dp) {
           'id="o_' + this.Column + this.Code + '" ' +
           'name="o_' + this.Column + '" ' +
           'value="' + this.Code + '" ' +
+/*          'style="display:none"' + */
           'type="' + inputtype + '">' +
         '<count><span>' + this.Count + '</span></count>' +
         '<label class="form-check-label" ' +

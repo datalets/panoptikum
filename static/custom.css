@@ -15,8 +15,6 @@ body {
   background-color:white;
   border: 1px solid transparent;
   border-radius: .25rem;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
 }
 
 .anleitung {
@@ -63,21 +61,26 @@ body {
   opacity: 0.25;
 }
 
-.kategorien {
-}
+/*.kategorien { }*/
 
 /* end new navigation styles */
-
-#stats {
-  font-weight: 400;
-  background-color:#aaa;
-  
+#anderes input{
   display: block;
-  padding: .5rem 1rem;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
 
-  border: 1px solid transparent;
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
+#anderes .form-check-input {
+  border:1px solid green;
+  padding: 0;
 }
 
 #total {
@@ -91,10 +94,6 @@ body {
   margin-top: 1em;
 }
 
-.nav-tabs > li:first-child {
-  /* margin-left: 25%; */
-}
-
 .nav-tabs {
   margin-top: 1em;
 }
@@ -105,10 +104,10 @@ body {
 
 .form-group .form-check count {
   margin: 0;
-  width: 100%;
-  position: absolute;
+/*  width: 100%; */
   display: inline-block;
-  text-align: right;
+  text-align: left;
+  padding-right:.25rem;
   z-index: -1;
 }
 .form-group .form-check count span {
