@@ -10,6 +10,7 @@ function werkSearchNext(e) {
 }
 
 function werkSearchRandom(e) {
+  console.log('random');
   werkSearchStart(e, -1);
 }
 
@@ -29,16 +30,15 @@ function werkSearchReset(e) {
 
   // Clear the form and return to start when tapped
   $('form')[0].reset();
-  /*$('#filters a:first').click();*/
+  /*$('#filters a:first').click();*/ //shows first nav tab.
   $('#total').text('0');
-  $('#start').addClass('disable');
+  $('#start').addClass('disable'); /* Anzeigen ausblenden */
+  $('#restart').addClass('disable'); /* Neuauswahl ausblenden */
   $('#results').hide(); /* hides results */
   $('#filters .tab-content').show(); /*shows search form*/
   
   // Show the counters again
   // $('.form-check small').css('visibility', 'visible');
-
-  $('#start').addClass('disable');
 }
 
 // Query builder
@@ -94,7 +94,7 @@ function get_werkSearchQuery(from_page) {
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
-  if (qg.html === '') return $('#total').text('0') & $('#start').addClass('disable');
+  if (qg.html === '') return $('#total').text('0');
 
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
@@ -131,7 +131,7 @@ function werkTitle(item) {
     ;
   return s;
 }
-
+ 
 // Main function to run an search
 function werkSearchStart(e, from_page) {
   if (from_page == typeof undefined)

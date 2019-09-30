@@ -69,7 +69,7 @@ function render_form($out, dp) {
       wcols = attr_or($out.attr('data-cols'), DEFAULT_NUM_COLUMNS),
       inputtype = attr_or($out.attr('data-input'), 'checkbox');
 
-  // console.log('Processing', wtag, wtype, wcols, inputtype);
+//   console.log('Processing', wtag, wtype, wcols, inputtype);
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
@@ -95,11 +95,11 @@ function render_form($out, dp) {
           'value="' + this.Code + '" ' +
 /*          'style="display:none"' + */
           'type="' + inputtype + '">' +
-        '<count><span>' + this.Count + '</span></count>' +
         '<label class="form-check-label" ' +
           'for="o_' + this.Column + this.Code + '">' +
+          '<count><span>' + this.Count + '</span></count>' +
           this.Title +
-        '</label>' +
+          '</label>' +
       '') +
       '</div>'
     );
@@ -139,7 +139,6 @@ $('#details .image').click(werkSearchBack);
 $('#filters .nav-link').click(function() {
   $('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
   $('#filters .show.active').removeClass('show active');
-
   $('#filters .tab-content').show();
   $('#results').hide();
 });
@@ -148,15 +147,14 @@ $('#filters .nav-link').click(function() {
 $('form').change(function() {
   // Get total for this result
   werkSearchCount();
-  // Hide all counters
-  // $('.form-check count').css('visibility', 'hidden');
-});
 
-
-$('.form-check').click(function() {
-  if($(this).closest('form').data('changed')) {
-     //do something
-     console.log('click');
+  if ($('input:checked').length == 0) {
+    //console.log('hide Neuauswahl und hide Anzeigen');
+    $('#start').addClass('disable');
+    $('#restart').addClass('disable');
+  } else {
+    $('#start').removeClass('disable');
+    $('#restart').removeClass('disable');
   }
 });
 
