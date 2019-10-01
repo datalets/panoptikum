@@ -15,7 +15,7 @@ do
     cd "${src}"
     for file in *.{jpg,JPG,jpeg,JPEG,png,PNG,tif,TIF,tiff,TIFF}
     do
-        fn=`basename "$file"`
+        fn=`basename "$file"[0]` # added [0] to ignore layers in tiffs and prevent multiple file generation
         bn=${fn%.*}
         if [ ! "${bn}" == "*" ]
         then
