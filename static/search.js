@@ -1,4 +1,8 @@
-var PER_PAGE = 3 * 10
+var PER_PAGE = 3 * 10;
+var clusterize = new Clusterize({ //clusterize prerares title search output
+  scrollId: 'scrollArea',
+  contentId: 'contentArea'
+});
 
 function hasAttr(attr) {
   return (typeof attr !== typeof undefined && attr !== false)
@@ -10,7 +14,7 @@ function werkSearchNext(e) {
 }
 
 function werkSearchRandom(e) {
-  console.log('random');
+//  console.log('random');
   werkSearchStart(e, -1);
 }
 
@@ -105,6 +109,7 @@ function werkSearchCount() {
 
 // Generates an image subtitle
 function werkTitle(item) {
+  console.log("werkTitle "+item['Titel']);
   var Techniken = '';
   if (item['Techniken'] !== null) {
     var itemarr = [];
@@ -127,11 +132,52 @@ function werkTitle(item) {
     '' + (item["Zus'arbeit"] !== null ?
     ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '') +
     '' + (item ['Status'] !== null ?
-      ', ' + item ['Status'] : '') 
+      ', ' + item ['Status'] : '')  
     ;
   return s;
 }
- 
+
+// Generates list of Titles, stores them in global titlelist
+function listTitles() {
+  q = '?sort=-Jahr&per_page=-1';
+  let titleItems = [];
+
+  $.getJSON('/api/images.json' + q, function(data) {
+    // Create title item array
+    data.forEach(function(item, index) {
+      if (item['Titel'] != null) {
+        fixedItem = '<div>'+item['Titel']+'</div>';
+        fixedItem = fixedItem.replace(/"/g, '\'');
+        titleItems.push(fixedItem);
+      }
+    });
+    titleItems.sort(function (a, b) {
+      return a.localeCompare(b);
+    });
+
+    titlelist = titleItems; //global zugänglich.
+    titlelist_uniqueEntries = removeDuplicates(titlelist) //removes duplicates and stores it globally.
+
+    clusterize.update(titlelist_uniqueEntries);
+  });
+}
+
+function countDuplicates(names) {
+  var  count = {};
+  names.forEach(function(i) { count[i] = (count[i]||0) + 1;});
+  console.log(count);
+}
+
+function removeDuplicates(names) {
+  let unique = {};
+  names.forEach(function(i) {
+    if(!unique[i]) {
+      unique[i] = true;
+    }
+  });
+  return Object.keys(unique);
+}
+
 // Main function to run an search
 function werkSearchStart(e, from_page) {
   if (from_page == typeof undefined)
@@ -142,7 +188,7 @@ function werkSearchStart(e, from_page) {
   if ($('#start').hasClass('disable')) return;
 
   $('.modal').modal('show');
-
+ 
   wsq = get_werkSearchQuery(from_page);
   q = wsq.query;
 
@@ -173,6 +219,7 @@ function werkSearchStart(e, from_page) {
 
     // Create item index
     data.forEach(function(item, ix) {
+      console.log(item);
       pswpItems.push({
         src: item.path, w: 0, h: 0,
         title: werkTitle(item)
@@ -218,6 +265,6 @@ function werkSearchStart(e, from_page) {
 
   }).fail(function(jqxhr, textStatus, error) {
     alert('Could not search!');
-    console.log(textStatus, error);
+//    console.log(textStatus, error);
   });
 }

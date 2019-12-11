@@ -102,28 +102,21 @@ body {
   padding-bottom: 0.5em;
 }
 
-.form-check count:hover, .form-check label:hover {
+.form-check label:hover {
   cursor: pointer;
 }
 
-.form-group .form-check count {
-  margin: 0;
-/*  width: 100%; */
-  display: inline-block;
-  text-align: left;
-  padding-right:.25rem;
-  z-index: -1;
-}
-.form-group .form-check count span {
+.count {
   padding: 0.2em 0.4em;
   font-size: 80%;
   background: #eee;
   color: #555;
   opacity: 0.4;
 }
-.form-group .form-check:hover count span {
+.form-group .form-check:hover .count {
   opacity: 1.0;
 }
+
 /*
 .form-group .form-check-input + label {
   border: 1px solid transparent;

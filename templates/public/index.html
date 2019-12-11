@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>PANOPTIKUM</title>
+    <title>-Bildarchiv Jürg Straumann-</title>
 
     <link rel="stylesheet" href="/static/lib/bootstrap/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="/static/lib/photoswipe/default-skin/default-skin.css" media="screen">
     <link rel="stylesheet" href="/static/lib/photoswipe/photoswipe.css" media="screen">
     <link rel="stylesheet" href="/static/lib/font-awesome/4.7.0/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="/static/lib/clusterize.css" media="screen">
 
     <link rel="stylesheet" href="/static/custom.css">
   </head>
@@ -61,7 +62,39 @@
               
                 <div class="form-group">
                   <label class="col-form-label" for="inputTitel">Titel</label>
-                  <input placeholder="" name="Titel" type="text">
+                  <input list="artworkstitles" autocomplete="off" autofocus placeholder="Titel" type="text">
+                  <script>
+                    let input = document.querySelector('input');
+
+                    input.onkeyup = function() {
+                      let result = [];
+                      if (input.value) {
+                        for (word of titlelist_uniqueEntries) {
+/* 
+                          // option mit suche nach anfangsbuchstabe
+                          if (word.toLowerCase().startsWith('<div>'+input.value.toLowerCase())) {
+                            result.push(word);
+                          }
+*/                        
+                          // option mit suche als wort
+                           if (word.toLowerCase().indexOf(input.value.toLowerCase()) > -1) {
+                            result.push(word);
+                          }
+                        }
+                      } else {
+                        // no value in found
+                        result = titlelist_uniqueEntries;
+                      }
+                      clusterize.update(result);                   
+                    };
+                  </script>
+                  
+                  <!--HTML scroll clusterize area-->
+                  <div id="scrollArea" class="clusterize-scroll">
+                    <div id="contentArea" class="clusterize-content">
+                      <div class="clusterize-no-data">Lade titel…</div>
+                    </div>
+                  </div>
                 </div>
     
                 <div class="form-group" data-cols="1"
@@ -196,6 +229,7 @@
     </div>
 
     <script src="/static/lib/jquery-3.3.1.js"></script>
+    <script src="/static/lib/clusterize.min.js"></script>    
     <script src="/static/lib/bootstrap/bootstrap.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe-ui-default.min.js"></script>

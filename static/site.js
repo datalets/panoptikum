@@ -1,5 +1,7 @@
 var cache = {}; // global! TODO: sessionStorage / localStorage
 var filters = {};
+var titlelist = {};
+var titlelist_uniqueEntries = {}; // global, uniqueEntries in title list
 
 var DEFAULT_NUM_COLUMNS = 4;
 
@@ -15,19 +17,23 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
     if (!filters[dm])
       filters[dm] = [];
     if (!filters[dm].includes(d.Type))
-      filters[dm].push(d.Type);
+      filters[dm].push(d.Type);    
   });
-  // console.log(filters);
+//   console.log(filters);
 
   Object.keys(filters).forEach(function(f) {
     init_section(f);
   });
+
+  // Filter for Titles (calls js function to store titles (all of them) into var titlelist.)
+  listTitles(); 
 
 }).fail(function() {
   alert('Could not load data!');
 });
 
 function init_section(sname) {
+  console.log('init_section: '+sname);
   // Add section headers
   $('#' + sname).each(function() {
     var $tgt = $(this);
@@ -69,7 +75,7 @@ function render_form($out, dp) {
       wcols = attr_or($out.attr('data-cols'), DEFAULT_NUM_COLUMNS),
       inputtype = attr_or($out.attr('data-input'), 'checkbox');
 
-//   console.log('Processing', wtag, wtype, wcols, inputtype);
+   //console.log('Processing', wtag, wtype, wcols, inputtype);
 
   data = dp.filter(function(i) {
     return i.Type.toLowerCase() == wtype.toLowerCase()
@@ -97,7 +103,7 @@ function render_form($out, dp) {
           'type="' + inputtype + '">' +
         '<label class="form-check-label" ' +
           'for="o_' + this.Column + this.Code + '">' +
-          '<count><span>' + this.Count + '</span></count>' +
+          '<span class="count">' + this.Count + '</span> ' +
           this.Title +
           '</label>' +
       '') +
@@ -110,6 +116,10 @@ function render_form($out, dp) {
     }
 
   });
+}
+
+function titleSearch() {
+  alert ('yo');
 }
 
 // Run search
@@ -126,6 +136,9 @@ $('button#more').click(werkSearchNext); // -button.click
 
 // Close image
 $('button#back').click(werkSearchBack); // -button.click
+
+//Title Search
+$('#contentArea > div').click(titleSearch); // -button.click
 
 // Search for specific image
 $('.searchOnEnter').keypress(function (e) {
