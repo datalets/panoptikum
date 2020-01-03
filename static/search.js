@@ -116,13 +116,15 @@ function werkTitle(item) {
   }
   var s = '' +
     '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> ' +
-    '[' + item['Nummer'] + '] ' +
+    '[' + item['Nummer'] + '], ' +
     '' + Techniken + ', ' +
     '' + item['Format'] + 'cm' +
     '' + (item['Jahr'] !== null ?
-      ' &nbsp;&nbsp; ' + item['Jahr'].replace('a', '') + '' : '') +
+    ', ' + item['Jahr'].replace('a', '') + '' : '') +
     '' + (item["Zus'arbeit"] !== null ?
-      ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '')
+    ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '') +
+    '' + (item ['Status'] !== null ?
+      ', ' + item ['Status'] : '') 
     ;
   return s;
 }
