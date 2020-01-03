@@ -12,7 +12,7 @@ def list_files(dir):
             try:
                 wn = int(fn.split('_')[0].split(' ')[0].split(',')[0].strip('.+jpg'))
             except:
-                print('Invalid filename: %s' % name)
+                print('Invalid file: %s' % os.path.join(root, name))
                 continue
             r[wn] = {
                 'path': os.path.join(root, name).strip('./'),
@@ -35,16 +35,18 @@ def update_files(lf, filename='WERKVERZEICHNIS.csv', outputfile='images.csv'):
 
         outputpath = os.path.join('data',outputfile)
         print("Writing to %s" % outputpath)
+
         with open(outputpath, 'w+') as csvout:
             writer = csv.DictWriter(csvout, fieldnames=fieldnames,
                 delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writeheader()
 
+            print('Scanning images, showing any missing below:')
             for r in reader:
                 try:
                     imagerow = lf[int(r['Nummer'])]
                 except:
-                    print('Missing image:', r['Nummer'])
+                    print(r['Nummer'], end=' ')
                     continue
 
                 r['path'] = imagerow['path']
@@ -75,6 +77,8 @@ def update_files(lf, filename='WERKVERZEICHNIS.csv', outputfile='images.csv'):
                 r['Jahr'] = r['Jahr'].strip().strip('a')
 
                 writer.writerow(r)
+
+            print("--- Done.")
 
 
 
