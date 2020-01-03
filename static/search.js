@@ -122,9 +122,9 @@ function werkTitle(item) {
     '' + (item['Jahr'] !== null ?
     ', ' + item['Jahr'].replace('a', '') + '' : '') +
     '' + (item["Zus'arbeit"] !== null ?
-    ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '') +
+      ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '') +
     '' + (item ['Status'] !== null ?
-      ', ' + item ['Status'] : '') 
+      ', ' + item ['Status'] : '')
     ;
   return s;
 }
