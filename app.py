@@ -33,7 +33,6 @@ def api_json(resource):
 def api_all_json(resource):
     return data[resource].to_json(orient='records')
 
-
 # Static views
 
 @app.route('/')

@@ -5,61 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>PANOPTIKUM</title>
+    <title>-Bildarchiv Jürg Straumann-</title>
 
     <link rel="stylesheet" href="/static/lib/bootstrap/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="/static/lib/photoswipe/default-skin/default-skin.css" media="screen">
     <link rel="stylesheet" href="/static/lib/photoswipe/photoswipe.css" media="screen">
+    <link rel="stylesheet" href="/static/lib/font-awesome/4.7.0/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="/static/lib/clusterize.css" media="screen">
 
     <link rel="stylesheet" href="/static/custom.css">
   </head>
   <body>
-    <div class="top container" id="browser"><form>
+    <div class="top container" id="browser">
 
       <div class="page-header" id="banner">
         <div class="row">
-          <div class="col-sm-3">
-            <h5>Projekt PANOPTIKUM</h5>
-            <!-- <p class="lead">The medium is the message</p> -->
-          </div>
-
-          <div class="col-sm-2 fade" id="stats">
-            <span id="total"></span>
-            Ausgewählt
-          </div>
-
-          <div class="col-sm-6">
-            <button class="btn btn-md btn-success" id="start">&#128065; Zeigen</button>
-            <button class="btn btn-md btn-warning" id="restart">&cir; Neuauswahl</button>
-            <button class="btn btn-md" id="random">&infin; Zufall</button>
+          <div class="col-sm">
+            <h4>Bildarchiv Jürg Straumann</h4>
+            <ul class="anleitung-infoblock">
+              <li class="anleitung">Wählen Sie eine der drei Rubriken „Inhalt“, „Form“ oder „Anderes“ an.</li>
+              <li class="anleitung">Klicken Sie auf eine gewünschte Kategorie.</li>
+              <li class="anleitung">Um die Auswahl einzugrenzen, können Sie eine weitere Kategorie aus einer anderen Rubrik anklicken. Die so gefundene Anzahl Resultate wird Ihnen im Feld „Ausgewählt“ angezeigt.</li>
+              <li class="anleitung">Klicken Sie auf „Anzeigen“, um die Auswahl anzuzeigen, auf „Neuauswahl“, um die Auswahl zurückzusetzen oder auf „Zufall“, um den Zufall entscheiden zu lassen.</li>
+            </ul>
           </div>
         </div>
       </div>
 
+      <form>
       <div class="container bs-component" id="filters">
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active show" data-toggle="tab" href="#inhalt">Inhalt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#form">Form</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#anderes">Anderes</a>
-          </li>
-        </ul>
-        <div class="tab-content">
+          <div class="nav nav-tabs flex-container">
+            <div class="kategorien">
+              <a class="nav-item nav-link btn_bildarchiv active" data-toggle="tab" href="#inhalt"><i class="fa fa-list"></i> Inhalt</a>
+              <a class="nav-item nav-link btn_bildarchiv" data-toggle="tab" href="#form"><i class="fa fa-list"></i> Form</a>
+              <a class="nav-item nav-link btn_bildarchiv" data-toggle="tab" href="#anderes"><i class="fa fa-list"></i> Anderes</a>
+            </div>
+            
+            <div class="auswahl">
+              <span class="">Ausgewählt: <span id="total">0</span></span>
+            </div>
+          </div>
+
+            <div class="anzeige">
+              <a class="btn_bildarchiv disable" id="restart"><i class="fa fa-times-circle"></i> Neuauswahl</a>
+              <a class="btn_bildarchiv" id="random"><i class="fa fa-random"></i> Zufall</a>
+              <a class="btn_bildarchiv disable" id="start"><i class="fa fa-play"></i> Anzeigen</a>
+            </div>
+    
+          <div class="tab-content">
           <div class="tab-pane active show" id="inhalt"></div>
           <div class="tab-pane" id="form"></div>
           <div class="tab-pane" id="anderes">
             <div class="row">
-              <div class="col-sm-6">
 
+              <div class="col-sm-8">
+              
                 <div class="form-group">
+                  <label class="col-form-label" for="inputTitel">Titel</label>
+                  <input name="Titel" autocomplete="off" autofocus placeholder="Titelsuche" type="text" class="searchOnEnter">
+                  <script>
+                    let input = document.querySelector('input');
+
+                    input.onkeyup = function() {
+                      let result = [];
+                      if (input.value) {
+                        for (word of titlelist_uniqueEntries) {
+                          word = word.slice(5,-6); //removes <div></div> for search from word
+                          if (input.value.length == 1) {
+                            // option mit suche nach anfangsbuchstabe bei 1 buchstaben im feld
+                            if (word.toLowerCase().startsWith(input.value.toLowerCase())) {
+                              result.push('<div>'+word+'</div>');
+                            }
+                          } else {
+                          // option mit suche als zeichenkette wenn mehr als 1buchstaben im feld sind
+                          if (word.toLowerCase().indexOf(input.value.toLowerCase()) > -1) { //compares values
+                              result.push('<div>'+word+'</div>');
+                            }
+                          }
+                        }
+                      } else {
+                        // no value in found
+                        result = titlelist_uniqueEntries;
+                      }
+                      clusterTitle.update(result);                   
+                    };
+                  </script>
+                  <!--HTML scroll clusterize area-->
+                  <div id="scrollAreaTitle" class="clusterize-scroll">
+                    <div id="contentAreaTitle" class="clusterize-content">
+                      <div class="clusterize-no-data">Lade titel…</div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="form-group" data-cols="1"
+                  data-tag="standort"
+                  data-type="Standort">
+                </div>
+    
+              </div>
+    
+              <div class="col-sm-4">
+
+                <div class="form-group">                 
                   <label class="col-form-label" for="inputJahr">Jahreszahl (ab 1973)</label>
-                  <input class="form-control" placeholder="" name="Jahr" type="text">
+                  <input placeholder="" id="inputYear" name="Jahr" type="text">
+                  <script>
+                    let inputyear = document.querySelector('#inputYear');
+
+                    inputyear.onkeyup = function() {
+                      let result = [];
+                      if (inputyear.value) {
+                        for (word of yearlist) {
+                          word = word.slice(5,-6); //removes <div></div> for search from word
+                            // option mit suche nach anfangsbuchstabe bei 1 buchstaben im feld
+                            if (word.toLowerCase().startsWith(inputyear.value.toLowerCase())) {
+                              result.push('<div>'+word+'</div>');
+                            }
+                        }
+                      } else {
+                        // no value in found
+                        result = yearlist;
+                      }
+                      clusterYear.update(result);                   
+                    };
+                  </script>                  
+                  <!--HTML scroll clusterize area-->
+                  <div id="scrollAreaYear" class="clusterize-scroll-5">
+                    <div id="contentAreaYear" class="clusterize-content">
+                      <div class="clusterize-no-data">Lade Jahre...</div>
+                    </div>
+                  </div>
+
                 </div>
 
+                <div class="form-group">
+                  <label class="col-form-label" for="inputNummer">Werknummer</label>
+                  <input class="searchOnEnter" name="Nummer" type="text">
+                </div>
 <!--
                 <h5>Chronologie</h5>
                 <div class="form-group" data-cols="1"
@@ -67,25 +150,7 @@
                      data-type="Chronologie">
                 </div>
 -->
-
-              </div><div class="col-sm-6">
-
-                <div class="form-group">
-                  <label class="col-form-label" for="inputTitel">Titel</label>
-                  <input class="form-control" placeholder="" name="Titel" type="text">
-                </div>
-
-                <div class="form-group" data-cols="1"
-                     data-tag="standort"
-                     data-type="Standort">
-                </div>
-
-                <div class="form-group">
-                  <label class="col-form-label" for="inputNummer">Werknummer</label>
-                  <input class="searchOnEnter" name="Nummer" type="text">
-                </div>
-
-              </div>
+              </div>              
 <!--
               <div class="col-sm-6">
 
@@ -192,6 +257,7 @@
     </div>
 
     <script src="/static/lib/jquery-3.3.1.js"></script>
+    <script src="/static/lib/clusterize.min.js"></script>    
     <script src="/static/lib/bootstrap/bootstrap.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe-ui-default.min.js"></script>

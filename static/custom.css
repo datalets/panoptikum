@@ -1,16 +1,90 @@
-body { margin-top: 1em; }
+body { 
+  margin-top: 1em; 
 }
+
 .pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
   background-color: #ccc !important;
 }
+
 .pswp__bg, .pswp__caption, .pswp__top-bar, body {
   background-color: #ccc !important;
   color: #000;
 }
 
-#stats {
-  font-weight: 400;
+.anleitung-infoblock{
+  background-color:white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
 }
+
+.anleitung {
+  margin: 0 .25rem 0 0;
+}
+
+/*   new navigation styles   */
+.flex-container {
+  display: flex;
+  align-items: baseline;
+}
+.btn_bildarchiv {
+/*  background-color:rgb(154,154,154);*/
+  color:black;
+  padding: .5rem 1rem;
+  cursor: pointer; /* Mouse pointer on hover */
+  
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  display:inline-block;
+}
+.btn_bildarchiv:hover {
+  background-color: rgb(210,210,210);
+  color:black;
+}
+.btn_bildarchiv.active {
+  background-color: white;
+}
+.auswahl {
+  margin-left: auto;
+  margin-right: 1em;
+}
+.anzeige {
+  margin-top: 0.5em;
+  margin-right: auto;
+  text-align: center;
+}
+.anzeige .btn_bildarchiv {
+  background-color:rgb(255,255,255);
+  padding: .25rem 1rem;
+  border-radius: .25rem;
+}
+.disable {
+  cursor: default;
+  opacity: 0.25;
+}
+
+/*.kategorien { }*/
+
+/* end new navigation styles */
+#anderes input{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+#anderes .form-check-input {
+  border:1px solid green;
+  padding: 0;
+}
+
 #total {
   padding: 0.2em 0.4em;
   font-size: 80%;
@@ -22,10 +96,6 @@ body { margin-top: 1em; }
   margin-top: 1em;
 }
 
-.nav-tabs > li:first-child {
-  margin-left: 25%;
-}
-
 .nav-tabs {
   margin-top: 1em;
 }
@@ -34,25 +104,22 @@ body { margin-top: 1em; }
   padding-bottom: 0.5em;
 }
 
-.form-group .form-check count {
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  display: inline-block;
-  text-align: right;
-  z-index: -1;
+.form-check label:hover {
+  cursor: pointer;
 }
-.form-group .form-check count span {
+
+.count {
   padding: 0.2em 0.4em;
   font-size: 80%;
   background: #eee;
   color: #555;
   opacity: 0.4;
 }
-.form-group .form-check:hover count span {
+.form-group .form-check:hover .count {
   opacity: 1.0;
 }
 
+/*
 .form-group .form-check-input + label {
   border: 1px solid transparent;
 }
@@ -61,6 +128,10 @@ body { margin-top: 1em; }
   border: 1px solid blue;
 }
 
+.form-group .form-check-input:hover + label {
+  background-color: blue;
+}
+*/
 button#back {
   float: right;
 }
@@ -140,4 +211,19 @@ button#back {
 
 #footer .row {
   font-size: 80%; text-align: center;
+}
+
+/* ---------------------------- */
+/* styles for title list search */
+#_contentArea > div:nth-of-type(odd) {
+  background: #eee;
+}
+
+#contentAreaYear > div:hover, #contentAreaTitle > div:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+#contentAreaYear, #contentAreaTitle {
+  padding-left:.1em;
 }

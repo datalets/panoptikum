@@ -1,4 +1,12 @@
-var PER_PAGE = 3 * 10
+var PER_PAGE = 3 * 10;
+var clusterTitle = new Clusterize({ //clusterize prepares title search output
+  scrollId: 'scrollAreaTitle',
+  contentId: 'contentAreaTitle'
+});
+var clusterYear = new Clusterize({
+  scrollId: 'scrollAreaYear',
+  contentId: 'contentAreaYear'
+});
 
 function hasAttr(attr) {
   return (typeof attr !== typeof undefined && attr !== false)
@@ -10,7 +18,11 @@ function werkSearchNext(e) {
 }
 
 function werkSearchRandom(e) {
-  werkSearchStart(e, -1);
+  ranval = Math.round(1+(Math.random() * 232));
+  console.log('random: '+ranval);
+  werkSearchReset(e);
+  $('#restart').removeClass('disable');
+  werkSearchStart(e, ranval, true);
 }
 
 function werkSearchBack(e) {
@@ -29,26 +41,23 @@ function werkSearchReset(e) {
 
   // Clear the form and return to start when tapped
   $('form')[0].reset();
-  $('#filters a:first').click();
+  /*$('#filters a:first').click();*/ //shows first nav tab.
+  $('#total').text('0');
+  $('#start').addClass('disable'); /* Anzeigen ausblenden */
+  $('#restart').addClass('disable'); /* Neuauswahl ausblenden */
+  $('#results').hide(); /* hides results */
+  $('#filters .tab-content').show(); /*shows search form*/
+  clusterTitle.update(titlelist_uniqueEntries); /* resets title list display*/
+  clusterYear.update(yearlist); /* resets year list display*/
 
   // Show the counters again
   // $('.form-check small').css('visibility', 'visible');
-
-  $('#stats').addClass('fade');
-  $('#start').removeClass('disable').addClass('btn-success');
 }
 
 // Query builder
 function get_werkSearchQuery(from_page) {
   var q = '?sort=-Jahr&';
   q += 'per_page=' + PER_PAGE;
-
-  if (from_page === -1) {
-    from_page = 1;
-    ranval = Math.round(1+(Math.random() * 6899));
-    $('form')[0].reset();
-    $('input[name="Nummer"]').val(ranval);
-  }
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
   q += '&page=' + ppp;
@@ -91,17 +100,19 @@ function get_werkSearchQuery(from_page) {
 function werkSearchCount() {
   qg = get_werkSearchQuery(1);
   $('#selection').empty().append(qg.html);
-  if (qg.html === '') return $('#stats').addClass('fade');
+  if (qg.html === '') return $('#total').text('0');
+
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
-    $('#stats').removeClass('fade');
-    $('#start').removeClass('btn-success disable')
-      .addClass(data.total > 0 ? 'btn-success' : 'disable');
+    $('#start,#restart').removeClass('disable')
+      .addClass(data.total > 0 ? '' : 'disable');
   });
+
 }
 
 // Generates an image subtitle
 function werkTitle(item) {
+//  console.log("werkTitle "+item['Titel']);
   var Techniken = '';
   if (item['Techniken'] !== null) {
     var itemarr = [];
@@ -129,15 +140,78 @@ function werkTitle(item) {
   return s;
 }
 
+// Generates list of Titles, stores them in global titlelist
+function listTitles() {
+  q = '?sort=-Jahr&per_page=-1';
+  let titleItems = [];
+  let yearItems = [];
+
+  $.getJSON('/api/images.json' + q, function(data) {
+    // Create title item array
+    data.forEach(function(item, index) {
+      // saves data for years in yearList
+      if (item['Jahr'] != null) {
+        if (yearItems[item['Jahr'].substr(0,4)]) {
+          yearItems[item['Jahr'].substr(0,4)] += 1;
+        }else{
+          yearItems[item['Jahr'].substr(0,4)] = 1;
+        }
+      }
+      // saves data for titles in titlelist
+      if (item['Titel'] != null) {
+        fixedItem = '<div>'+item['Titel']+'</div>';
+        titleItems.push(fixedItem);
+      }
+    });
+    titleItems.sort(function (a, b) {
+      return a.localeCompare(b);
+    });
+
+    titlelist = titleItems; //globally available
+    titlelist_uniqueEntries = removeDuplicates(titlelist) //removes duplicates and stores it globally.
+    //yearlist = yearItems; //globally available
+
+    yearItems.forEach(function(item, index) {
+      yearlist.push('<div>'+index+'</div>');
+    });
+
+    clusterTitle.update(titlelist_uniqueEntries);
+    clusterYear.update(yearlist);
+  });
+}
+
+function countDuplicates(names) {
+  var  count = {};
+  names.forEach(function(i) { count[i] = (count[i]||0) + 1;});
+  console.log('countDuplicates: '+count);
+}
+
+function removeDuplicates(names) {
+  let unique = {};
+  names.forEach(function(i) {
+    if(!unique[i]) {
+      unique[i] = true;
+    }
+  });
+  return Object.keys(unique);
+}
+
 // Main function to run an search
-function werkSearchStart(e, from_page) {
+function werkSearchStart(e, from_page, random) {
+  if (from_page == typeof undefined)
+    from_page = 1;
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
 
-  if ($('#start').hasClass('disable')) return;
-
+  if (random == true) {
+    $('#results').find('div.row').empty();
+    $('#selection').empty();
+    window.location.replace("/#&gid=1&pid=15");
+  } else {
+    if ($('#start').hasClass('disable')) return;
+  }
   $('.modal').modal('show');
-
+ 
   wsq = get_werkSearchQuery(from_page);
   q = wsq.query;
 
@@ -153,8 +227,6 @@ function werkSearchStart(e, from_page) {
     }, 500);
 
     $('#filters .tab-content').hide();
-    $('#filters .nav-item .nav-link').removeClass('active');
-    $('#filters .show.active').removeClass('show active');
 
     var $tgt = $('#results').show().find('div.row');
 
@@ -168,6 +240,7 @@ function werkSearchStart(e, from_page) {
 
     // Create item index
     data.forEach(function(item, ix) {
+      // console.log(item);
       pswpItems.push({
         src: item.path, w: 0, h: 0,
         title: werkTitle(item)
@@ -185,7 +258,7 @@ function werkSearchStart(e, from_page) {
 
       ).find('.item:last').click(function() {
 
-        // console.debug(item, ix);
+         console.debug(item, ix);
         var pswpOptions = { index: ix, loop: false };
         pswpGallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default,
           pswpItems, pswpOptions);
@@ -213,6 +286,6 @@ function werkSearchStart(e, from_page) {
 
   }).fail(function(jqxhr, textStatus, error) {
     alert('Could not search!');
-    console.log(textStatus, error);
+//    console.log(textStatus, error);
   });
 }
