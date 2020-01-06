@@ -6,6 +6,11 @@
   overflow: auto;
 }
 
+.clusterize-scroll-5{
+  max-height: 100px;
+  overflow: auto;
+}
+
 /**
  * Avoid vertical margins for extra tags
  * Necessary for correct calculations when rows have nonzero vertical margins

@@ -2,6 +2,7 @@ var cache = {}; // global! TODO: sessionStorage / localStorage
 var filters = {};
 var titlelist = {};
 var titlelist_uniqueEntries = {}; // global, uniqueEntries in title list
+var yearlist = [];
 
 var DEFAULT_NUM_COLUMNS = 4;
 
@@ -12,14 +13,16 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
 
   // Parse filter structure
   cache.forEach(function(d) {
-    if (d.Type == 'Format') return; // TODO: enable Format in the future
+//    if (d.Type == 'Format') {
+//      return; // TODO: enable Format in the future
+//    }
     dm = d.Mode.toLowerCase();
     if (!filters[dm])
       filters[dm] = [];
     if (!filters[dm].includes(d.Type))
       filters[dm].push(d.Type);    
   });
-//   console.log(filters);
+  // console.log(filters);
 
   Object.keys(filters).forEach(function(f) {
     init_section(f);
@@ -33,7 +36,7 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
 });
 
 function init_section(sname) {
-  console.log('init_section: '+sname);
+  // console.log('init_section: '+sname);
   // Add section headers
   $('#' + sname).each(function() {
     var $tgt = $(this);
@@ -118,10 +121,20 @@ function render_form($out, dp) {
   });
 }
 
-function titleSearch() {
-  alert ('yo');
+function titleSearch(e) {
+//  console.log(this.innerHTML);
+  $('input[name="Jahr"]').val(''); //copies Entry to html input form
+  $('input[name="Titel"]').val(this.innerHTML); //copies Entry to html input form
+  $('input').prop("checked", false); //unchecks all input boxes, reset selection
+  werkSearchCount();
 }
-
+function yearSearch(e) {
+  $('input[name="Titel"]').val(''); //copies Entry to html input form
+  $('input[name="Jahr"]').val(this.innerHTML); //copies Entry to html input form
+  $('input').prop("checked", false); //unchecks all input boxes, reset selection
+  werkSearchCount();
+}
+  
 // Run search
 $('#start').click(werkSearchStart); // -button.click
 
@@ -137,13 +150,14 @@ $('button#more').click(werkSearchNext); // -button.click
 // Close image
 $('button#back').click(werkSearchBack); // -button.click
 
-//Title Search
-$('#contentArea > div').click(titleSearch); // -button.click
+// Title, Year Search
+$('#contentAreaTitle').on('click', 'div', titleSearch);  // -div.click for title search results
+$('#contentAreaYear').on('click', 'div', yearSearch);  // -div.click for year search results
 
 // Search for specific image
-$('.searchOnEnter').keypress(function (e) {
-  if (e.which == 13) { werkSearchStart(); }
-});
+//$('.searchOnEnter').keypress(function (e) {
+//  if (e.which == 13) { werkSearchStart(); }
+//});
 
 // Pop down image
 $('#details .image').click(werkSearchBack);
@@ -158,17 +172,11 @@ $('#filters .nav-link').click(function() {
 
 // Counter on click
 $('form').change(function() {
+  // console.log('change input');
+  $('input[name="Titel"]').val(''); //copies Entry to html input form
+  $('input[name="Jahr"]').val(''); //copies Entry to html input form
   // Get total for this result
   werkSearchCount();
-
-  if ($('input:checked').length == 0) {
-    //console.log('hide Neuauswahl und hide Anzeigen');
-    $('#start').addClass('disable');
-    $('#restart').addClass('disable');
-  } else {
-    $('#start').removeClass('disable');
-    $('#restart').removeClass('disable');
-  }
 });
 
 })();

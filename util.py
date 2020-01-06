@@ -1,3 +1,5 @@
+import re
+
 def regex_filter(regex, val):
     if val:
         mo = re.search(regex,val)
@@ -16,9 +18,12 @@ def get_paginated(args, dp_werke, as_json=False):
             dfname = df[f].dtype.name.lower()
             if 'object' in dfname:
                 for v in val.split(','):
-                    val = r'\b%s\b' % v
-                    # print(f, val)
-                    df = df.loc[df[f].str.contains(val, regex=True)]
+                    # print(v)
+                    # val = r'\b%s\b' % v #auskommentiert um " zu finden
+                    val = re.sub(r'[«»"()]', '.', val) #substitutes special chars with .
+                    #print(f, val)
+                    df = df.loc[df[f].str.contains(val, regex=True, case=False, na=False)]
+                    #print(df)
                     # df = df[df[f].apply(regex_filter, regex, val)]
             elif 'int' in dfname:
                 try:

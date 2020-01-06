@@ -1,7 +1,11 @@
 var PER_PAGE = 3 * 10;
-var clusterize = new Clusterize({ //clusterize prerares title search output
-  scrollId: 'scrollArea',
-  contentId: 'contentArea'
+var clusterTitle = new Clusterize({ //clusterize prepares title search output
+  scrollId: 'scrollAreaTitle',
+  contentId: 'contentAreaTitle'
+});
+var clusterYear = new Clusterize({
+  scrollId: 'scrollAreaYear',
+  contentId: 'contentAreaYear'
 });
 
 function hasAttr(attr) {
@@ -14,8 +18,11 @@ function werkSearchNext(e) {
 }
 
 function werkSearchRandom(e) {
-//  console.log('random');
-  werkSearchStart(e, -1);
+  ranval = Math.round(1+(Math.random() * 232));
+  console.log('random: '+ranval);
+  werkSearchReset(e);
+  $('#restart').removeClass('disable');
+  werkSearchStart(e, ranval, true);
 }
 
 function werkSearchBack(e) {
@@ -40,7 +47,9 @@ function werkSearchReset(e) {
   $('#restart').addClass('disable'); /* Neuauswahl ausblenden */
   $('#results').hide(); /* hides results */
   $('#filters .tab-content').show(); /*shows search form*/
-  
+  clusterTitle.update(titlelist_uniqueEntries); /* resets title list display*/
+  clusterYear.update(yearlist); /* resets year list display*/
+
   // Show the counters again
   // $('.form-check small').css('visibility', 'visible');
 }
@@ -49,13 +58,6 @@ function werkSearchReset(e) {
 function get_werkSearchQuery(from_page) {
   var q = '?sort=-Jahr&';
   q += 'per_page=' + PER_PAGE;
-
-  if (from_page === -1) {
-    from_page = 1;
-    ranval = Math.round(1+(Math.random() * 6899));
-    $('form')[0].reset();
-    $('input[name="Nummer"]').val(ranval);
-  }
 
   var ppp = (typeof from_page === typeof 1) ? from_page : 1;
   q += '&page=' + ppp;
@@ -102,14 +104,15 @@ function werkSearchCount() {
 
   $.getJSON('/api/images' + qg.query, function(data) {
     $('#total').html(data.total);
-    $('#start').removeClass('disable')
+    $('#start,#restart').removeClass('disable')
       .addClass(data.total > 0 ? '' : 'disable');
   });
+
 }
 
 // Generates an image subtitle
 function werkTitle(item) {
-  console.log("werkTitle "+item['Titel']);
+//  console.log("werkTitle "+item['Titel']);
   var Techniken = '';
   if (item['Techniken'] !== null) {
     var itemarr = [];
@@ -141,13 +144,22 @@ function werkTitle(item) {
 function listTitles() {
   q = '?sort=-Jahr&per_page=-1';
   let titleItems = [];
+  let yearItems = [];
 
   $.getJSON('/api/images.json' + q, function(data) {
     // Create title item array
     data.forEach(function(item, index) {
+      // saves data for years in yearList
+      if (item['Jahr'] != null) {
+        if (yearItems[item['Jahr'].substr(0,4)]) {
+          yearItems[item['Jahr'].substr(0,4)] += 1;
+        }else{
+          yearItems[item['Jahr'].substr(0,4)] = 1;
+        }
+      }
+      // saves data for titles in titlelist
       if (item['Titel'] != null) {
         fixedItem = '<div>'+item['Titel']+'</div>';
-        fixedItem = fixedItem.replace(/"/g, '\'');
         titleItems.push(fixedItem);
       }
     });
@@ -155,17 +167,23 @@ function listTitles() {
       return a.localeCompare(b);
     });
 
-    titlelist = titleItems; //global zugänglich.
+    titlelist = titleItems; //globally available
     titlelist_uniqueEntries = removeDuplicates(titlelist) //removes duplicates and stores it globally.
+    //yearlist = yearItems; //globally available
 
-    clusterize.update(titlelist_uniqueEntries);
+    yearItems.forEach(function(item, index) {
+      yearlist.push('<div>'+index+'</div>');
+    });
+
+    clusterTitle.update(titlelist_uniqueEntries);
+    clusterYear.update(yearlist);
   });
 }
 
 function countDuplicates(names) {
   var  count = {};
   names.forEach(function(i) { count[i] = (count[i]||0) + 1;});
-  console.log(count);
+  console.log('countDuplicates: '+count);
 }
 
 function removeDuplicates(names) {
@@ -179,14 +197,19 @@ function removeDuplicates(names) {
 }
 
 // Main function to run an search
-function werkSearchStart(e, from_page) {
+function werkSearchStart(e, from_page, random) {
   if (from_page == typeof undefined)
     from_page = 1;
   if (typeof e !== typeof undefined)
     e.preventDefault(); e.stopPropagation();
 
-  if ($('#start').hasClass('disable')) return;
-
+  if (random == true) {
+    $('#results').find('div.row').empty();
+    $('#selection').empty();
+    window.location.replace("/#&gid=1&pid=15");
+  } else {
+    if ($('#start').hasClass('disable')) return;
+  }
   $('.modal').modal('show');
  
   wsq = get_werkSearchQuery(from_page);
@@ -204,8 +227,6 @@ function werkSearchStart(e, from_page) {
     }, 500);
 
     $('#filters .tab-content').hide();
-    //$('#filters .nav-item.nav-link.btn_bildarchiv').removeClass('active');
-    /*$('#filters .show.active').removeClass('show active');*/
 
     var $tgt = $('#results').show().find('div.row');
 
@@ -219,7 +240,7 @@ function werkSearchStart(e, from_page) {
 
     // Create item index
     data.forEach(function(item, ix) {
-      console.log(item);
+      // console.log(item);
       pswpItems.push({
         src: item.path, w: 0, h: 0,
         title: werkTitle(item)
@@ -237,7 +258,7 @@ function werkSearchStart(e, from_page) {
 
       ).find('.item:last').click(function() {
 
-        // console.debug(item, ix);
+         console.debug(item, ix);
         var pswpOptions = { index: ix, loop: false };
         pswpGallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default,
           pswpItems, pswpOptions);

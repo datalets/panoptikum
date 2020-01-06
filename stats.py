@@ -33,7 +33,7 @@ def update_stats():
         ), axis = 1
     )
 
-    print(filters.head(n=5))
+    print(filters.head(n=50))
 
     print("Writing to %s" % filename)
     filters.to_csv(filename, index=False)

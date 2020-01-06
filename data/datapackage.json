@@ -56,6 +56,11 @@
           },
           {
             "format": "default",
+            "name": "Grösse",
+            "type": "string"
+          },
+          {
+            "format": "default",
             "name": "Ausrichtung",
             "type": "string"
           },
