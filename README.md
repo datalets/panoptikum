@@ -30,6 +30,8 @@ The script also checks that images are present in the `images` folder. You may w
 
 # Image collection
 
+The `convert` utility from [ImageMagick](https://imagemagick.org/) is required for this process.
+
 Use the `convert.sh` script to prepare an `images` folder with consistent formats (JPEG) and resolutions (720p).
 
 Then use `thumbs.sh` to generate thumbnails.

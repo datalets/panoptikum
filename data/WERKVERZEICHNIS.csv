@@ -1,6 +1,6 @@
 Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,Ausrichtung,Darstellungsform,Darstellungsform I,Gegenständlich/Ungegenständlich,Motiv I,Motiv II,Motiv III,Motiv IV,Serie,Helligkeit,Farbigkeit,Paraphrasen,Bildsprache,Titel,Standort,Status,Zus'arbeit,Bildqualität,Bemerkungen,Nummer
 0001,a2012,G,,,,,21x30,klein,breit,,,U,,,,,Fst,H2,cf,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0001
-0002,a2015,T,,,,,21x30,klein,breit,,,U,,,,,Fst,H1,bw,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0002
+0002,a2015,T,,,,,21x30,klein,breit,,,U,,,,,Fst,H1,gr ,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0002
 0003,a2014,G,,,,,21x30,klein,breit,,,U,,,,,Fst,H1,gr,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0003
 0004,a2011,B,,G,,,21x30,klein,breit,,,U,,,,,Fst,H2,v,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0004
 0005,a2012,Pk,,,,,21x30,klein,breit,,,UoG,F,St,,,Fst,H2,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0005
@@ -14,7 +14,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0013,a2011,Mt,Dd,B,G,,21x30,klein,breit,,,U,BiB,,,,Fst,H1,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0013
 0014,a2011,zT,Dd,B,,,21x30,klein,breit,Lwi,,U,,,,,Fst,H2,bw,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0014
 0015,a2011,Mt,Dd,B,T,Fs,21x30,klein,breit,Lwi,,UnG,,,,,Fst,H2,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0015
-0016,a2011,zT,Dd,B,,,21x30,klein,breit,,,U,Sch,,,,Fst,H1,bw,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0016
+0016,a2011,zT,Dd,B,,,21x30,klein,breit,,,U,Sch,,,,Fst,H1,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0016
 0017,a2012,Mt,Dd,B,Fs,,21x30,klein,breit,sM,Lst,UnG,O,,,,Fst,H3,bw,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0017
 0018,a2011,zT,Dd,B,,,21x30,klein,breit,Ul,,Gs,F,St,Sch,,Fst,H1,y,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0018
 0019,a2011,Mt,Dd,B,T,Kh,21x30,klein,breit,Lwi,Ul,U,,,,,Fst,H2,gr,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0019
@@ -38,7 +38,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0037,a2011,zT,Dd,B,,,21x30,klein,breit,,,U,Sch,,,,Fst,H2,bw,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0037
 0038,a2011,zT,Od,B,,,21x30,klein,breit,,,Gs,F,Sch,BiB,St,Fst,H1,cf,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0038
 0039,a2011,Mt,Dd,B,Fs,Fa,21x30,klein,breit,,,U,,,,,Fst,H1,gr,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0039
-0040,a2011,zT,Dd,G,,,21x30,klein,breit,,,U,,,,,Fst,H2,b,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0040
+0040,a2011,zT,Dd,G,,,21x30,klein,breit,,,U,,,,,Fst,H2,b,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0040
 0041,a2016,zT,T,G,,,21x30,klein,breit,,,U,,,,,Fst,H2,v,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0041
 0042,a2012,G,,,,,21x30,klein,breit,,,UoG,F,St,,,Fst,H1,b,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0042
 0043,a2012,zT,B,Fa,,,21x30,klein,breit,,,UoG,F,St,,,Fst,H1,bw,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0043
@@ -55,13 +55,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0054,a2011,zT,Dd,Ks,,,21x30,klein,breit,,,UnG,F,BiB,St,,Fst,H2,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0054
 0055,a2011,zT,G,B,,,21x30,klein,breit,,,U,,,,,Fst,H3,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0055
 0056,a2011,Mt,Dd,B,G,Fa,21x30,klein,breit,Lst,,UoG,Ul,,,,Fst,H2,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0056
-0057,a2011,Dd,,,,,21x30,klein,breit,,,U,Sch,,,,Fst,H1,y,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0057
+0057,a2011,Dd,,,,,21x30,klein,breit,,,U,Sch,,,,Fst,H1,y,ParPC,zwi,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0057
 0058,a2011,zT,Dd,G,,,21x30,klein,breit,Gi,,U,,,,,Fst,H1,cf,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0058
-0059,a2012,zT,B,G,,,21x30,klein,breit,,,U,,,,,Fst,H1,cf,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0059
+0059,a2012,zT,B,G,,,21x30,klein,breit,,,U,,,,,Fst,H1,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0059
 0060,a2011,Mt,Dd,B,G,,21x30,klein,breit,,,U,Sch,,,,Fst,H2,bw,ParPC,was,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0060
 0061,a2011,B,,,,,21x30,klein,breit,,,UoG,F,St,,,Fst,H1,gr,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0061
 0062,a2016,Mt,Pk,B,Opll,,21x30,klein,breit,,,U,,,,,Fst,H3,v,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0062
-0063,a2016,zT,T,Kh,,,21x30,klein,breit,,,UoG,,,,,Fst,H3,gr,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0063
+0063,a2016,zT,T,Kh,,,21x30,klein,breit,,,UoG,,,,,Fst,H3,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0063
 0064,a2012,G,,,,,21x30,klein,breit,,,U,,,,,Fst,H2,cf,ParPC,fis,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0064
 0065,a2012,Opl,,,,,21x30,klein,breit,,,U,,,,,Fst,H1,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0065
 0066,a2012,zT,Dp,G,,,21x30,klein,breit,,,U,,,,,Fst,H2,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0066
@@ -138,7 +138,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0137,a2011,G,,,,,21x30,klein,breit,Lst,,U,,,,,Fst,H2,g,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0137
 0138,a2011,Mt,Dd,T,B,G,21x30,klein,breit,,,UoG,BiB,F,,,Fst,H3,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0138
 0139,a2012,Mt,G,T,C,Fa,21x30,klein,breit,,,U,,,,,Fst,H2,b,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0139
-0140,a2012,Mt,G,C,Kh,,21x30,klein,breit,,,U,,,,,Fst,H3,b,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0140
+0140,a2012,Mt,G,C,Kh,,21x30,klein,breit,sCo,,U,,,,,Fst,H3,b,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0140
 0141,a2011,Mt,B,G,Kl,,21x30,klein,breit,Lwi,,UoG,St,F,,,Fst,H2,gr,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0141
 0142,a2011,zT,Fa,Kh,,,21x30,klein,breit,Gi,,U,,,,,Fst,H3,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0142
 0143,a2016,zT,G,B,,,21x30,klein,breit,,,U,,,,,Fst,H2,cf,ParPC,,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0143
@@ -358,7 +358,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0357,a2012,B,,,,,21x30,klein,breit,,,UoG,St,,,,Fst,H3,bw,ParPC,sko,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0357
 0358,a2012,Opl,,,,,21x30,klein,breit,,,U,,,,,Fst,H4,v,ParPC,sko,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0358
 0359,a2012,zT,G,B,,,21x30,klein,breit,Lwi,,U,,,,,Fst,H3,gr,ParPC,sko,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0359
-0360,a2015,B,,,,,21x30,klein,breit,,,U,,,,,Fst,H2,bw,ParPC,sko,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0360
+0360,a2015,B,,,,,21x30,klein,breit,,,U,,,,,Fst,H2,gr,ParPC,sko,Früchtestillleben (frei nach Paul Cézanne),iBdK,res,,,,0360
 0361,a2016,G,,,,,35x42,mittel,breit,,,UoG,Ma,,,,,H3,cf,,ste,,iBdK,,,,,0361
 0362,a2016,G,,,,,39x49,mittel,breit,,,UoG,Ma,,,,,H3,cf,,ste,,iBdK,,,,,0362
 0363,a2016,G,,,,,35x42,mittel,breit,,,UoG,Ma,,,,,H3,cf,,ste,,iBdK,,,,,0363
@@ -400,7 +400,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0399,a2016,G,,,,,18x30,klein,breit,,,U,Ma,,,,,H3,g,,waa,,iBdK,,,,,0399
 0400,a2016,G,,,,,13x17,klein,breit,,,U,,,,,,H4,v,,,,iBdK,,,,,0400
 0401,a2016,G,,,,,24x32,mittel,breit,,,U,,,,,,H2,y,,waa,,iBdK,,,,,0401
-0402,a2016,G,,,,,18x18,klein,quadratisch,,,U,,,,,,H3,c,,,,iBdK,,,,,0402
+0402,a2016,G,,,,,18x18,klein,quadratisch,,,U,,,,,,H3,cf,,,,"Thomas Urfer, Villars",PB,,,,0402
 0403,a2016,G,,,,,31x38,mittel,breit,,,U,,,,,,H2,cf,,,Rousdamme,iBdK,,,,,0403
 0404,a2016,G,,,,,25x31,mittel,breit,,,U,,,,,,H3,g,,waa,Hohenlinden ,"Barbara Schultz, Bern",PB,,,,0404
 0405,a2016,G,,,,,21x26,klein,breit,,,U,,,,,,H3,cf,,waa,Mont-près-Chambord ,iBdK,,,,,0405
@@ -415,29 +415,29 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0414,a2016,G,,,,,21x28,klein,breit,,,U,,,,,,H3,cf,,waa,,iBdK,,,,,0414
 0415,a2016,G,,,,,20x28?,klein,breit,,,U,,,,,,H3,cf,,,,Alex Lüscher,PB,,,,0415
 0416,a2016,G,,,,,20x29?,klein,breit,,,U,,,,,,H3,cf,,,,Alex Lüscher,PB,,,,0416
-0417,a2016,G,,,,,24x32,mittel,breit,,,U,,,,,,H3,cf,,was,Bang Khun Thian ,"Anni Hess, Binningen",PB,,,,0417
+0417,a2016,G,,,,,24x32,mittel,breit,,,U,,,,,,H3,cf,,,Bang Khun Thian ,"Anni Hess, Binningen",PB,,,,0417
 0418,a2016,G,,,,,29x42,mittel,breit,bs,,U,,,,,,H2,cf,,,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0418
 0419,a2016,G,,,,,20x28,klein,breit,bs,Gi,U,,,,,,H3,cf,,,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0419
 0420,a2016,G,,,,,18x24,klein,breit,bs,,U,,,,,,H3,cf,,,Paththanduwana ,iBdK,,,,,0420
 0421,a2016,G,,,,,20x25,klein,breit,bs,,U,,,,,,H3,cf,,waa,Cubatão ,iBdK,,,,,0421
 0422,a2016,G,,,,,30x24,mittel,hoch,bs,,U,,,,,,H2,cf,,sch,Bhadravati ,iBdK,,,,,0422
 0423,a2016,G,,,,,20x26,klein,breit,bs,,U,,,,,,H3,cf,,waa,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0423
-0424,a2016,G,,,,,20x27,klein,breit,bs,,U,,,,,,H3,cf,,waa,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0424
+0424,a2016,G,,,,,20x27,klein,breit,bs,,U,,,,,,H3,cf,,,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0424
 0425,a2016,G,,,,,24x36,mittel,breit,bs,Lst,U,Sta,,,,,H3,cf,,was,Xayaboury ,iBdK,,,,,0425
 0426,a2016,G,,,,,24x36,mittel,breit,bs,Lst,U,,,,,,H2,y,,was,Chu-xiong ,iBdK,,,,,0426
 0427,a2016,G,,,,,22x30,mittel,breit,bs,,U,,,,,,H2,cf,,sch,Surat Thani ,"Ruth und Peter German, Boltigen",PB,,,,0427
 0428,a2016,G,,,,,30x40,mittel,breit,bs,,U,,,,,,H3,cf,,,Highmore ,"Ruth und Hans Tschopp, Riniken",PB,,,,0428
 0429,a2016,G,,,,,30x40,mittel,breit,bs,,U,,,,,,H3,cf,,,Chorna Tysa ,iBdK,,,,,0429
 0430,a2016,G,,,,,38x45,mittel,breit,bs,,UoG,mF,,,,,H2,cf,,,"o. T. (aus ""bars and stripes"")",iBdK,,,,,0430
-0431,a2004,zT,B,T,,,15x21,,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,0431
-0432,a2007,zT,B,T,,,15x21,,breit,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,0432
-0433,a2008,T,,,,,15x21,,breit,,,Gs,A,,,,,H3,gr,,sko,,iBdK,,,,,0433
-0434,a2003,B,,,,,15x21,,breit,,,Gs,A,,,,,H1,bw,,,,iBdK,,,,,0434
-0435,a2005,B,,,,,15x21,,breit,,,Gs,A,P,,,,H1,gr,,,,iBdK,,,,,0435
-0436,a2015,B,,,,,13x21,,breit,,,Gs,A,,,,,H2,gr,,sko,,iBdK,,,,,0436
-0437,a2004,B,,,,,17x21,,breit,,,Gs,A,,,,,H1,gr ,,sko,,iBdK,,,,,0437
-0438,a2003,zT,B,T,,,13x15,,breit,,,Gs,A,,,,,H3,gr,,sko,,iBdK,,,,,0438
-0439,a2006,zT,B,Dd,,,17x21,,breit,,,Gs,A,,,,,H2,cf,,was,,iBdK,,,,,0439
+0431,a2004,zT,B,T,,,15x21,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,0431
+0432,a2007,zT,B,T,,,15x21,klein,breit,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,0432
+0433,a2008,T,,,,,15x21,klein,breit,,,Gs,A,,,,,H3,gr,,sko,,iBdK,,,,,0433
+0434,a2003,B,,,,,15x21,klein,breit,,,Gs,A,,,,,H1,bw,,,,iBdK,,,,,0434
+0435,a2005,B,,,,,15x21,klein,breit,,,Gs,A,P,,,,H1,gr,,,,iBdK,,,,,0435
+0436,a2015,B,,,,,13x21,klein,breit,,,Gs,A,,,,,H2,gr,,sko,,iBdK,,,,,0436
+0437,a2004,B,,,,,17x21,klein,breit,,,Gs,A,,,,,H1,gr ,,sko,,iBdK,,,,,0437
+0438,a2003,zT,B,T,,,13x15,klein,breit,,,Gs,A,,,,,H3,gr,,sko,,iBdK,,,,,0438
+0439,a2006,zT,B,Dd,,,17x21,klein,breit,,,Gs,A,,,,,H2,cf,,was,,iBdK,,,,,0439
 0440,a2008,B,,,,,21x24,klein,breit,,,Gs,A,,,,,H1,gr,,zwi,,iBdK,,,,,0440
 0441,a2007,zT,B,Dd,,,18x24,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,0441
 0442,a2008,zT,B,Dd,,,20x27,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,0442
@@ -465,7 +465,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0464,a2008,Mt,B,Fa,G,Fs,11x15,klein,breit,,,Gs,A,,,,,H2,gr,,was,,iBdK,,,,,0464
 0465,a2008,zT,B,Fa,,,11x15,klein,breit,,,Gs,A,,,,,H2,gr,,was,kleines Knie,iBdK,,,,,0465
 0466,a2008,B,,,,,11x15,klein,breit,,,Gs,A,,,,,H1,gr,,waa,,iBdK,,,,,0466
-0467,a2008,zT,B,T,,,11x15,klein,breit,,,Gs,A,,,,,H1,gr,,was,,iBdK,,,,,0467
+0467,a2008,zT,B,T,,,11x15,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,0467
 0468,a2008,zT,B,G,,,11x15,klein,breit,,,Gs,A,,,,,H2,gr,,sko,,iBdK,,,,,0468
 0469,a2008,B,,,,,11x15,klein,breit,,,Gs,A,,,,,H2,b,,sko,,iBdK,,,,,0469
 0470,a2008,zT,B,Fa,,,11x15,klein,breit,,,Gs,A,,,,,H2,gr,,sko,,iBdK,,,,,0470
@@ -495,7 +495,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0494,a2006,zT,B,Dd,,,13x15,klein,breit,,,Gs,A,ZM,,,,H1,bw,,,,iBdK,,,,,0494
 0495,a2008,zT,B,T,,,11x17,klein,breit,,,Gs,A,P,,,,H2,gr,,,,iBdK,,,,,0495
 0496,a2001,B,,,,,11x17,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,0496
-0497,a2001,B,,,,,11x17,klein,breit,,,Gs,A,ZM,,,,H2,gr,,,,iBdK,,,,,0497
+0497,a2001,B,,,,,11x17,klein,breit,,,Gs,A,ZM,Z,,,H2,gr,Kr5f,,,iBdK,,,,,0497
 0498,a2002,zT,B,T,,,11x17,klein,breit,,,Gs,A,,,,,H2,gr,,,Malerin,iBdK,,,,,0498
 0499,a2002,zT,Ks,T,,,11x17,klein,breit,,,Gs,A,P,,,,H2,c,,,,iBdK,,,,,0499
 0500,a2004,zT,B,T,,,11x17,klein,breit,,,Gs,A,,,,,H4,gr,,,,iBdK,,,,,0500
@@ -526,7 +526,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0525,a2008,B,,,,,18x28,klein,quadratisch,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,0525
 0526,a2008,zT,T,Fs,,,11x22,klein,breit,,,Gs,A,,,,,H2,gr,,,iron butterfly,iBdK,,,,,0526
 0527,a2008,Mt,T,B,Ko,,15x22,klein,breit,Gi,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,0527
-0528,a2002,zT,B,Dd,,,17x21,klein,breit,,,Gs,A,,,,,H2,gr,,was,male nude,iBdK,,,,,0528
+0528,a2002,zT,B,Dd,,,17x21,klein,breit,,,Gs,A,,,,,H2,gr,,,male nude,iBdK,,,,,0528
 0529,a2015,B,,,,,17x21,klein,breit,,,Gs,A,,,,,H2,gr,,sko,,iBdK,,,,,0529
 0530,a2002,zT,B,T,,,17x21,klein,breit,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,0530
 0531,a2014,zT,B,Dp,,,21x17,klein,hoch,,,Gs,A,,,,,H2,gr,,fis,,iBdK,,,,,0531
@@ -541,7 +541,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0540,a2002,zT,B,T,,,15x21,klein,breit,,,Gs,A,,,,,H5,gr,,sko,,iBdK,,,,,0540
 0541,a2001,zT,B,T,,,17x21,klein,breit,,,Gs,A,,,,,H4,gr,,sko,,iBdK,,,,,0541
 0542,a2001,zT,B,T,,,17x21,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,0542
-0543,a2007,B,,,,,9x18,klein,breit,,,Gs,A,,,,,H1,bw,,,,iBdK,,,,,0543
+0543,a2007,B,,,,,9x18,klein,breit,Lst,,Gs,mF,,,,,H2,gr,Kr5a,,,iBdK,,,,,0543
 0544,a2014,zT,B,T,,,9x11,klein,breit,,,Gs,A,,,,,H3,gr,,sko,,iBdK,,,,,0544
 0545,a2015,zT,B,T,,,9x11,klein,breit,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,0545
 0546,a2003,zT,B,T,,,9x11,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,0546
@@ -560,7 +560,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0559,a1974,zT,T,Opl,,,20x15,klein,hoch,,,U,,,,,,H3,gr,,,,iBdK,,,,,0559
 0560,a1974,zT,T,Opl,,,20x15,klein,hoch,,,U,,,,,,H3,gr,,,,iBdK,,,,,0560
 0561,a1974,zT,T,Opl,,,24x18,klein,hoch,,,U,,,,,,H3,gr,,,,iBdK,,,,,0561
-0562,a1974,T,,,,,19x20,klein,breit,,,UoG,mF,FigG,,,,H2,gr,,,,iBdK,,,,,0562
+0562,a1974,T,,,,,19x20,klein,breit,,,UoG,FigG,FigG,,,,H2,gr,,,,iBdK,,,,,0562
 0563,a1974,zT,T,Opl,,,22x21,klein,hoch,,,UoG,Vo,,,,,H2,gr,,,,iBdK,,,,,0563
 0564,a1974,zT,T,Opl,,,17x20,klein,breit,,,U,,,,,,H3,gr,,,,iBdK,,,,,0564
 0565,a1974,zT,T,Opl,,,17x19,klein,breit,,,U,,,,,,H4,gr,,,,iBdK,,,,,0565
@@ -593,7 +593,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0592,a1977,Mt,T,G,B,,18x28,klein,breit,,,Gs,A,,,,,H4,b,,,,iBdK,,,,,0592
 0593,a1974,K,,,,,26x25,klein,hoch,,,U,,,,,,H2,b,,,,iBdK,,,,,0593
 0594,a1975,B,,,,,22x21,klein,hoch,,,U,,,,,,H2,gr,,,,iBdK,,,,,0594
-0595,a1975,B,,,,,25x21,klein,hoch,,,Gs,mF,,,,,H2,gr,,,,iBdK,,,,,0595
+0595,a1975,B,,,,,25x21,klein,hoch,,,Gs,FigG,,,,,H2,gr,,,,iBdK,,,,,0595
 0596,a1975,K,,,,,20x22,klein,breit,,,U,,,,,,H2,b,,,,iBdK,,,,,0596
 0597,a1975,Mt,T,Opl,Kl,,55x41,mittel,hoch,,,Gs,mF,Sch,,,,H3,cf,,,Torso,iBdK,,,,,0597
 0598,a1975,T,,,,,37x35,mittel,hoch,,,U,,,,,,H3,bw,,,,iBdK,,,,,0598
@@ -610,7 +610,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0609,a1976,Pm,,,,,28x25,mittel,hoch,,,U,,,,,,H4,bw,,,,iBdK,,,,,0609
 0610,a1976,zT,Dp,T,,,28x22,klein,hoch,,,U,,,,,,H4,gr,,,,iBdK,,,,,0610
 0611,a1976,C,Mt,G,Opl,,36x27,mittel,hoch,,,Gs,Mw,,,,,H3,cf,,,VENUS!,iBdK,,,,,0611
-0612,a1975,B,,,,,25x20,klein,hoch,,,Gs,mF,,,,,H4,bw,,,,iBdK,,,,,0612
+0612,a1975,B,,,,,25x20,klein,hoch,,,Gs,FigG,,,,,H4,bw,,,,iBdK,,,,,0612
 0613,a1975,zT,B,Con,,,16x33,klein,breit,,,U,,,,,,H3,b,Kr8,,Auf der Suche,iBdK,,,,,0613
 0614,a1975,zT,Con,Opl,,,25x26,mittel,breit,,,Gs,O,,,,,H1,gr,,,es möchte,iBdK,,,,,0614
 0615,a1975,Mt,K,Fa,T,,27x32,mittel,breit,,,UoG,Pf,,,,,H3,v,Kr2a,sko,,iBdK,,,,,0615
@@ -633,7 +633,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0632,a1982,zT,R,G,,,25x29,mittel,breit,,,Gs,mF,Sb,,,,H3,cf,,,,iBdK,,,,,0632
 0633,a1979,zT,R,G,,,28x35,mittel,breit,,,Gs,mF,lL,,,,H3,cf,,,,iBdK,,,,,0633
 0634,a1984,G,,,,,21x25,klein,breit,,,Gs,A,,,,,H2,cf,,,,iBdK,,,,,0634
-0635,a1977,zT,T,Dp,,,26x31,mittel,breit,,,UoG,mF,FigG,,,,H3,bw,,,,iBdK,,,,,0635
+0635,a1977,zT,T,Dp,,,26x31,mittel,breit,,,UoG,FigG,FigG,,,,H3,bw,,,,iBdK,,,,,0635
 0636,a1986,zT,G,T,,,25x32,mittel,breit,,,Gs,L,lL,,,,H3,b,,,,iBdK,,,,,0636
 0637,a1984,G,,,,,29x39,mittel,breit,,,UoG,L,O,Sta,,,H4,cf,,,,iBdK,,,,,0637
 0638,a1984,G,,,,,29x38,mittel,breit,,,UoG,O,,,,,H3,cf,,,,iBdK,,,,,0638
@@ -667,37 +667,37 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0666,a2011,OP,,,,,25x41,mittel,breit,,,UnG,Ar,,,,,H3,cf,ParEH,,Coast Guard Station (nach Edward Hopper),iBdK,,,,Kat.OP.636,0666
 0667,a2011,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H3,cf,ParJMWT,,o. T. (sehr frei nach J. M. W. Turner),iBdK,,,,Kat.OP.443,0667
 0668,a2006,OP,,,,,25x41,mittel,breit,,,U,,,,,,H3,cf,,,a matter of time (2 h 50 min),iBdK,res,,,Kat.OP.483,0668
-0669,a2011,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,ParDR,,o. T. (frei nach Dieter Roth),iBdK,,,,Kat.OP.213,0669
-0670,a2000,OP,,,,,25x41,mittel,breit,Gi,,U,,,,,,H5,cf,,,Koordinaten,iBdK,,,,Kat.OP.22,0670
-0671,a2000,OP ,,,,,25x41,mittel,breit,,,UoG,O,St,,,,H4,cf,,,Stillleben (oil-jet),iBdK,,,,Kat.OP.126,0671
+0669,a2011,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,Par7a,,o. T. (frei nach Dieter Roth),iBdK,,,,Kat.OP.213,0669
+0670,a2000,OP,,,,,25x41,mittel,breit,Gi,,U,,,,,,H5,cf,Kr9,,Pucks Zuhause,iBdK,,,,Kat.OP.22,0670
+0671,a2000,OP ,,,,,25x41,mittel,breit,,,UoG,O,St,,,,H4,cf,Kr6,,Stillleben (oil-jet),iBdK,,,,Kat.OP.126,0671
 0672,a2000,OP,,,,,25x41,mittel,breit,RiK,,U,,,,,,H5,cf,,,Mittelland,iBdK,,,,Kat.OP.179,0672
-0673,a2000,OP ,,,,,25x41,mittel,breit,,,UoG,St,O,,,,H4,cf,,,Stapel,iBdK,,,,Kat.OP.187,0673
+0673,a2000,OP ,,,,,25x41,mittel,breit,,,UoG,St,O,,,,H4,cf,Kr6,,Stapel,iBdK,,,,Kat.OP.187,0673
 0674,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,gr,,,mazzo notturno,iBdK,,,,Kat.OP.146,0674
 0675,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,gr,,,Neon,iBdK,,,,Kat.OP.178,0675
 0676,a2003,OP,,,,,25x41,mittel,breit,,,UoG,Mw,,,,,H4,cf,,,kleiner Voyeur,iBdK,,,,Kat.OP.229,0676
 0677,a2003,OP ,,,,,25x41,mittel,breit,,,UnG,A,FigR,,,,H4,cf,,,o. T.,iBdK,,,,Kat.OP.45,0677
 0678,a2000,OP,,,,,25x41,mittel,breit,Lwi,,U,,,,,,H4,cf,,,walk a mile in my shoes,iBdK,,,,Kat.OP.167,0678
-0679,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,étang,iBdK,,,,Kat.OP.182,0679
+0679,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,,iBdK,,,,Kat.OP.182,0679
 0680,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,kleines Bild zum grossen Sommer,"Susanna und Andres Brändli, Aarau/Brione s/M",PB,,,Kat.OP.59,0680
-0681,a2000,OP ,,,,,25x41,mittel,breit,,,UoG,A,Pf,Gä,,,H3,cf,,fis,,iBdK,,,,Kat.OP.7,0681
+0681,a2019,OP,,,,,41x67,mittel,breit,Mo,,U,BiB,,,,,H4,b,Kr12a,ste,im cartesianischen Stil,iBdK,res,,,Kat.OP.147,0681
 0682,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H3,cf,Kr6,,chains of freedom,iBdK,res,,,Kat.OP.186,0682
 0683,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,Wald,"Susanna und Andres Brändli, Aarau/Brione s/M",PB,,,Kat.OP.4,0683
 0684,a2000,OP,,,,,25x41,mittel,breit,,,U,Sch,,,,,H4,cf,,,o. T.,iBdK,,,,Kat.OP.23,0684
 0685,a2000,OP ,,,,,25x41,mittel,breit,,,UpG,A,P,,,,H4,cf,,,l'amour l'après-midi,iBdK,,,,Kat.OP.175,0685
 0686,a2003,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,,,petite rêverie (pour André Ramseyer),iBdK,,,,Kat.OP.288,0686
 0687,a2000,OP ,,,,,25x41,mittel,breit,,,U,Sch,,,,,H3,cf,,,homo - homunculus,iBdK,,,,Kat.OP.185,0687
-0688,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H3,g,,,Abend am Ufer der Loire (nach Félix Vallotton),iBdK,,,,Kat.OP.51,0688
-0689,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,étang,iBdK,,,,Kat.OP.12,0689
-0690,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,,,Ankunft,iBdK,,,,Kat.OP.165,0690
+0688,a2019,OP,,,,,41x55,mittel,breit,ovÖ,,U,,,,,,H3,cf,,,,iBdK,,,,Kat.OP.228,0688
+0689,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,Kr4,,étang,iBdK,,,,Kat.OP.12,0689
+0690,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,,,Ankunft bei Nacht,iBdK,,,,Kat.OP.165,0690
 0691,a2000,OP ,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,,fis,le maître verrier soûl,iBdK,,,,Kat.OP.124,0691
-0692,a2003,OP,,,,,25x41,mittel,breit,,,UoG,A,Pf,Gä,,,H4,v,,,,iBdK,,,,Kat.OP.181,0692
+0692,a2003,OP,,,,,25x41,mittel,breit,,,UoG,A,Pf,Gä,,,H4,v,Kr2a,,enchanted wood,iBdK,,,,Kat.OP.181,0692
 0693,a2003,OP ,,,,,25x41,mittel,breit,,,UoG,Z,,,,,H4,cf,,,eine Maske malen,iBdK,,,,Kat.OP.267,0693
 0694,a2003,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,cf,,,Ali Babas Höhle,iBdK,,,,Kat.OP.24,0694
 0695,a2015,B,,,,,21x30,klein,breit,,,Gs,A,Sch,Fal,,,H1,bw,,,Zeichner,iBdK,,,,,0695
 0696,a2017,zT,B,Ac,,,20x25,klein,breit,,,Gs,A,ZM,,,,H1,gr,,,"Zeichner, Modell",iBdK,,,,,0696
 0697,a2017,B,,,,,14x17,klein,breit,,,Gs,A,P,,,,H2,bw,,,"Zeichner, Paar",iBdK,,,,,0697
 0698,a2017,B,,,,,9x12,klein,breit,,,Gs,A,,,,,H2,bw,,,Sitzende,iBdK,,,,,0698
-0699,a2017,zT,B,Fa,,,11x15,klein,breit,,,Gs,A,Sb,FigR,,,H1,gr,,,"Zeichner, Atelier",iBdK,,,,,0699
+0699,a2017,zT,B,Fa,,,11x15,klein,breit,,,Gs,Z,Sb,FigR,,,H1,gr,Kr5f,,"Zeichner, Atelier",iBdK,,,,,0699
 0700,a2015,B,,,,,15x17,klein,breit,,,Gs,A,Sb,,,,H1,bw,,,Zeichner,iBdK,,,,,0700
 0701,a2015,B,,,,,15x21,klein,breit,,,Gs,A,Ca,,,,H2,gr,,zwi,,iBdK,,,,,0701
 0702,a2015,B,,,,,21x14,klein,hoch,,,Gs,A,Ca,,,,H1,bw,,zwi,,iBdK,,,,,0702
@@ -826,24 +826,24 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0825,a2013,G,,,,,24x32,mittel,breit,,,Gs,L,,,,WG11,H3,cf,ParFV,,La Loire à Nevers (d'après Félix Vallotton),iBdK,,,,,0825
 0826,a2013,G,,,,,24x35,mittel,breit,,,Gs,L,,,,WG11,H4,cf,ParFV,,Coucher de soleil jaune et vert (d'après Félix Vallotton),iBdK,,,,,0826
 0827,a2014,G,,,,,52x62,mittel,breit,,,Gs,mF,,,,WG15,H3,c,ParFV,,Le 1er janvier (d'après Félix Vallotton),iBdK,,,,,0827
-0828,a2013,G,,,,,26x44,mittel,breit,,,Gs,mF,,,,WG15,H3,c,ParFV,,L'argent (d'après Félix Vallotton),iBdK,,,,,0828
+0828,a2013,G,,,,,26x44,mittel,breit,,,Gs,P,,,,WG15,H3,c,ParFV,,L'argent (d'après Félix Vallotton),iBdK,,,,,0828
 0829,a2013,G,,,,,28x35,mittel,breit,,,Gs,Ar,O,,,WG15,H3,g,ParFV,,La surprise (d'après Félix Vallotton),iBdK,,,,,0829
 0830,a2015,G,,,,,28x35,mittel,breit,,,Gs,mF,O,,,WG15,H4,cf,ParFV,,La raison probante (d'après Félix Vallotton),iBdK,,,,,0830
 0831,a2013,G,,,,,50x57?,mittel,breit,,,Gs,mF,,,,WG15,H3,c,ParFV,,Cinq heures (d'après Félix Vallotton),"A+C Lüscher Huber, Bern",PB,,,,0831
 0832,a2013,G,,,,,55x73?,mittel,breit,,,Gs,mF,O,,,WG15,H4,c,ParFV,,La symphonie (d'après Félix Vallotton),"Barbara und Hans Schärer, Bern",PB,,,,0832
 0833,a2013,G,,,,,40x73?,mittel,breit,,,Gs,mF,O,,,WG15,H4,c,ParFV,,Le bibliophile (d'après Félix Vallotton),"Sylviane Dupuis, Genf",PB,,,,0833
 0834,a2015,G,,,,,50x57?,mittel,breit,,,Gs,O,,,,WG15,H3,c,ParFV,,La belle épingle (d'après Félix Vallotton),,PB,,,,0834
-0835,a2013,G,,,,,55x73?,mittel,breit,,,Gs,mF,O,,,WG15,H3,cf,ParFV,,Le mensonge (d'après Félix Vallotton),"A+C Lüscher Huber, Bern",PB,,,,0835
+0835,a2013,G,,,,,55x73?,mittel,breit,,,Gs,P,O,,,WG15,H3,cf,ParFV,,Le mensonge (d'après Félix Vallotton),"A+C Lüscher Huber, Bern",PB,,,,0835
 0836,a2012,G,,,,,29x37,mittel,breit,,,Gs,F,,,,WG6,H4,cf,ParFV,,"Stillleben: rote Pfefferfrüchte auf rundem, weisslackiertem Tisch (nach Félix Vallotton)",iBdK,,,,,0836
 0837,a2012,G,,,,,40x40,mittel,quadratisch,,,Gs,F,,,,WG6,H3,cf,ParFV,,Cinq gros piments rouges sur une table laqué blac (d'après Félix Vallotton),iBdK,,,,,0837
 0838,a2012,G,,,,,22x29?,mittel,breit,,,Gs,F,,,,WG6,H3,cf,ParFV,,"Stillleben: Äpfel, Birnen, Tomaten, Eier (nach Félix Vallotton)","B + J Welter-Huber, Allmendingen",PB,,,,0838
 0839,a2013?,G,,,,,33x34?,mittel,breit,,,Gs,F,,,,WG6,H3,cf,ParFV,,"Stillleben: Äpfel, Birnen, Tomaten, Eier (nach Félix Vallotton)",iBdK,,,,,0839
 0840,a2013?,G,,,,,22x28?,mittel,breit,,,Gs,F,,,,WG6,H3,cf,ParFV,,"Stillleben: Äpfel, Birnen, Tomaten, Eier (nach Félix Vallotton)",iBdK,,,,,0840
-0841,a2015,G,,,,,38x28,mittel,hoch,,,Gs,mF,,,,WG6,H3,cf,ParFV,,Strand (nach Félix Vallotton),iBdK,,,,,0841
-0842,a2013,C,Ac,,,,30x42,mittel,breit,,,Gs,mF,P,,,WG19,H4,gr,ParFV,,Homme et Femme (d'après Félix Vallotton),iBdK,,,,,0842
-0843,a2013,C,Ac,,,,42x30,mittel,hoch,,,Gs,mF,P,,,WG19,H4,gr,ParFV,,La haine (d'après Félix Vallotton),iBdK,,,,,0843
-0844,a2013,C,Ac,,,,42x30,mittel,hoch,,,Gs,mF,,,,WG19,H4,gr,ParFV,,Orphée dépecé (d'après Félix Vallotton),iBdK,,,,,0844
-0845,a2013,C,Ac,,,,24x35?,mittel,breit,,,Gs,mF,P,Tie,,WG19,H3,gr,ParFV,,Persée tuant le dragon (d'après Félix Vallotton),"H+H Mathys, Münsingen",PB,,,,0845
+0841,a2015,G,,,,,38x28,mittel,hoch,,,Gs,P,,,,WG6,H3,cf,ParFV,,Strand (nach Félix Vallotton),iBdK,,,,,0841
+0842,a2013,C,Ac,,,,30x42,mittel,breit,,,Gs,P,P,,,WG19,H4,gr,ParFV,,Homme et Femme (d'après Félix Vallotton),iBdK,,,,,0842
+0843,a2013,C,Ac,,,,42x30,mittel,hoch,,,Gs,P,P,,,WG19,H4,gr,ParFV,,La haine (d'après Félix Vallotton),iBdK,,,,,0843
+0844,a2013,C,Ac,,,,42x30,mittel,hoch,,,Gs,FigG,,,,WG19,H4,gr,ParFV,,Orphée dépecé (d'après Félix Vallotton),iBdK,,,,,0844
+0845,a2013,C,Ac,,,,24x35?,mittel,breit,,,Gs,P,P,Tie,,WG19,H3,gr,ParFV,,Persée tuant le dragon (d'après Félix Vallotton),"H+H Mathys, Münsingen",PB,,,,0845
 0846,a2014,zT,B,G,,,12x17,klein,breit,,,Gs,mF,P,,,WG31,H5,bw,ParFV,,La visite (d'après Félix Vallotton),iBdK,,,,,0846
 0847,a2014,zT,B,G,,,11x16,klein,breit,,,Gs,mF,,,,WG31,H5,bw,ParFV,,Cinq heures (d'après Félix Vallotton),iBdK,,,,,0847
 0848,a2014,zT,B,G,,,12x18,klein,breit,,,Gs,mF,P,,,WG 31,H5,bw,ParFV,,Le Colloque sentimental (d'après Félix Vallotton),iBdK,,,,,0848
@@ -935,7 +935,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 0934,a2014?,G,,,,,36x49?,mittel,breit,,,UnG,O,mF,,,WG15,H4,cf,ParFV,,Le 1er janvier (d‘après Félix Vallotton) ,iBdK,,,,,0934
 0935,a1983,T,,,,,21x19?,klein,hoch,,,Gs,St,Pf,O,Ec,,H3,gr,,,Composición agrotropical,iBdK,,,,,0935
 0936,a1973,OL,,,,,18x18,klein,quadratisch,,,U,,,,,,H3,b,,,,iBdK,,,,,0936
-0937,a1973,zT,Opl,T,,,20x15,klein,hoch,,,Gs,mF,FigG,,,,H4,bw,,,,iBdK,,,,,0937
+0937,a1973,zT,Opl,T,,,20x15,klein,hoch,,,Gs,FigG,FigG,,,,H4,bw,,,,iBdK,,,,,0937
 0938,a1973,zT,B,Fs,,,16x22,klein,breit,,,Gs,Tie,,,,,H2,b,,,FISCH MIT WICHTIGER BOTSCHAFT,iBdK,,,,,0938
 0939,a1973,zT,Opl,T,,,24x27,mittel,breit,,,U,,,,,,H3,bw,,,,iBdK,,,,,0939
 0940,a1973,zT,Opl,T,,,25x30,mittel,breit,,,U,,,,,,H4,bw,,ste,,iBdK,,,,,0940
@@ -1019,11 +1019,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1018,a2002?,OP,,,,,25x41,mittel,breit,,,UnG,Kt,,,,,H3,cf,Kr5e,,,iBdK,res,,,,1018
 1019,a2004?,OP,,,,,25x41,mittel,breit,,,Gs,Ri,Sch,,,,H4,b,,,Belsazar,"Simon Messer, Bern",PB,,,,1019
 1020,a2000,OP,,,,,25x41,mittel,breit,,,UoG,Ar,,,,,H3,cf,,,doors wide open,iBdK,,,,Kat.OP.169,1020
-1021,a2003,OP,,,,,25x41,mittel,breit,Lst,,U,,,,,,H2,gr,,,,iBdK,,,,Kat.OP.16,1021
+1021,a2020,OP,,,,,25x40,mittel,breit,,,U,,,,,,H4,gr,Kr9,,Hades,iBdK,res,,,Kat.OP.51,1021
 1022,a2003?,OP,,,,,25x41,mittel,breit,,,U,,,,,,H3,cf,,,,"Ana Holenstein, Bern",PB,,,Kat.OP.266,1022
 1023,a2003,OP,,,,,25x41,mittel,breit,,,UnG,Ri,Sb,,,,H3,cf,,,Selbst (süss-sauer),iBdK,,,,Kat.OP.145,1023
 1024,a2000,OP,,,,,25x41,mittel,breit,,,Gs,A,Vo,,,,H4,cf,,,M,iBdK,,,,Kat.OP.209,1024
-1025,a2003,OP,,,,,25x41,mittel,breit,,,UoG,mF,Sch,O,,,H3,cf,,,ship of fools (four painters - for Cecil Collins),iBdK,,,,Kat.OP.265,1025
+1025,a2003,OP,,,,,25x41,mittel,breit,,,UoG,FigG,Sch,O,,,H3,cf,,,ship of fools (four painters - for Cecil Collins),iBdK,,,,Kat.OP.265,1025
 1026,a2003,OP,,,,,25x41,mittel,breit,,,U,,,,,,H4,g,,,Neon,iBdK,,,,Kat.OP.49,1026
 1027,a2003,OP,,,,,25x41,mittel,breit,Lst,,U,,,,,,H4,cf,,,,iBdK,,,,Kat.OP.249,1027
 1028,a2000,OP,,,,,25x41,mittel,breit,,,U,,,,,,H2,cf,,,Vase,iBdK,,,,Kat.OP.54,1028
@@ -1033,7 +1033,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1032,a2000,OP,,,,,25x41,mittel,breit,,,UnG,Mw,A,,,,H2,g,,,FAUN,"Ana Holenstein, Bern",PB,,,,1032
 1033,a2000,OP,,,,,25x41,mittel,breit,,,UoG,Gä,,,,,H3,g,,,japanischer Garten,"Susanna und Andres Brändli, Aarau/Brione s/M",PB,,,Kat.OP.25,1033
 1034,a2010?,OL,,,,,90x120?,gross,breit,Mo,,UnG,Ar,,,,,H4,cf,ParEH,,Room for Tourists (nach Edward Hopper),"Erika Michel, Burgdorf",PB,,,,1034
-1035,a2001,OP,,,,,54x67,mittel,breit,,,UnG,mF,P,,,Pro,H5,v,Par5,,"""Sonnenuntergang (Brüder)"" nach C.D. Friedrich",iBdK,,,,Kat.OP.134,1035
+1035,a2001,OP,,,,,54x67,mittel,breit,,,UnG,P,P,,,Pro,H5,v,Par5,,"""Sonnenuntergang (Brüder)"" nach C.D. Friedrich",iBdK,,,,Kat.OP.134,1035
 1036,a2005,OP,,,,,54x67,mittel,breit,,,U,,,,,Pro,H3,c,ParME,,kleine Hommage an den grossen Max,iBdK,,,,Kat.OP308,1036
 1037,a2009,OP,,,,,41x67,mittel,breit,,,UoG,BiB,,,,,H2,y,Par4,,kleine Improvisation (frei nach Claude Lorrain),iBdK,,,,Kat.OP.593,1037
 1038,a2008,OP,,,,,41x67,mittel,breit,Mo,,UnG,Ar,,,,,H4,c,Par7a,,"nach ""Barn with Snow"" von Georgia O'Keeffe",iBdK,,,,Kat.OP.608,1038
@@ -1062,7 +1062,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1061,a2008,OP,,,,,32x41,mittel,breit,Ul,,UnG,Ar,,,,,H4,cf,ParEH,,"nach ""Couast Guard Station"" von Edward Hopper",iBdK,,,,Kat.OP.173,1061
 1062,a2005,OP,,,,,32x41,mittel,breit,Lst,,UnG,KiA,Vo,,,,H2,b,Par4,,Atelier (nach Vermeer),iBdK,,,,Kat.OP.370,1062
 1063,a2006,OP,,,,,32x41,mittel,breit,Lst,,UoG,L,,,,,H4,cf,ParME,,eine kleine Hommage an den grossen Max,iBdK,,,,Kat.OP.511,1063
-1064,a2004?,OP,,,,,32x41,mittel,breit,,,UnG,AP,Pf,Kt,,,H4,g,ParME,,...nach Max Ernst,iBdK,,,,bei Regula Straumann,1064
+1064,a2004?,OP,,,,,32x41,mittel,breit,,,UnG,AP,Pf,Kt,,,H4,g,ParME,,Jardin de la France (d`après Max Ernst),iBdK,,,,bei Regula Straumann,1064
 1065,a1975,OPa ,,,,,60x45?,mittel,hoch,,,U,,,,,,H4,b,,,der schatten des körpers des kutschers,iBdK,,,,,1065
 1066,a2004?,OP,,,,,32x41,mittel,breit,Mo,,UnG,FigG,AP,L,,WG1,H4,cf,ParFV,,Pentheus (nach Félix Vallotton),iBdK,,,,bei Regula Straumann,1066
 1067,a2005,zT,T,B,,,21x30,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1067
@@ -1083,7 +1083,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1082,a2008,zT,B,Ks,,,21x30,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1082
 1083,a2007,zT,Con,Dd,,,21x30,klein,breit,Lst,,UnG,A,,,,,H3,gr,,,Vorhang,iBdK,,,,,1083
 1084,a2003,B,,,,,21x28,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,1084
-1085,a2015,B,,,,,9x12,klein,breit,,,UnG,A,,,,,H2,bw,,,,iBdK,,,,,1085
+1085,a2015,B,,,,,9x12,klein,breit,,,UnG,A,,,,,H2,bw,Kr5d,,Metamorphose,iBdK,res,,,,1085
 1086,a2015,B,,,,,9x12,klein,breit,,,Gs,A,,,,,H4,bw,,,reclining figure,iBdK,,,,,1086
 1087,a2017,B,,,,,9x12,klein,breit,,,UoG,A,,,,,H2,bw,,,irgendwo draussen,iBdK,,,,,1087
 1088,a2017,B,,,,,9x12,klein,breit,,,Gs,A,Sch,Pf,,,H3,bw,,,femme debout,iBdK,,,,,1088
@@ -1143,7 +1143,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1142,a1980,B,,,,,33x31,mittel,hoch,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1142
 1143,a1981,zT,B,Dp,,,23x32,mittel,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1143
 1144,a1981,B,,,,,23x32,mittel,breit,,,Gs,A,Ca,FigG,,,H1,bw,,,,iBdK,,,,,1144
-1145,a1980,zT,B,T,,,29x32,mittel,breit,,,Gs,mF,FigG,,,,H2,c,,,,iBdK,,,,,1145
+1145,a1980,zT,B,T,,,29x32,mittel,breit,,,Gs,FigG,FigG,,,,H2,c,,,,iBdK,,,,,1145
 1146,a1981,zT,Con,Dp,,,30x24,mittel,hoch,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,1146
 1147,a1981,Con,,,,,22x20,klein,hoch,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,1147
 1148,a1981,Con,,,,,21x36,mittel,breit,,,Gs,A,FigG,,,,H1,gr,,,,iBdK,,,,,1148
@@ -1211,7 +1211,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1210,a2013,B,,,,,19x22,klein,breit,,,Gs,A,ZM,,,,H2,bw,,,"Zeichner, Modell",iBdK,,,,,1210
 1211,a2016,zT,B,G,,,11x15,klein,breit,,,Gs,A,ZM,,,,H2,gr,,,"Zeichner, Modell",iBdK,,,,,1211
 1212,a2016,B,,,,,11x15,klein,breit,,,Gs,A,Sch,ZM,,,H2,gr,,,"Zeichner, Modell",iBdK,,,,,1212
-1213,a2015,zT,B,T,,,14x18,klein,breit,,,Gs,A,ZM,,,,H3,gr,,fis,"Zeichner, Modell",iBdK,,,,,1213
+1213,a2015,zT,B,T,,,14x18,klein,breit,,,Gs,A,ZM,,,,H3,gr,,,"Zeichner, Modell",iBdK,,,,,1213
 1214,a2013,zT,B,T,,,19x22,klein,breit,,,Gs,A,ZM,,,,H3,gr,,kre,"Zeichner, Modell",iBdK,,,,,1214
 1215,a2015,B,,,,,20x25,klein,breit,,,Gs,A,Sch,ZM,,,H1,gr,,,"Zeichner, Modell",iBdK,,,,,1215
 1216,a2015,B,,,,,21x27,klein,breit,,,Gs,A,Sch,ZM,,,H1,gr  ,,jun,"Zeichner, Modell",iBdK,,,,,1216
@@ -1222,7 +1222,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1221,a2015,B,,,,,18x30,klein,breit,,,Gs,A,ZM,,,,H2,bw,,kre,"Zeichner, Modell",iBdK,,,,,1221
 1222,a2013,zT,B,K,,,21x30,klein,breit,,,Gs,A,ZM,,,,H3,gr,,,"Zeichner, Modell",iBdK,,,,,1222
 1223,a2013,Fa,,,,,30x21,klein,hoch,,,Gs,A,ZM,,,,H1,bw,,waa,"Zeichner, Modell",iBdK,,,,,1223
-1224,a2014,B,,,,,21x30,klein,breit,,,Gs,A,ZM,Sch,,,H2,bw,,,"Zeichner, Modell",iBdK,,,,,1224
+1224,a2014,B,,,,,21x30,klein,breit,,,Gs,A,ZM,Sch,,,H2,gr,,,"Zeichner, Modell",iBdK,,,,,1224
 1225,a2015,zT,B,Fa,,,17x19,klein,breit,,,Gs,A,ZM,,,,H1,gr,,zwi,"Modell, Zeichner",iBdK,,,,,1225
 1226,a2015,B,,,,,17x21,klein,breit,,,Gs,A,ZM,,,,H2,gr,,,"Modell, Zeichner",iBdK,,,,,1226
 1227,a2015,zT,B,T,,,16x20,klein,breit,,,Gs,A,ZM,,,,H4,gr,,kre,"Modell, Zeichner",iBdK,,,,,1227
@@ -1375,7 +1375,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1374,a2013,B,,,,,21x30,klein,breit,,,Gs,A,ZM,,,,H2,bw,,sko,"Modell, Zeichner",iBdK,,,,,1374
 1375,a2013,B,,,,,30x21,klein,hoch,,,Gs,A,ZM,O,,,H2,bw,,,"Modell, Zeichner",iBdK,,,,,1375
 1376,a2013,B,,,,,30x21,klein,hoch,,,Gs,A,ZM,,,,H2,gr,,kre,"Modell, Zeichner",iBdK,,,,,1376
-1377,a2013,B,,,,,28x21,klein,hoch,,,Gs,A,ZM,,,,H1,bw,,jun,"Modell, Zeichner",iBdK,,,,,1377
+1377,a2013,B,,,,,28x21,klein,hoch,,,Gs,A,ZM,,,,H1,gr,,jun,"Modell, Zeichner",iBdK,,,,,1377
 1378,a2015,zT,B,Fa,,,15x21,klein,breit,,,Gs,A,Ca,,,,H2,gr,,zwi,Capriccio,iBdK,,,,,1378
 1379,a2015,zT,B,Fa,,,15x21,klein,breit,,,Gs,A,Ca,,,,H1,gr,,,Jongleuse,iBdK,,,,,1379
 1380,a2015,Mt,B,Fa,Ks,,19x22,klein,breit,,,Gs,A,Ca,,,,H1,gr  ,,zwi,Gebrauchsanleitung,iBdK,,,,,1380
@@ -1402,7 +1402,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1401,a2013,zT,B,T,,,30x21,klein,hoch,,,Gs,A,ZM,,,,H2,gr,,,Paar,iBdK,,,,,1401
 1402,a2013,Mt,B,G,Fs,,15x19,klein,breit,,,Gs,A,P,,,,H2,gr,,,Paar,iBdK,,,,,1402
 1403,a2013,zT,B,T,,,15x21,klein,breit,Lst,,Gs,A,P,,,,H2,gr  ,,,Paar,iBdK,,,,,1403
-1404,a2015,zT,B,T,,,21x28,klein,breit,,,Gs,A,P,ZM,,,H2,gr,,,"Modelle, Zeichner",iBdK,,,,,1404
+1404,a2015,zT,B,T,,,21x18,klein,hoch,,,Gs,A,P,Z,,,H2,gr,,,Zeichner,iBdK,,,,,1404
 1405,a2014,OL,,,,,90x124,gross,breit,Ul,Lst,UoG,L,Pf,,,,H3,g,ParFV,,La charrette (d‘après Félix Vallotton),iBdK,res,,,,1405
 1406,a1975,G,,,,,63x47,mittel,hoch,,,UoG,Ar,Pf,,,,H3,cf,,waa,,iBdK,,,,,1406
 1407,a1976,OPa,,,,,53X43,mittel,hoch,,,UoG,O,Sch,,,,H4,cf,,,LEOPARD SKIN PILLBOX HAT,iBdK,,,,,1407
@@ -1410,13 +1410,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1409,a1976,zT,OPa,C,,,45x53,mittel,breit,,,U,,,,,,H4,gr,,,,iBdK,,,,,1409
 1410,a1976,zT,OPa,C,,,45x60,mittel,breit,,,U,,,,,,H4,gr,,,,iBdK,,,,,1410
 1411,a1976,Mt,T,Dp,Fa,C,45x53,mittel,breit,,,UoG,Kt,,,,,H3,cf,,,Handlung,iBdK,,,,,1411
-1412,a1976,Mt,Aq,B,C,,30x40,mittel,breit,,,UoG,mF,,,,,H3,cf,,waa,sie-er-es,iBdK,,,,,1412
+1412,a1976,Mt,Aq,B,C,,30x40,mittel,breit,,,UoG,FigG,,,,,H3,cf,,waa,sie-er-es,iBdK,,,,,1412
 1413,a1976,zT,T,B,,,30x47,mittel,breit,,,Gs,A,FigG,,,,H2,gr,,,,iBdK,,,,,1413
 1414,a1976,Mt,C,G,Fa,,47x45,mittel,hoch,,,U,,,,,,H2,cf,,waa,,iBdK,,,,,1414
 1415,a1976,Mt,B,C,Ksp,,55x44,mittel,hoch,Fro,,U,,,,,,H3,b,,waa,,iBdK,,,,,1415
 1416,a1976,B,,,,,34x26,mittel,hoch,Fro,,U,,,,,,H2,b,,,,iBdK,,,,,1416
 1417,a1976,B,,,,,39x24,mittel,hoch,Fro,,U,,,,,,H2,b,,,,iBdK,,,,,1417
-1418,a1976,K,,,,,47x46,mittel,hoch,,,UoG,mF,,,,,H2,bw,,,,iBdK,,,,,1418
+1418,a1976,K,,,,,47x46,mittel,hoch,,,UoG,FigG,,,,,H2,bw,,,,iBdK,,,,,1418
 1419,a1976,Mt,Opl,OPa,Fa,,31x38,mittel,breit,,,U,,,,,,H3,cf,,,,iBdK,,,,,1419
 1420,a1976,zT,G,B,,,25x46,mittel,breit,,,UoG,Tie,Lao,,,,H3,b,,,,iBdK,,,,,1420
 1421,a1976,zT,T,G,,,24x44,mittel,breit,,,UoG,Tie,Lao,,,,H3,v,,,Sankt Georg im Drachen,iBdK,,,,,1421
@@ -1454,9 +1454,9 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1453,a2017,zT,B,T,,,28x38,mittel,breit,,,Gs,A,,,,,H2,gr  ,,,,iBdK,,,,,1453
 1454,a2017,zT,B,T,,,28x30,mittel,breit,,,Gs,A,,,,,H2,gr  ,,,,iBdK,,,,,1454
 1455,a1980,zT,G,B,,,37x44,mittel,breit,,,Gs,mF,Tie,FigR,,,H3,cf,,,Les brigades grises,iBdK,,,,,1455
-1456,a1980,Mt,T,G,Kh,,50x70,mittel,breit,,,Gs,mF,,,,,H2,gr,,,,iBdK,,,,,1456
-1457,a1980,Mt,T,Kh,G,C,45x63,mittel,breit,,,Gs,mF,,,,,H2,gr,,,,iBdK,,,,,1457
-1458,a1980,Mt,T,Kh,Ks,,26x70,mittel,breit,,,Gs,mF,,,,,H4,gr,,,,iBdK,,,,,1458
+1456,a1980,Mt,T,G,Kh,,50x70,mittel,breit,,,Gs,FigG,,,,,H2,gr,,,,iBdK,,,,,1456
+1457,a1980,Mt,T,Kh,G,C,45x63,mittel,breit,,,Gs,FigG,,,,,H2,gr,,,,iBdK,,,,,1457
+1458,a1980,Mt,T,Kh,Ks,,26x70,mittel,breit,,,Gs,FigG,,,,,H4,gr,,,,iBdK,,,,,1458
 1459,a1981,zT,R,G,,,37x48,mittel,breit,,,Gs,mF,O,lL,FigR,,H3,gr,,,,iBdK,,,,,1459
 1460,a1982,zT,R,G,,,35x38,mittel,breit,,,Gs,mF,O,Pf,FigR,,H4,v,,,,iBdK,,,,,1460
 1461,a1981,G,,,,,30x39,mittel,breit,,,Gs,A,bb,,FigR,,H3,cf,,,,iBdK,,,,,1461
@@ -1479,7 +1479,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1478,a1991,B,,,,,35x43,mittel,breit,Lwi,,U,,,,,,H3,bw,,,,iBdK,,,,,1478
 1479,a1991,B,,,,,35x43,mittel,breit,Lwi,,U,,,,,,H3,bw,,,,iBdK,,,,,1479
 1480,a1991,B,,,,,29x38,mittel,breit,Lwi,,U,,,,,,H2,bw,,,,iBdK,,,,,1480
-1481,a1993,zT,G,B,,,33x42,mittel,breit,,,UnG,mF,,,,,H2,b,,sch,,iBdK,,,,,1481
+1481,a1993,zT,G,B,,,33x42,mittel,breit,,,UnG,mF,,,,,H2,b,,,,iBdK,,,,,1481
 1482,a1991,zT,B,G,,,29x38,mittel,breit,Lwi,,U,,,,,,H4,gr,,fis,,iBdK,,,,,1482
 1483,a1991,zT,B,G,,,29x38,mittel,breit,Lwi,,U,,,,,,H4,gr,,,,iBdK,,,,,1483
 1484,a1991,zT,B,G,,,33x42,mittel,breit,Lwi,,U,,,,,,H4,gr,,,,iBdK,,,,,1484
@@ -1497,7 +1497,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1496,a1999,T,,,,,39x45,mittel,breit,,,Gs,A,,,,,H4,gr,,,,iBdK,,,,,1496
 1497,a2017,zT,B,T,,,36x48,mittel,breit,,,Gs,A,,,,,H2,gr,,kre,,iBdK,,,,,1497
 1498,a2008,B,,,,,25x50,mittel,breit,,,Gs,A,,,,,H1,bw,,,,iBdK,,,,,1498
-1499,a2008,B,,,,,35x50,mittel,breit,,,Gs,A,,,,,H1,bw,,,,iBdK,,,,,1499
+1499,a2008,B,,,,,35x50,mittel,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,1499
 1500,a2017,zT,B,T,,,42x59,mittel,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1500
 1501,a2012,zT,B,G,,,50x65,mittel,breit,,,Gs,A,Sch,,,,H2,gr,,,,iBdK,,,,,1501
 1502,a1987,K,,,,,42x56,mittel,breit,Lwi,,Gs,L,,,,,H4,gr,,sko,,iBdK,,,,,1502
@@ -1529,13 +1529,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1528,a1983,B,,,,,22x30,mittel,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1528
 1529,a1977,zT,G,Fa,,,59x55,mittel,hoch,,,U,,,,,,H3,cf,,,,iBdK,,,,,1529
 1530,a1977,zT,OPa,C,,,60x56,mittel,hoch,,,U,Sch,,,,,H3,cf,,,,iBdK,,,,,1530
-1531,a1977,Opa,,,,,44x55,mittel,breit,,,U,,,,,,H2,cf,,,,iBdK,,,,,1531
+1531,a1977,OPa,,,,,44x55,mittel,breit,,,U,,,,,,H2,cf,,,,iBdK,,,,,1531
 1532,a1977,zT,R,G,,,39x48,mittel,hoch,,,U,Ar,,,,,H3,v,,kre,,iBdK,,,,,1532
 1533,a1977,zT,OPa,C,,,57x71,mittel,breit,,,U,,,,,,H3,cf,,,Grümpu,iBdK,,,,,1533
 1534,a1977,zT,OPa,B,,,47x64,mittel,breit,,,U,,,,,,H2,b,,,,iBdK,,,,,1534
 1535,a1977,zT,OPa,B,,,47x64,mittel,breit,,,U,,,,,,H2,b,,,möglichst,iBdK,,,,,1535
 1536,a1977,zT,OPa,B,,,47x64,mittel,breit,,,U,,,,,,H1,gr,,,,iBdK,,,,,1536
-1537,a1977,Opa,,,,,64x47,mittel,hoch,,,U,,,,,,H2,gr,,,,iBdK,,,,,1537
+1537,a1977,OPa,,,,,64x47,mittel,hoch,,,U,,,,,,H2,gr,,,,iBdK,,,,,1537
 1538,a1977,B,,,,,34x30,mittel,hoch,,Fro,U,,,,,,H4,bw,,,,iBdK,,,,,1538
 1539,a1978,zT,R,Opl,,,46x39,mittel,hoch,,,U,,,,,,H2,cf,,,,iBdK,,,,,1539
 1540,a1978,Mt,C,OPa,B,,39x38,mittel,hoch,,,U,,,,,,H3,m,,sko,,iBdK,,,,,1540
@@ -1619,7 +1619,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1618,a1984,Mt,R,Dp,B,,22x21,klein,hoch,,,UoG,lL,O,L,Sta,,H3,gr,,,,iBdK,,,,,1618
 1619,a2010,zT,B,T,,,11x14,klein,breit,,,UnG,mF,,,,,H3,gr,,,mind never mind,iBdK,,,,,1619
 1620,a2004,Mt,B,T,G,,15x21,klein,breit,,,Gs,Sb,,,,,H3,gr,,,Selbstporträt,iBdK,,,,,1620
-1621,a2002,zT,B,T,,,15x17,klein,breit,,,Gs,mF,P,,,,H3,gr,,,the hunchback of Notre-Dame (Desolation Row),iBdK,,,,,1621
+1621,a2002,zT,B,T,,,15x17,klein,breit,,,Gs,P,P,,,,H3,gr,,,the hunchback of Notre-Dame (Desolation Row),iBdK,,,,,1621
 1622,a2001,Mt,Dd,B,Opl,,11x17,klein,breit,,,Gs,Sb,,,,,H2,cf,,,,iBdK,,,,,1622
 1623,a2007,zT,Dd,B,,,9x18,klein,breit,,,Gs,Ri,O,Ti,lL,,H2,bw,,zwi,Vierklang (Detektiv),iBdK,,,,,1623
 1624,a2002,zT,Ks,Opl,,,9x18,klein,breit,,,U,Sch,,,,,H2,cf,,,I can't even remember what it is I came to get away from,iBdK,,,,,1624
@@ -1631,7 +1631,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1630,a2001,zT,T,B,,,11x15,klein,breit,,,UoG,mF,,,,,H2,gr,,,,iBdK,,,,,1630
 1631,a2001,zT,Dd,G,,,9x18,klein,breit,,,Gs,mF,BiB,FigR,,,H2,cf,,,entlang,iBdK,,,,,1631
 1632,a2002,B,,,,,15x21,klein,breit,RiK,,UoG,,,,,,H5,bw,,,,iBdK,,,,,1632
-1633,a2002,zT,B,T,,,15x21,klein,breit,,,Gs,mF,FigG,,,,H5,gr,,sko,,iBdK,,,,,1633
+1633,a2002,zT,B,T,,,15x21,klein,breit,,,Gs,FigG,FigG,,,,H5,gr,,sko,,iBdK,,,,,1633
 1634,a2002,zT,Dd,Aq,,,15x21,klein,breit,,,U,Sch,,,,,H2,b,,zwi,,iBdK,,,,,1634
 1635,a2006,zT,Dd,G,,,13x19,klein,breit,,,Gs,O,Sch,At,,,H4,v,,,Atelier,iBdK,,,,,1635
 1636,a2004,zT,B,Fa,,,19x21,klein,breit,,,UnG,P,lL,FigR,BiB,,H2,bw,,,"Woodstock (nach Bertoluccis ""Dreamers"")",iBdK,,,,,1636
@@ -1735,9 +1735,9 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1734,a1981,B,,,,,32x24,mittel,hoch,,,Gs,Kt,,,,,H2,gr,,,,iBdK,,,,,1734
 1735,a1981,B,,,,,32x24,mittel,hoch,,,Gs,Kt,,,,,H2,gr,,,,iBdK,,,,,1735
 1736,a1981,B,,,,,32x24,mittel,hoch,,,Gs,Kt,,,,,H2,gr,,,,iBdK,,,,,1736
-1737,a1981,B,,,,,21x27,klein,breit,,,Gs,mF,P,Sch,Ca,,H2,gr,,,,iBdK,,,,,1737
-1738,a1981,Pk,,,,,21x36,mittel,breit,,,Gs,mF,Sch,,Ca,,H2,gr,,,,iBdK,,,,,1738
-1739,a1981,Pk,,,,,21x36,mittel,breit,,,Gs,mF,Sch,,Ca,,H2,gr,,,,iBdK,,,,,1739
+1737,a1981,B,,,,,21x27,klein,breit,,,Gs,P,P,Sch,Ca,,H2,gr,,,,iBdK,,,,,1737
+1738,a1981,Pk,,,,,21x36,mittel,breit,,,Gs,FigG,Sch,,Ca,,H2,gr,,,,iBdK,,,,,1738
+1739,a1981,Pk,,,,,21x36,mittel,breit,,,Gs,FigG,Sch,,Ca,,H2,gr,,,,iBdK,,,,,1739
 1740,a1981,B,,,,,33x24,mittel,hoch,,,Gs,Z,,,,,H2,b,,,,iBdK,,,,,1740
 1741,a1981,B,,,,,30x25,mittel,hoch,,,Gs,Z,,,,,H2,gr,,,,iBdK,,,,,1741
 1742,a1981,Mt,B,T,G,,38x32,mittel,hoch,,,Gs,Z,,,,,H2,gr,,,,iBdK,,,,,1742
@@ -1827,7 +1827,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1826,a2014,T ,,,,,15x18,klein,breit,,,Gs,FigG,O,L,,,H2,gr,Kr5c,,auslaufen,iBdK,res,,,,1826
 1827,a2014,B,,,,,18x18,klein,quadratisch,,,Gs,ZM,,,,,H1,gr,,,"Modell, Zeichner",iBdK,,,,,1827
 1828,a2014,B,,,,,19x25,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1828
-1829,a2014,B,,,,,15x21,klein,breit,Lwi,,UoG,,,,,,H3,bw,Kr9,,Elfen am Ufer,iBdK,res,,,,1829
+1829,a2014,B,,,,,15x21,klein,breit,Lwi,,UoG,,,,,,H3,gr,Kr9,,Elfen am Ufer,iBdK,res,,,,1829
 1830,a2015,B,,,,,11x15,klein,breit,Lwi,,U,,,,,,H4,bw,Kr9,,Grotte der Baubo,iBdK,res,,,,1830
 1831,a2015,B,,,,,15x21,klein,breit,,,Gs,A,,,,,H1,gr,,,,iBdK,,,,,1831
 1832,a2015,zT,B,T,,,20x28,klein,breit,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,1832
@@ -1892,7 +1892,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1891,a2002,Mt,Dd,T,B,,13x17,klein,breit,,,UnG,P,,,,,H3,gr,Par1,,Geb+Nut,iBdK,,,,,1891
 1892,a2004,Mt,Dd,T,B,,15x21,klein,breit,,,UnG,AP,,,,,H4,gr,Par1,,Geb+Nut,iBdK,,,,,1892
 1893,a2004,zT,Dd,T,,,15x21,klein,breit,,,Gs,Pf,P,,,,H3,gr,Par1,,offspring,iBdK,,,,,1893
-1894,a2007,zT,Dd,B,,,15x21,klein,breit,,,UoG,mF,P,,,,H4,gr,Par1,,Schreitende,iBdK,,,,,1894
+1894,a2007,zT,Dd,B,,,15x21,klein,breit,,,UoG,FigG,P,,,,H4,gr,Par1,,Schreitende,iBdK,,,,,1894
 1895,a2010,Mt,Dd,B,Fa,,13x26,klein,breit,,,UnG,mF,,,,,H3,cf,Par1,,"Geb and Nut, Dwana Smallwood and Matthew Rushing",iBdK,,,,,1895
 1896,a2002,zT,B,T,,,9x18,klein,breit,,,Gs,Mw,,,,,H3,gr,Par1,,Sphinx,iBdK,,,,,1896
 1897,a2007,B,,,,,11x17,klein,breit,,,Gs,Ri,Kt,,,,H2,b,Par1,,Priesterin,iBdK,,,,,1897
@@ -1903,7 +1903,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1902,a2006,B,,,,,17x21,klein,breit,Lst,,Gs,O,Tie,,,,H3,b,Par1,,nach einer ägyptischen Bronzeplastik,iBdK,,,,,1902
 1903,a2007,Mt,B,T,Opl,,15x18,klein,breit,,,Gs,Mw,O,,,,H3,gr,Par1,,BES,iBdK,,,,,1903
 1904,a2001,zT,B,T,,,9x18,klein,breit,,,Gs,mF,,,,,H4,gr,Par1,,,iBdK,,,,,1904
-1905,a2006,B,,,,,21x30,klein,breit,,,Gs,mF,,,,,H2,bw,Par1,,,iBdK,,,,,1905
+1905,a2006,B,,,,,21x30,klein,breit,,,Gs,AP,,O,,,H2,bw,Par1,,,iBdK,,,,,1905
 1906,a2008,zT,B,T,,,21x30,klein,breit,,,Gs,mF,,,,,H2,gr,Par1,,,iBdK,,,,,1906
 1907,a2005,zT,Dd,G,,,20x28,klein,breit,,,UnG,mF,BiB,,,,H3,gr,Par1,,"Tänzerin, Tänzer",iBdK,,,,,1907
 1908,a2010,B,,T ,,,21x28,klein,breit,,,Gs,Tie,,,,,H2,gr,Par1,,,iBdK,,,,,1908
@@ -1911,7 +1911,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 1910,a2006,B,,,,,21x30,klein,breit,,,Gs,O,,,,,H2,bw,Par1,,Mèrèn,iBdK,,,,,1910
 1911,a2006,B,,,,,17x21,klein,breit,,,Gs,O,,,,,H1,gr,Par1,,Mèrèn,iBdK,,,,,1911
 1912,a2016,zT,B,G,,,16x27,klein,breit,,,Gs,O,,,,,H2,gr,Par1,,couple de génies du terroir Nidebele,iBdK,,,,,1912
-1913,a2016,B,,,,,17x24,klein,breit,Lst,,Gs,mF,O,,,,H2,gr,Par1,,Agriculture,iBdK,,,,,1913
+1913,a2016,B,,,,,17x24,klein,breit,Lst,,Gs,FigG,O,,,,H2,gr,Par1,,Agriculture,iBdK,,,,,1913
 1914,a2016,zT,B,G,,,17x23,klein,breit,,,Gs,O,,,,,H3,v,Par1,,Statuettes de fécondité,iBdK,,,,,1914
 1915,a2016,zT,B,Fa,,,24x17,klein,hoch,,,Gs,O,Tie,,,,H2,gr,Par1,,Elefantenmaske,iBdK,,,,,1915
 1916,a2016,zT,Dd,G,,,19x21,klein,breit,,,Gs,Ar,,,,,H2,gr,Par1,,Confluences,iBdK,,,,,1916
@@ -2148,7 +2148,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2147,a2002,zT,Dd,T,,,11x15,klein,breit,,,UnG,Ar,,,,,H4,gr,Par2,,Lo spirito de Nerone,iBdK,,,,,2147
 2148,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar,,,,,H2,bw,Par2,,Götterstreit,iBdK,,,,,2148
 2149,a2010,zT,B,T,,,21x30,klein,breit,Lst,,Gs,Tie,Ken,Mw,,,H3,bw,Par2,,Centaurus and Lapiths,iBdK,,,,,2149
-2150,a2002,Mt,B,K ,T ,,21x30,klein,breit,,,Gs,mF,Ken,Mw,,,H3,bw,Par2,,Kentaur,iBdK,,,,,2150
+2150,a2002,Mt,B,K ,T ,,21x30,klein,breit,,,Gs,,Ken,Mw,,,H3,bw,Par2,,Kentaur,iBdK,,,,,2150
 2151,a2004,Mt,B,T,Fs,,14x21,klein,breit,,,Gs,Tie,mF,Ken,Mw,,H4,bw,Par2,,Kentaur,iBdK,,,,,2151
 2152,a2001,zT,B,T,,,14x21,klein,breit,,,Gs,P,Ken,Mw,,,H3,gr,Par2,,Kampf mit dem Kentauren,iBdK,,,,,2152
 2153,a2002,zT,Dd,T,,,9x11,klein,breit,,,Gs,Sch,BiB,Ken,Mw,,H3,gr,Par2,,Kentaur,iBdK,,,,,2153
@@ -2225,11 +2225,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2224,a2002,zT,B,T,,,17x21,klein,breit,,,UnG,mF,Tie,,,,H4,gr,Par4,,nach NMD «Die Bekehrung des Saulus»,,,,,,2224
 2225,a2002,zT,B,T ,,,17x21,klein,breit,,,UnG,mF,Tie,,,,H4,gr,Par4,,nach NMD «Die Bekehrung des Saulus»,,,,,,2225
 2226,a2008,zT,B,Dd,,,20x28,klein,breit,,,UnG,Kt,BiB,,,,H2,gr,Par4,,nach Gerard Davids «Taufe Christi»,,,,,,2226
-2227,a2012,B,,,,,21x30,klein,breit,,,Gs,mF,Ri,,,,H1,gr,Par4,sko,nach Bellinis «Pietà»,,,,,,2227
-2228,a2012,zT,B,T,,,21x30,klein,breit,,,Gs,mF,Sb,Ri,,,H2,gr,Par4,sko,nach Bellinis «Pietà»,,,,,,2228
+2227,a2012,B,,,,,21x30,klein,breit,,,Gs,P,Ri,Ri,,,H1,gr,Par4,sko,nach Bellinis «Pietà»,,,,,,2227
+2228,a2012,zT,B,T,,,21x30,klein,breit,,,Gs,P,Sb,Ri,,,H2,gr,Par4,sko,nach Bellinis «Pietà»,,,,,,2228
 2229,a2012,B, ,,,,21x30,klein,breit,,,Gs,AP,Ri,,,,H1,gr,Par4,sko,Pietà (nach Bellini),,,,,,2229
 2230,a2007,zT,B,Dd,,,15x18,klein,breit,Lwi,,UnG,O,Mw,,,,H2,gr,Par4,,römisches Capriccio (Villa Farnesina),,,,,,2230
-2231,a2007,Mt,B,Dd,G,,20x27,klein,breit,,,UnG,mF,P,BiB,,,H2,gr,Par4,,2 Figuren (nach Raffael),,,,,,2231
+2231,a2007,Mt,B,Dd,G,,20x27,klein,breit,,,UnG,P,P,BiB,,,H2,gr,Par4,,2 Figuren (nach Raffael),,,,,,2231
 2232,a2001,zT,Dd,Fa,,,11x15,klein,breit,Lwi,,UnG,Mw,,,,,H2,m,Par4,,Satyr (nach Francesco Primaticcio),,,,,,2232
 2233,a2001,Mt,Dd,B,Opl,,9x11,klein,breit,,,UnG,Mw,,,,,H3,b,Par4,,Satyr (nach Francesco Primaticcio),,,,,,2233
 2234,a2001,zT,Dd,Fa,,,11x17,klein,breit,,,UnG,Mw,,,,,H2,cf,Par4,sch,Satyr (nach Francesco Primaticcio),,,,,,2234
@@ -2245,11 +2245,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2244,a2012,Mt,B,T,Fs,Ks,15x21,klein,breit,,,Gs,Mw,Kt,Tie,,,H2,gr,ParT,zwi,An Allegory of Prudence (after Titian and workshop),,,,,,2244
 2245,a2014,Mt,B,Dd,Ko,,20x28,klein,breit,Lwi,,U,BiB,,,,,H3,gr,ParT,,d'après «LA MISE AU TOMBEAU» du Titien,,,,,,2245
 2246,a2006,Mt,B,T,G,,15x21,klein,breit,,,Gs,FigG,AP,,,,H3,gr,ParT,sti,nach Tizians «BACCHANAL»,,,,,,2246
-2247,a2010,Mt,B,Fa,T,,14x20,klein,breit,,,UoG,mF,,,,,H4,gr,ParT,,Bacchus und Ariadne (nach Titian),,,,,,2247
+2247,a2010,Mt,B,Fa,T,,14x20,klein,breit,,,UoG,P,,,,,H4,gr,ParT,,Bacchus und Ariadne (nach Titian),,,,,,2247
 2248,a2010,zT,B,T,,,20x25,klein,breit,Lwi,,Gs,FigG,AP,Pf,,,H2,gr,ParT,,Bacchus and Ariadne (after Titian),,,,,,2248
 2249,a2010,Mt,B,T,Fa,,18x20,klein,breit,,,UoG,P,,,,,H3,gr,ParT,,nach Titians «Bacchus und Ariadne»,,,,,,2249
-2250,a2010,zT,B,T,,,18x21,klein,breit,Lwi,,UoG,mF,P,,,,H2,gr,ParT,waa,nach Titians «Bacchus und Ariadne»,,,,,,2250
-2251,a2010,zT,Fs,T,,,15x21,klein,breit,Lwi,,UoG,mF,FigG,,,,H3,gr,ParT,,Bacchus and Ariadne (after Titian),,,,,,2251
+2250,a2010,zT,B,T,,,18x21,klein,breit,Lwi,,UoG,P,P,,,,H2,gr,ParT,waa,nach Titians «Bacchus und Ariadne»,,,,,,2250
+2251,a2010,zT,Fs,T,,,15x21,klein,breit,Lwi,,UoG,FigG,FigG,,,,H3,gr,ParT,,Bacchus and Ariadne (after Titian),,,,,,2251
 2252,a2010,B,,,,,20x21,klein,breit,,,UoG,FigG,Pf,,,,H2,gr,Par4,,The Triumph of Pan (after Poussin),,,,,,2252
 2253,a2010,Fs,,,,,15x21,klein,breit,,,UoG,mF,,,,,H2,bw,ParT,,nach Tizians «Bacchus und Ariadne»,,,,,,2253
 2254,a2017,B,,,,,17x18,klein,breit,,,Gs,Kt,Sb,O,,,H3,gr,Par4,,Pietà (nach el Greco),,,,,,2254
@@ -2267,7 +2267,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2266,a2009,Mt,B,Ks,T,,21x30,klein,breit,,,Gs,FigG,Sb,,,,H2,c,Par4,,DREIKLANG: nach Raphaels «School of Athens»,,,,,,2266
 2267,a2014,zT,Fs,Fa,,,21x30,klein,breit,,,UoG,FigG,,,,,H2,gr,Par4,,Raphael: «Christ's Charge to Peter» ,,,,,,2267
 2268,a2015,zT,B,T,,,19x19,klein,quadratisch,Lwi,,UnG,P,FigG,AP,,,H3,gr,Par4,,Groteske,iBdK,,,,,2268
-2269,a2001,zT,B,Dd,,,17x21,klein,breit,,,Gs,P,Kt,mF,,,H2,gr,Par4,,nach einer Radierung von Callot,iBdK,,,,,2269
+2269,a2001,zT,B,Dd,,,17x21,klein,breit,,,Gs,P,Kt,,,,H2,gr,Par4,,nach einer Radierung von Callot,iBdK,,,,,2269
 2270,a2009,zT,B,Dd,,,21x30,klein,breit,,,Gs,AP,,,,,H1,bw,Par4,waa,"d'après ""Echo et Narcisse"" de Nicolas Poussin",iBdK,,,,,2270
 2271,a2002,B,,,,,9x11,klein,breit,Lwi,,U,,,,,,H3,gr,Par4,,Georg (zu Hamid Baroudi),iBdK,,,,,2271
 2272,a2016,zT,B,Ks,,,15x19,klein,breit,,,UnG,FigG,,,,,H1,gr,Par4,,nach einem Fresko von San Vittore in Muralto,iBdK,,,,,2272
@@ -2386,7 +2386,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2385,a2012,zT,B,T,,,21x15,klein,hoch,,,UoG,L,mF,,,,H2,gr,Par5,fis,"nach J.M.W. Turner: «The Death of Actaeon, with a Distant View of Montjovet, Val d'Aosta»",iBdK,,,,,2385
 2386,a2016,B, ,,,,11x15,klein,breit,Lst,,UoG,L,,,,,H4,gr,Par5,,La Vague (d'après Gustave Courbet),iBdK,,,,,2386
 2387,a2010,zT,B,T,,,17x24,klein,breit,Lwi,,UoG,AP,P,,,,H3,gr,Par5,,nach Manets «Déjeuner sur l'herbe»,iBdK,,,,,2387
-2388,a2010,zT,B,G,,,17x24,klein,breit,,,UoG,mF,Ar,,,,H3,gr,Par5,,nach Gauguins «Mahana no Atna»,iBdK,,,,,2388
+2388,a2010,zT,B,G,,,17x24,klein,breit,,,UoG,P,Ar,,,,H3,gr,Par5,,nach Gauguins «Mahana no Atna»,iBdK,,,,,2388
 2389,a2002,B,,,,,9x18,klein,breit,,,Gs,Mw,mF,P,O,,H2,gr,Par5,zwi,nach Fernand Khnopff «Le Sphinx»,iBdK,,,,,2389
 2390,a2002,B,,,,,9x18,klein,breit,,,Gs,Mw,Sb,P,Ca,,H2,gr,Par5,zwi,nach Fernand Khnopff «Le Sphinx»,iBdK,,,,,2390
 2391,a2009,Mt,Dd,B,T,,21x30,klein,breit,,,UoG,Pf,Gä,,,,H2,gr,Par5,,d'après un dessin d'Eugène Delacroix («Vue du Parc de Nohant»),iBdK,,,,,2391
@@ -2416,7 +2416,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2415,a2017,zT,T,B,,,19x30,klein,breit,,,Gs,A,Sch,,,,H4,gr,,kre,deuil,iBdK,,,,,2415
 2416,a2017,Mt,B,T,G,,14x25,klein,breit,,,Gs,ZM,Kt,,,,H3,gr,,,"Zeichner, Modell",iBdK,,,,,2416
 2417,a2017,zT,B,Fa,,,20x24,klein,breit,,,Gs,ZM,Kt,,,,H2,gr,,,"Modell, Zeichner",iBdK,,,,,2417
-2418,a2017,B,,,,,21x27,klein,breit,,,Gs,ZM,Sch,,,,H1,gr,,waa,mirror,iBdK,,,,,2418
+2418,a2017,B,,,,,21x27,klein,breit,,,Gs,ZM,Sch,,,,H1,gr,,,mirror,iBdK,,,,,2418
 2419,a2017,B,,,,,21x15,klein,hoch,,,Gs,ZM,P,Sb,,,H3,gr,,,"Zeichner, Paar",iBdK,,,,,2419
 2420,a2017,B,,,,,21x21,klein,quadratisch,,,Gs,Kt,Z,A,,,H3,gr,,wid,Zeichner,iBdK,,,,,2420
 2421,a2016,zT,B,Fa,,,21x30,klein,breit,Lst,,Gs,A,Sb,,,,H2,gr,,,Zeichner ,iBdK,,,,,2421
@@ -2447,7 +2447,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2446,a2017,zT,B,T,,,9x12,klein,breit,RiK,,UoG,,,,,,H5,gr,,,,iBdK,,,,,2446
 2447,a2017,zT,B,T,,,9x12,klein,breit,RiK,,UoG,,,,,,H5,gr,Kr4,,dunkle Hoffnung,iBdK,res,,,,2447
 2448,a2017,zT,B,T,,,9x12,klein,breit,RiK,,UoG,,,,,,H5,gr,,,,iBdK,,,,,2448
-2449,a2017,zT,B,T,,,9x12,klein,breit,,,UoG,A,,,,,H4,gr,,,Sitzende,iBdK,,,,,2449
+2449,a2017,zT,B,T,,,9x12,klein,breit,,,UoG,A,,,,,H4,gr,Kr5d,,Sitzende,iBdK,,,,,2449
 2450,a2007,zT,B,Dp,,,24x30,mittel,breit,,,UoG,FigG,,,,,H2,bw,Kr5c,,Gehversuche,iBdK,res,,,,2450
 2451,a1997,Ks,,,,,22x30,mittel,breit,,,U,,,,,,H3,c,,,,iBdK,,,,,2451
 2452,a2008,Sc,,,,,24x30,mittel,breit,Lst,,U,,,,,,H1,gr,Kr10a,,ville en verre,iBdK,res,,,,2452
@@ -2570,7 +2570,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2569,a2002,T,,,,,11x15,klein,breit,,,U,,,,,,H2,gr,Kr7,,Verständigungsversuche,iBdK,res,,,,2569
 2570,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,O,,,,,H2,gr,Kr1,,Einfälle,iBdK,res,,,,2570
 2571,a2009,Mt,Dd,B,T,,11x15,klein,breit,,,U,,,,,,H2,gr,Kr1,,trajectoires,iBdK,res,,,,2571
-2572,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar,,,,,H2,bw,Kr1,wid,Streit im Olymp,iBdK,res,,,,2572
+2572,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar,,,,,H2,bw,Kr9,,Streit im Olymp,iBdK,res,,,,2572
 2573,a2002,zT,Dd,B,,,11x15,klein,breit,Lwi,,UnG,mF,bb,,,,H4,g,Kr1,,Rondo,iBdK,res,,,,2573
 2574,a2005,zT,Dd,Fs,,,11x15,klein,breit,,,U,BiB,,,,,H2,g,Kr1,jun,zackige Reise,iBdK,res,,,,2574
 2575,a2006,zT,Dd,B,,,11x15,klein,breit,,,UnG,O,,,,,H2,gr,Kr1,,Beschleunigung,iBdK,res,,,,2575
@@ -2583,7 +2583,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2582,a2001,zT,Od,Opl,,,9x11,klein,breit,Lst,,U,Sch,,,,,H2,v,Kr1,,kleine Klimax,iBdK,res,,,,2582
 2583,a2004,zT,B,T,,,9x11,klein,breit,Lwi,,U,,,,,,H2,gr,Kr1,,doppelt bewegt,iBdK,res,,,,2583
 2584,a2002,zT,B,Opl,,,9x11,klein,breit,,,U,,,,,,H1,gr,Kr1,,startklar,iBdK,res,,,,2584
-2585,a2001,zT,Dd,Ks,,,9x11,klein,breit,,,UnG,mF,Ar,P,,,H2,gr,Kr1,was,Planetenball,iBdK,res,,,,2585
+2585,a2001,zT,Dd,Ks,,,9x11,klein,breit,,,UnG,,Ar,P,,,H2,gr,Kr1,was,Planetenball,iBdK,res,,,,2585
 2586,a2014,zT,B,Ks,,,9x11,klein,breit,,,U,BiB,,,,,H2,gr,Kr1,,eng bewegt,iBdK,res,,,,2586
 2587,a2002,zT,Dd,Fa,,,9x11,klein,breit,,,U,BiB,,,,,H2,gr,Kr1,,connect,iBdK,res,,,,2587
 2588,a2002,Mt,Dd,B,Opl,,9x11,klein,breit,Lwi,Lst,U,,,,,,H3,cf,Kr1,zwi,Transite,iBdK,res,,,,2588
@@ -2660,7 +2660,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2659,a2001,Mt,B,Fa,T,,14x21,klein,breit,,,UoG,Pf,,,,,H2,gr,Kr2a,,Trockenblume,iBdK,res,,,,2659
 2660,a2012,Mt,B,T,Opl,,15x19,klein,breit,,,UoG,,,,,,H4,cf,Kr2a,sko,forêt vierge,iBdK,res,,,,2660
 2661,a2004,Mt,B,T,G,,23x21,klein,breit,,,UoG,,,,,,H4,gr,Kr2a,,nuts,iBdK,res,,,,2661
-2662,a2014,Mt,Dd,T,Fa,,12x15,klein,breit,,,UoG,,,,,,H4,gr,Kr2a,,no time to think,iBdK,res,,,,2662
+2662,a2014,Mt,Dd,T,Fa,,12x15,klein,breit,,,U,,,,,,H4,gr,Kr12c,,no time to think,iBdK,res,,,,2662
 2663,a2017,B,,,,,17x24,klein,breit,,,Gs,Pf,,,,,H2,bw,Kr2a,kre,"Baum, Mond",PB,"Heidi Mathys, Münsingen",,,,2663
 2664,a2006,B,,,,,17x21,klein,breit,,,Gs,Pf,,,,,H2,bw,Kr2a,,éclosion,iBdK,res,,,,2664
 2665,a2008,Mt,Dd,B,Fa,,19x25,klein,breit,,,UnG,Pf,,,,,H3,gr,Kr2a,,il giardino di Giacomo,iBdK,res,,,,2665
@@ -2783,13 +2783,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2782,a2012,zT,B,Opl,,,15x21,klein,breit,,,UoG,,,,,,H2,bw,Par1,,Lion attaking a bull,iBdK,,,,,2782
 2783,a2016,zT,B,T,,,11x15,klein,breit,Lst,,UnG,mF,Tie,Sch,,,H2,b,Par2,,"Tier, Mensch, Buchstabe",iBdK,,,,,2783
 2784,a2001,zT,Dd,G,,,9x18,klein,breit,Gi,,UnG,mF,Tie,,,,H2,v,Par2,sko,Magierin,iBdK,,,,,2784
-2785,a2002,zT,Dd,Fa,,,9x11,klein,breit,,,UnG,mF,P,,,,H3,v,Par2,,der kleine Dionysos,iBdK,,,,,2785
+2785,a2002,zT,Dd,Fa,,,9x11,klein,breit,,,UnG,P,P,,,,H3,v,Par2,,der kleine Dionysos,iBdK,,,,,2785
 2786,a2007,zT,Dd,Fs,,,14x20,klein,breit,,,UnG,Ri,,,,,H1,gr,Par2,,kleiner Schöpfungsakt,iBdK,,,,,2786
 2787,a2009,Mt,Dd,B,Ac,,14x20,klein,breit,,,UnG,Ri,,,,,H1,gr,Par2,,MIRABILIA,iBdK,,,,,2787
 2788,a2009,Dd,,,,,15x21,klein,breit,,,UnG,Ar,,,,,H1,cf,Par2,,Pantheon,iBdK,,,,,2788
-2789,a2001,zT,B,Fa,,,17x21,klein,breit,,,UoG,mF,Mw,,,,H2,cf,Par2,,Sphinx,iBdK,,,,,2789
-2790,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,mF,Ken,Mw,,,H4,gr,Par2,,Emma pendelt,iBdK,,,,,2790
-2791,a2001,Mt,Dd,B,Fa,,21x30,klein,breit,,,Gs,mF,Ken,O,Mw,,H2,cf,Par2,,siegreicher Kentaur,iBdK,,,,,2791
+2789,a2001,zT,B,Fa,,,17x21,klein,breit,,,UoG,P,Mw,Mw,,,H2,cf,Par2,,Sphinx,iBdK,,,,,2789
+2790,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,P,Ken,Mw,,,H4,gr,Par2,,Emma pendelt,iBdK,,,,,2790
+2791,a2001,Mt,Dd,B,Fa,,21x30,klein,breit,,,Gs,P,Ken,O,Mw,,H2,cf,Par2,,siegreicher Kentaur,iBdK,,,,,2791
 2792,a2007,zT,Dd,B,,,20x28,klein,breit,,,UnG,O,FigG,Sch,,,H1,gr,Par2,,Odysseus,iBdK,,,,,2792
 2793,a2001,zT,B,T,,,21x30,klein,breit,,,UoG,Ar,,,,,H4,gr,Par2,,tempelbauer,iBdK,,,,,2793
 2794,a2007,zT,Dd,B,,,14x21,klein,breit,,,UnG,P,,,,,H3,bw,Par1,fis,kosmische Konfusion,iBdK,,,,,2794
@@ -2842,7 +2842,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2841,a2002,zT,B,T,,,9x11,klein,breit,,,U,,,,,,H4,bw,Kr4,sko,Sull' orlo della notte,iBdK,res,,,,2841
 2842,a2010,zT,B,T,,,9x11,klein,breit,,,U,,,,,,H4,bw,Kr4,,Trakls Hain,iBdK,res,,,,2842
 2843,a2017,zT,B,T,,,9x12,klein,breit,,,UoG,L,,,,,H4,gr,Kr4,,paysage blessé,iBdK,res,,,,2843
-2844,a2017,B,,,,,9x12,klein,breit,,,U,,,,,,H2,bw,Kr4,sch,Tal,iBdK,res,,,,2844
+2844,a2017,B,,,,,9x12,klein,breit,,,U,,,,,,H2,bw,Kr4,,Tal,iBdK,res,,,,2844
 2845,a2017,B,,,,,9x12,klein,breit,Lwi,,U,,,,,,H3,bw,Kr4,,Szene am Strand,iBdK,res,,,,2845
 2846,a2015,B,,,,,9x12,klein,breit,,,UoG,L,mF,,,,H4,bw,Kr4,,Strand,iBdK,res,,,,2846
 2847,a2008,Mt,Fa,T,G,,10x10,klein,quadratisch,,,U,,,,,,H2,gr,Kr4,,tempête d'hiver,iBdK,res,,,,2847
@@ -2887,8 +2887,8 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 2886,a2009,Mt,Od,Dd,B,,21x30,klein,breit,Gi,,UoG,Tie,,,,,H3,gr,Par7a,,"nach Eschers ""Study for Reptiles"" ",iBdK,,,,,2886
 2887,a2009,zT,Od,B,,,21x30,klein,breit,Gi,Lwi,UnG,FigG,,,,,H2,gr,Par7a,jun,nach einer Zeichnung von Felix Hoffmann,iBdK,,,,,2887
 2888,a2014,B,,,,,30x21,klein,hoch,,,U,,,,,,H1,gr,Par7a,zwi,Trovatore (nach Giorgio de Chirico),iBdK,,,,,2888
-2889,a2001,B,,,,,11x17,klein,breit,,,Gs,Mw,mF,,,,H3,gr,ParPP,,"nach Picassos ""Minotaure mourant""",iBdK,,,,,2889
-2890,a2001,T,,,,,15x21,klein,breit,,,UpG,Tie,mF,AP,,,H3,gr,ParPP,,"nach Picassos ""Scène bachique au Minotaure""",iBdK,,,,,2890
+2889,a2001,B,,,,,11x17,klein,breit,,,Gs,Mw,mF,P,,,H3,gr,ParPP,,"nach Picassos ""Minotaure mourant""",iBdK,,,,,2889
+2890,a2001,T,,,,,15x21,klein,breit,,,UoG,Mw,mF,AP,FigG,,H3,gr,ParPP,,"nach Picassos ""Scène bachique au Minotaure""",iBdK,,,,,2890
 2891,a2012,B,,,,,15x21,klein,breit,,,Gs,FigG,,,,,H3,bw,ParPP,,El retorn dels pescadors (nach Picasso),iBdK,,,,,2891
 2892,a2001,T,,,,,21x30,klein,breit,,,UoG,Tie,O,AP,,,H4,gr,ParPP,,"nach Picassos Lavis ""Le Singe Peintre""",iBdK,,,,,2892
 2893,a2011,Mt,Dd,G,B,,21x30,klein,breit,Lwi,,Gs,ZM,,,,,H3,gr,ParPP,,Maler und Modell (nach Pablo Picasso),iBdK,,,,,2893
@@ -3030,15 +3030,15 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3029,a2016,zT,T,B,,,21x30,klein,breit,,,U,Sch,,,,,H4,bw,Kr3,,Horizontales mit kleinem K,iBdK,res,,,,3029
 3030,a2010,zT,T,Fs,,,21x30,klein,breit,,,U,Sch,,,,,H4,bw,Kr3,,J (peu visible),iBdK,res,,,,3030
 3031,a2016,zT,Fs,B,,,21x30,klein,breit,,,U,Sch,,,,,H5,bw,Kr3,,S wie Schriss,iBdK,res,,,,3031
-3032,a2006,zT,B,T,,,17x21,klein,breit,,,UoG,BiB,lL,,,,H1,gr,Par7a,was,Hommage to Robert Ryman ,iBdK,,,,9er Gruppe,3032
-3033,a2006,Mt,B,T,Fs,,17x21,klein,breit,,,UoG,BiB,lL,,,,H2,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3033
-3034,a2006,zT,B,C,,,17x21,klein,breit,,,UoG,BiB,lL,,,,H1,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3034
-3035,a2006,zT,B,T,,,17x21,klein,breit,,,UoG,BiB,lL,,,,H3,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3035
-3036,a2006,B,,,,,17x21,klein,breit,,,UoG,BiB,lL,,,,H1,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3036
-3037,a2006,zT,B,T,,,17x21,klein,breit,,,UoG,BiB,,,,,H2,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3037
-3038,a2006,Fa,,,,,17x21,klein,breit,,,UoG,BiB,lL,,,,H2,cf,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3038
-3039,a2006,Mt,Fa,B,C,,17x21,klein,breit,,,UoG,BiB,,,,,H2,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3039
-3040,a2006,Mt,B,Fs,G,,17x21,klein,breit,,,UoG,BiB,lL,,,,H2,gr,Par7a,was,Hommage to Robert Ryman,iBdK,,,,9er Gruppe,3040
+3032,a2020,Mt,B,T,Fs,C,39x112,mittel,breit,sCo,,U,BiB,lL,,,,H2,gr,Kr7,was,ob es passt oder nicht,iBdK,res,,,8er Gruppe,3032
+3033,a2004,G,,,,,11x18,klein,breit,,,U,,,,,,H3,y,Kr12b,,Zweiklang,iBdK,,,,,3033
+3034,a2006,G,,,,,11x21,klein,breit,sM,,U,,,,,,H3,cf,,,to be continued,iBdK,,,,,3034
+3035,a2006,G,,,,,18x24,klein,breit,,,UoG,mF,,,,,H4,gr,Kr5a,fis,"Sitzende, Gefäss",iBdK,,,,,3035
+3036,a2006,G,,,,,21x28,klein,breit,Gi,,UnG,P,A,,,,H3,b,Kr5b,,"Paar, diffus verhakt",iBdK,,,,,3036
+3037,a2008,G,,,,,21x27,klein,breit,,,U,Sch,,,,,H3,g,Kr3,,viel zu erzählen,iBdK,,,,,3037
+3038,a2012,G,,,,,20x25,klein,breit,,,U,,,,,,H4,cf,Kr12b,,"Zweiklang, ländlich",iBdK,,,,,3038
+3039,a2019,G,,,,,21x24,klein,breit,,,U,,,,,,H5,b,Kr12a,kre,in gütiges Dunkel gehüllt,iBdK,,,,,3039
+3040,a2019,G,Fal,,,,21x17,klein,hoch,Lst,,UoG,mF,,,,,H4,gr,Kr8,,zaudernd voran,iBdK,,,,,3040
 3041,a2014,Mt,B,Aq,G,,21x30,klein,breit,,,Gs,AP,P,Ca,,,H3,gr,Kr11,,"zwei Menschen, sich vermutend",iBdK,res,,,,3041
 3042,a2008,B, ,,,,11x15,klein,breit,,,UoG,mF,O,,,,H3,gr,Par8b,zwi,"nach ""Floating Identities"" von Frank den Oudsten",iBdK,,,,,3042
 3043,a2009,Mt,B,Fs,G,,20x28,klein,breit,,,U,,,,,,H2,gr,Par8b,zwi,"zu ""Sections of a Happy Moment"" von David Claerbout",iBdK,,,,,3043
@@ -3072,7 +3072,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3071,a2009,zT,Dd,G,,,15x21,klein,breit,,,U,,,,,,H2,gr,Par9a,,frei nach Jessica Stockholder,iBdK,,,,,3071
 3072,a2008,Mt,Dd,Ks,C,Ko,20x28,klein,breit,,,UnG,O,,,,,H4,gr,Par9a,,grey box (bei Jessica Stockholder),iBdK,,,,,3072
 3073,a2008,Mt,Dd,B,G,,20x28,klein,breit,,,UnG,O,,,,,H3,gr,Par9a,,"Figur, Atelier (bei Jessica Stockholder)",iBdK,,,,,3073
-3074,a2008,Mt,Dd,B,Ac,,21x28,klein,breit,,,UoG,O,mF,At,,,H3,gr,Par9a,,4 Figuren (bei Jessica Stockholder),iBdK,,,,,3074
+3074,a2008,Mt,Dd,B,Ac,,21x28,klein,breit,,,UoG,O,mF,At,FigG,,H3,gr,Par9a,,4 Figuren (bei Jessica Stockholder),iBdK,,,,,3074
 3075,a2007,zT,Dd,Fs,,,11x21,klein,breit,,,UnG,O,At,Ar,,,H1,gr,Par9a,was,M - eine Stadt sucht einen Zeichner,iBdK,,,,,3075
 3076,a2011,zT,Dd,T,,,21x30,klein,breit,,,UnG,BiB,,,,,H2,gr,Par9a,,"nach Anna Oppermanns ""Anders sein""",iBdK,,,,,3076
 3077,a2012,Mt,Dd,T,G,B,21x30,klein,breit,,,UnG,BiB,,,,,H2,cf,Par9a,,"Fünfklang (Paraphrase nach Anna Oppermanns ""Problemlösungsauftrag an Künstler"")",iBdK,,,,,3077
@@ -3175,7 +3175,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3174,a2007,B,,,,,21x30,klein,breit,,,UoG,A,,,,,H2,gr,Kr5d,,kleines Eroticum,iBdK,res,,,,3174
 3175,a2006,B,,,,,21x30,klein,breit,,,Gs,A,FigG,,,,H2,gr,Kr5d,,Dreiklang,iBdK,res,,,,3175
 3176,a2014,Mt,B,Fa,T,,9x11,klein,breit,,,UoG,Ri,Sch,,,,H2,v,Kr5e,,what ugly good ...,iBdK,res,,,,3176
-3177,a2017,B, ,,,,9x12,klein,breit,Lst,,UnG,Kt,Vo,,,,H2,bw,Kr5e,waa,"Torso, Vorhang",iBdK,res,,,,3177
+3177,a2017,B, ,,,,9x12,klein,breit,Lst,,UnG,Kt,Vo,,,,H2,bw,Kr5e,,"Torso, Vorhang",iBdK,res,,,,3177
 3178,a2002,zT,Dd,Opl,,,9x13,klein,breit,Lwi,,UnG,Ri,,,,,H4,cf,Kr5e,,Priester,iBdK,res,,,,3178
 3179,a2002,zT,Dd,Fa,,,9x15,klein,breit,Lst,,UnG,Kt,,,,,H2,v,Kr5e,,Passer,iBdK,res,,,,3179
 3180,a2004,zT,Fa,B,,,9x15,klein,breit,,,UnG,Ri,,,,,H1,gr,Kr5e,,à l'écoute,iBdK,res,,,,3180
@@ -3305,7 +3305,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3304,a2005,OP,,,,,41x55,mittel,breit,RiK,,U,,,,,,H4,b,,waa,Auster,iBdK,,,,Kat.OP.363,3304
 3305,a2000,OP,,,,,41x55,mittel,breit,,,UoG,Z,,,,,H5,cf,,,,iBdK,,,,Kat.OP.297,3305
 3306,a2003,OP,,,,,41x55,mittel,breit,dg,,U,,,,,,H3,cf,,,eine kleine Farbenlehre,iBdK,,,,Kat.OP.264,3306
-3307,a207,zT,B,G,,,36x48,mittel,breit,,,U,,,,,,H1,gr,Kr4,fis,meine Tunixreise,iBdK,res,,,,3307
+3307,a2007,zT,B,G,,,36x48,mittel,breit,,,U,,,,,,H1,gr,Kr4,fis,meine Tunixreise,iBdK,res,,,,3307
 3308,a2013,zT,Fs,B,,,33x48,mittel,breit,,,UnG,L,Ar,LdR,BiB,WG27,H2,bw,ParFV,,Livre de raison (d'après des oeuvres de Félix Vallotton),iBdK,res,,,Namen der verwendeten Bücher auf der Rückseite der Zeichnungen,3308
 3309,a2013,zT,B,Fs,,,42x50,mittel,breit,,,UnG,Ri,AP,LdR,BiB,WG27,H1,gr,ParFV,,Livre de raison (d'après des oeuvres de Félix Vallotton),iBdK,res,,,Namen der verwendeten Bücher auf der Rückseite der Zeichnungen,3309
 3310,a2013,Fs,,,,,36x46,mittel,breit,,,U,LdR,,,BiB,WG27,H2,bw,ParFV,ste,Livre de raison (d'après des oeuvres de Félix Vallotton),iBdK,res,,,Namen der verwendeten Bücher auf der Rückseite der Zeichnungen,3310
@@ -3366,12 +3366,12 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3365,a1995?,Mt,Ac,R,B,,56x79,mittel,breit,,,UoG,A,,,,,H2,v,,wid,,iBdK,,,,,3365
 3366,a1995?,Mt,Ac,R,B,,56x79,mittel,breit,,,U,,,,,,H2,g,,wid,,iBdK,,,,,3366
 3367,a1995?,Mt,Ac,R,B,,56x79,mittel,breit,,,UoG,A,,,,,H2,cf,,wid,,iBdK,,,,,3367
-3368,a2003,OP,,,,,41x67,mittel,breit,,,U,,,,,,H2,cf,Kr12a,,leichte Fracht,iBdK,res,,,,3368
-3369,a2000,OP,,,,,41x67,mittel,breit,,,UnG,mF,,,,,H4,cf,Kr5a,,"Floss: rechter Winkel, goldener Schnitt",iBdK,res,,,Kat.OP.28,3369
-3370,a2000,OP,,,,,41x67,mittel,breit,Schl,,U,,,,,,H4,v,Kr12a,,o.T.stiller Fluss,iBdK,res,,,Kat.OP.148,3370
+3368,a2003,OP,,,,,41x67,mittel,breit,,,U,,,,,,H2,cf,Kr12a,,leichte Fracht,iBdK,,,,,3368
+3369,a2000,OP,,,,,41x67,mittel,breit,,,UnG,mF,,,,,H4,cf,,,"Floss: rechter Winkel, goldener Schnitt",iBdK,res,,,Kat.OP.28,3369
+3370,a2000,OP,,,,,41x67,mittel,breit,Schl,,U,,,,,,H4,v,Kr12a,,stiller Fluss,iBdK,res,,,Kat.OP.148,3370
 3371,a2001,OP,,,,,41x67,mittel,breit,,,UoG,Z,,,,,H4,cf,Kr5f,,Sandkasten (5 Maler),iBdK,res,,,Kat.OP.128,3371
 3372,a2006,OP,,,,,41x67,mittel,breit,,,U,,,,,,H4,c,,fis,notturno,iBdK,,,,Kat.OP.225,3372
-3373,a2007,OP,,,,,41x67,mittel,breit,,,U,,,,,,H4,cf,Kr8,,Fernweh,iBdK,res,,,Kat.OP.585,3373
+3373,a2007,OP,,,,,41x67,mittel,breit,,,U,,,,,,H4,cf,"Kr4,Kr10a",,"Stätte, weit draussen",iBdK,res,,,Kat.OP.585,3373
 3374,a2006,OP,,,,,41x67,mittel,breit,,,UnG,AP,Tie,,,,H4,cf,Par2,,Herakles,iBdK,,,,Kat.OP.317,3374
 3375,a2001,OP,,,,,41x67,mittel,breit,,,UnG,,,,,,H4,cf,Kr9,,Uranus und Gaia,iBdK,res,,,Kat.OP.31 ,3375
 3376,a2000,OP,,,,,41x67,mittel,breit,RiK,,UoG,,,,,,H4,cf,,,,iBdK,,,,Kat.OP.78,3376
@@ -3382,7 +3382,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3381,a2006,OP,,,,,41x67,mittel,breit,,,U,,,,,,H3,cf,ParPK,,Ad Parnassum - SUBITO! (nach Paul Klee),iBdK,res,,,Kat.OP.448,3381
 3382,a2009,OP,,,,,41x67,mittel,breit,,,U,Sch,,,,,H2,cf,Kr3,,J statt P,iBdK,res,,,Kat.OP.451,3382
 3383,a2003,OP,,,,,41x67,mittel,breit,Lst,,UnG,A,Sch,,,,H4,cf,Par7a,,"Frau, ein Bild von Jasper Johns betrachtend",iBdK,,,,Kat.OP.250,3383
-3384,a2006,OP,,,,,41x67,mittel,breit,,,UoG,mF,Sch,L,Ca,,H2,g,Kr3,,definieren,iBdK,res,,,Kat.OP.469,3384
+3384,a2006,OP,,,,,41x67,mittel,breit,,,UoG,Pf,Sch,L,Ca,Sch,H2,g,Kr3,,definieren,iBdK,res,,,Kat.OP.469,3384
 3385,a2006,OP,,,,,41x67,mittel,breit,,,UnG,L,,,,,H5,g,Kr8,,blauwärts,iBdK,res,,,Kat.OP.361,3385
 3386,a2001,OP,,,,,41x67,mittel,breit,,,Gs,Pf,mF,,,,H4,cf,,,Louis' Baum,iBdK,,,,Kat.OP.155,3386
 3387,a2003,OP,,,,,41x67,mittel,breit,,,U,,,,,,H4,c,,fis,o.T.,iBdK,,,,Kat.OP.296,3387
@@ -3498,7 +3498,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3497,a2007,Mt,B,Fs,Fa,,21x30,klein,breit,,,U,,,,,,H1,bw,Kr11,waa,kleines Fest der Kulturen,iBdK,res,,,,3497
 3498,a2008,zT,B,Dd,,,21x30,klein,breit,,,UoG,O,,,,,H3,b,Kr6,,Gefässe,iBdK,res,,,,3498
 3499,a2017,Mt,Dd,B,Fa,,9x11,klein,breit,Lwi,,UnG,Ri,Sch,,,,H2,gr,Kr5e,,spärliche Behaarung,iBdK,res,,,,3499
-3500,a2017,zT,B,T,,,9x11,klein,breit,,,U,,,,,,H5,gr,Kr10a,ste,Mole,iBdK,res,,,,3500
+3500,a2017,zT,B,T,,,9x11,klein,breit,,,U,,,,,,H5,gr,Kr10a,,Mole,iBdK,res,,,,3500
 3501,a2017,zT,B,T,,,9x12,klein,breit,Lst,,U,,,,,,H4,gr,Kr6,,Pokal (Trostpreis),iBdK,res,,,,3501
 3502,a2017,B, ,,,,9x12,klein,breit,,,Gs,Ti,,,,,H3,gr,Kr6,,auf dem Tisch,iBdK,res,,,,3502
 3503,a2014,zT,Dd,B,,,9x14,klein,breit,,,UoG,Tie,Sch,,,,H1,gr,Kr2b,,vage zoologisch,iBdK,res,,,,3503
@@ -3719,13 +3719,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3718,a2014,Mt,B,T,G,,31x35,mittel,breit,,,Gs,mF,Ti,,,WG20,H2,gr,ParFV,,Das Nachtessen bei Lampenlicht (nach Félix Vallotton),iBdK,res,,,,3718
 3719,a2014,zT,B,Opl,,,31x35,mittel,breit,,,UoG,Ti, ,,,WG20,H2,gr,ParFV,,Das Nachtessen bei Lampenlicht (nach Félix Vallotton),iBdK,res,,,,3719
 3720,a2014,zT,B,G,,,31x35,mittel,breit,,,Gs,mF,,,,WG20,H1,gr,ParFV,,Das Nachtessen bei Lampenlicht (nach Félix Vallotton),iBdK,res,,,,3720
-3721,a2014,zT,T,C,,,49x32,mittel,hoch,,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3721
-3722,a2014,zT,T,C,,,48x31,mittel,hoch,,,UoG,AP,Ba,,,WG16,H4,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3722
-3723,a2014,zT,T,C,,,49x31,mittel,hoch,,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3723
-3724,a2014,zT,T,C,,,46x32,mittel,hoch,,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3724
-3725,a2014,zT,T,C,,,48x33,mittel,hoch,,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3725
-3726,a2014,zT,T,C,,,47x31,mittel,hoch,,,UoG,AP,Ba,,,WG16,H2,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3726
-3727,a2014,zT,T,C,,,48x26,mittel,hoch,,,UoG,AP,Ba,,,WG16,H4,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3727
+3721,a2014,zT,T,C,,,49x32,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3721
+3722,a2014,zT,T,C,,,48x31,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H4,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3722
+3723,a2014,zT,T,C,,,49x31,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3723
+3724,a2014,zT,T,C,,,46x32,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3724
+3725,a2014,zT,T,C,,,48x33,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H3,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3725
+3726,a2014,zT,T,C,,,47x31,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H2,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3726
+3727,a2014,zT,T,C,,,48x26,mittel,hoch,sCo,,UoG,AP,Ba,,,WG16,H4,bw,ParFV,ste,Badende (nach Félix Vallotton),iBdK,,,,,3727
 3728,a1983,G,,,,,45x38,mittel,hoch,,,Gs,bb,Pf,O,Ec,,H2,cf,,,composición agrotropical,iBdK,,,,,3728
 3729,a1983,G,,,,,50x42,mittel,hoch,,,Gs,Vo,Sch,,,,H3,cf,,,,iBdK,,,,,3729
 3730,a1983,G,,,,,42x52,mittel,breit,,,UnG,A,,,,,H4,c,,,,iBdK,,,,,3730
@@ -3748,11 +3748,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3747,a2002,zT,B,G,,,44x55,mittel,breit,,,UnG,A, ,,,,H2,gr,,wid,Duo-Zeichnung mit Stéphanie Pichonnat,iBdK,,Stéphanie Pichonnat,,,3747
 3748,a1992,T, ,,,,62x45,mittel,hoch,tS,,U,,,,,,H2,gr,,,,iBdK,,Katharina Gusset,,,3748
 3749,a2002,Mt,B,K,G,,50x65,mittel,breit,,,UnG,A,ZM,,,,H2,gr,,,Duo-Zeichnung mit Stéphanie Pichonnat,iBdK,,Stéphanie Pichonnat,,,3749
-3750,a1995,K ,,,,,53x76,mittel,breit,tS,,U,A,,,,,H1,bw,,waa,,iBdK,,Katharina Gusset,,,3750
-3751,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,waa,,iBdK,,Katharina Gusset,,,3751
-3752,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,waa,,iBdK,,Katharina Gusset,,,3752
-3753,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,waa,,iBdK,,Katharina Gusset,,,3753
-3754,a1995,K ,,,,,53x76,mittel,breit,tS,,U,,,,,,H1,bw,,waa,,iBdK,,Katharina Gusset,,,3754
+3750,a1995,K ,,,,,53x76,mittel,breit,tS,,U,A,,,,,H1,bw,,,,iBdK,,Katharina Gusset,,,3750
+3751,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,,,iBdK,,Katharina Gusset,,,3751
+3752,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,,,iBdK,,Katharina Gusset,,,3752
+3753,a1995,K ,,,,,53x76,mittel,breit,tS,,UoG,A,,,,,H1,bw,,,,iBdK,,Katharina Gusset,,,3753
+3754,a1995,K ,,,,,53x76,mittel,breit,tS,,U,,,,,,H1,bw,,,,iBdK,,Katharina Gusset,,,3754
 3755,a1995,Mt,B,T,G,,50x65,mittel,breit,,,Gs,A,Z,,,,H4,gr,,,Zeichnerin,iBdK,,,,,3755
 3756,a1995,Mt,T,K,G,,75x53,mittel,hoch,,,Gs,A,Z,,,,H5,gr,,sko,Zeichnerin,iBdK,,,,,3756
 3757,a1995,Mt,T,K,G,,41x76,mittel,breit,,,Gs,A,ZM,P,FigG,,H4,gr,,kre,,iBdK,,,,,3757
@@ -3795,7 +3795,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3794,a1987,T,,,,,19x26,klein,breit,,,U,,,,,,H5,gr,,,,iBdK,,,,,3794
 3795,a2016,Mt,B,T,Opl,,11x15,klein,breit,,,Gs,Ti,O,,,,H4,gr,,,"Tisch, Teller",iBdK,,,,,3795
 3796,a2017,B,,,,,14x18,klein,breit,sM,,U,,,,,,H4,bw,ParPC,,La Montagne Sainte-Victoire (d'après Cézanne),iBdK,,,,,3796
-3797,a2012,B,,,,,11x15,klein,breit,,,U,,,,,,H1,bw,Par9a,,frei nach Sofia Bäcklund,iBdK,,,,,3797
+3797,a2012,B,,,,,11x15,klein,breit,,,U,,,,,,H1,gr,Par9a,,frei nach Sofia Bäcklund,iBdK,,,,,3797
 3798,a2012,B,,,,,11x15,klein,breit,,,U,,,,,,H1,bw,Par9a,,frei nach Sofia Bäcklund,iBdK,,,,,3798
 3799,a2012,G,,,,,17x25,klein,breit,,,UoG,L,,,,,H4,g,ParFV,,Vallée de la Cagne (d'après Felix Vallotton),iBdK,,,,,3799
 3800,a2015,zT,T,B,,,21x30,klein,breit,,,Gs,F,St,,,,H4,gr,ParPC,,Früchtestillleben (nach Paul Cézanne),iBdK,,,,,3800
@@ -3846,7 +3846,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3845,a2017,zT,B,G,,,21x30,klein,breit,,,U,,,,,,H2,gr,Kr5c,,fünfstimmiger Chor (Früchtestilleben),iBdK,res,,,,3845
 3846,a2014,C,Dd,B,T,Mt,19x27,klein,breit,,,U,,,,,,H4,gr,Kr5d,,grosse Liegende,iBdK,res,,,,3846
 3847,a2014,C,B,G, ,,17x21,klein,breit,,,UnG,AX,mF,,,,H4,cf,,,body painting,iBdK,,,,,3847
-3848,a2017,zT,B,Fs,,,21x30,klein,breit,,,UoG,mF,Ri,,,,H2,gr,Kr5c,zwi,zu fünft,iBdK,res,,,,3848
+3848,a2017,zT,B,Fs,,,21x30,klein,breit,,,UoG,FigG,Ri,,,,H2,gr,Kr5c,zwi,zu fünft,iBdK,res,,,,3848
 3849,a1996,T, ,,,,21x30,klein,breit,,,U,,,,,,H3,bw,Kr5d,,weiblicher Akt (in Entstehung),iBdK,res,,,,3849
 3850,a2007,Mt,Dd,T,B,,9x11,klein,breit,,,UnG,AX,Kt,,,,H3,gr,Kr5d,sko,berührbar,iBdK,res,,,,3850
 3851,a2004,zT,Dd,Opl,,,9x13,klein,breit,,,UnG,AX,,,,,H4,gr,Kr5e,,Auge,iBdK,res,,,,3851
@@ -3879,20 +3879,20 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 3878,a2001,B,,,,,11x15,klein,breit,,,UoG,AX,P,Ca,,,H4,gr,Kr11,,Künstler mit Muse in Griffnähe,iBdK,res,,,,3878
 3879,a2017,C,B,T,Fa,Mt,15x21,klein,breit,,,UnG,mF,Ca,,,,H3,gr,Kr11,,holpriges Capriccio,iBdK,res,,,,3879
 3880,a2006,zT,Dd,G,,,21x24,klein,breit,,,UnG,,,,,,H3,gr,Kr11,,sehr viel versprechendes Projekt,iBdK,res,,,,3880
-3881,a2017,zT,B,Opl,,,20x28,klein,breit,,,U,Sch,,,,,H2,gr,Kr12,waa,Quer pasticciaccio brutto de Via Merulana,iBdK,res,,,,3881
+3881,a2017,zT,B,Opl,,,20x28,klein,breit,,,U,Sch,,,,,H2,gr,Kr12,,Quer pasticciaccio brutto de Via Merulana,iBdK,res,,,,3881
 3882,a2010,zT,Fs,B,T,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,sko,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3882
 3883,a2010,zT,B,Fs,,,15x11,klein,hoch,Lst,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H2,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3883
 3884,a2010,zT,Od,B,,,15x11,klein,hoch,,,UnG,AX,P,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H5,gr,ParRM,sko,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3884
 3885,a2016,zT,B,Ac,,,15x11,klein,hoch,,,U,Ljg,Sch,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H2,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3885
 3886,a2016,Dd,,,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,zwi,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3886
-3887,a2010,Mt,Od,B,G,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,ste,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3887
+3887,a2010,Mt,Od,B,G,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3887
 3888,a2010,G,,,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3888
 3889,a2016,zT,B,Fa,,,15x11,klein,hoch,,,UoG,P,AP,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H2,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3889
 3890,a2010,zT,K,T,,,15x11,klein,hoch,,,UoG,P,AP,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3890
 3891,a2012,C,T,B,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3891
 3892,a2016,B,,,,,15x11,klein,hoch,,,Gs,AX,P,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H2,gr,ParRM,,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3892
 3893,a2012,T,,,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3893
-3894,a2012,B,,,,,15x11,klein,hoch,,,UoG,P,AP,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,kre,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3894
+3894,a2012,B,,,,,15x11,klein,hoch,,,UoG,P,AP,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3894
 3895,a2010,zT,B,T,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H3,gr,ParRM,,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3895
 3896,a2012,Mt,B,T,Fa,,15x11,klein,hoch,,,UnG,P,AP,Ljg,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,,"""Les jours gigantesques"" (d'après René Magritte)",iBdK,res,,,,3896
 3897,a2012,zT,B,T,,,15x11,klein,hoch,,,U,Ljg,,,,"35er Gruppe (Block 5 horizontal, 7 vertikal)",H4,gr,ParRM,sko,Les jours gigantesques (d'après René Magritte),iBdK,res,,,,3897
@@ -4030,7 +4030,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4029,a1991,OP,,,,,125x175,gross,breit,,,UoG,Pf,,,,,H3,g,,,Dryaden,iBdK,,,,,4029
 4030,a1997,OP,,,,,125x175,gross,breit,Schl,,U,,,,,,H5,gr,,fis,,iBdK,,,,,4030
 4031,a1997,OP,,,,,125x150,gross,breit,Schl,,U,,,,,,H3,y,,fis,,"Franz und Eliane Wittwer, Schüpfen",PB,,,,4031
-4032,a2010,OL,,,,,125x175,gross,breit,,,UnG,mF,Ar,,,,H4,cf,ParEH,,Nighthawks (after Edward Hopper),iBdK,res,,,,4032
+4032,a2010,OL,,,,,125x175,gross,breit,,,UnG,P,Ar,,,,H4,cf,ParEH,,Nighthawks (after Edward Hopper),iBdK,res,,,,4032
 4033,a1984,OP,,,,,102x130,gross,breit,,,UoG,L,Sta,,,,H4,cf,,,o. T.,iBdK,res,,,"Tryptichon, Biennale der Schweizer Kunst, Olten",4033
 4034,a1984,OP,,,,,102x150,gross,breit,,,UoG,L,lL,,,,H4,cf,,,o. T.,iBdK,res,,,"Tryptichon, Biennale der Schweizer Kunst, Olten",4034
 4035,a1984,OP,,,,,102x130,gross,breit,,,UoG,L,Pf,Sta,,,H4,cf,,,o. T.,iBdK,res,,,"Tryptichon, Biennale der Schweizer Kunst, Olten",4035
@@ -4055,7 +4055,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4054,a2010,OL,,,,,75x92,gross,breit,Mo,,UnG,O,,,,,H4,c,ParRM,,Méditation (nach René Magritte),"Françoise Horle, Emilio Sigrist, Bern",PB,,,,4054
 4055,a1991,OP,,,,,79x60,mittel,hoch,,,U,,,,,,H4,g,,,Dryade,iBdK,,,,,4055
 4056,a1997,OP,,,,,85x102,gross,breit,Schl,,U,,,,,,H4,b,,,,iBdK,,,,,4056
-4057,a1997,OP,,,,,75x84?,gross,breit,Schl,,U,,,,,,H3,gr,,,,iBdK,,,,,4057
+4057,a1997,OP,,,,,90x100,gross,breit,Schl,,U,,,,,,H3,gr,,,,iBdK,,,,,4057
 4058,a1996,OL,,,,,52x86,mittel,breit,Mo,,UnG,Ar,L,,,,H3,cf,ParEH,,,iBdK,,,,,4058
 4059,a1996,T,,,,,80x139,gross,breit,,,U,,,,,,H3,gr,,,,iBdK,,,,,4059
 4060,a2006,zT,Pk,K,,,70x100,gross,breit,,,UoG,A,,,,,H4,gr,,,,iBdK,,,,,4060
@@ -4116,7 +4116,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4115,a2007,zT,T,C,,,11x15,klein,breit,,,U,,,,,,H5,gr,Kr10a,sko,Verlies,iBdK,res,,,,4115
 4116,a2008,zT,B,Fs,,,11x15,klein,breit,,,U,,,,,,H3,gr,Kr5a,,fitting,iBdK,res,,,,4116
 4117,a2001,zT,Dd,T,,,11x15,klein,breit,,,UnG,Ar,mF, ,,,H2,gr,Kr5a,,Wand,iBdK,res,,,,4117
-4118,a2004,Mt,Dd,B,Con,,11x15,klein,breit,Lwi,,UnG,Ar,mF, ,,,H4,gr,Kr5b,,entrata,iBdK,res,,,,4118
+4118,a2004,Mt,Dd,B,Con,,11x15,klein,breit,Lwi,,UnG,Ar,mF,P,,,H4,gr,Kr5b,,entrata,iBdK,res,,,,4118
 4119,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar, ,,,,H2,gr,Kr10a,,Alphütte,iBdK,res,,,,4119
 4120,a2001,Mt,Dd,B,T,,11x15,klein,breit,Lwi,,UnG,Ar, ,,,,H4,gr,Kr10a,,invasion,iBdK,res,,,,4120
 4121,a2002,zT,Dd,Opl,,,11x15,klein,breit,,,U,,,,,,H4,gr,Kr10a,ste,Wand,iBdK,res,,,,4121
@@ -4141,7 +4141,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4140,a2016,B,,,,,15x21,klein,breit,,,UoG,Ar,,,,,H2,gr,Kr10a,,Burghof,iBdK,res,,,,4140
 4141,a2016,Mt,B,T,Fs,,21x15,klein,hoch,Lst,,UnG,Ar,,,,,H1,gr,Kr10a,zwi,leichter Regen über Lindau,iBdK,res,,,,4141
 4142,a2016,Mt,S,Fs,G,,15x21,klein,breit,Gi,,U,,,,,,H5,gr,Kr10a,,passage,iBdK,res,,,,4142
-4143,a2001,zT,Dd,Opl,,,15x21,klein,breit,,,Gs,mf,Pf,,,,H3,gr,Kr2a,,lussureggiante,iBdK,res,,,,4143
+4143,a2001,zT,Dd,Opl,,,15x21,klein,breit,,,Gs,Pf,Pf,,,,H3,gr,Kr2a,,lussureggiante,iBdK,res,,,,4143
 4144,a2013,B, ,,,,15x21,klein,breit,,,U,,,,,,H2,gr,Kr10a,,templum,iBdK,res,,,,4144
 4145,a2016,Mt,Dd,B,Fs,,16x22,klein,breit,,,UnG,At,O,,,,H3,gr,Kr10b,,studio,iBdK,res,,,,4145
 4146,a2009,Mt,Dd,Opl,B,,15x18,klein,breit,,,Gs,O,Ar,,,,H2,gr,Kr10a,,Konstruktion,iBdK,res,,,,4146
@@ -4212,7 +4212,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4211,a2014,Mt,Od,T,B,,20x28,klein,breit,,,U,,,,,,H3,cf,Kr9,sch,Zeus zerzaust,iBdK,res,,,,4211
 4212,a2016,C,Dd,B,T,Mt,15x11,klein,hoch,,,U,,,,,,H4,gr,Kr10a,kre,Geisterstadt,iBdK,res,,,,4212
 4213,a2012,C,Dd,T,G,Mt,19x28,klein,breit,,,U,,,,,,H4,gr,Kr11,,Altherrenclub,iBdK,res,,,,4213
-4214,a2017,C,T,B,Opl,Mt,12x30,klein,breit,,,UnG,mF,,,,,H4,gr,Par9a,,When Hangover Becomes Form (nach Rachel Harrison),iBdK,,,,Fs,4214
+4214,a2017,C,T,B,Opl,Mt,12x30,klein,breit,sCo,,UnG,mF,,,,,H4,gr,Par9a,,When Hangover Becomes Form (nach Rachel Harrison),iBdK,,,,Fs,4214
 4215,a2011,zT,B,T,,,15x21,klein,breit,,,UoG,So,,,,VJ,H2,gr,Par7b,ste,Kopf (nach Hans Josephson),iBdK,,,,,4215
 4216,a2011,B, ,,,,15x21,klein,breit,,,U,,,,,VJ,H1,gr,Par7b,ste,nach einer Figur von Hans Josephson,iBdK,,,,,4216
 4217,a2012,zT,B,T,,,15x21,klein,breit,,,U,,,,,VJ,H2,gr,Par7b,ste,nach Reliefs von Hans Josephson,iBdK,,,,,4217
@@ -4392,7 +4392,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4391,a1986-87,B,,,,,12x11,klein,hoch,RiK,,U,,,,,100 Zeichnungen,H3,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4391
 4392,a1986-87,B,,,,,12x14,klein,breit,,,U,,,,,100 Zeichnungen,H2,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4392
 4393,a1986-87,B,,,,,13x15,klein,breit,RiK,,U,,,,,100 Zeichnungen,H3,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4393
-4394,a1986-87,B,,,,,20x14,klein,hoch,RiK,,U,,,,,100 Zeichnungen,H2,gr,,kre,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4394
+4394,a1986-87,B,,,,,20x14,klein,hoch,RiK,,U,,,,,100 Zeichnungen,H2,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4394
 4395,a1986-87,B,,,,,13x14,klein,breit,RiK,,U,,,,,100 Zeichnungen,H3,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4395
 4396,a1986-87,B,,,,,11x12,klein,breit,RiK,,U,,,,,100 Zeichnungen,H3,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4396
 4397,a1986-87,B,,,,,12x14,klein,breit,,,U,,,,,100 Zeichnungen,H2,gr,,,"aus ""Körper im Raum – Raum im Körper. 100 Zeichnungen 1986/87""",iBdK,res,,,,4397
@@ -4583,7 +4583,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4582,a2017,B, ,,,,11x15,klein,breit,,,UnG,AP,FiG,Ba,,,H3,gr,ParPC,,Fünf Badende (nach Cézanne),iBdK,,,,,4582
 4583,a2016,zT,B,G,,,21x22,klein,breit,,,UoG,F,St,,,,H2,gr,ParPC,,nach einem Stilleben von Paul Cézanne,iBdK,,,,,4583
 4584,a2016,Mt,Dd,B,Fa,,15x21,klein,breit,,,U,,,,,,H3,gr,,,Radix Cézanne,iBdK,,,,,4584
-4585,a2001,B,,,,,9x11,klein,breit,,,Gs,mF,P,Ca,,,H2,gr,Kr11,,Sumo (Mutatis Mutandi),iBdK,res,,,,4585
+4585,a2001,B,,,,,9x11,klein,breit,,,Gs,Pf,P,Ca,,,H2,gr,Kr11,,Sumo (Mutatis Mutandi),iBdK,res,,,,4585
 4586,a2014,B,,,,,9x11,klein,breit,,,Gs,AX,FiG,Sch,,,H3,gr,Kr11,,fools of God,iBdK,res,,,,4586
 4587,a2005,Mt,B,T,Fs,,9x11,klein,breit,,,U,,,,,,H4,gr,Kr11,,Gluscht u Gschtürm u Gnusch u Gwunder (frei nach Fritz Widmer),iBdK,res,,,,4587
 4588,a2003,zT,Fa,G,,,9x11,klein,breit,,,U,,,,,,H5,gr,Kr11,,notturno,iBdK,res,,,,4588
@@ -4592,8 +4592,8 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4591,a2015,B,,,,,9x12,klein,breit,Lst,,U,,,,,,H4,gr,Kr11,,entwined,iBdK,res,,,,4591
 4592,a2014,B,,,,,9x12,klein,breit,,,UoG,AX,P,Ca,,,H3,gr,Kr11,,Begegnung,iBdK,res,,,,4592
 4593,a2016,B,,,,,9x12,klein,breit,,,U,Ca,,,,,H2,gr,Kr11,,capriccio,iBdK,res,,,,4593
-4594,a2002,zT,Dd,B,,,9x12,klein,breit,,,UoG,mF,FiG,Ar,,,H4,gr,Kr11,,drunk men walking,iBdK,res,,,,4594
-4595,a2002,zT,Dd,B,,,10x14,klein,breit,,,UoG,mF,FiG,Ar,,,H4,gr,Kr11,,dancing in the streets,iBdK,res,,,,4595
+4594,a2002,zT,Dd,B,,,9x12,klein,breit,,,UoG,FigG,FiG,Ar,,,H4,gr,Kr11,,drunk men walking,iBdK,res,,,,4594
+4595,a2002,zT,Dd,B,,,10x14,klein,breit,,,UoG,FigG,FiG,Ar,,,H4,gr,Kr11,,dancing in the streets,iBdK,res,,,,4595
 4596,a2002,zT,Dd,T,,,9x16,klein,breit,,,UoG,O,Ri,,,,H2,gr,Kr11,,Hörer,iBdK,res,,,,4596
 4597,a2002,zT,Dd,T,,,11x15,klein,breit,,,UnG,,,,,,H4,gr,Kr8,,bei Vollmond,iBdK,res,,,,4597
 4598,a2009,zT,B,T,,,11x15,klein,breit,,,U,,,,,,H3,gr,Kr11,,zittriger Ritter (zu Fuss),iBdK,res,,,,4598
@@ -4631,7 +4631,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4630,a2016,B,,,,,19x28,klein,breit,,,U,Ca,,,,,H2,gr,Kr11,,Sextett,iBdK,res,,,,4630
 4631,a2016,B,,,,,19x28,klein,breit,Lwi,,U,Ca,,,,,H2,gr,Kr11,,Capriccio,iBdK,res,,,,4631
 4632,a2008,zT,B,T,,,20x28,klein,breit,,,UnG,Mw,Ca,,,,H1,gr,Kr11,,grazile Groteske,iBdK,res,,,,4632
-4633,a2017,zT,B,Ve,,,18x26,klein,breit,Lwi,,UnG,mF,P,,,,H2,gr,Kr11,,Gespräch,iBdK,res,,,,4633
+4633,a2017,zT,B,Ve,,,18x26,klein,breit,Lwi,,UnG,Pf,P,,,,H2,gr,Kr11,,Gespräch,iBdK,res,,,,4633
 4634,a2015,B,,,,,20x26,klein,breit,,,Gs,mF,P,Z,Ca,,H2,gr,Kr11,,"Zeichnerin, Zeichner",iBdK,res,,,,4634
 4635,a2015,B,,,,,20x30,klein,breit,,,Gs,AX,ZM,Ca,Sb,,H2,gr,Kr11,,"Zeichner, von Muse besessen",iBdK,res,,,,4635
 4636,a2012,T,,,,,21x28,klein,breit,,,U,,,,,,H4,gr,Kr11,,Zweibeiner,iBdK,res,,,,4636
@@ -4646,7 +4646,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4645,a2001,zT,Dd,T,,,21x30,klein,breit,,,UnG,Ken,Ca,Mw,,,H3,gr,Kr11,,Komposition ohne Sisyphus,iBdK,res,,,,4645
 4646,a2008,Mt,B,Ks,T,,21x30,klein,breit,,,U,bb,,,,,H4,gr,Par11,,der Wolke vorwärtshelfen,iBdK,,,,,4646
 4647,a2006,zT,B,W,,,21x30,klein,breit,,,U,,,,,,H2,gr,,,they wonder,iBdK,,,,,4647
-4648,a2006,B,,,,,19x30,klein,breit,,,UnG,mF,P,Ca,,,H2,gr,Kr11,,capriccio,iBdK,res,,,,4648
+4648,a2006,B,,,,,19x30,klein,breit,,,UnG,Pf,P,Ca,,,H2,gr,Kr11,,capriccio,iBdK,res,,,,4648
 4649,a2008,Ks,,,,,11x15,klein,breit,,,UoG,Ri,Ca,,,,H2,gr,ParPK,,"nach Paul Klee: ""PERSEUS (der Witz hat über das Leid gesiegt)""",iBdK,res,,,,4649
 4650,a2001,Mt,B,T,Od,C,9x11,klein,breit,,,U,Ca,,,,,H2,gr,,,sich in höherer Stellung vermutend (nach Klee),iBdK,,,,,4650
 4651,a2001,zT,B,T,,,9x11,klein,breit,,,U,Sch,,,,,H2,gr,,,canvas,iBdK,,,,,4651
@@ -4717,7 +4717,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4716,a2011,zT,Dd,B,,,11x15,klein,breit,,,U,Sch,,,,54 assists,H1,gr,,,"o.T. (zu ""54 assists"")",iBdK,res,,,,4716
 4717,a2002,zT,Dd,G,,,11x15,klein,breit,,,U,,,,,54 assists,H3,gr,,,"fein- und grobstofflich (zu Emma Kunz; aus der Reihe ""54 assists"")",iBdK,res,,,,4717
 4718,a2008,zT,Dd,B,,,11x15,klein,breit,,,U,Sch,,,,54 assists,H2,gr,,,"staircase (zu ""54 assists"")",iBdK,res,,,,4718
-4719,a2002,Mt,Dd,B,T,,11x15,klein,breit,,,UnG,mF,P,,,54 assists,H4,gr,,,"zur Quelle (zu ""54 assists"")",iBdK,res,,,,4719
+4719,a2002,Mt,Dd,B,T,,11x15,klein,breit,,,UnG,P,P,,,54 assists,H4,gr,,,"zur Quelle (zu ""54 assists"")",iBdK,res,,,,4719
 4720,a2001,Mt,Dd,B,Opl,,11x15,klein,breit,,,U,BiB,,,,54 assists,H3,b,,,"o.T. (zu ""54 assists"")",iBdK,res,,,,4720
 4721,a2011,zT,Dd,G,,,11x15,klein,breit,,,U,,,,,54 assists,H2,gr,,,"o.T. (zu ""54 assists"")",iBdK,res,,,,4721
 4722,a2011,Mt,Dd,B,Fs,,11x15,klein,breit,,,UnG,Ar,,,,54 assists,H3,gr,,,"6-Klang (CH-UR), (zu ""54 assists"")",iBdK,res,,,,4722
@@ -4738,7 +4738,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4737,a2011,Mt,Dd,B,T,,11x15,klein,breit,,,U,,,,,54 assists,H4,gr,,,"o.T. (zu ""54 assists"")",iBdK,res,,,,4737
 4738,a2011,Mt,Od,Dd,B,,11x15,klein,breit,Gi,,U,Sch,,,,54 assists,H2,gr,,,"Sehr geehrte Kunstschaffende (zu ""54 assists"")",iBdK,res,,,,4738
 4739,a2011,zT,Dd,Ko,,,11x15,klein,breit,,,U,,,,,54 assists,H2,gr,,,"Einmannorchester (zu ""54 assists"")",iBdK,res,,,,4739
-4740,a2002,Mt,Ks,Fa,B,,9x11,klein,breit,,,UoG,mF,P,,,there's a way to get there,H2,cf,,,"aus der Serie ""there's a way to get there""",iBdK,res,,,,4740
+4740,a2002,Mt,Ks,Fa,B,,9x11,klein,breit,,,UoG,P,P,,,there's a way to get there,H2,cf,,,"aus der Serie ""there's a way to get there""",iBdK,res,,,,4740
 4741,a2002,Mt,Ko,B,,,9x11,klein,breit,,,U,,,,,there's a way to get there,H2,gr,,,"aus der Serie ""there's a way to get there""",iBdK,res,,,,4741
 4742,a2002,zT,B,Ks,,,9x11,klein,breit,,,UoG,Z,Sch,,,there's a way to get there,H2,gr,,,"aus der Serie ""there's a way to get there""",iBdK,res,,,,4742
 4743,a2002,zT,B,Ks,,,9x11,klein,breit,,,U,Sch,,,,there's a way to get there,H2,gr,,zwi,"aus der Serie ""there's a way to get there""",iBdK,res,,,,4743
@@ -4759,7 +4759,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4758,a2010,Mt,Dd,B,G,,21x30,klein,breit,,,UnG,AP ,P,,,,H3,gr,Par5,,nach Jerômes «Pygmalion»,iBdK,,,,,4758
 4759,a2006,zT,Dd,B,,,21x30,klein,breit,,,UnG,P ,Mw,,,,H2,gr,Par6,,Amor und Psyche (nach Canova),iBdK,,,,,4759
 4760,a2012,zT,Dd,T,,,21x30,klein,breit,,,UoG,P,Ar,,,,H2,gr,Par1,,Geb und Nut (Solothurn),iBdK,,,,,4760
-4761,a2012,zT,T,C,,,21x30,klein,breit,,,U,,,,,,H3,gr,ParPC,,«Lutte d'amour» (d'après Cézanne),iBdK,,,,,4761
+4761,a2012,zT,T,C,,,21x30,klein,breit,sCo,,U,,,,,,H3,gr,ParPC,,«Lutte d'amour» (d'après Cézanne),iBdK,,,,,4761
 4762,a2006,zT,Dd,B,,,21x30,klein,breit,,,UnG,P,Mw,,,,H3,gr,Par6,,Amor und Psyche (nach Canova),iBdK,,,,,4762
 4763,a2010,zT,Dd,G,,,21x30,klein,breit,,,Gs,AP,,,,,H2,gr,Par5,,nach Hodlers «Aufgehen im All»,iBdK,,,,,4763
 4764,a2012,Mt,Dd,B,G,C,21x30,klein,breit,,,UnG,O,Sch,,,,H3,gr,Par1,,Osiris,iBdK,,,,,4764
@@ -4837,7 +4837,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4836,a2004,B,,,,,15x21,klein,breit,,,UnG,A,,,,,H4,gr,Kr8,kre,ins Ungefähre,iBdK,res,,,,4836
 4837,a2003,B,,,,,9x11,klein,breit,,,UoG,A,,,,,H3,gr,Kr9,,Sphinx,iBdK,res,,,,4837
 4838,a2007,zT,B,Fs,,,15x21,klein,breit,,,U,,,,,,H1,gr,Kr2,,Insekt,iBdK,res,,,,4838
-4839,a2001,zT,Fa,B,,,9x11,klein,breit,,,Gs,mF,P,Ca,,,H5,gr,Kr11,,nach Callot: Balli di Sfessania,iBdK,res,,,,4839
+4839,a2001,zT,Fa,B,,,9x11,klein,breit,,,Gs,P,P,Ca,,,H5,gr,Kr11,,nach Callot: Balli di Sfessania,iBdK,res,,,,4839
 4840,a2004,zT,B,T,,,15x21,klein,breit,Lwi,,UnG,Ca,,,,,H3,gr,Kr11,waa,Capriccio,iBdK,res,,,,4840
 4841,a2008,zT,B,T,,,15x21,klein,breit,,,UnG,bb,,,,EMPIRE BURLESQUE,H4,gr,,,"black box (aus der Reihe ""EMPIRE BURLESQUE"")",iBdK,res,,,,4841
 4842,a2012,zT,Ko,T,,,15x21,klein,breit,,,U ,,,,,EMPIRE BURLESQUE,H2,gr,,,"o.T. (aus der Reihe ""EMPIRE BURLESQUE"")",iBdK,res,,,,4842
@@ -4878,7 +4878,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4877,a2003,G,,,,,18x24,klein,breit,,,U,Sch,,,,,H4,m,,,RECHT MUMP,iBdK,,,,,4877
 4878,a2002,Ac,,,,,21x30,klein,breit,,,Gs,O,Sch,So,,,H4,cf,,,,iBdK,,,,,4878
 4879,a2004,G,,,,,11x15,klein,breit,,,U,,,,,,H3,cf,,,,iBdK,,,,,4879
-4880,a2005,G,,,,,11x15,klein,breit,,,UoG,mF,,,,,H2,y,,zwi,,iBdK,,,,,4880
+4880,a2005,G,,,,,11x15,klein,breit,,,UoG,FigG,,,,,H2,y,,zwi,,iBdK,,,,,4880
 4881,a2004,G,,,,,11x15,klein,breit,,,UoG,Sta,,,,,H2,cf,,,souk,iBdK,,,,,4881
 4882,a2004,G,,,,,11x15,klein,breit,,,Gs,O,Sch,,,,H5,cf,,,le port,iBdK,,,,,4882
 4883,a2012,G,,,,,11x15,klein,breit,,,UoG,Fk,,,,,H4,c,,,,iBdK,,,,,4883
@@ -4894,7 +4894,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4893,a2005,G,,,,,21x17,klein,hoch,,,Gs,A,Sta,,,,H3,cf,,,Kuros,iBdK,,,,,4893
 4894,a2006,G,,,,,11x16,klein,breit,,,U,,,,,,H3,v,,,Gefäss,iBdK,,,,,4894
 4895,a2006,G,,,,,11x16,klein,breit,,,U,Sch,,,,,H2,g,,,bodegón,iBdK,,,,,4895
-4896,a2006,G,,,,,21x28,klein,breit,,,U,,,,,,H4,cf,,fis,LA SOURCE,iBdK,,,,,4896
+4896,a2006,G,,,,,21x28,klein,breit,,,U,,,,,,H4,cf,,,LA SOURCE,iBdK,,,,,4896
 4897,a2005,G,,,,,21x28,klein,breit,,,U,,,,,,H4,m,,,,iBdK,,,,,4897
 4898,a2016,G,,,,,16x17,klein,breit,,,UnG,mF,Sb,,,,H4,cf,,,,iBdK,,,,,4898
 4899,a1979,OP,,,,,41x46,mittel,breit,,,Gs,A,FigR,,,,H3,b,,,,iBdK,,,,,4899
@@ -4928,7 +4928,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4927,a2005,OP,,,,,67x89,mittel,breit,,,UoG,,,,,,H4,cf,Kr5e,,mit rotem Kopf,iBdK,res,,,Kat.OP.221,4927
 4928,a2003,OP,,,,,67x89,mittel,breit,,,U,,,,,,H2,cf,,waa,,iBdK,,,,Kat.OP.271,4928
 4929,a2004,OP,,,,,67x89,mittel,breit,,,U,,,,,,H2,y,,,fast track,iBdK,,,,Kat.OP.325,4929
-4930,a2006,OP,,,,,67x89,mittel,breit,,,UnG,Ar,Gä,,,,H2,g,,was,das Gartenzimmer,iBdK,,,,Kat.OP.84,4930
+4930,a2006,OP,,,,,67x89,mittel,breit,,,UnG,Ar,Gä,,,,H2,g,,waa,das Gartenzimmer,iBdK,,,,Kat.OP.84,4930
 4931,a2005,OP,,,,,67x89,mittel,breit,,,UnG,Pf,BiB,Gä,,,H3,g,,waa,"o.T. (aus der Serie der ""Gärten"")",iBdK,,,,Kat.OP.272,4931
 4932,a2013,OP,,,,,67x89,mittel,breit,,,UnG,mF,Ar,,,WG 22,H4,c,ParFV,,Une Rue à Cagnes (d‘après Félix Vallotton),iBdK,,,,Kat.OP.83,4932
 4933,a2006,OP,,,,,67x89,mittel,breit,,,U,Sch,Gä,,,,H3,cf,,,Gartenbaustelle II,iBdK,,,,Kat.OP.555,4933
@@ -4985,7 +4985,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 4984,a2016,zT,B,Fa,,,11x15,klein,breit,,,UoG,AP,FigG,Ba,,,H2,gr,ParPC,,Les cinq baigneurs (d'après Cézanne),iBdK,,,,,4984
 4985,a2016,zT,Dd,B,,,20x25,klein,breit,,,Gs,AP,FigG,Ba,Pf,,H2,gr,ParPC,kre,"d'après ""Sept Baigneurs"" de Paul Cézanne",iBdK,,,,,4985
 4986,a2016,Mt,B,Fa,G,,11x15,klein,breit,,,UoG,AP,FigG,Ba,,,H3,gr,ParPC,,Cinq baigneuses (d'après Cézanne),iBdK,,,,,4986
-4987,a2016,zT,B,G,,,21x24,klein,breit,,,Gs,AP,FigG,Ba,,,H3,gr,ParPC,jun,Cinq baigneuses (d'après Cézanne),iBdK,,,,,4987
+4987,a2016,zT,B,G,,,21x24,klein,breit,,,Gs,AP,FigG,Ba,,,H3,gr,ParPC,,Cinq baigneuses (d'après Cézanne),iBdK,,,,,4987
 4988,a2010,zT,Dd,T,,,20x24,klein,breit,,,Gs,AP,FigG,Ba,,,H3,gr,ParPC,waa,"""Cinq baigneuses"" (d'après Paul Cézanne)",iBdK,,,,,4988
 4989,a2010,zT,Dd,G,,,20x20,klein,quadratisch,,,UoG,AP,FigG,Ba,,,H4,cf,ParPC,,"d'après ""Cinq baigneuses"" de Paul Cézanne",iBdK,,,,,4989
 4990,a2010,zT,T,G,,,21x21,klein,quadratisch,Ul,,UnG,AP,FigG,Ba,,,H4,c,ParPC,,"nach den ""Cinq baigneuses"" von Paul Cézanne",iBdK,,,,,4990
@@ -5003,7 +5003,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5002,a2012,zT,B,T,,,18x25,klein,breit,,,U,Ba,,,,,H2,gr,ParPC,,Les Grandes Baigneuses (d'après Paul Cézanne),iBdK,res,,,,5002
 5003,a2016,Mt,T,G,B,Fa,19x28,klein,breit,,,Ba,,,,,,H3,gr,ParPC,,"""Les Grandes Baigneuses"" (d'après Paul Cézanne)",iBdK,res,,,,5003
 5004,a2015,G, ,,,,21x30,klein,breit,,,U,Ba,,,,,H3,gr,ParPC,,Badende (nach Cézanne),iBdK,res,,,,5004
-5005,a2010,zT,T,G,,,21x30,klein,breit,,,U,Ba,,,,,H4,gr,ParPC,fis,"""Les Grandes Baigneuses"" (d'après Paul Cézanne)",iBdK,res,,,,5005
+5005,a2010,zT,T,G,,,21x30,klein,breit,,,U,Ba,,,,,H4,gr,ParPC,,"""Les Grandes Baigneuses"" (d'après Paul Cézanne)",iBdK,res,,,,5005
 5006,a2010,B,,,,,21x30,klein,breit,,,U,Ba,,,,,H1,gr,ParPC,,Les Grandes Baigneuses (d'après Cézanne),iBdK,res,,,,5006
 5007,a2010,B,,,,,21x30,klein,breit,,,UnG,AP,FigG,Ba,,,H2,gr,ParPC,waa,"""The Large Bathers (d'après Cézanne)",iBdK,res,,,,5007
 5008,a2010,zT,Dd,B,,,21x30,klein,breit,,,Gs,AP,FigG,Ba,Sch,,H2,gr,ParPC,zwi,Badende (nach P.C.),iBdK,res,,,,5008
@@ -5062,7 +5062,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5061,a2017,B,,,,,21x28,klein,breit,Lwi,,UoG,FiG,,,,,H1,gr,Par4,,La Crocifissione (nach Gianbattista Tiepolo),iBdK,,,,,5061
 5062,a2017,B,,,,,30x15,klein,hoch,,,UnG,AP,,,,,H1,gr,Par4,,Resurrezione di Cristo (Veronese),iBdK,,,,,5062
 5063,a2008,Mt,Dd,B,C,,20x28,klein,breit,,,U,BiB,,,,,H2,gr,Par3a,sko,Le Calvaire (d'après Fernando Gallego),iBdK,,,,,5063
-5064,a2017,B,,,,,21x13,klein,hoch,,,Gs,AP,,,,,H2,gr,Par3a,,Figura virile (Tiziano Aspetti detto Minio),iBdK,,,,,5064
+5064,a2017,B,,,,,21x13,klein,hoch,,,Gs,AP,,,,,H2,gr,Par3b,,Figura virile (Tiziano Aspetti detto Minio),iBdK,,,,,5064
 5065,a2017,B,,,,,20x17,klein,hoch,,,UnG,FiG,,,,,H2,gr,Par4,,Strage degli innocneti (Sante Peranda?),iBdK,,,,,5065
 5066,a2017,zT,B,Fa,,,15x21,klein,breit,,,U,,,,,,H3,bw,Par6,,La signora con la veletta (Medardo Rooso),iBdK,,,,,5066
 5067,a2006,zT,B,Fs,,,21x30,klein,breit,Lst,,U,,,,,,H2,gr,Par11,zwi,"Mann, Insekten",iBdK,,,,,5067
@@ -5070,7 +5070,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5069,a2017,zT,B,T,,,13x25,klein,breit,,,U,,,,,,H3,gr,Par7b,,"""Tremblor III"" (nach Edouardo Chillida)",iBdK,,,,,5069
 5070,a2017,zT,Fs,T,,,11x21,klein,breit,,,Gs,Mw,,,,,H2,gr,Par3b,,fontaine,iBdK,,,,,5070
 5071,a2002,B, ,,,,15x21,klein,breit,,,Gs,Z,A,Sb,,,H2,gr,,kre,Zeichner,iBdK,,,,,5071
-5072,a2012,Mt,B,T,G,Dd,21x30,klein,breit,,,UnG,mF,BiB,,,,H2,gr,Par9a,was,When Hangover Becomes Form (nach Rachel Harrison),iBdK,,,,C,5072
+5072,a2012,Mt,B,T,G,C,21x30,klein,breit,sCo,,UnG,mF,BiB,,,,H2,gr,Par9a,was,When Hangover Becomes Form (nach Rachel Harrison),iBdK,,,,Dd,5072
 5073,a2009,zT,B,Dd,,,9x11,klein,breit,,,UoG,P,AP,Sch,,,H3,gr,ParAR,,"nach Auguste Rodins ""Création""",iBdK,,,,,5073
 5074,a2001,zT,B,G,,,9x11,klein,breit,,,UnG,P,AP,,,,H4,gr,ParAR,,nach Rodins CREATION,iBdK,,,,,5074
 5075,a2001,Mt,B,Fs,Dd,,9x11,klein,breit,,,UoG,P,AP,Ken,FigG,,H3,gr,ParAR,zwi,"nach Rodins ""Création""",iBdK,,,,Mw,5075
@@ -5092,13 +5092,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5091,a1985,Mt,R,Dp,B,,24x31,mittel,breit,,,UoG,L,lL,Ri,Sb,,H2,gr,,,,iBdK,,,,,5091
 5092,a1990,Mt,OPa ,B,Fa,,24x31,mittel,breit,Lwi,,UoG,,,,,,H4,cf,,,,iBdK,,,,,5092
 5093,a1991,G, ,,,,33x43,mittel,breit,RiK,,UoG,L,,,,,H4,g,,fis,,iBdK,,,,,5093
-5094,a2012,Mt,B,T,G,Od,40x29,mittel,hoch,Gi,,UnG,mF,,,,,H3,gr,Par9a,was,o.T. (nach Rachel Harrison),iBdK,,,,"Dd, C, Fa",5094
+5094,a2012,Mt,B,T,G,Od,40x29,mittel,hoch,sCo,Gi,UnG,mF,,,,,H3,gr,Par9a,was,o.T. (nach Rachel Harrison),iBdK,,,,"Dd, C, Fa",5094
 5095,a1977,R, ,,,,16x13,klein,hoch,,,UoG,Sch,,,,,H2,gr,,,,iBdK,,,,Kat.DG.24.4.07 II,5095
 5096,a1977,zT,R,Hd,,,23x27,klein,breit,,,U,,,,,,H5,bw,,,,iBdK,,,,Kat.DG.24.4.08b,5096
 5097,a1977,R,,,,,18x23,klein,breit,,,U,,,,,,H4,bw,,,,iBdK,,,,Kat.DG.24.4.09 II,5097
 5098,a1977,R,,,,,18x15,klein,hoch,,,UoG,mF,,,,,H3,gr,,,,iBdK,,,,Kat.DG.24.4.11,5098
 5099,a1978,R,,,,,18x15,klein,hoch,,,Gs,ZM,A,Sb,,,H4,bw,,,Maler und Modell,iBdK,,,,Kat.DG.24.4.17,5099
-5100,a1979,R,,,,,10x10,klein,quadratisch,,,Gs,mF,P,,,,H2,bw,,,,iBdK,,,,Kat.DG.24.4.19 II,5100
+5100,a1979,R,,,,,10x10,klein,quadratisch,,,Gs,P,P,,,,H2,bw,,,,iBdK,,,,Kat.DG.24.4.19 II,5100
 5101,a1982,R,,,,,28x17,klein,hoch,,,Gs,ZM,Sch,FigR,A,,H3,bw,,,,iBdK,,,,Kat.DG.24.4.21 II,5101
 5102,a1979,R,,,,,13x16,klein,breit,,,Gs,FigG,Sch,,,,H2,gr,,,Drei Figuren,iBdK,,,,Kat.DG.24.4.34,5102
 5103,a1979,R,,,,,13x20,klein,breit,,,Gs,FigG,Sch,,,,H3,gr,,,Sechs Figuren,iBdK,,,,Kat.DG.24.4.37,5103
@@ -5249,15 +5249,15 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5248,a1982,R,,,,,30x25,mittel,hoch,,,Gs,Sb,BiB,FigR,KiA,,H3,bw,,,,iBdK,,,,Kat.DG.24.4.84 I,5248
 5249,a1984,R,,,,,30x25,mittel,hoch,,,Gs,Sb,BiB,FigR,KiA,,H4,bw,,,,iBdK,,,,Kat.DG.24.4.84 II,5249
 5250,a1982,R,,,,,22x25,klein,breit,,,Gs,A,O,FigR,So,,H3,bw,Par3b,,"""Der Tag"" (nach Michelangelo Buonarroti)",iBdK,,,,Kat.DG.24.4.88 II,5250
-5251,a1982,R,,,,,22x25,klein,breit,,,Gs,Sb,mF,BiB,O,,H1,bw,,Par5,"""Die Nacht"" (nach Ferdinand Hodler)",iBdK,,,,"FigR, Kat.DG.24.4.89 I, Sch",5251
+5251,a1982,R,,,,,22x25,klein,breit,,,Gs,Sb,mF,BiB,O,FigR,H1,bw,,Par5,"""Die Nacht"" (nach Ferdinand Hodler)",iBdK,,,,"FigR, Kat.DG.24.4.89 I, Sch",5251
 5252,a1982,R,,,,,23x28,mittel,breit,,,Gs,A,Ti,,,,H2,gr,,,,iBdK,,,,Kat.DG.24.4.104,5252
 5253,a1982,R,,,,,25x32,mittel,breit,,,Gs,O,Sch,bb,Ar,,H3,bw,,,Kinderzimmer II,iBdK,,Schülern der Sekundarschule Boll,,"Kat.DG.24.4.115, So",5253
 5254,a1982,R,,,,,25x32,mittel,breit,,,Gs,O,Sch,Ar,Pf,,H2,bw,,,Kinderzimmer III,iBdK,,Schülern der Sekundarschule Boll,,Kat.DG.24.4.116,5254
 5255,a1982,R,,,,,20x25,klein,breit,,,Gs,Ar,bb,O,,,H3,bw,,,,iBdK,,Dominique Piatti,,Kat.DG.24.4.118 II,5255
-5256,a1982,R,,,,,22x25,klein,breit,,,Gs,Sb,mF,BiB,O,,H3,bw,,Par5,"""Die Nacht"" (nach Ferdinand Hodler)",iBdK,,,,"FigR, Kat.DG.24.4.89 II",5256
+5256,a1982,R,,,,,22x25,klein,breit,,,Gs,Sb,mF,BiB,O,FigR,H3,bw,,Par5,"""Die Nacht"" (nach Ferdinand Hodler)",iBdK,,,,"FigR, Kat.DG.24.4.89 II",5256
 5257,a1982,R,,,,,25x33,mittel,breit,,,Gs,FigR,O,Pf,So,6R,H3,bw,,,"ohne Titel (aus ""6 Räume"")",iBdK,,,,Kat.DG.24.4.123,5257
 5258,a1982,R,,,,,25x33,mittel,breit,,,Gs,FigR,O,Pf,Sch,6R,H3,bw,,,"ohne Titel (aus ""6 Räume"")",iBdK,,,,Kat.DG.24.4.124,5258
-5259,a1982,R,,,,,25x33,mittel,breit,,,Gs,O,Pf,lL,KiA,6R,H3,bw,,Par1,"ohne Titel (aus ""6 Räume"")",iBdK,,,,"FigR, Kat.DG.24.4.120",5259
+5259,a1982,R,,,,,25x33,mittel,breit,,,Gs,O,Pf,lL,FigR,6R,H3,bw,,Par1,"ohne Titel (aus ""6 Räume"")",iBdK,,,,"KiA, Kat.DG.24.4.120",5259
 5260,a1982,R,,,,,25x33,mittel,breit,,,Gs,FigR,O,Pf,Sb,6R,H3,bw,,,"ohne Titel (aus ""6 Räume"")",iBdK,,,,Kat.DG.24.4.121,5260
 5261,a1982,R,,,,,25x33,mittel,breit,,,Gs,A,O,Pf,Tie,6R,H3,bw,,,"ohne Titel (aus ""6 Räume"")",iBdK,,,,"FigR, Kat.DG.24.4.122, So",5261
 5262,a1982,R,,,,,25x33,mittel,breit,,,Gs,Ar,O,Sch,,6R,H3,bw,,,5258),iBdK,,,,Kat.DG.24.4.125,5262
@@ -5320,13 +5320,13 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5319,a1990,R,,,,,25x33,mittel,breit,,,U,,,,,,H3,gr,,,,iBdK,,,,"Kat.DG.24.4.335, Verein für Originalgrafik",5319
 5320,a1996,R,,,,,14x20,klein,breit,,,U,,,,,,H1,gr,,,,iBdK,,,,Kat.DG.24.4.357,5320
 5321,a1977,OP,,,,,39x37,mittel,hoch,,,U,,,,,,H4,gr,,,,iBdK,,,,,5321
-5322,a2012,C,Dd,B,Mt,G,40x49,mittel,breit,,,U,Sch,,,,,H2,gr,Par9a,was,Indigineous Parts (nach Rachel Harrison),iBdK,,,,"Kh, Fs",5322
-5323,a2012,C,Dd,B,Mt,Sc,40x55,mittel,breit,,,U,,,,,,H2,gr,Par9a,zwi,Trees for the Forest (after Rachel Harrison),iBdK,,,,Ko,5323
-5324,a2012,C,Dd,B,T,Mt,40x57,mittel,breit,Lwi,,U,,,,,,H3,gr,Par9a,,If I Did It (after Rachel Harrison),iBdK,,,,"Fs, Kh",5324
-5325,a2012,C,Dd,B,T,Mt,42x58,mittel,breit,Lst,,UnG,Pf,mF,,,,H2,gr,Par9a,was,When Hangover Becomes Form (after Rachel Harrison),iBdK,,,,"Fs, Kh, Od, G",5325
+5322,a2012,C,Dd,B,Mt,G,40x49,mittel,breit,sCo,,U,Sch,,,,,H2,gr,Par9a,was,Indigineous Parts (nach Rachel Harrison),iBdK,,,,"Kh, Fs",5322
+5323,a2012,C,Dd,B,Mt,Sc,40x55,mittel,breit,sCo,,U,,,,,,H2,gr,Par9a,zwi,Trees for the Forest (after Rachel Harrison),iBdK,,,,Ko,5323
+5324,a2012,C,Dd,B,T,Mt,40x57,mittel,breit,sCo,Lwi,U,,,,,,H3,gr,Par9a,,If I Did It (after Rachel Harrison),iBdK,,,,"Fs, Kh",5324
+5325,a2012,C,Dd,B,T,Mt,42x58,mittel,breit,sCo,,UnG,Pf,mF,,,,H2,gr,Par9a,was,When Hangover Becomes Form (after Rachel Harrison),iBdK,,,,"Fs, Kh, Od, G",5325
 5326,a1973,Ls,,,,,15x10,klein,hoch,,,UoG,mF,Mw,Tie,Ca,,H2,bw,,,Groteske (Formen),iBdK,,,,Kat.DG.24.1.03,5326
 5327,a1975,Ls,,,,,17x14,klein,hoch,,,U,,,,,,H5,bw,,,EINANDER SUCHEN,iBdK,,,,Kat.DG.24.1.04,5327
-5328,a1979,Ls,,,,,13x9,klein,hoch,,,UoG,A,FigR,lL,,,H4,bw,,,,iBdK,,,,Kat.DG.24.1.06,5328
+5328,a1979,Ls,,,,,13x9,klein,hoch,,,UoG,A,FigR,lL,,,H4,gr,,,,iBdK,,,,Kat.DG.24.1.06,5328
 5329,a1990,Ls,,,,,12x16,klein,breit,,,U,,,,,,H3,c,,,,iBdK,,,,Kat.DG.24.1.07,5329
 5330,a1990,Ls,,,,,29x39,mittel,breit,,,U,,,,,,H2,c,,,,iBdK,,,,Kat.DG.24.1.08,5330
 5331,a1990,Ls,,,,,29x39,mittel,breit,,,U,,,,,,H2,c,,,,iBdK,,,,Kat.DG.24.1.19,5331
@@ -5341,7 +5341,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5340,a1979,Hs,,,,,7x8,klein,breit,,,UoG,A,FigR,BiB,O,,H4,cf,,,,iBdK,,,,Kat.DG.24.2.07,5340
 5341,a1977,R,,,,,22x20,klein,hoch,,,UoG,mF,Pf,L,,,H3,gr,,,Figur in Landschaft,iBdK,,,,Kat.DG.24.4.14 I,5341
 5342,a1977,R,,,,,22x20,klein,hoch,,,UoG,mF,Pf,L,,,H3,gr,,,Figur in Landschaft,iBdK,,,,Kat.DG.24.4.14 II,5342
-5343,a1977,R,,,,,23x28,mittel,breit,,,U,,,,,,H3,bw,,,,iBdK,,,,Kat.DG.24.4.08 I,5343
+5343,a1977,R,,,,,23x28,mittel,breit,,,U,,,,,,H3,gr,,,,iBdK,,,,Kat.DG.24.4.08 I,5343
 5344,a2010,G,,,,,21x31,klein,breit,,,UnG,Pf,Sch,,,,H2,cf,,ParPC,Richtung Apfel (Cézanne),iBdK,,,,,5344
 5345,a1993,Hs,,,,,32x63,,breit,,,U,,,,,,H2,cf,,,,iBdK,,,,Kat.DG.24.2.08,5345
 5346,a1991,Ls,,,,,58x77,,breit,ovÖ,,U,,,,,,H2,gr,,,,iBdK,,,,Kat.DG.24.1.20,5346
@@ -5379,7 +5379,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5378,a2009,Mt,Dd,Fs,B,G,17x21,klein,breit,Lst,,,AP,,,,,H4,gr,ParAR,sko,nach Rodins «Iris»,iBdK,,,,T,5378
 5379,a2009,zT,Dd,B,,,9x11,klein,breit,,,,AP,P ,,,,H1,gr,ParAR,zwi,La messagère des Dieux (d'après Rodin),iBdK,,,,,5379
 5380,a2009,Mt,Dd,B,G,,10x14,klein,breit,,,,AP,P,,,,H3,gr,ParAR,,nach Rodins «Iris messagère des Dieux»,iBdK,,,,,5380
-5381,a2009,Mt,Dd,B,G,,12x21,klein,breit,,,UnG,AP,Kt,,,,H3,bw,ParAR,zwi,"«Iris, messagère des Dieux» (d'après Rodin)",iBdK,,,,,5381
+5381,a2009,Mt,Dd,B,G,,12x21,klein,breit,,,UnG,AP,Kt,,,,H3,gr,ParAR,zwi,"«Iris, messagère des Dieux» (d'après Rodin)",iBdK,,,,,5381
 5382,a2009,Mt,Dd,B,Ks,,14x21,klein,breit,,,UoG,AP,,,,,H2,gr,ParAR,,"nach Rodin (IRIS, Study for a Flying Figure)",iBdK,,,,,5382
 5383,a2009,Mt,Dd,T,Pk,,14x18,klein,breit,Ul,,,AP,BiB,,,,H2,gr,ParAR,,nach Rodins «Iris Messagère des Dieux»,iBdK,,,,,5383
 5384,a2009,Mt,Dd,Ks,Fs,G,17x21,klein,breit,Ul,,,AP,Sch,,,,H2,y,ParAR,waa,nach Rodins «Iris Messagère des Dieux»,iBdK,,,,,5384
@@ -5428,7 +5428,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5427,a2010,zT,Dd,G,,,20x25,klein,breit,,,UoG,AP,FigG,,,,H2,gr,ParPC,,d'après «Sept Bagineurs» de Cézanne,iBdK,,,,,5427
 5428,a2010,zT,Dd,B,,,20x25,klein,breit,Lst,,Gs,AP,FigG,,,,H2,gr,ParPC,,«Sept Baigneurs» d'après Paul Cézanne,iBdK,,,,,5428
 5429,a2016,B,,,,,11x15,klein,breit,,,U,,,,,,H4,gr,ParPC,,La Tranchée du chemin de fer (d'après Paul Cézanne),iBdK,,,,,5429
-5430,a2016,B,,,,,11x15,klein,breit,,,U,,,,,,H2,gr,ParPC,sko,La Tranchée du chemin de fer (d'après Paul Cézanne),iBdK,,,,,5430
+5430,a2016,B,,,,,11x15,klein,breit,,,U,,,,,,H2,gr,ParPC,,La Tranchée du chemin de fer (d'après Paul Cézanne),iBdK,,,,,5430
 5431,a2016,B,,,,,15x23,klein,breit,,,U,,,,,,H3,gr,ParPC,,"Les Peupliers, d'après Paul Cézanne",iBdK,,,,,5431
 5432,a2017,B,,,,,15x21,klein,breit,,,U,,,,,,H3,gr,ParPC,,Carrière de Bibémus (d'après Paul Cézanne),iBdK,,,,,5432
 5433,a2016,B,,,,,21x30,klein,breit,,,U,Sch,,,,,H2,gr,ParPC,zwi,La Tranchée du chemin de fer (d'après Paul Cézanne),iBdK,,,,,5433
@@ -5445,9 +5445,9 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5444,a2010,zT,G,Fa,,,23x42,mittel,breit,,,U,Ba,,,,,H3,cf,ParPC,waa,nach einer Studie mit Badenden von Cézanne,iBdK,,,,,5444
 5445,a2010,G,,,,,27x42,mittel,breit,,,U,Ba,,,,,H3,cf,ParPC,,Badende im Klee nach einer Studie von Cézanne,iBdK,,,,,5445
 5446,a2016,Mt,T,G,C,,34x48,mittel,breit,Lst,,UnG,AP,FigG,Ba,,,H4,gr,ParPC,,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5446
-5447,a2016,zT,T,C,,,34x48,mittel,breit,,,UoG,AP,FigG,Ba,,,H4,gr,ParPC,,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5447
+5447,a2016,zT,T,C,,,34x48,mittel,breit,sCo,,UoG,AP,FigG,Ba,,,H4,gr,ParPC,,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5447
 5448,a2016,Mt,T,G,C,,32x48,mittel,breit,,,UoG,AP,FigG,Ba,,,H4,gr,ParPC,ste,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5448
-5449,a2016,zT,T,C,,,33x48,mittel,breit,,,UoG,AP,FigG,Ba,,,H3,gr,ParPC,,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5449
+5449,a2016,zT,T,C,,,33x48,mittel,breit,sCo,,UoG,AP,FigG,Ba,,,H3,gr,ParPC,,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5449
 5450,a2016,Mt,T,G,C,,33x48,mittel,breit,,,UoG,AP,FigG,Ba,,,H4,gr,ParPC,sko,"""Les Grandes Baigneuses"" nach Paul Cézanne",iBdK,res,,,,5450
 5451,a2017,zT,T,B,,,24x34,mittel,breit,,,U,,,,,,H2,gr,ParPC,,«La lutte d'amour» d'après Cézanne,iBdK,,,,,5451
 5452,a2017,Mt,T,G,B,,28x35,mittel,breit,,,UoG,AP,FigG,,,,H3,gr,ParPC,,«La lutte d'amour» d'après Paul Cézanne,iBdK,,,,,5452
@@ -5500,9 +5500,9 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5499,a1984,R,,,,,20x24,klein,breit,,,UoG,Ti,bb,,,,H2,bw,,,,iBdK,,,,Kat.DG.24.4.203 I,5499
 5500,a1977,R,,,,,22x20,klein,hoch,,,UoG,,,,,,H3,b,,,,iBdK,,,,Kat.DG.24.4.14 III,5500
 5501,a1977,R,,,,,22x20,klein,hoch,,,UoG,,,,,,H3,gr,,,,iBdK,,,,Kat.DG.24.4.14 IV,5501
-5502,a1982,S,,,,,46x37,mittel,hoch,,,Gs,mF,O,Ti,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 I,5502
-5503,a1982,S,,,,,45x35,mittel,hoch,,,Gs,mF,O,Ti,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 II,5503
-5504,a1982,S,,,,,45x35,mittel,hoch,,,Gs,mF,O,Ti,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 III,5504
+5502,a1982,S,,,,,46x37,mittel,hoch,,,Gs,mF,O,So,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 I,5502
+5503,a1982,S,,,,,45x35,mittel,hoch,,,Gs,mF,O,So,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 II,5503
+5504,a1982,S,,,,,45x35,mittel,hoch,,,Gs,mF,O,So,,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.01 III,5504
 5505,a1982,S,,,,,35x49,mittel,breit,,,Gs,A,FigR,O,bb,,H3,cf,,,,iBdK,,,,Kat.DG.24.5.02,5505
 5506,a1976,Lg,,,,,32x33,mittel,breit,,,U,,,,,,H3,bw,,,,iBdK,,,,Kat.DG.24.3.04,5506
 5507,a1979,Lg,,,,,23x21,klein,hoch,,,Gs,FigR,ZM,O,Pf,,H3,gr,,,,iBdK,,,,Kat.DG.24.3.08,5507
@@ -5559,12 +5559,12 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5558,a1999,Hs,,,,,60x80,mittel,breit,,,U,,,,,,H4,bw,,,o.T. (Zeichenbrett),iBdK,,,,Kat.DG.24.2.11,5558
 5559,a1999,Hs,,,,,60x80,mittel,breit,,,U,,,,,,H4,bw,,,o.T. (Zeichenbrett),iBdK,,,,Kat.DG.24.2.12,5559
 5560,a1999,Hs,,,,,60x80,mittel,breit,,,U,,,,,,H4,bw,,,o.T. (Zeichenbrett),iBdK,,,,Kat.DG.24.2.13,5560
-5561,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,mF,Pf,O,Ar,,H3,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.13 I,5561
-5562,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,mF,Pf,O,Ar,,H4,c,,fis,zur Zeit,iBdK,,,,Kat.DG.24.3.13 II,5562
-5563,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,mF,Pf,O,Ar,,H2,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.14,5563
-5564,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,mF,Pf,O,Ar,,H3,c,,was,zur Zeit,iBdK,,,,Kat.DG.24.3.17,5564
-5565,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,mF,Pf,O,Ar,,H4,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.18,5565
-5566,a1997,Od,Lg,,,,62x82,mittel,breit,,,UnG,mF,Pf,O,Ar,,H3,c,,,,iBdK,,,,Kat.DG.24.3.15,5566
+5561,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H3,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.13 I,5561
+5562,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H4,c,,fis,zur Zeit,iBdK,,,,Kat.DG.24.3.13 II,5562
+5563,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H2,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.14,5563
+5564,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H3,c,,was,zur Zeit,iBdK,,,,Kat.DG.24.3.17,5564
+5565,a1997,Od,Lg,,,,62x93,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H4,c,,,zur Zeit,iBdK,,,,Kat.DG.24.3.18,5565
+5566,a1997,Od,Lg,,,,62x82,mittel,breit,,,UnG,FigG,Pf,O,Ar,,H3,c,,,,iBdK,,,,Kat.DG.24.3.15,5566
 5567,a1989,R,,,,,41x31,mittel,hoch,,,U,,,,,loz,H3,bw,,,ariete,iBdK,,,,"Kat.DG.24.4.321, Masse klein (gross: 100x70)",5567
 5568,a1989,R,,,,,31x41,mittel,breit,,,U,,,,,loz,H4,bw,,,toro,iBdK,,,,"Kat.DG.24.4.322, Masse klein (gross: 70x100)",5568
 5569,a1989,R,,,,,41x31,mittel,hoch,Lwi,,U,,,,,loz,H3,bw,,,gemelli,iBdK,,,,"Kat.DG.24.4.323, Masse klein (gross: 100x70)",5569
@@ -5637,7 +5637,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5636,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,O,,,,"Pok, WG7",H4,b,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.45,5636
 5637,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,O,,,,"Pok, WG7",H4,b,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.46,5637
 5638,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,P,,,,"Pok, WG7",H4,m,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.47,5638
-5639,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,mF,,,,"Pok, WG7",H4,m,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.48,5639
+5639,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,FigG,,,,"Pok, WG7",H4,m,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.48,5639
 5640,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,Kt,O,,,"Pok, WG7",H5,m,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.49,5640
 5641,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,Kt,O,,,"Pok, WG7",H4,b,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.50,5641
 5642,a2013,Dd,,,,,9x9,klein,quadratisch,,,Gs,Vo,O,,,"Pok, WG7",H4,cf,ParFV,,Poker (d'après Félix Vallotton),iBdK,,,,Kat.DG.24.6.51,5642
@@ -5746,10 +5746,10 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5745,a2006,OP,,,,,41x55,mittel,breit,,,U,,,,,,H4,cf,,,Aggregat,"Gregor Hasler, Herrenschwanden",PB,,,,5745
 5746,a2006,OP,,,,,41x55,mittel,breit,,,U,Sch,At,,,,H3,cf,,,plein air,"Dorothe Freiburghaus, Allmendingen",PB,,,,5746
 5747,a2005?,OP,,,,,32x41,mittel,breit,,,UoG,mF,,,,,H4,cf,,,,Kantonalbank Bern,PB,,,,5747
-5748,a2005?,OP,,,,,41x32?,mittel,hoch,,,UnG,L,Pf,,,,H4,b,,,Dordogne (d'après Félix Vallotton)?,"Françoise Horle, Emilio Siegrist, Bern",PB,,,,5748
+5748,a2005?,OP,,,,,41x32?,mittel,hoch,,,UnG,L,Pf,,,,H4,cf,,,Dordogne (d'après Félix Vallotton)?,"Françoise Horle, Emilio Siegrist, Bern",PB,,,,5748
 5749,a2003?,OP,,,,,32x41,mittel,breit,,,U,,,,,,H3,cf,,,,"Anita Rüegsegger, Res Brandenberger, Bern",PB,,,,5749
-5750,a2004?,OP,,,,,32x41,mittel,breit,,,U,Sch,,,,,H5,cf,,,,?,vers,,,,5750
-5751,a2004?,OP,,,,,32x41,mittel,breit,,,U,,,,,,H3,cf,,,,?,vers,,,,5751
+5750,a2004?,OP,,,,,32x41,mittel,breit,,,U,Sch,,,,,H5,cf,,,,vers,,,,,5750
+5751,a2004?,OP,,,,,32x41,mittel,breit,,,U,,,,,,H3,cf,,,,vers,,,,,5751
 5752,a2006,OP,,,,,32x41,mittel,breit,,,UnG,mF,O,,,,H4,cf,,,Dionysos' Wiege,iBdK,,,,Kat.OP.485,5752
 5753,a2006,OP,,,,,32x41,mittel,breit,,,Gs,At,BiB,lL,,,H4,cf,,,la ronde des prisonniers,"Ursula Sulger, Kleinlützel",PB,,,Kat.OP.464,5753
 5754,a2006,OP,,,,,32x41,mittel,breit,,,U,Sch,,,,,H3,cf,,,farbfalle,,,,,,5754
@@ -5781,8 +5781,8 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5780,a2004?,zT,T,Dd,,,21x30,klein,breit,,,U,Sch,,,,,H2,gr,,,JUNGSTAR UM ERNA,"Ana Holenstein, Bern",PB,,,,5780
 5781,a1987,T, ,,,,40x52?,mittel,breit,,,UoG,A,,,,,H3,gr,,,,"German Imoberdorf, Murten",PB,,,,5781
 5782,a2004?,Mt,Dd,T,Fs,,21x30,klein,breit,,,U,,,,,,H3,gr,,,,iBdK,,,,,5782
-5783,a2002?,Ac,,,,,21x27,klein,breit,,,UoG,mF,P,,,,H2,y,,,,iBdK,,,,,5783
-5784,a2016,G,,,,,17x21,klein,breit,,,U,,,,,,H3,cf,,,,iBdK,,,,,5784
+5783,a2002?,Ac,,,,,21x27,klein,breit,,,UoG,P,P,,,,H2,y,,,,iBdK,,,,,5783
+5784,a2018,OP,,,,,67x89,mittel,breit,ovÖ,,U,,,,,,H3,m,Kr12a,,"Rot, verklingend",iBdK,,,,Kat.OP.21,5784
 5785,a2004?,G,,,,,11x13?,klein,breit,,,U,,,,,,H4,cf,,,,"Catherine Schmidhauser, Bern",PB,,,,5785
 5786,a2004?,G,,,,,10x15?,klein,breit,,,U,,,,,,H4,cf,,,,"Gregor Hasler, Herrenschwanden",PB,,,,5786
 5787,a1993,G,,,,,18x25?,klein,breit,,,Gs,Vo,,,,,H3,cf,,,,"Isabella Holenstein, Bern",PB,,,,5787
@@ -5933,7 +5933,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5932,a2004,zT,B,Fa,,,21x30,klein,breit,ovÖ,,U,,,,,,H1,gr,Kr1,,Rondo capriccioso,iBdK,res,,,,5932
 5933,a2016,B, ,,,,21x30,klein,breit,Lwi,,U,,,,,,H3,gr,Kr11,,a hairy tale,iBdK,res,,,,5933
 5934,a2001,zT,Dd,Ks,,,21x30,klein,breit,,,Gs,BiB,FigR,Sch,,,H2,gr,Kr12b,,a story backwards told,iBdK,res,,,,5934
-5935,a2008,zT,Fs,Dd,,,21x30,klein,breit,,,UnG,mF,So,,,,H2,gr,Par7b,,OBSESSION-OBEISSONS (zu Giacometti),iBdK,,,,,5935
+5935,a2008,zT,Fs,Dd,,,21x30,klein,breit,,,UnG,FigG,So,O,,,H2,gr,Par7b,,OBSESSION-OBEISSONS (zu Giacometti),iBdK,,,,,5935
 5936,a2017,Mt,B,Fa,Lese,,21x92,klein,breit,,,U,Sch,,,,NNS,H2,gr,Par9a,waa,Notizen zu Nancy Shaver (I-III),iBdK,,,,,5936
 5937,a2017,G,,Fa,,,21x26,klein,breit,,,UoG,Ar,,,,,H3,cf,Kr10a,,verwahrloster Raum,iBdK,,,,,5937
 5938,a2017,G,,Fa,,,21x28,klein,breit,,,UoG,Ar,,,,,H3,cf,Kr10b,,Atelier,iBdK,res,,,,5938
@@ -5956,7 +5956,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5955,a1987,K,,,,,42x56,mittel,breit,,,UoG,A,,,,,H4,gr,,,,iBdK,,,,,5955
 5956,a1987,K,,,,,42x56,mittel,breit,,,UoG,A,,,,,H3,gr,,,,iBdK,,,,,5956
 5957,a1997,G,,,,,35x53,mittel,breit,,,U,,,,,,H4,gr,,fis,Neptunia,iBdK,,,,,5957
-5958,a1976,Mt,B,C,Kl,,51x47,mittel,hoch,,,UoG,mF,FigG,,,,H2,b,,,Krieger,iBdK,,,,,5958
+5958,a1976,Mt,B,C,Kl,,51x47,mittel,hoch,,,UoG,FigG,FigG,,,,H2,b,,,Krieger,iBdK,,,,,5958
 5959,a1992,Ls,C,,,,45x62,mittel,breit,,,U,BiB,,,,,H4,c,,,,iBdK,,,,,5959
 5960,a1992,Ls,C,,,,37x51,mittel,breit,,,U,,,,,,H3,c,,,Tilos,iBdK,,,,,5960
 5961,a1978,OP,,,,,38x41,mittel,breit,,,Gs,A,FigR,Ar,,,H3,b,,,,verschollen,vers,,,,5961
@@ -5973,23 +5973,23 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 5972,a1980,G,,,,,20x24?,klein,breit,,,Gs,A,P,FigR,O,,H3,b,,,,?,vers,,,,5972
 5973,a1980,G,,,,,20x24?,klein,breit,,,Gs,A,P,FigR,bb,,H4,b,,,,?,vers,,,,5973
 5974,a1980,G,,,,,41x45?,mittel,breit,,,Gs,Ri,St,O,Pf,,H3,cf,,,,?,vers,,,,5974
-5975,a1979?,OP,,,,,60x45?,mittel,hoch,,,Gs,mF,P,,,,H2,cf,,,,"Anni Hess, Binningen",PB,,,,5975
+5975,a1979?,OP,,,,,60x45?,mittel,hoch,,,Gs,P,P,,,,H2,cf,,,,"Anni Hess, Binningen",PB,,,,5975
 5976,a1978,OPa,,,,,51x64,mittel,breit,,,Gs,A,FigR,O,,,H3,cf,,,,vernichtet,vers,,,,5976
 5977,a1978,OPa,,,,,36x42,mittel,breit,,,Gs,A,FigR,lL,O,,H3,v,,,,verschollen,vers,,,,5977
 5978,a1977,OP,,,,,44x55,mittel,breit,,,Gs,A,FigR,lL,O,,H3,cf,,,,?,,,,,5978
 5979,a1978,OPa,,,,,28x32,mittel,breit,,,Gs,A,,,,,H3,v,,,,"Franco und Annemarie Piatti, Gümligen",PB,,,,5979
 5980,a1978,OPa,,,,,32x24,mittel,hoch,,,Gs,A,,,,,H4,b,,,,"Franco und Annemarie Piatti, Gümligen",PB,,,,5980
-5981,a1976,Mt,C,OH,B,,48x44?,mittel,hoch,,,UoG,mF,,,,,H3,,,,,vernichtet,vers,,x,nur Schwarzweissfotografie vorhanden,5981
+5981,a1976,Mt,C,OH,B,,48x44?,mittel,hoch,,,UoG,FigG,,,,,H3,,,,,vernichtet,vers,,x,nur Schwarzweissfotografie vorhanden,5981
 5982,a1977,zT,OPa,Bl,,,64x47,mittel,hoch,,,U,,,,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5982
 5983,a1977,zT,OPa,Bl,,,59x46,mittel,hoch,,,U,,,,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5983
 5984,a1975,G,,,,,61x42,mittel,hoch,,,UoG,Ar,Pf,,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5984
 5985,a2004?,zT,G,Opl,,,20x36,mittel,breit,,,UnG,A,P,Sch,,,H4,v,Kr5b,,"dekoratives Paar, verdüstert",,res,,,,5985
-5986,a1976?,zT,G,B,,,100x70?,gross,hoch,,,UoG,mF,P,,,,H2,,,,der verlorene Sohn,vernichtet,vers,,x,nur Schwarzweissfotografie vorhanden,5986
+5986,a1976?,zT,G,B,,,100x70?,gross,hoch,,,UoG,P,P,,,,H2,,,,der verlorene Sohn,vernichtet,vers,,x,nur Schwarzweissfotografie vorhanden,5986
 5987,a1977,OP?,,,,,50x50?,mittel,quadratisch,,,U,,,,,,H4,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5987
 5988,a1974?,zT,Opl,T,,,11x18?,klein,breit,,,U,,,,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5988
-5989,a1974?,T,,,,,18x11?,klein,hoch,,,UoG,mF,,,,,H2,bw,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5989
+5989,a1974?,T,,,,,18x11?,klein,hoch,,,UoG,FigG,,,,,H2,bw,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5989
 5990,a1976,zT,G,T,,,38x55?,mittel,breit,,,U,,,,,,H3,,,,Arrangement,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5990
-5991,a1974?,Opa,,,,,40x 57?,mittel,breit,,,Gs,A,Pf,O,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5991
+5991,a1974?,OPa,,,,,40x 57?,mittel,breit,,,Gs,A,Pf,O,,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5991
 5992,a1980,OP,,,,,70x80?,mittel,breit,,,Gs,FigR,O,lL,Pf,,H3,,,,,verschollen,vers,,x,nur Schwarzweissfotografie vorhanden,5992
 5993,a1978?,zT,T,OPa,,,24x30?,mittel,breit,,,Gs,A,,,,,H3,cf,,ste,,verschollen,vers,,,nur Fotografie vorhanden,5993
 5994,a1992,Ls,,C,,,57x76,mittel,breit,,,U,,,,,,H3,c,,was,,"Hanspeter und Hilda Muster, Bern",PB,,,,5994
@@ -6014,8 +6014,8 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6013,a1983,G,,,,,26x33,mittel,breit,,,UoG,Pf,F,St,Ec,,H3,cf,,,,iBdK,,,,,6013
 6014,a1984,G,,,,,29x38,mittel,breit,,,U,Sch,Ec,,,,H3,cf,,,,iBdK,,,,,6014
 6015,a1983,G,,,,,27x33,mittel,breit,,,UoG,Kt,Ec,O,,,H3,cf,,,plaza Indoamericana,iBdK,,,,,6015
-6016,a1993,zT,B,T,,,30x50,mittel,breit,Lwi,,UoG,mF,,,,,H3,gr,,,,iBdK,,,,,6016
-6017,a11982,zT,B,G,,,37x36,mittel,hoch,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,6017
+6016,a1993,zT,B,T,,,30x50,mittel,breit,Lwi,,UoG,FigG,,,,,H3,gr,,,,iBdK,,,,,6016
+6017,a1982,zT,B,G,,,37x36,mittel,hoch,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,6017
 6018,a1982,zT,G,B,,,39x59,mittel,breit,,,Gs,A,O,bb,So,,H2,gr,,,,iBdK,,,,,6018
 6019,a1993,Mt,R,Dp,B,T,38x53,mittel,breit,,,UoG,A,,,,,H2,gr,,,,iBdK,,,,G,6019
 6020,a2017,zT,B,Fs,,,30x30,mittel,quadratisch,Lwi,,UnG,A,Z,Sb,,,H3,gr,Kr5f,,es zeichnet,iBdK,res,,,,6020
@@ -6029,7 +6029,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6028,a2018,G,,,,,24x30,mittel,breit,,,Gs,lL,Vo,Sch,At,,H4,cf,,,Atelier (geheimnistuerisch),iBdK,,,,Ar,6028
 6029,a2018,G,,,,,22x32,mittel,breit,,,UoG,Ar,lL,At,,,H3,cf,,,Atelier,iBdK,,,,,6029
 6030,a2018,G,,,,,23x88,mittel,breit,Ul,,Gs,Ar,Vo,lL,bb,,H2,cf,,,Atelier,iBdK,,,,"dreiteilig, At",6030
-6031,a2018,G,,,,,20x30,klein,breit,Ul,,UnG,mF,P,At,,,H2,b,,,,iBdK,,,,,6031
+6031,a2018,G,,,,,20x30,klein,breit,Ul,,UnG,P,P,At,,,H2,b,,,,iBdK,,,,,6031
 6032,a1986,zT,T,Pm,,,38x28,mittel,hoch,,,Gs,A,O,,,,H2,gr,,,,iBdK,,,,,6032
 6033,a1992,zT,T,G,,,35x29,mittel,hoch,,,Gs,A,,,,,H4,gr,,,,iBdK,,,,,6033
 6034,a2001,zT,B,Bst,,,11x17,klein,breit,Lst,,Gs,P,A,,,,H3,gr,Kr5b,,Paar,iBdK,res,,,,6034
@@ -6054,7 +6054,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6053,a1993,Lg,,,,,8x15,klein,breit,,,UoG,Sch,,,,ks,H2,g,,waa,kanagawa series,iBdK,,,x,Kat.DG.24.3.11 IV,6053
 6054,a1993,Lg,,,,,8x15,klein,breit,,,UoG,Sch,,,,ks,H4,cf,,was,kanagawa series,iBdK,,,x,Kat.DG.24.3.11 VI,6054
 6055,a1975?,OPa,,,,,20x20?,klein,quadratisch,,,U,,,,,,H4,cf,,,,verschollen,vers,,,,6055
-6056,a1976,OPa,,,,,40x52?,mittel,breit,,,UoG,mF,,,,,H3,cf,,,Schattenspiel,vernichtet,vers,,,,6056
+6056,a1976,OPa,,,,,40x52?,mittel,breit,,,U,,,,,,H3,cf,,,Schattenspiel,vernichtet,vers,,,,6056
 6057,a1976,OPa,,,,,40x57?,mittel,breit,,,UoG,O,,,,,H2,b,,,,vernichtet,vers,,,,6057
 6058,a1977,OPa,,,,,42x56?,mittel,breit,,,UoG,Ar,,,,,H3,b,,,,"Peter Marmet, Hindelbank?",PB,,,"Ausstellung Galerie Szene, Bern, 1978",6058
 6059,a1976,G,,,,,50x70?,mittel,breit,,,U,,,,,,H3,b,,,Komposition,"Gregor Hasler, Herrenschwanden",PB,,,"Ausstellung Galerie Szene, Bern, 1978",6059
@@ -6177,7 +6177,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6176,a1997,OL,,Schl,,,52x65,mittel,breit,,,U,,,,,,H2,y,,fis,,iBdK,,,,,6176
 6177,a1980,Cb,,,,,22x15x4,klein,hoch,Cb,,UnG,Sch,,,,,,,,,A,iBdK,res,,,9 Doppelseiten,6177
 6178,a1978,Cb,,,,,22x18x1,klein,hoch,Cb,,UnG,Sch,,,,,,,,,zeichen,iBdK,res,,,67 Doppelseiten,6178
-6179,,,,,,,,,,,,,,,,,,,,,,,,,,,,6179
+6179,a2020,Mt,T,Opl,G,Fal,15x22,klein,breit,,,UoG,L,,,,,H5,Gr,Kr4,sko,hard rain,iBdK,,,,,6179
 6180,a1979,Cb,,,,,31x24x4,mittel,hoch,Cb,,UnG,Sch,,,,,,,,,Palimpseste,iBdK,res,,,87 Doppelseiten,6180
 6181,a1980,Cb,,,,,24x17x6,klein,hoch,Cb,,UnG,Sch,,,,,,,,,love and hate ,iBdK,res,,,81 Doppelseiten,6181
 6182,a1980,Cb,,,,,24x17x5,klein,hoch,Cb,,UnG,Sch,,,,,,,,,Nr. 7,iBdK,res,,,128 Doppelseiten,6182
@@ -6220,9 +6220,9 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6219,a2007,T,,,,,21x30,klein,breit,,,Gs,A,,,,,H2,gr,,,,"Susanna Brändli, Bern",PB,,,,6219
 6220,a2007,zT,Fa,Fs,,,21x30,klein,breit,,,Gs,A,,,,,H2,gr,,,,"Susanna Brändli, Bern",PB,,,,6220
 6221,a2007,zT,Dd,B,,,21x30,klein,breit,,,UoG,BiB,L,Kt,,,H2,gr,,zwi,,"Susanna Brändli, Bern",PB,,,,6221
-6222,a2007,zT,B,Dd,,,21x30,klein,breit,,,UoG,mF,,,,,H2,gr,,,,"Susanna Brändli, Bern",PB,,,,6222
+6222,a2007,zT,B,Dd,,,21x30,klein,breit,,,U,,,,,,H2,gr,,,,"Susanna Brändli, Bern",PB,,,,6222
 6223,a2009,Mt,B,Fa,T,,21x30,klein,breit,,,UnG,A,P,,,,H2,gr,,,,"Susanna Brändli, Bern",PB,,,,6223
-6224,a1974,OPa,,,,,15x15,klein,quadratisch,,,U,,,,,,H4,b,,sti,,iBdK,,,,im Originalrahmen,6224
+6224,a1974,OPa,,,,,15x15,klein,quadratisch,,,U,,,,,,H4,b,,,,iBdK,,,,im Originalrahmen,6224
 6225,a1973,K,,,,,28x29,mittel,breit,,,U,,,,,,H3,b,,,,iBdK,,,,,6225
 6226,a1975,C,S,B, ,,55x44,mittel,hoch,,,UnG,Pf,BiB,,,,H2,cf,,,,iBdK,,,,,6226
 6227,a1976,Mt,S,Dp,K,,55x44,mittel,hoch,,,UnG,Sta,Pf,Bib,,,H2,gr,,,,iBdK,,,,,6227
@@ -6244,7 +6244,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6243,a1977,OP,,,,,50x65?,mittel,breit,,,UoG,mF,,,,,H3,b,,,,iBdK,,,,,6243
 6244,a2010,G,,,,,17x23,klein,breit,,,UoG,F,St,,,,H3,cf,ParPC,,Capriccio (nach Paul Cézanne),"Suzanne Wirz, Bern",PB,,,,6244
 6245,a2010,G,,,,,19x26,klein,breit,,,Gs,F,St,,,,H3,cf,ParPC,,,"Suzanne Wirz, Bern",PB,,,,6245
-6246,a2006,OP,,,,,32x41,mittel,breit,,,UoG,mF,At,,,,H2,b,Kr5b,,Erscheinung,iBdK,res,,,Kat.OP.410,6246
+6246,a2006,OP,,,,,32x41,mittel,breit,,,UoG,P,At,,,,H2,b,Kr5b,,Erscheinung,iBdK,res,,,Kat.OP.410,6246
 6247,a2018,OP,,,,,41x55,mittel,breit,Lwi,,U,,,,,,H2,cf,Kr12c,,Dreiklang,iBdK,res,,,Kat.OP.453,6247
 6248,a2006,OP,,,,,32x41,mittel,breit,Ul,,UnG,Ti,O,,,,H4,cf,Kr6,,der Sammler,iBdK,res,,,Kat.OP.414,6248
 6249,a2006,OP,,,,,32x41,mittel,breit,Ul,,UoG,At,BiB,Ar,St,,H4,cf,Kr10b,,Blütenfalle,iBdK,res,,,Kat.OP.75,6249
@@ -6287,7 +6287,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6286,a1986,R,,,,,16x20,klein,breit,,,U,,,,,,H4,bw,,,,iBdK,,,,Kat.DG. 24.4.264,6286
 6287,a2018,G,,,,,18x24,klein,breit,,,UoG,Tie,,,,,H4,cf,Kr2b,,Proteus,iBdK,res,,,,6287
 6288,a1997,R,,Od,,,36x48,mittel,breit,,,UoG,Pf,,,,,H4,c,,,,iBdK,,,,Kat.DG.24.4.222A,6288
-6289,a1981,R,,,,,25x30,mittel,breit,,,Gs,FigR,Tie,Vo,O,,H4,bw,,,,iBdK,,,,Kat.DG.24.4.66,6289
+6289,a1981,R,,,,,25x30,mittel,breit,,,Gs,FigR,Tie,Vo,O,,H4,gr,,,,iBdK,,,,Kat.DG.24.4.66,6289
 6290,a1982,R,,,,,6x8,klein,breit,,,Gs,Kt,,,,,H2,bw,,,,iBdK,,,,Kat.DG.24.4.92,6290
 6291,a1976,OL,,,,,46x46,mittel,quadratisch,,,UoG,L,,,,,H4,cf,,,Landschaft,"Hans-Peter und Katharina Müller, Bern",PB,,,"Ausstellung Galerie Szene, Bern, 1978",6291
 6292,a2018,B,,,,,11x15,klein,breit,,,UoG,O,,,,,H3,bw,Kr6,,Skulptur,iBdK,res,,,,6292
@@ -6639,7 +6639,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6638,a2018,G,,,,,27x22,klein,hoch,,,UoG,O,Sch,,,,H3,b,Kr6,,Fundstück (neolithisch?),iBdK,res,,,,6638
 6639,a2018,G,,,,,32x24,mittel,hoch,,,UnG,O,,,,,H3,b,Par1,,o. T. (Papua Neuguinea),iBdK,,,,,6639
 6640,a2018,OP,,,,,67x89,mittel,breit,,,UnG,Pf,Ma,,,,H4,g,ParFV,,Agaves (d'après Félix Vallotton),iBdK,,,,Kat.Op. 629,6640
-6641,a2018,OP,,,,,67x89,mittel,breit,pg,,U,,,,,,H4,cf,,,Atelier années 50,iBdK,,,,Kat.Op. 377,6641
+6641,a2018,OP,,,,,67x89,mittel,breit,pg,,U,,,,,,H4,cf,Par7a,,Atelier années 50,iBdK,,,,Kat.Op. 377,6641
 6642,a2008,OP,,,,,67x89,mittel,breit,,,U,BiB,Gä,,,,H4,cf,Kr10a,,einen Garten planen,iBdK,res,,,Kat.Op. 597,6642
 6643,a2008,OP,,,,,54x67,mittel,breit,Ul,,U,,,,,,H4,cf,ParPK,,"nach dem ""Plan einer Gartenarchitektur"" von Paul Klee",iBdK,res,,,Kat.Op. 605,6643
 6644,a2018,OP,,,,,54x67,mittel,breit,,,UnG,O,St,Dét,,det,H4,cf,Par8b,,soupçons,iBdK,,,,Kat.Op. 140,6644
@@ -6650,7 +6650,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6649,a2008,OP,,,,,54x67,mittel,breit,Ul,,UoG,O,,,,Pro,H3,b,,,ruche,iBdK,,,,Kat.Op. 579,6649
 6650,a2012,OP,,,,,54x67,mittel,breit,,,U,,,,,Pro,H3,b,,,Bustamantes Puste,iBdK,,,,Kat.Op. 595,6650
 6651,a2018,OP,,,,,41x67,mittel,breit,,,UnG,A,FigG,,,,H4,cf,Kr5c,,barbarische Gestade,iBdK,res,,,Kat. Op. 129,6651
-6652,a2016,OP,,,,,41x67,mittel,breit,bs,,U,,,,,,H4,cf,Par5,,L'entrée du Musée Gaugin,iBdK,,,,Kat.Op. 520,6652
+6652,a2016,OP,,,,,41x67,mittel,breit,bs,,U,,,,,,H4,cf,Par5,,L'entrée du Musée Gauguin,iBdK,,,,Kat.Op. 520,6652
 6653,a2018,OP,,,,,41x67,mittel,breit,,,UnG,O,Ca,,,,H4,cf,,,mind your mind,iBdK,,,,Kat.Op. 437,6653
 6654,a2018,OP,,,,,41x67,mittel,breit,pg,,U,,,,,,H4,cf,Kr6,,Entwurf zu einem herbstlichen Stillleben,iBdK,res,,,Kat.Op. 262,6654
 6655,a2018,OP,,,,,41x67,mittel,breit,pg,,UoG,O,St,,,,H4,cf,Kr6,,still life,iBdK,res,,,Kat.Op. 226,6655
@@ -6669,7 +6669,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6668,a2006,OP,,,,,32x41,mittel,breit,,,UoG,At,O,,,,H4,gr,Par7b,,Giacomettis Atelier,iBdK,,,,Kat.OP.104,6668
 6669,a2016,OP,,,,,41x55,mittel,breit,bs,,U,,,,,,H4,cf,,,,iBdK,,,,Kat.OP.230,6669
 6670,a2018,OP,,,,,54x67,mittel,breit,,,UnG,mF,O,Dét,,det,H4,m,Par8b,,"Non, je n`y vais pas!",iBdK,,,,Kat.OP.489,6670
-6671,a2017,B,,,,,21x30,klein,breit,,,Gs,A,,,,,H1,gr,Kr1,,Gesten,iBdK,res,,,,6671
+6671,a2017,B,,,,,21x30,klein,breit,,,Gs,A,,,,,H1,gr,,,Geste,iBdK,res,,,,6671
 6672,a2007,zT,Dd,Fs,,,21x30,klein,breit,,,UnG,A,BiB,,,,H3,gr,Kr8,,confusion piece,iBdK,res,,,,6672
 6673,a2006,zT,Dd,B,,,21x30,klein,breit,,,UnG,O,,,,,H1,bw,Kr8,,rêve,iBdK,res,,,,6673
 6674,a2010,zT,Dd,G,,,21x30,klein,breit,,,UnG,O,,,,,H4,gr,Kr8,,Tumult,iBdK,res,,,,6674
@@ -6704,7 +6704,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6703,a2009,Mt,B,G,Fs,,11x15,klein,breit,Ul,,U,,,,,,H3,gr,Kr8,,Komplikationen,iBdK,res,,,,6703
 6704,a2014,Mt,Dd,B,Fa,Ko,11x15,klein,breit,,,U,,,,,,H3,gr,Kr8,,dazed and confused,iBdK,res,,,,6704
 6705,a2007,zT,B,Fs,,,11x15,klein,breit,,,U,,,,,,H2,gr,Kr8,,noch zögernd,iBdK,res,,,,6705
-6706,a2001,zT,T,B,,,11x15,klein,breit,,,UoG,mF,,,,,H2,gr,Kr8,,Zitterpartie,iBdK,res,,,,6706
+6706,a2001,zT,T,B,,,11x15,klein,breit,,,UoG,P,,,,,H2,gr,Kr8,,Zitterpartie,iBdK,res,,,,6706
 6707,a2012,Mt,Dd,B,Fa,,11x15,klein,breit,Lwi,,UnG,mF,O,,,,H4,cf,Kr8,,round and round,iBdK,res,,,,6707
 6708,a2002,zT,Dd,Opl,,,11x15,klein,breit,,,UnG,Kt,,,,,H2,cf,Kr8,,Hoffnung,iBdK,res,,,,6708
 6709,a2016,B,,,,,11x15,klein,breit,,,U,,,,,,H1,gr,Kr8,,Vermutung,iBdK,res,,,,6709
@@ -6720,7 +6720,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6719,a2017,B,,,,,9x12,klein,breit,,,Gs,mF,,,,,H2,bw,Kr8,,despair,iBdK,res,,,,6719
 6720,a2017,B,,,,,9x12,klein,breit,Lwi,,UoG,mF,,,,,H2,bw,Kr8,,per aspera ad astra,iBdK,res,,,,6720
 6721,a2017,B,,,,,9x12,klein,breit,,,U,,,,,,H1,bw,Kr8,,adoration,iBdK,res,,,,6721
-6722,a2017,B,,,,,9x12,klein,breit,,,Gs,mF,P,,,,H4,bw,Kr8,,auf der Lauer,iBdK,res,,,,6722
+6722,a2017,B,,,,,9x12,klein,breit,,,Gs,ZM,P,,,,H4,bw,Kr8,,auf der Lauer,iBdK,res,,,,6722
 6723,a2001,Mt,T,Opl,B,,9x11,klein,breit,,,UoG,mF,,,,,H4,gr,Kr9,,victimized,iBdK,res,,,,6723
 6724,a2016,B,,,,,9x11,klein,breit,Lwi,,UoG,mF,,,,,H4,bw,Kr8,,getroffen,iBdK,res,,,,6724
 6725,a2012,B,,,,,9x11,klein,breit,,,U,,,,,,H5,bw,Kr8,,notturno,iBdK,res,,,,6725
@@ -6755,7 +6755,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6754,a2018,B,,,,,17x21,klein,breit,,,UoG,St,,,,,H2,bw,Kr6,,Verwüstetes Stillleben,iBdK,res,,,,6754
 6755,a2019,Mt,Aq,B,C,,28x14,klein,breit,Gi,,UoG,AP,FigG,,,,H3,cf,ParPC,,"nach Cézannes ""Grosse Badende""",iBdK,,,,,6755
 6756,a2018,zT,G,B,,,21x30,klein,breit,,,UoG,F,St,,,,H2,cf,ParPC,,Früchtestilleben (nach Paul Cézanne),iBdK,,,,,6756
-6757,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,6757
+6757,a2019,OP,,,,,25x40,mittel,breit,,,U,BiB,,,,,H4,cf,Kr7,res,schriller Eingriff,iBdK,,,,Kat. Op.52,6757
 6758,a2018,G,,,,,21x30,klein,breit,,,U,,,,,,H2,gr,ParPC,,"nach Cézannes ""Früchtestillleben""",iBdK,,,,,6758
 6759,a2018,Mt,Aq,T,C,,21x30,klein,breit,,,Gs,F,St,,,,H2,g,ParPC,,nach Cézannes «Stillleben mit Früchten»,iBdK,,,,,6759
 6760,a2018,Mt,Dd,Od,Aq,,21x30,klein,breit,Gi,,UoG,AP,FigG,,,,H3,cf,ParPC,,"nach Cézannes ""Grosse Badende""",iBdK,,,,,6760
@@ -6778,11 +6778,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6777,a2002,zT,Dd,T,,,9x11,klein,breit,,,Gs,mF,,,,,H4,gr,Kr9,,Bote,iBdK,res,,,,6777
 6778,a2017,zT,B,Fs,,,11x14,klein,breit,,,Gs,mF,Mw,,,,H2,gr,Kr9,,"Faun mit Syrinx, Nymphe",iBdK,res,,,,6778
 6779,a2002,zT,Dd,Opl,,,9x15,klein,breit,,,Gs,mF,Sch,,,,H4,cf,Kr9,,PAN,iBdK,res,,,,6779
-6780,a2002,Mt,Dd,B,T,,11x15,klein,breit,,,UoG,mF,Mw,Ken,,,H4,gr,Kr9,,kalligrafische Kentauromachie,iBdK,res,,,,6780
+6780,a2002,Mt,Dd,B,T,,11x15,klein,breit,,,UoG,P,Mw,Ken,,,H4,gr,Kr9,,kalligrafische Kentauromachie,iBdK,res,,,,6780
 6781,a2002,zT,Dd,B,,,11x15,klein,breit,,,Gs,A,,,,,H3,cf,Kr9,,Narziss,iBdK,res,,,,6781
 6782,a2014,Mt,Dd,T,B,,11x15,klein,breit,,,Gs,mF,,,,,H3,bw,Kr9,,REA,iBdK,res,,,,6782
 6783,a2001,Mt,B,Opl,T,,11x15,klein,breit,,,UoG,mF,,,,,H3,gr,Kr9,,Atlas,iBdK,res,,,,6783
-6784,a2001,zT,B,Fs,,,11x15,klein,breit,,,UoG,mF,,,,,H3,gr,Kr9,,Gigantomachie,iBdK,res,,,,6784
+6784,a2001,zT,B,Fs,,,11x15,klein,breit,,,UoG,FigG,,,,,H3,gr,Kr9,,Gigantomachie,iBdK,res,,,,6784
 6785,a2002,zT,Dd,B,,,11x15,klein,breit,,,Gs,Ri,,,,,H3,gr,Kr9,,Challig,iBdK,res,,,,6785
 6786,a2007,Mt,B,T,Fal,,11x15,klein,breit,Lwi,,U,,,,,,H3,gr,Kr9,,ein etwas komplizierter Engel,iBdK,res,,,,6786
 6787,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar,,,,,H2,gr,Kr9,,Streit der Götter,iBdK,res,,,,6787
@@ -6791,7 +6791,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6790,a2002,zT,Dd,B,,,11x15,klein,breit,,,UnG,Ar,BiB,,,,H3,gr,Kr9,,Horoskop,iBdK,res,,,,6790
 6791,a2010,Mt,Dd,T,B,,11x15,klein,breit,,,U,,,,,,H4,gr,Kr9,,Jupiter Rising,iBdK,res,,,,6791
 6792,a2002,Mt,Dd,B ,T,,11x15,klein,breit,,,Gs,A,O,,,,H4,c,Kr9,,Argus,iBdK,res,,,,6792
-6793,a2006,zT,Fa,B,,,21x30,klein,breit,,,UoG,mF,P,,,,H1,bw,Kr5b,,leise Annäherung,iBdK,res,,,,6793
+6793,a2006,zT,Fa,B,,,21x30,klein,breit,,,UoG,P,P,,,,H1,bw,Kr5b,,leise Annäherung,iBdK,res,,,,6793
 6794,a2002,zT,B,Dd,,,10x16,klein,breit,,,UnG,O,,,,,H3,gr,Kr9,,Undine,iBdK,res,,,,6794
 6795,a2002,Mt,G,T,B,,11x17,klein,breit,,,U,,,,,,H4,gr,Kr9,,nordische Sphinx,iBdK,res,,,,6795
 6796,a2001,zT,Dd,Opl,,,11x17,klein,breit,Gi,,UnG,Ri,,,,,H4,gr,Kr9,,Janus,iBdK,res,,,,6796
@@ -6866,7 +6866,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6865,a2001,zT,Dd,B,,,17x21,klein,breit,,,UnG,Ri,,,,,H2,gr,Kr9,,Pluto in Pisces,iBdK,res,,,,6865
 6866,a2014,Mt,T,Fa,B,,12x15,klein,breit,,,U,Sch,,,,,H4,gr,Kr1,,way out,iBdK,res,,,,6866
 6867,a2007,B,,,,,11x15,klein,breit,Lwi,,Gs,mF,,,,,H3,gr,Kr9,,kleine Hexe,iBdK,res,,,,6867
-6868,a2008,zT,B,Dd,,,21x30,klein,breit,,,UoG,mF,FigG,,,,H3,bw,Kr5c,,Tänzer,iBdK,res,,,,6868
+6868,a2008,zT,B,Dd,,,21x30,klein,breit,,,UoG,FigG,FigG,,,,H3,bw,Kr5c,,Tänzer,iBdK,res,,,,6868
 6869,a2016,Mt,Ks,Fs,B,Opl,14x20,klein,breit,,,U,,,,,,H3,gr,Kr8,,klirrend,iBdK,res,,,,6869
 6870,a1981,T,,,,,26x20,klein,hoch,,,Gs,mF,Ri,Sb,,,H4,gr,,,,iBdK,,,,,6870
 6871,a2019,OP,,,,,32x41,mittel,hoch,,,UoG,O,,,,,H2,cf,Par7a,,La Table (d'après Pierre Bonnard),iBdK,,,,Kat.OP.670,6871
@@ -6886,11 +6886,11 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6885,a2019,OP,,,,,41x55,mittel,breit,pg,,UoG,L,Mw,,,,H3,cf,Kr4,,Landschaft mit spitznasiger Sphinx,iBdK,res,,,Kat.OP.668,6885
 6886,a2019,OP,,,,,41x55,mittel,breit,pg,RiK,UoG,L,,,,,H4,cf,,,,iBdK,,,,Kat.OP.344,6886
 6887,a2019,OP,,,,,41x55,mittel,breit,pg,RiK,UoG,L,,,,,H4,cf,,,,iBdK,,,,Kat.OP.245,6887
-6888,a2018,OP,,,,,41x122,mittel,breit,Ul,,UnG,Ar,,,,,H4,cf,,,,iBdK,,,,"Kat.OP.355+356, zweiteilig",6888
-6889,a2018,OP,,,,,41x67,mittel,breit,Ul,,UnG,Ar,lL,At,,,H4,cf,Kr10b,,Atelier,iBdK,res,,,Kat.OP.458,6889
+6888,a2018,OP,,,,,41x122,mittel,breit,Ul,,UnG,Ar,,,,,H4,cf,Kr11,,Laboratorium,iBdK,res,,,"Kat.OP.355+356, zweiteilig",6888
+6889,a2018,OP,,,,,41x67,mittel,breit,Ul,,UnG,Ar,lL,At,,,H4,cf,,,Atelier,iBdK,,,,Kat.OP.458,6889
 6890,a2018,OP,,,,,41x67,mittel,breit,pg,,U,Sch,,,,,H4,cf,Par7a,,map (frei nach Jasper Johns),iBdK,,,,Kat.OP.432,6890
 6891,a2006,OP,,,,,41x67,mittel,breit,,,UnG,Ri ,Sb,Pf,Ca,,H4,cf,,,kleines Selbstbildnis,iBdK,,,,Kat.OP.438,6891
-6892,a2018,OP,,,,,41x67,mittel,breit,,,UnG,Ri,Sb,Ca,,,H4,cf,Kr11,,18th Century Blues,iBdK,res,,,Kat.OP.476,6892
+6892,a2018,OP,,,,,41x67,mittel,breit,,,UnG,Ri,Sb,Ca,,,H4,cf,,,18th Century Blues,iBdK,,,,Kat.OP.476,6892
 6893,a2019,OP,,,,,41x67,mittel,breit,,,U,,,,,,H5,gr,Par7a,,Anselms Kiefern,iBdK,,,,Kat.OP.527,6893
 6894,a2018,OP,,,,,67x89,mittel,breit,,,U,,,,,,H4,m,Kr12a,,Mondrian im Pfefferland,iBdK,res,,,Kat.OP.587,6894
 6895,a1985,T,,,,,24x29,mittel,breit,,,Gs,A,Z,,,,H4,gr,,,,iBdK,,,,,6895
@@ -6966,7 +6966,7 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 6965,a2019,Mt,Dd,B,G,T,11x15,klein,breit,Gi,,UoG,O,,,,,H3,gr,,,"""Più alto del mare"" (nach Francesca Melandri)",iBdK,,,,,6965
 6966,a2019,T,,,,,11x15,klein,breit,,,U,,,,,,H5,bw,,sko,notturno,iBdK,,,,,6966
 6967,a2019,T,,,,,11x15,klein,breit,,,UoG,L,,,,,H4,bw,,sko,notturno,iBdK,,,,,6967
-6968,a2019,zT,B,G,,,11x15,klein,breit,,,Gs,mF,L,,,,H2,gr,,kre,Strand,iBdK,,,,,6968
+6968,a2019,zT,B,G,,,11x15,klein,breit,,,Gs,mF,L,L,,,H2,gr,,kre,Strand,"Bernhard de Roche, Herzogenbuchsee",,,,,6968
 6969,a2019,Mt,B,Fa,Fs,,15x11,klein,hoch,,,UoG,Ri,bb,,,,H2,gr,Par7a,,"""Man's Head"" (after Eduardo Paolozzi)",iBdK,,,,,6969
 6970,a2019,B,,,,,15x11,klein,hoch,,,UnG,Ri,,,,,H3,gr,Par5,,Japanese Lady with a Fan (after George Henry),iBdK,,,,,6970
 6971,a2019,B,,,,,11x14,klein,breit,,,UoG,St,,,,,H3,gr,Kr6,,Stillleben (Stellprobe),iBdK,res,,,,6971
@@ -7004,10 +7004,10 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 7003,a2019,B,,,,,27x40,mittel,breit,,,U,,,,,,H3,bw,Kr12e,,Fünfklang (suggestions),iBdK,res,,,,7003
 7004,a2019,B,,,,,27x36,mittel,breit,,,U,Sch,,,,,H2,bw,Kr11,,graues Kunterbunt,iBdK,res,,,,7004
 7005,a2019,B,,,,,42x56,mittel,breit,,,UoG,O,So,,,,H2,gr,Kr6,,7 Preziosen,iBdK,res,,,,7005
-7006,a2018,Fa,,,,,26x29,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,,,,,7006
-7007,a2018,Fa,,,,,26x31,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,,,,,7007
-7008,a2018,Fa,,,,,28x34,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,,,,,7008
-7009,a2018,Fa,,,,,28x33,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,,,,,7009
+7006,a2018,Fa,,,,,26x29,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,res,,,,7006
+7007,a2018,Fa,,,,,26x31,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,res,,,,7007
+7008,a2018,Fa,,,,,28x34,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,res,,,,7008
+7009,a2018,Fa,,,,,28x33,mittel,breit,Fro,,UnG,Tie,,,,,H3,cf,ParPK,,Schicksal der Tiere (frei nach Paul Klee),iBdK,res,,,,7009
 7010,a2003,G,,,,,10x13,klein,breit,,,UnG,AP,,,,,H3,cf,Par5,,La Liberté (nach Delacroix),iBdK,,,,,7010
 7011,a2006,G,,,,,11x12,klein,breit,,,UoG,Mw,,,,,H3,cf,Kr9,,kleine Koboldiade,iBdK,res,,,,7011
 7012,a2006,G,,,,,11x14,klein,breit,,,U,,,,,,H2,b,Par5,,Erinnerung an ein Aquarell von Turner,iBdK,,,,,7012
@@ -7046,275 +7046,367 @@ Nummer,Jahr,Technik,Technik I,Technik II,Technik III,Technik IV,Format,Grösse,A
 7045,a2019,OP,,,,,41x55,mittel,breit,,,UoG,O,,,,,H3,cf,Kr6,,Sarkophag,iBdK,res,,,,7045
 7046,a2006,OP,,,,,41x55,mittel,breit,,,U,,,,,,H4,cf,Kr10a,,coaltown,iBdK,res,,,,7046
 7047,a2006,OP,,,,,54x67,mittel,breit,,,U,,,,,,H4,c,,,du côté de chez Protée,iBdK,,,,,7047
-7048,a2018,OP,,,,,54x67,mittel,breit,,,U,,,,,,H4,cf,Kr6,,in landschaftlichen Rahmen,iBdK,res,,,,7048
+7048,a2018,OP,,,,,54x67,mittel,breit,,,U,,,,,,H4,cf,Kr6,,in landschaftlichem Rahmen,iBdK,res,,,,7048
 7049,a2018,OP,,,,,54x67,mittel,breit,,,U,,,,,,H3,cf,Par7a,löw,kleine Hommage an Sir Howard Hodgkin,iBdK,,,,,7049
 7050,a2006,OP,,,,,54x67,mittel,breit,,,U,Sch,,,,,H4,m,,,much ado about red,iBdK,,,,,7050
 7051,a2019,OP,,,,,67x89,mittel,breit,bs,,U,,,,,,H4,g,,,bars and stripes,iBdK,,,,,7051
 7052,a2019,OP,,,,,67x89,mittel,breit,bs,,U,,,,,,H4,g,,,bars and stripes,iBdK,,,,,7052
 7053,a2019,OP,,,,,67x89,mittel,breit,,,Gs,AP,O,,,,H3,cf,Par2,,La Vénus de Lespugue,iBdK,,,,,7053
 7054,a2019,OP,,,,,89x67,mittel,breit,,,U,,,,,,H4,cf,Kr8,,karnevalesk,iBdK,res,,,,7054
-7055,a2019,OP,,,,,89x67,mittel,breit,Lst,,U,Sch,,,,,H4,cf,Par7a,,Schnittmenge (Hommage an Jean Dubuffet),iBdK,,,,,
-7056,a2006,OP,,,,,67x89,mittel,breit,,,UoG,P,,,,,H4,cf,Kr5b,,Heine und das Fräulein am Meer,iBdK,res,,,,
-7057,a2005,OP,,,,,67x89,mittel,breit,Lst,,UnG,A,,,,,H4,cf,,,,iBdK,,,,,
-7058,a2019,OP,,,,,67x89,mittel,hoch,,,Gs,AP,L,,,,H3,cf,ParFV,,Lande bretonne (d'après Félix Vallotton),iBdK,,,,,
-7059,a2019,OP,,,,,41x122,gross,hoch,,,UoG,Fk,Sch,,,,H3,cf,,,jugs and mugs,iBdK,,,,,
-7060,a2006,G,Dd,,,,15x13,klein,breit,,,U,,,,,,H3,cf,Kr11,,knifflig,iBdK,res,,,,
-7061,a2007,G,,,,,11x16,klein,breit,,,U,,,,,,H2,cf,Kr5a,,Krämerin,iBdK,res,,,,
-7062,a2004,G,,,,,9x11,klein,breit,,,UnG,L,,,,,H3,b,"Kr4, Kr7",,Dramolett (kleine Hommage an Robert Walser),iBdK,res,,,,
-7063,a2007,G,,,,,11x16,klein,breit,,,U,,,,,,H3,cf,Kr7,,Wappen,iBdK,res,,,,
-7064,a2019,G,,,,,11x12,klein,hoch,,,UoG,Tie,,,,,H4,cf,Kr2b,,kleine Improvisation mit blauem Bock,iBdK,res,,,,
-7065,a2006,G,,,,,11x16,klein,breit,,,U,,,,,,H2,g,Kr7,,Geviert,iBdK,res,,,,
-7066,a2006,G,,,,,11x16,klein,breit,,,UoG,BiB,,,,,H2,g,Kr7,,Entwurf zu einem Bild,iBdK,res,,,,
-7067,a2019,G,,,,,11x16,klein,breit,bs,,U,,,,,,H3,cf,Kr4,,bars and stripes,iBdK,res,,,,
-7068,a2004,G,,,,,9x18,klein,breit,,,UoG,Ri,,,,,H4,c,"Kr5e, Kr9",,Mondgesicht,iBdK,res,,,,
-7069,a2004,G,B,,,,12x15,klein,breit,,,Gs,Ri,Sch,,,,H2,g,Kr5e,,Kopf,iBdK,res,,,,
-7070,a2005,G,Ve,,,,13x18,klein,breit,,,U,,,,,,H4,cf,Kr4,,Unwetter,iBdK,res,,,,
-7071,a2019,zT,Ac,G,,,11x17,klein,breit,,,UnG,O,,,,,H5,c,Kr6,,"Gefäss, nachts",iBdK,res,,,,
-7072,a2019,G,,,,,11x14,klein,breit,,,UoG,O,,,,,H4,cf,Kr6,,Gefässe,iBdK,res,,,,
-7073,a2019,G,,,,,9x17,klein,breit,,,U,,,,,,H4,cf,Kr1,,Kinderspieltrieb,iBdK,res,,,,
-7074,a2006,zT,G,B,,,11x16,klein,breit,,,UoG,St,So,,,,H3,cf,Kr6,,reichlich bestücktes Stillleben,iBdK,res,,,,
-7075,a2004,G,,,,,11x15,klein,breit,,,UoG,Gä,,,,,H4,cf,Kr2a,,jardin marocain,iBdK,res,,,,
-7076,a2004,G,,,,,11x15,klein,breit,,,UoG,Gä,,,,,H3,cf,"Kr2a, Kr10a",,jardin marocain,iBdK,res,,,,
-7077,a2006,G,,,,,17x21,klein,breit,,,UoG,Ri,,,,,H2,cf,Kr5e,,kleiner Ganove,iBdK,res,,,,
-7078,a2004,G,,,,,20x21,klein,breit,,,UoG,Mw,Pf,,,,H3,cf,Kr9,,junger Faun mit rosaroter Blume,iBdK,res,,,,
-7079,a2006,G,,,,,17x28,klein,breit,,,Gs,mF,O,,,,H4,b,Kr9,,verwundete Prophetin,iBdK,res,,,,
-7080,a2019,G,,,,,16x21,klein,breit,,,U,,,,,,H4,cf,Kr11,,Schaukler,iBdK,res,,,,
-7081,a2004,G,,,,,11x15,klein,breit,,,UoG,O,,,,,H2,cf,Kr6,,brouillard à Essaouira,iBdK,res,,,,
-7082,a2004,G,,,,,11x14,klein,breit,,,UoG,Ar,L,,,,H2,c,Kr10a,,Brandung,iBdK,res,,,,
-7083,a2003,G,,,,,18x19,klein,breit,,,UnG,Pf,Sch,,,,H4,cf,Kr2a,,Pilze etc.,iBdK,res,,,,
-7084,a2009,G,,,,,15x21,klein,breit,,,UoG,mF,,,,,H4,cf,Kr5a,,magicienne,iBdK,res,,,,
-7085,a2006,G,,,,,15x21,klein,breit,,,Gs,L,,,,,H4,cf,Kr4,,Küstengebirge,iBdK,res,,,,
-7086,a2006,G,,,,,17x24,klein,breit,Lst,,UoG,mF,O,,,,H4,cf,Kr5a,,dunkler Mikador,iBdK,res,,,,
-7087,a2018,OB,,,,,41x55,mittel,breit,,,UoG,L,,,,,H5,cf,Par5,,"zu John Everett Millais' ""Ophelia""",iBdK,,,,,
-7088,a2019,zT,G,B,,,22x27,klein,breit,,,U,,,,,,H4,cf,Kr6,,Early Roman Kings (frei nach Bob Dylan),iBdK,res,,,,
-7089,a2019,G,,,,,24x26,klein,breit,Ul,,UoG,O,,,,,H4,v,Kr6,,Stillleben in spe,iBdK,res,,,,
-7090,a2018,Mt,Fko,Hpf,Kl,B,31x43,mittel,breit,,,UnG,L,,,,,H2,gr,ParPC,,La Tranchée avec la Montagne Sainte-Victoire (d'après Paul Cézanne),iBdK,,,,"Ks, Bst",
-7091,a2018,Mt,Fko,Hpf,Kl,B,31x42,mittel,breit,,,U,,,,,,H2,gr,ParPC,,La Montagne Sainte-Victoire et le Château noir (d'après Paul Cézanne),iBdK,,,,"Ks, Bst",
-7092,a2018,Mt,Fko,Hpf,Kl,B,31x147,mittel,breit,sM,,UnG,Ar,Pf,L,,,H2,gr,ParPC,,nach Kompositionen von Cézanne,iBdK,,,,"Ks, Bst",
-7093,a2013,G,,,,,19x27,klein,breit,,,UoG,St,,,,,H3,cf,Kr6,,Delikatessen,iBdK,res,,,,
-7094,a2019,Mt,G,Dd,T,C,21x30,klein,breit,,,UoG,F,St,,,,H3,cf,ParPC,,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,
-7095,a2019,Mt,Ac,G,C,,21x30,klein,breit,,,UoG,F,St,,,,H3,b,ParPC,,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,
-7096,a2019,G,,,,,20x24,klein,breit,,,UoG,Fk,F,,,,H4,cf,Kr6,,2 Farbkörper,iBdK,res,,,,
-7097,a2019,Mt,B,Ks,Fs,T,82x54,mittel,hoch,,,UnG,Ri,,,,,H2,gr,ParPK,,Schaffendes Haupt (nach Paul Klee),iBdK,res,,,16-teilig,
-7098,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7099,a2005,G,,,,,15x21,klein,breit,,,U,,,,,,H2,v,Kr1,,gut gestolpert,iBdK,res,,,,
-7100,a2019,G,,,,,15x21,klein,breit,bs,Gi,U,,,,,,H4,cf,Kr1,Zwi,black & easy,iBdK,res,,,,
-7101,a2019,G,,,,,12x15,klein,breit,,,UoG,F,Sch,,,,H3,cf,Kr2a,,Apfelstillleben,iBdK,res,,,,
-7102,a2012,G,,,,,21x27,klein,breit,,,U,,,,,,H4,cf,Kr2a,,specie rara,iBdK,res,,,,
-7103,a2006,G,,,,,21x28,klein,breit,,,UoG,Pf,,,,,H3,g,Kr2a,,kleines Kranzmalen,iBdK,res,,,,
-7104,a2012,G,C,,,,14x19,klein,breit,,,U,Sch,,,,,H4,cf,Kr3,Zwi,touche-à-tout,iBdK,res,,,,
-7105,a2019,G,B,,,,21x26,klein,breit,,,UoG,O,Sch,,,,H4,v,Kr3,,récipient (pour S.D.),iBdK,res,,,,
-7106,a2006,G,,,,,11x16,klein,breit,Lst,,U,,,,,,H5,b,Kr4,,Abendrot,iBdK,res,,,,
-7107,a2012,G,C,,,,21x27,klein,breit,,,UnG,mF,,,,,H3,cf,Kr5a,,kleines ECCE HOMO,iBdK,res,,,,
-7108,a2017,G,,,,,20x28,klein,breit,,,UnG,P,,,,,H2,b,Kr5b,Waa,Paar,iBdK,res,,,,
-7109,a2006,G,,,,,21x28,klein,breit,,,UnG,mF,,,,,H2,cf,Kr5b,Waa,ungleiches Paar,iBdK,res,,,,
-7110,a2017,G,,,,,19x27,klein,breit,,,UnG,P,,,,,H3,cf,Kr5b,Waa,"Paar, gediegen stilisiert",iBdK,res,,,,
-7111,a2012,G,C,,,,21x27,klein,breit,,,UnG,A,,,,,H3,cf,Kr5d,,Tagtraum,iBdK,res,,,,
-7112,a2019,G,,,,,13x20,klein,breit,,,UoG,A,Sch,,,,H4,v,Kr5d,,"bend it, shape it",iBdK,res,,,,
-7113,a2012,G,,,,,13x20,klein,breit,,,UnG,O,BiB,,,,H3,cf,Kr5e,,Komposition mit Larve,iBdK,res,,,,
-7114,a2019,G,,,,,19x30,klein,breit,,,UoG,Ri,,,,,H5,cf,Kr5e,Sko,eines Nachts vier Köpfe,iBdK,res,,,,
-7115,a2019,G,,,,,28x18,klein,hoch,,,UoG,O,,,,,H2,cf,Kr6,Waa,glückliche Verkettung,iBdK,res,,,,
-7116,a2019,G,,,,,28x18,klein,hoch,,,UoG,O,,,,,H2,cf,Kr6,Waa,glückliche Verkettung,iBdK,res,,,,
-7117,a2019,G,,,,,19x25,klein,breit,Lst,,UoG,O,,,,,H4,g,Kr6,,verkohlt,iBdK,res,,,,
-7118,a2019,G,,,,,18x25,klein,breit,,,U,,,,,,H4,g,Kr6,,Treibgut,iBdK,res,,,,
-7119,a2019,G,,,,,17x26,klein,breit,,,UnG,lL,Ar,,,,H4,cf,Kr6,,zu kleines Bild,iBdK,res,,,,
-7120,a2019,G,,,,,21x28,klein,breit,,,UnG,O,,,,,H4,cf,Kr6,,graue Türe,iBdK,res,,,,
-7121,a2019,G,,,,,20x30,klein,breit,bs,Gi,U,,,,,,H4,cf,Kr7,,schwacher Kreis,iBdK,res,,,,
-7122,a2018,G,Ko,,,,16x26,klein,breit,Gi,,U,,,,,,H3,cf,Kr7,,Kartographie,iBdK,res,,,,
-7123,a2003,G,,,,,11x11,klein,quadratisch,,,U,,,,,,H5,c,Kr7,,Ausschnitt,iBdK,res,,,,
-7124,a2019,G,,,,,16x20,klein,breit,,,U,BiB,,,,,H3,b,Kr8,,schnelle Beruhigung,iBdK,res,,,,
-7125,a2019,G,,,,,13x21,klein,breit,,,U,BiB,,,,,H4,cf,Kr8,,cool down!,iBdK,res,,,,
-7126,a2019,G,C,,,,18x26,klein,breit,,,UnG,Mw,,,,,H4,cf,"Kr8, Kr9",,Anstlust,iBdK,res,,,,
-7127,a2005,G,,,,,11x15,klein,breit,,,UnG,O,Tie,,,,H4,cf,Kr9,,ethnographische Fingerübung,iBdK,res,,,,
-7128,a2006,G,Dd,,,,12x16,klein,breit,,,UoG,O,Sch,,,,H3,v,Kr9,Waa,die Monde der Venus,iBdK,res,,,,
-7129,a2012,G,C,,,,16x21,klein,breit,,,U,,,,,,H4,g,Kr9,,Floras Alb,iBdK,res,,,,
-7130,a2006,G,,,,,21x28,klein,breit,,,UoG,O,,,,,H4,g,Kr9,,nordische Gottheit,iBdK,res,,,,
-7131,a2018,G,B,,,,21x27,klein,breit,,,U,,,,,,H4,b,"Kr10a, Kr7",,dubiose Kultstätte,iBdK,res,,,,
-7132,a2006,G,,,,,14x21,klein,breit,sM,,UoG,Ar,Pf,L,,,H4,cf,Kr10a,,Ruinen,iBdK,res,,,,
-7133,a2018,ZT,G,Fs,,,20x27,klein,breit,,,Gs,Ar,,,,,H4,gr,Kr10a,,Tor,iBdK,res,,,,
-7134,a2017,G,,,,,15x21,klein,breit,Gi,,UoG,At,,,,,H3,cf,Kr10b,,Atelier,iBdK,res,,,,
-7135,a2012,G,,,,,21x28,klein,breit,,,U,Sch,,,,,H3,cf,Kr11,,Komposition mit Morgenstern und Bernstein,iBdK,res,,,,
-7136,a2012,G,C,,,,13x24,klein,breit,,,U,,,,,,H3,cf,Kr11,,Konfusius unterwegs,iBdK,res,,,,
-7137,a2019,G,Le,,,,21x22,klein,breit,,,UoG,O,Sch,,,,H4,cf,Kr11,,der Kasten des Konfusius,iBdK,res,,,,
-7138,a2019,G,,,,,21x28,klein,breit,Lst,,U,Sch,,,,,H3,g,Kr11,,Capriccio,iBdK,res,,,,
-7139,a2019,G,,,,,21x28,klein,breit,,,U,Sch,,,,,H4,v,Kr11,,Capriccio,iBdK,res,,,,
-7140,a2002,G,,,,,11x20,klein,breit,,,U,,,,,,H2,b,Kr12a,Fis,à fleur de peau,iBdK,res,,,,
-7141,a2012,G,,,,,12x15,klein,breit,,,U,,,,,,H3,b,Kr12b,Ste,Zweiklang,iBdK,res,,,,
-7142,a2019,G,,,,,17x17,klein,quadratisch,Lst,,U,,,,,,H4,cf,Kr7,,mit dem rotem Quadrat,iBdK,res,,,,
-7143,a2006,G,,,,,20x28,klein,breit,Lst,,UoG,L,Sch,,,,H4,g,ParPC,,den Berg malen,iBdK,,,,,
-7144,a2018,G,B,,,,21x30,klein,breit,,,Gs,St,F,,,,H5,v,ParPC,Sko,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,
-7145,a2019,G,,,,,17x20,klein,breit,,,UoG,So,,,,,H4,cf,Par5,,Der Schlaf der Vernunft gebiert Ungeheuer,iBdK,,,,,
-7146,a2017,G,,,,,15x19,klein,breit,bs,,U,,,,,,H4,cf,Kr4,,bars and stripes,iBdK,res,,,,
-7147,a2019,G,,,,,11x15,klein,breit,,,U,,,,,,H4,cf,Kr6,,Stellprobe,iBdK,res,,,,
-7148,a2019,G,,,,,13x21,klein,breit,,,UoG,O,,,,,H4,cf,Kr6,,dark mask,iBdK,res,,,,
-7149,a2005,G,,,,,17x26,klein,breit,,,UnG,L,,,,,H2,c,,,small hard edge painting,iBdK,,,,,
-7150,a2004,G,,,,,19x28,klein,breit,,,Gs,P,,,,,H3,cf,,,Paar,iBdK,,,,,
-7151,a2019,G,,,,,21x26,klein,breit,,,UnG,mF,,,,,H4,cf,,,,iBdK,,,,,
-7152,a2019,G,,,,,21x28,klein,breit,,,U,,,,,,H4,c,,,,iBdK,,,,,
-7153,a2018,G,,,,,21x28,klein,breit,,,Gs,So,,O,Ar,,H4,c,,,"Objekte, Raum",iBdK,,,,,
-7154,a2019,G,Ve,,,,18x18,klein,quadratisch,,,Gs,A,,,,,H4,cf,,,,iBdK,,,,,
-7155,a2008,G,,,,,21x28,klein,breit,,,Gs,P,,Sch,,,H5,cf,,,Faun und Nymphe,iBdK,,,,,
-7156,a2004,G,B,,,,21x23,klein,breit,,,UnG,P,,,,,H5,cf,Kr5b,,couple,iBdK,res,,,,
-7157,a2002,Mt,B,T,G,,18x25,klein,breit,,,UnG,Ri,,,,,H3,cf,,,guerrière,iBdK,,,,,
-7158,a1977,Mt,T,G,Kl,,12x15,klein,breit,,,UoG,mF,,,,,H3,gr,,,dekoratives Motiv (hellenisierend),iBdK,,,,,
-7159,a1977,Mt,B,C,Fok,T,19x16,klein,hoch,,,U,,,,,,H2,gr,,,Manierismen,iBdK,,,,,
-7160,a1977,Mt,Fko,C,G,,19x16,klein,hoch,,,UoG,O,,Sch,,,H3,gr,,,3 étendards,iBdK,,,,,
-7161,a1977,B,,,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,gr,,,,iBdK,,,,recto-verso ,
-7162,a1978,ZT,B,G,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,cf,,,,iBdK,,,,recto-verso ,
-7163,a1977,B,,,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,cf,,,,iBdK,,,,,
-7164,a1977,B,,,,,25x17,klein,hoch,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,
-7165,a1977,ZT,B,Tin,,,25x17,klein,hoch,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,
-7166,a1977,ZT,B,Tin,,,25x17,klein,hoch,,,Gs,A,,FigG,,,H2,gr,,,,iBdK,,,,,
-7167,a1977,ZT,G,Ks,,,25x17,klein,hoch,,,Gs,A,,,,,H3,c,,,,iBdK,,,,,
-7168,a2019,ZT,B,G,,,20x24,klein,breit,,,UnG,A,,Sch,,,H2,c,,,,iBdK,,,,,
-7169,a2019,ZT,B,G,,,21x30,klein,breit,,,Gs,A,,,,,H2,b,,,,iBdK,,,,,
-7170,a2019,B,,,,,19x20,klein,breit,,,Gs,P,,,,,H2,bw,,,,iBdK,,,,,
-7171,a2019,Mt,B,Ks,Fa,Fs,21x15,klein,hoch,,,UnG,Ri,,Sch,,,H3,gr,,,a small Zappa drawing,iBdK,,,,,
-7172,a2019,Mt,B,Fa,Fs,,18x21,klein,breit,,,UnG,FigG,,,,,H2,gr,Par5,,The Dance (after Henri Fantin-Latour),iBdK,,,,,
-7173,a2019,B,,,,,15x28,klein,breit,,,UnG,mF,,Pf,,,H2,gr,Par5,,MARURU (nach einem Holzschnitt von Paul Gauguin),iBdK,,,,,
-7174,a2019,ZT,B,Fa,,,30x21,klein,hoch,,,Gs,Ri,,,,,H2,gr,Par6,,"d'après le portrait de Jean Baptiste Carpeaux, de Marcello",iBdK,,,,,
-7175,a2019,Mt,B,G,Fal,,15x18,klein,breit,,,U,,,,,,H3,gr,Par7a,,Verlust der Mitte (nach Asger Jorn),iBdK,,,,,
-7176,a2019,B,,,,,21x30,klein,breit,Gi,,U,BiB,,,,,H2,bw,Par7a,,Oleg Vassiliev erwähnen,iBdK,,,,,
-7177,a2019,G,,,,,21x22,klein,breit,,,U,,,,,,H2,gr,Kr1,,im Handumdrehen,iBdK,,,,,
-7178,a2019,B,,,,,11x16,klein,breit,,,U,,,,,,H2,bw,Kr1,,happening,iBdK,,,,,
-7179,a2019,B,,,,,20x26,klein,breit,,,UoG,Pf,,,,,H3,bw,Kr2a ,,Erntedankfest,iBdK,,,,,
-7180,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr3,,Q for Question,iBdK,,,,,
-7181,a2019,B,,,,,21x19,klein,hoch,,,Gs,A,,P,Sch,,H2,bw,"Kr3, Kr5b",,&,iBdK,,,,,
-7182,a2019,Mt,Fa,Fal,B,,15x21,klein,breit,,,U,Sch,,,,,H2,cf,Kr4,,C + C (Claude und Cy),iBdK,,,,,
-7183,a2018,Fs,,,,,15x20,klein,breit,,,UoG,Pf,,P,,,H2,bw,Kr5b,,Zwei Figuren am Teich,iBdK,,,,,
-7184,a2018,B,,,,,18x21,klein,breit,,,UnG,A,,,,,H1,gr,Kr5d,,Aufzeichnung,iBdK,,,,,
-7185,a2019,G,,,,,18x21,klein,breit,,,UoG,O,,,,,H4,v,Kr6,,dark package,iBdK,,,,,
-7186,a2019,B,,,,,18x19,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,Bilddrang,iBdK,,,,,
-7187,a2019,B,,,,,15x25,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,diverse Bilder,iBdK,,,,,
-7188,a2019,B,,,,,20x28,klein,breit,,,Gs,BiB,,lL,,,H4,gr,Kr6,,Bilderhort,iBdK,,,,,
-7189,a2019,B,,,,,20x28,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,mit schwarzem Bild,iBdK,,,,,
-7190,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr7,Zwi,Kreuzung,iBdK,,,,,
-7191,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7192,a2019,zT,B,Dd,,,14x18,klein,breit,Lwi,,U,,,,,,H3,bw,Kr7,,Hypothesen,iBdK,,,,,
-7193,a2019,Mt,Fs,B,Ks,Opl,21x21,klein,quadratisch,,,UnG,mF,,,,,H2,gr,Kr7,,Mandorla,iBdK,,,,,
-7194,a2019,zT,T,G,,,13x17,klein,breit,RiK,,U,,,,,,H4,gr,Kr8,Sko,tief im Innern,iBdK,,,,,
-7195,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr8,Sko,das leere Blatt mit Angst füllen,iBdK,,,,,
-7196,a2018,B,,,,,11x15,klein,breit,,,UnG,At,,Sch,,,H2,gr,Kr10b,,Atelier,iBdK,,,,,
-7197,a2019,B,,,,,13x21,klein,breit,,,U,Sch,,,,,H1,gr,Kr11,,delikate Verhandlung,iBdK,,,,,
-7198,a2019,zT,B,Fa,,,21x30,klein,breit,,,U,,,,,,H1,gr,Kr12a,,magical mystery tour,iBdK,,,,,
-7199,a1982,Fko,,,,,21x29,klein,breit,,,Gs,FigR,,So,,,H2,bw,,,"Figur, Objekte",iBdK,,,,"Motiv des Kassettendeckels zu ""6 Räume""",
-7200,a1975,Rd,,,,,20x29,klein,breit,,,UoG,O,,,,,H2,b,,,,iBdK,,,,,
-7201,a1975,Rd,,,,,18x24,klein,breit,,,UoG,O,,,,,H2,b,,,,iBdK,,,,,
-7202,a1975,Rd,,,,,24x18,klein,hoch,,,UoG,O,,,,,H3,gr,,,,iBdK,,,,,
-7203,a1975,Rd,,,,,25x19,klein,hoch,,,UoG,O,,L,,,H2,b,,,,iBdK,,,,,
-7204,a1975,Rd,,,,,20x25,klein,breit,,,UoG,O,,,,,H2,gr,,,,iBdK,,,,,
-7205,a1974,B,Kl,,,,21x23,klein,breit,,,U,,,,,,H2,b,,,,iBdK,,,,,
-7206,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7207,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7208,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7209,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7210,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7211,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7212,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7213,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7214,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7215,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7216,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7217,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7218,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7219,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7220,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7221,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7222,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7223,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7224,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7225,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7226,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7227,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7228,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7229,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7230,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7231,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7232,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7233,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7234,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7235,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7236,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7237,a2019,Fa,Ac,,,,117x30,mittel,hoch,Lwi,,UoG,O,,L,Fk,,H2,cf,,,the lucky five,iBdK,,,,,
-7238,a2019,B,,,,,11x14,klein,breit,,,UoG,Ri,,,,,H4,gr,Kr5e,,caput,iBdK,,,,,
-7239,a2019,B,,,,,17x21,klein,breit,Lwi,,UoG,mF,O,,,,H2,gr,Kr11,,Sitzende mit UfO,iBdK,,,,,
-7240,a2019,B,,,,,17x21,klein,breit,,,Gs,Ri,,,,,H2,gr,Par7b,zwi,4 Köpfe (frei nach Plastiken von Nicole Eisenman),iBdK,,,,,
-7241,a2019,B,,,,,17x21,klein,breit,,,Gs,Ri,,,,,H3,gr,Par7b,,frei nach einer Plastik von Nicole Eisenman,iBdK,,,,,
-7242,a2019,B,,,,,30x18,klein,hoch,,,UnG,mF,O,,,,H1,bw,Par4,,"nach Tiepolos ""Martirio di Sant' Agata""",iBdK,,,,,
-7243,a2019,B,,,,,17x30,klein,breit,,,Gs,O,BiB,,,,H3,gr,Kr1,,Fluss,iBdK,,,,,
-7244,a2019,B,,,,,30x21,klein,hoch,,,UoG,O,,,,,H3,gr,Kr6,,wenn das Viele fiele...,iBdK,,,,,
-7245,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7246,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7247,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7248,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7249,,,,,,,,,,,,,,,,,,,,,,,iBdK,res,,,,
-7250,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7251,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7252,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7253,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7254,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7255,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7256,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7257,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7258,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7259,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7260,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7261,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7262,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7263,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H3,cf,,,Selbstporträt I / XII,iBdK,,,,,
-7264,a2015,G,,,,,21x30,klein,breit,Ul,,UnG,Ri,,,,,H3,cf,,,Selbstporträt II / XII,iBdK,,,,,
-7265,a2015,G,,,,,21x30,klein,breit,Gi,,UnG,Ri,,,,,H2,cf,,,Selbstporträt III / XII,iBdK,,,,,
-7266,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H2,cf,,,Selbstporträt IV / XII,iBdK,,,,,
-7267,a2015,zT,G,T,,,21x30,klein,breit,Lst,,U,,,,,,H4,cf,,,Selbstporträt V / XII,iBdK,,,,,
-7268,a2015,G,Ko,,,,21x30,klein,breit,,,Gs,Ri,,Sch,,,H3,cf,,,Selbstporträt VI / XII,iBdK,,,,,
-7269,a2015,G,,,,,21x30,klein,breit,Lst,,U,,,,,,H3,cf,,,Selbstporträt VII / XII,iBdK,,,,,
-7270,a2015,G,Dd,,,,21x30,klein,breit,Lst,,Gs,Ri,,Sch,,,H4,c,,,Selbstporträt VIII / XII,iBdK,,,,,
-7271,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H4,cf,,,Selbstporträt IX / XII,iBdK,,,,,
-7272,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H1,cf,,,Selbstporträt X / XII,iBdK,,,,,
-7273,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H4,cf,,,Selbstporträt XI / XII,iBdK,,,,,
-7274,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H3,cf,,,Selbstporträt XII / XII,iBdK,,,,,
-7275,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7276,,,,,,,,,,,,,,,,,,,,,,,iBdK,,,,,
-7277,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7278,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7279,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7280,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7281,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7282,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7283,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7284,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7285,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7286,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7287,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7288,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7289,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7290,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7291,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7292,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7293,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7294,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7295,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7296,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7297,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7298,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7299,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7300,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7301,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7302,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7303,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7304,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7305,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7306,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7307,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7308,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7309,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7310,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7311,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7312,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7313,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7314,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7315,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7316,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7317,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7318,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7319,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7055,a2019,OP,,,,,89x67,mittel,breit,Lst,,U,Sch,,,,,H4,cf,Par7a,,Schnittmenge (Hommage an Jean Dubuffet),iBdK,,,,,7055
+7056,a2006,OP,,,,,67x89,mittel,breit,,,UoG,P,,,,,H4,cf,Kr5b,,Heine und das Fräulein am Meer,iBdK,res,,,,7056
+7057,a2005,OP,,,,,67x89,mittel,breit,Lst,,UnG,A,,,,,H4,cf,,,,iBdK,,,,,7057
+7058,a2019,OP,,,,,67x89,mittel,hoch,,,Gs,AP,L,,,,H3,cf,ParFV,,Lande bretonne (d'après Félix Vallotton),iBdK,,,,,7058
+7059,a2019,OP,,,,,41x122,gross,hoch,,,UoG,Fk,Sch,,,,H3,cf,,,jugs and mugs,iBdK,,,,,7059
+7060,a2006,G,Dd,,,,15x13,klein,breit,,,U,,,,,,H3,cf,Kr11,,knifflig,iBdK,res,,,,7060
+7061,a2007,G,,,,,11x16,klein,breit,,,U,,,,,,H2,cf,Kr5a,,Krämerin,iBdK,res,,,,7061
+7062,a2004,G,,,,,9x11,klein,breit,,,UnG,L,,,,,H3,b,"Kr4, Kr7",,Dramolett (kleine Hommage an Robert Walser),iBdK,res,,,,7062
+7063,a2007,G,,,,,11x16,klein,breit,,,U,,,,,,H3,cf,Kr7,,Wappen,iBdK,res,,,,7063
+7064,a2019,G,,,,,11x12,klein,hoch,,,UoG,Tie,,,,,H4,cf,Kr2b,,kleine Improvisation mit blauem Bock,iBdK,res,,,,7064
+7065,a2006,G,,,,,11x16,klein,breit,,,U,,,,,,H2,g,Kr7,,Geviert,iBdK,res,,,,7065
+7066,a2006,G,,,,,11x16,klein,breit,,,UoG,BiB,,,,,H2,g,Kr7,,Entwurf zu einem Bild,iBdK,res,,,,7066
+7067,a2019,G,,,,,11x16,klein,breit,bs,,U,,,,,,H3,cf,Kr4,,bars and stripes,iBdK,res,,,,7067
+7068,a2004,G,,,,,9x18,klein,breit,,,UoG,Ri,,,,,H4,c,"Kr5e, Kr9",,Mondgesicht,iBdK,res,,,,7068
+7069,a2004,G,B,,,,12x15,klein,breit,,,Gs,Ri,Sch,,,,H2,g,Kr5e,,Kopf,iBdK,res,,,,7069
+7070,a2005,G,Ve,,,,13x18,klein,breit,,,U,,,,,,H4,cf,Kr4,,Unwetter,iBdK,res,,,,7070
+7071,a2019,zT,Ac,G,,,11x17,klein,breit,,,UnG,O,,,,,H5,c,Kr6,,"Gefäss, nachts",iBdK,res,,,,7071
+7072,a2019,G,,,,,11x14,klein,breit,,,UoG,O,,,,,H4,cf,Kr6,,Gefässe,iBdK,res,,,,7072
+7073,a2019,G,,,,,9x17,klein,breit,,,U,,,,,,H4,cf,Kr1,,Kinderspieltrieb,iBdK,res,,,,7073
+7074,a2006,zT,G,B,,,11x16,klein,breit,,,UoG,St,So,,,,H3,cf,Kr6,,reichlich bestücktes Stillleben,iBdK,res,,,,7074
+7075,a2004,G,,,,,11x15,klein,breit,,,UoG,Gä,,,,,H4,cf,Kr2a,,jardin marocain,iBdK,res,,,,7075
+7076,a2004,G,,,,,11x15,klein,breit,,,UoG,Gä,,,,,H3,cf,"Kr2a, Kr10a",,jardin marocain,iBdK,res,,,,7076
+7077,a2006,G,,,,,17x21,klein,breit,,,UoG,Ri,,,,,H2,cf,Kr5e,,kleiner Ganove,iBdK,res,,,,7077
+7078,a2004,G,,,,,20x21,klein,breit,,,UoG,Mw,Pf,,,,H3,cf,Kr9,,junger Faun mit rosaroter Blume,iBdK,res,,,,7078
+7079,a2006,G,,,,,17x28,klein,breit,,,Gs,mF,O,,,,H4,b,Kr9,,verwundete Prophetin,iBdK,res,,,,7079
+7080,a2019,G,,,,,16x21,klein,breit,,,U,,,,,,H4,cf,Kr11,,Schaukler,iBdK,res,,,,7080
+7081,a2004,G,,,,,11x15,klein,breit,,,UoG,O,,,,,H2,cf,Kr6,,brouillard à Essaouira,iBdK,res,,,,7081
+7082,a2004,G,,,,,11x14,klein,breit,,,UoG,Ar,L,,,,H2,c,Kr10a,,Brandung,iBdK,res,,,,7082
+7083,a2003,G,,,,,18x19,klein,breit,,,UnG,Pf,Sch,,,,H4,cf,Kr2a,,Pilze etc.,iBdK,res,,,,7083
+7084,a2009,G,,,,,15x21,klein,breit,,,UoG,mF,,,,,H4,cf,Kr5a,,magicienne,iBdK,res,,,,7084
+7085,a2006,G,,,,,15x21,klein,breit,,,Gs,L,,,,,H4,cf,Kr4,,Küstengebirge,iBdK,res,,,,7085
+7086,a2006,G,,,,,17x24,klein,breit,Lst,,UoG,mF,O,,,,H4,cf,Kr5a,,dunkler Mikador,iBdK,res,,,,7086
+7087,a2018,OP,,,,,41x55,mittel,breit,,,UoG,L,,,,,H5,cf,Par5,,"zu John Everett Millais' ""Ophelia""",iBdK,,,,,7087
+7088,a2019,zT,G,B,,,22x27,klein,breit,,,U,,,,,,H4,cf,Kr6,,Early Roman Kings (frei nach Bob Dylan),iBdK,res,,,,7088
+7089,a2019,G,,,,,24x26,klein,breit,Ul,,UoG,O,,,,,H4,v,Kr6,,Stillleben in spe,iBdK,res,,,,7089
+7090,a2018,Mt,Fko,Hpf,Kl,B,31x43,mittel,breit,,,UnG,L,,,,,H2,gr,ParPC,,La Tranchée avec la Montagne Sainte-Victoire (d'après Paul Cézanne),iBdK,,,,"Ks, Bst",7090
+7091,a2018,Mt,Fko,Hpf,Kl,B,31x42,mittel,breit,,,U,,,,,,H2,gr,ParPC,,La Montagne Sainte-Victoire et le Château noir (d'après Paul Cézanne),iBdK,,,,"Ks, Bst",7091
+7092,a2018,Mt,Fko,Hpf,Kl,B,31x147,mittel,breit,sM,,UnG,Ar,Pf,L,,,H2,gr,ParPC,,nach Kompositionen von Cézanne,iBdK,,,,"Ks, Bst",7092
+7093,a2013,G,,,,,19x27,klein,breit,,,UoG,St,,,,,H3,cf,Kr6,,Delikatessen,iBdK,res,,,,7093
+7094,a2019,Mt,G,Dd,T,C,21x30,klein,breit,,,UoG,F,St,,,,H3,cf,ParPC,,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,7094
+7095,a2019,Mt,Ac,G,C,,21x30,klein,breit,,,UoG,F,St,,,,H3,b,ParPC,,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,7095
+7096,a2019,G,,,,,20x24,klein,breit,,,UoG,Fk,F,,,,H4,cf,Kr6,,2 Farbkörper,iBdK,res,,,,7096
+7097,a2019,Mt,B,Ks,Fs,T,82x54,mittel,hoch,,,UnG,Ri,,,,,H2,gr,ParPK,,Schaffendes Haupt (nach Paul Klee),iBdK,res,,,16-teilig,7097
+7098,a2019,OP,,,,,41x55,mittel,breit,pg,,UoG,Mw,,,,,H4,cf,Kr9,,Sphinx,iBdK,res,,,Kat.OP.685,7098
+7099,a2005,G,,,,,15x21,klein,breit,,,U,,,,,,H2,v,Kr1,,gut gestolpert,iBdK,res,,,,7099
+7100,a2019,G,,,,,15x21,klein,breit,bs,Gi,U,,,,,,H4,cf,Kr1,zwi,black & easy,iBdK,res,,,,7100
+7101,a2019,G,,,,,12x15,klein,breit,,,UoG,F,Sch,,,,H3,cf,Kr2a,,Apfelstillleben,iBdK,res,,,,7101
+7102,a2012,G,,,,,21x27,klein,breit,,,U,,,,,,H4,cf,Kr2a,,specie rara,iBdK,res,,,,7102
+7103,a2006,G,,,,,21x28,klein,breit,,,UoG,Pf,,,,,H3,g,Kr2a,,kleines Kranzmalen,iBdK,res,,,,7103
+7104,a2012,G,C,,,,14x19,klein,breit,,,U,Sch,,,,,H4,cf,Kr3,zwi,touche-à-tout,iBdK,res,,,,7104
+7105,a2019,G,B,,,,21x26,klein,breit,,,UoG,O,Sch,,,,H4,v,Kr3,,récipient (pour S.D.),iBdK,res,,,,7105
+7106,a2006,G,,,,,11x16,klein,breit,Lst,,U,,,,,,H5,b,Kr4,,Abendrot,iBdK,res,,,,7106
+7107,a2012,G,C,,,,21x27,klein,breit,,,UnG,mF,,,,,H3,cf,Kr5a,,kleines ECCE HOMO,iBdK,res,,,,7107
+7108,a2017,G,,,,,20x28,klein,breit,,,UnG,P,,,,,H2,b,Kr5b,waa,Paar,iBdK,res,,,,7108
+7109,a2006,G,,,,,21x28,klein,breit,,,UnG,mF,,,,,H2,cf,Kr5b,waa,ungleiches Paar,iBdK,res,,,,7109
+7110,a2017,G,,,,,19x27,klein,breit,,,UnG,P,,,,,H3,cf,Kr5b,waa,"Paar, gediegen stilisiert",iBdK,res,,,,7110
+7111,a2012,G,C,,,,21x27,klein,breit,,,UnG,A,,,,,H3,cf,Kr5d,,Tagtraum,iBdK,res,,,,7111
+7112,a2019,G,,,,,13x20,klein,breit,,,UoG,A,Sch,,,,H4,v,Kr5d,,"bend it, shape it",iBdK,res,,,,7112
+7113,a2012,G,,,,,13x20,klein,breit,,,UnG,O,BiB,,,,H3,cf,Kr5e,,Komposition mit Larve,iBdK,res,,,,7113
+7114,a2019,G,,,,,19x30,klein,breit,,,UoG,Ri,,,,,H5,cf,Kr5e,sko,eines Nachts vier Köpfe,iBdK,res,,,,7114
+7115,a2019,G,,,,,28x18,klein,hoch,,,UoG,O,,,,,H2,cf,Kr6,waa,glückliche Verkettung,iBdK,res,,,,7115
+7116,a2019,G,,,,,28x18,klein,hoch,,,UoG,O,,,,,H2,cf,Kr6,waa,glückliche Verkettung,iBdK,res,,,,7116
+7117,a2019,G,,,,,19x25,klein,breit,Lst,,UoG,O,,,,,H4,g,Kr6,,verkohlt,iBdK,res,,,,7117
+7118,a2019,G,,,,,18x25,klein,breit,,,U,,,,,,H4,g,Kr6,,Treibgut,iBdK,res,,,,7118
+7119,a2019,G,,,,,17x26,klein,breit,,,UnG,lL,Ar,,,,H4,cf,Kr6,,zu kleines Bild,iBdK,res,,,,7119
+7120,a2019,G,,,,,21x28,klein,breit,,,UnG,O,,,,,H4,cf,Kr6,,graue Türe,iBdK,res,,,,7120
+7121,a2019,G,,,,,20x30,klein,breit,bs,Gi,U,,,,,,H4,cf,Kr7,,schwacher Kreis,iBdK,res,,,,7121
+7122,a2018,G,Ko,,,,16x26,klein,breit,Gi,,U,,,,,,H3,cf,Kr7,,Kartographie,iBdK,res,,,,7122
+7123,a2003,G,,,,,11x11,klein,quadratisch,,,U,,,,,,H5,c,Kr7,,Ausschnitt,iBdK,res,,,,7123
+7124,a2019,G,,,,,16x20,klein,breit,,,U,BiB,,,,,H3,b,Kr8,,schnelle Beruhigung,iBdK,res,,,,7124
+7125,a2019,G,,,,,13x21,klein,breit,,,U,BiB,,,,,H4,cf,Kr8,,cool down!,iBdK,res,,,,7125
+7126,a2019,G,C,,,,18x26,klein,breit,,,UnG,Mw,,,,,H4,cf,"Kr8, Kr9",,Anstlust,iBdK,res,,,,7126
+7127,a2005,G,,,,,11x15,klein,breit,,,UnG,O,Tie,,,,H4,cf,Kr9,,ethnographische Fingerübung,iBdK,res,,,,7127
+7128,a2006,G,Dd,,,,12x16,klein,breit,,,UoG,O,Sch,,,,H3,v,Kr9,waa,die Monde der Venus,iBdK,res,,,,7128
+7129,a2012,G,C,,,,16x21,klein,breit,,,U,,,,,,H4,g,Kr9,,Floras Alb,iBdK,res,,,,7129
+7130,a2006,G,,,,,21x28,klein,breit,,,UoG,O,,,,,H4,g,Kr9,,nordische Gottheit,iBdK,res,,,,7130
+7131,a2018,G,B,,,,21x27,klein,breit,,,U,,,,,,H4,b,"Kr10a, Kr7",,dubiose Kultstätte,iBdK,res,,,,7131
+7132,a2006,G,,,,,14x21,klein,breit,sM,,UoG,Ar,Pf,L,,,H4,cf,Kr10a,,Ruinen,iBdK,res,,,,7132
+7133,a2018,ZT,G,Fs,,,20x27,klein,breit,,,Gs,Ar,,,,,H4,gr,Kr10a,,Tor,iBdK,res,,,,7133
+7134,a2017,G,,,,,15x21,klein,breit,Gi,,UoG,At,,,,,H3,cf,Kr10b,,Atelier,iBdK,res,,,,7134
+7135,a2012,G,,,,,21x28,klein,breit,,,U,Sch,,,,,H3,cf,Kr11,,Komposition mit Morgenstern und Bernstein,iBdK,res,,,,7135
+7136,a2012,G,C,,,,13x24,klein,breit,,,U,,,,,,H3,cf,Kr11,,Konfusius unterwegs,iBdK,res,,,,7136
+7137,a2019,G,Le,,,,21x22,klein,breit,,,UoG,O,Sch,,,,H4,cf,Kr11,,der Kasten des Konfusius,iBdK,res,,,,7137
+7138,a2019,G,,,,,21x28,klein,breit,Lst,,U,Sch,,,,,H3,g,Kr11,,Capriccio,iBdK,res,,,,7138
+7139,a2019,G,,,,,21x28,klein,breit,,,U,Sch,,,,,H4,v,Kr11,,Capriccio,iBdK,res,,,,7139
+7140,a2002,G,,,,,11x20,klein,breit,,,U,,,,,,H2,b,Kr12a,fis,à fleur de peau,iBdK,res,,,,7140
+7141,a2012,G,,,,,12x15,klein,breit,,,U,,,,,,H3,b,Kr12b,ste,Zweiklang,iBdK,res,,,,7141
+7142,a2019,G,,,,,17x17,klein,quadratisch,Lst,,U,,,,,,H4,cf,Kr7,,mit dem rotem Quadrat,iBdK,res,,,,7142
+7143,a2006,G,,,,,20x28,klein,breit,Lst,,UoG,L,Sch,,,,H4,g,ParPC,,den Berg malen,iBdK,,,,,7143
+7144,a2018,G,B,,,,21x30,klein,breit,,,Gs,St,F,,,,H5,v,ParPC,sko,Früchtestillleben (nach Paul Cézanne),iBdK,res,,,,7144
+7145,a2019,G,,,,,17x20,klein,breit,,,UoG,So,,,,,H4,cf,Par5,,Der Schlaf der Vernunft gebiert Ungeheuer,iBdK,,,,,7145
+7146,a2017,G,,,,,15x19,klein,breit,bs,,U,,,,,,H4,cf,Kr4,,bars and stripes,iBdK,res,,,,7146
+7147,a2019,G,,,,,11x15,klein,breit,,,U,,,,,,H4,cf,Kr6,,Stellprobe,iBdK,res,,,,7147
+7148,a2019,G,,,,,13x21,klein,breit,,,UoG,O,,,,,H4,cf,Kr6,,dark mask,iBdK,res,,,,7148
+7149,a2005,G,,,,,17x26,klein,breit,,,UnG,L,,,,,H2,c,,,small hard edge painting,iBdK,,,,,7149
+7150,a2004,G,,,,,19x28,klein,breit,,,Gs,P,,,,,H3,cf,,,Paar,iBdK,,,,,7150
+7151,a2019,G,,,,,21x26,klein,breit,,,UnG,mF,,,,,H4,cf,,,,iBdK,,,,,7151
+7152,a2019,G,,,,,21x28,klein,breit,,,U,,,,,,H4,c,,,,iBdK,,,,,7152
+7153,a2018,G,,,,,21x28,klein,breit,,,Gs,So,,O,Ar,,H4,c,,,"Objekte, Raum",iBdK,,,,,7153
+7154,a2019,G,Ve,,,,18x18,klein,quadratisch,,,Gs,A,,,,,H4,cf,,,,iBdK,,,,,7154
+7155,a2008,G,,,,,21x28,klein,breit,,,Gs,P,,Sch,,,H5,cf,,,Faun und Nymphe,iBdK,,,,,7155
+7156,a2004,G,B,,,,21x23,klein,breit,,,UnG,P,,,,,H5,cf,Kr5b,,couple,iBdK,res,,,,7156
+7157,a2002,Mt,B,T,G,,18x25,klein,breit,,,UnG,Ri,,,,,H3,cf,,,guerrière,iBdK,,,,,7157
+7158,a1977,Mt,T,G,Kl,,12x15,klein,breit,,,UoG,mF,,,,,H3,gr,,,dekoratives Motiv (hellenisierend),iBdK,,,,,7158
+7159,a1977,Mt,B,C,Fok,T,19x16,klein,hoch,,,U,,,,,,H2,gr,,,Manierismen,iBdK,,,,,7159
+7160,a1977,Mt,Fko,C,G,,19x16,klein,hoch,,,UoG,O,,Sch,,,H3,gr,,,3 étendards,iBdK,,,,,7160
+7161,a1977,B,,,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,gr,,,,iBdK,,,,recto-verso ,7161
+7162,a1978,ZT,B,G,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,cf,,,,iBdK,,,,recto-verso ,7162
+7163,a1977,B,,,,,25x17,klein,hoch,,,Gs,ZM,,,,,H2,cf,,,,iBdK,,,,,7163
+7164,a1977,B,,,,,25x17,klein,hoch,,,Gs,A,,,,,H2,gr,,,,iBdK,,,,,7164
+7165,a1977,ZT,B,Tin,,,25x17,klein,hoch,,,Gs,A,,,,,H3,gr,,,,iBdK,,,,,7165
+7166,a1977,ZT,B,Tin,,,25x17,klein,hoch,,,Gs,A,,FigG,,,H2,gr,,,,iBdK,,,,,7166
+7167,a1977,ZT,G,Ks,,,25x17,klein,hoch,,,Gs,A,,,,,H3,c,,,,iBdK,,,,,7167
+7168,a2019,ZT,B,G,,,20x24,klein,breit,,,UnG,A,,Sch,,,H2,c,,,,iBdK,,,,,7168
+7169,a2019,ZT,B,G,,,21x30,klein,breit,,,Gs,A,,,,,H2,b,,,,iBdK,,,,,7169
+7170,a2019,B,,,,,19x20,klein,breit,,,Gs,P,,,,,H2,bw,,,,iBdK,,,,,7170
+7171,a2019,Mt,B,Ks,Fa,Fs,21x15,klein,hoch,,,UnG,Ri,,Sch,,,H3,gr,,,a small Zappa drawing,iBdK,,,,,7171
+7172,a2019,Mt,B,Fa,Fs,,18x21,klein,breit,,,UnG,FigG,,,,,H2,gr,Par5,,The Dance (after Henri Fantin-Latour),iBdK,,,,,7172
+7173,a2019,B,,,,,15x28,klein,breit,,,UnG,mF,,Pf,,,H2,gr,Par5,,MARURU (nach einem Holzschnitt von Paul Gauguin),iBdK,,,,,7173
+7174,a2019,ZT,B,Fa,,,30x21,klein,hoch,,,Gs,Ri,,,,,H2,gr,Par6,,"d'après le portrait de Jean Baptiste Carpeaux, de Marcello",iBdK,,,,,7174
+7175,a2019,Mt,B,G,Fal,,15x18,klein,breit,,,U,,,,,,H3,gr,Par7a,,Verlust der Mitte (nach Asger Jorn),iBdK,,,,,7175
+7176,a2019,B,,,,,21x30,klein,breit,Gi,,U,BiB,,,,,H2,bw,Par7a,,Oleg Vassiliev erwähnen,iBdK,,,,,7176
+7177,a2019,G,,,,,21x22,klein,breit,,,U,,,,,,H2,gr,Kr1,,im Handumdrehen,iBdK,res,,,,7177
+7178,a2019,B,,,,,11x16,klein,breit,,,U,,,,,,H2,bw,Kr1,,happening,iBdK,res,,,,7178
+7179,a2019,B,,,,,20x26,klein,breit,,,UoG,Pf,,,,,H3,bw,Kr2a ,,Erntedankfest,iBdK,res,,,,7179
+7180,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr3,,Q for Question,iBdK,res,,,,7180
+7181,a2019,B,,,,,21x19,klein,hoch,,,Gs,A,,P,Sch,,H2,bw,"Kr3, Kr5b",,&,iBdK,res,,,,7181
+7182,a2019,Mt,Fa,Fal,B,,15x21,klein,breit,,,U,Sch,,,,,H2,cf,Kr4,,C + C (Claude und Cy),iBdK,res,,,,7182
+7183,a2018,Fs,,,,,15x20,klein,breit,,,UoG,Pf,,P,,,H2,bw,Kr5b,,Zwei Figuren am Teich,iBdK,res,,,,7183
+7184,a2018,B,,,,,18x21,klein,breit,,,UnG,A,,,,,H1,gr,Kr5d,,Aufzeichnung,iBdK,res,,,,7184
+7185,a2019,G,,,,,18x21,klein,breit,,,UoG,O,,,,,H4,v,Kr6,,dark package,iBdK,res,,,,7185
+7186,a2019,B,,,,,18x19,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,Bilddrang,iBdK,res,,,,7186
+7187,a2019,B,,,,,15x25,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,diverse Bilder,iBdK,res,,,,7187
+7188,a2019,B,,,,,20x28,klein,breit,,,Gs,BiB,,lL,,,H4,gr,Kr6,,Bilderhort,iBdK,res,,,,7188
+7189,a2019,B,,,,,20x28,klein,breit,,,Gs,BiB,,lL,,,H3,gr,Kr6,,mit schwarzem Bild,iBdK,res,,,,7189
+7190,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr7,zwi,Kreuzung,iBdK,res,,,,7190
+7191,a2019 ,OP,,,,,67x89,mittel,breit,pg,,U,Sch,,,,,H5,cf,Par7a,,"nach Mark Bradfords ""Cerberus"" (extrem verdichtet)",iBdK,,,,Kat.OP.604,7191
+7192,a2019,zT,B,Dd,,,14x18,klein,breit,Lwi,,U,,,,,,H3,bw,Kr7,,Hypothesen,iBdK,res,,,,7192
+7193,a2019,Mt,Fs,B,Ks,Opl,21x21,klein,quadratisch,,,UnG,mF,,,,,H2,gr,Kr7,,Mandorla,iBdK,res,,,,7193
+7194,a2019,zT,T,G,,,13x17,klein,breit,RiK,,U,,,,,,H4,gr,Kr8,sko,tief im Innern,iBdK,res,,,,7194
+7195,a2019,B,,,,,11x17,klein,breit,,,U,Sch,,,,,H2,bw,Kr8,sko,das leere Blatt mit Angst füllen,iBdK,res,,,,7195
+7196,a2018,B,,,,,11x15,klein,breit,,,UnG,At,,Sch,,,H2,gr,Kr10b,,Atelier,iBdK,res,,,,7196
+7197,a2019,B,,,,,13x21,klein,breit,,,U,Sch,,,,,H1,gr,Kr11,,delikate Verhandlung,iBdK,res,,,,7197
+7198,a2019,zT,B,Fa,,,21x30,klein,breit,,,U,,,,,,H1,gr,Kr12a,,magical mystery tour,iBdK,res,,,,7198
+7199,a1982,Fko,,,,,21x29,klein,breit,,,Gs,FigR,,So,,,H2,bw,,,"Figur, Objekte",iBdK,,,,"Motiv des Kassettendeckels zu ""6 Räume""",7199
+7200,a1975,Rd,,,,,20x29,klein,breit,,,UoG,O,,,,,H2,b,,,,iBdK,,,,,7200
+7201,a1975,Rd,,,,,18x24,klein,breit,,,UoG,O,,,,,H2,b,,,,iBdK,,,,,7201
+7202,a1975,Rd,,,,,24x18,klein,hoch,,,UoG,O,,,,,H3,gr,,,,iBdK,,,,,7202
+7203,a1975,Rd,,,,,25x19,klein,hoch,,,UoG,O,,L,,,H2,b,,,,iBdK,,,,,7203
+7204,a1975,Rd,,,,,20x25,klein,breit,,,UoG,O,,,,,H2,gr,,,,iBdK,,,,,7204
+7205,a1974,B,Kl,,,,21x23,klein,breit,,,U,,,,,,H2,b,,,,iBdK,,,,,7205
+7206,a2019,B,,,,,39x59,mittel,breit,,,UoG,O,,,,,H3,bw,Kr6,,mögliche Bilder,iBdK,res,,,,7206
+7207,a2019,zT,B,Fa,,,30x40,mittel,breit,Lwi,,U,,,,,,H1,gr,"Kr7, Kr12c",,Konstellation,iBdK,res,,,,7207
+7208,a2019,zT,B,G,,,28x36,mittel,breit,RiK,,UoG,A,,,,,H4,gr,,,inquiétude,iBdK,,,,,7208
+7209,a2019,Mt,G,C,Ks,Kb,56x29,mittel,hoch,,,Gs,F,Sch,,,,H2,b,ParPC,,Pommes et tube de couleur (d'après Paul Cézanne),iBdK,,,,,7209
+7210,a2019,zT,Aq,G,,,26x33,mittel,breit,,,UoG,L,,,,,H2,cf,ParPC,,frei nach Cézanne: Landschaft (ohne Badende),iBdK,,,,,7210
+7211,a2019,OP,,,,,41x67,mittel,breit,,,UnG,L,,,,,H4,cf,,,späte Landschaft,iBdK,,,,Kat.OP.439,7211
+7212,a2018,G,,,,,30x40,mittel,breit,,,UoG,mF,O,,,,H3,b,"Kr11b, Kr7",,Klees Geschoss,iBdK,res,,,,7212
+7213,a2019,G,,,,,30x36,mittel,breit,,,UnG,A,P,,,,H4,cf,Kr5d,,Lektion 1,iBdK,res,,,,7213
+7214,a2006,G,,,,,24x30,mittel,breit,,,Gs,A,,,,,H5,gr,,,,iBdK,,,,,7214
+7215,a2019,G,,,,,21x30,klein,breit,,,Gs,mF,bb,,,,H4,b,Kr5d,,"Mann, Black Box",iBdK,res,,,,7215
+7216,a2018,G,,,,,21x34,mittel,breit,Ul,,Gs,mF,BiB,,,,H4,b,Kr10b,,Atelier,iBdK,res,,,,7216
+7217,a2017,G,,,,,22x31,mittel,breit,,,UoG,mF,Ma,,,,H2,cf,Kr5a,,ewiger Zweifler,iBdK,res,,,,7217
+7218,a2017,G,,,,,25x34,mittel,breit,,,UoG,L,Ar,BiB,,,H4,cf,,,Fensterfront,iBdK,,,,,7218
+7219,a2019,G,,,,,24x30,mittel,breit,,,UnG,BiB,,,,,H4,b,Kr6,,Einschlafbild,iBdK,res,,,,7219
+7220,a2019,G,,,,,20x33,mittel,breit,Lst,,UnG,BiB,,,,,H4,cf,Kr6,,cool down!,iBdK,res,,,,7220
+7221,a2019,G,,,,,36x27,mittel,hoch,,,UoG,O,,,,,H4,gr,Kr6,,Bergsturz,iBdK,res,,,,7221
+7222,a2018,G,,,,,25x33,mittel,breit,,,U,,,,,,H4,cf,"Kr9, Kr10a",,die Gemächer der Venus,iBdK,res,,,,7222
+7223,a2018,G,,,,,24x24,klein,quadratisch,,,U,,,,,,H4,cf,"Kr9, Kr10a",,die Gemächer der Venus,iBdK,res,,,,7223
+7224,a2006,G,,,,,26x30,mittel,breit,,,U,,,,,,H4,cf,Par7a,,kleine Hommage an M.O.,iBdK,,,,,7224
+7225,a2005,G,,,,,28x36,mittel,breit,,,U,,,,,,H4,v,Kr9,,Andromeda nimmt die Sache selber in die Hand,iBdK,res,,,,7225
+7226,a2015,G,,,,,29x47,mittel,breit,,,U,,,,,,H4,cf,Kr1,,the launching of Venus,iBdK,res,,,,7226
+7227,a2019,G,,,,,23x48,mittel,breit,,,U,,,,,,H3,cf,Kr6,,paintings (fast track),iBdK,res,,,,7227
+7228,a2019,G,,,,,34x42,mittel,breit,,,UoG,O,,,,,H4,cf,Kr6,,Kelch,iBdK,res,,,,7228
+7229,a2010,G,,,,,34x50,mittel,breit,,,U,,,,,,H4,cf,,,,iBdK,,,,,7229
+7230,a2018,G,,,,,42x56,mittel,breit,,,UoG,O,,,,,H3,b,Kr6,,5 Stelen,iBdK,res,,,,7230
+7231,a2019,G,,,,,39x54,mittel,breit,RiK,,U,,,,,,H4,c,,,,iBdK,,,,,7231
+7232,a2019,G,,,,,42x56,mittel,breit,,,UoG,O,,,,,H4,cf,,,verwüstetes Stillleben,iBdK,,,,,7232
+7233,a2018,G,,,,,24x30,mittel,breit,,,U,,,,,,H3,cf,Kr6,,zwei Farbkörper,iBdK,res,,,,7233
+7234,a2005,zT,G,Fa,,,22x28,klein,breit,,,U,,,,,,H3,cf,Par1,,nach einem Holzschnitt von Hiroshige,iBdK,,,,,7234
+7235,a2016,G,,,,,30x40,mittel,breit,,,UoG,Pf,,,,,H4,cf,Kr9,,Floras Perücke,iBdK,res,,,,7235
+7236,a2016,G,,,,,31x42,mittel,breit,bs,,U,,,,,,H4,cf,Kr4,,bars and stripes,iBdK,res,,,,7236
+7237,a2019,Fa,Ac,,,,117x30,mittel,hoch,Lwi,,UoG,O,,L,Fk,,H2,cf,,,the lucky five,iBdK,,,,,7237
+7238,a2019,B,,,,,11x14,klein,breit,,,UoG,Ri,,,,,H4,gr,Kr5e,,caput,iBdK,res,,,,7238
+7239,a2019,B,,,,,17x21,klein,breit,Lwi,,UoG,mF,O,,,,H2,gr,Kr11,,Sitzende mit UfO,iBdK,res,,,,7239
+7240,a2019,B,,,,,17x21,klein,breit,,,Gs,Ri,,,,,H2,gr,Par7b,zwi,4 Köpfe (frei nach Plastiken von Nicole Eisenman),iBdK,,,,,7240
+7241,a2019,B,,,,,17x21,klein,breit,,,Gs,Ri,,,,,H3,gr,Par7b,,frei nach einer Plastik von Nicole Eisenman,iBdK,,,,,7241
+7242,a2019,B,,,,,30x18,klein,hoch,,,UnG,mF,O,,,,H1,bw,Par4,,"nach Tiepolos ""Martirio di Sant' Agata""",iBdK,,,,,7242
+7243,a2019,B,,,,,17x30,klein,breit,,,Gs,O,BiB,,,,H3,gr,Kr1,,Fluss,iBdK,res,,,,7243
+7244,a2019,B,,,,,30x21,klein,hoch,,,UoG,O,,,,,H3,gr,Kr6,,wenn das Viele fiele...,iBdK,res,,,,7244
+7245,a2019,Mt,B,G,C,,25x36,mittel,breit,,,U,Sch,,,,,H3,cf,,,majo I-IV (kleine Hommage an RM; langweiliges Muster mit plötzlichem O; A behauptet sich; boys?!),iBdK,,,,,7245
+7246,a2020,B,,,,,21x30,klein,breit,,,UoG,BiB,,,,,H2,gr,Kr6,,maybe the more we try to change the more we stay the same,iBdK,res,,,,7246
+7247,a2019,G,,,,,64x80,mittel,breit,,,U,,,,,,H3,cf,Kr6,,Formationen (4 Entwürfe für Grossplastiken),iBdK,res,,,,7247
+7248,a2019,OP,,,,,41x55,mittel,breit,,,U,,,,,,H4,cf,,,selbviert (Asgers Keimlinge),iBdK,,,,Kat.OP.456,7248
+7249,a2003,OP,,,,,41x55,mittel,breit,ovÖ,,U,,,,,,H3,cf,,,,iBdK,,,,Kat.OP.56,7249
+7250,a2019,zT,G,Fa,,,21x29,klein,breit,Ul,,UoG,At,lL,,,,H4,cf,Kr10b,,Raum mit weisser Leinwand,iBdK,res,,,,7250
+7251,a2019,OP,,,,,32x40,mittel,breit,,,U,Sch,Fk,,,,H4,cf,,,GURU SANG: RENT JAM-ART!,iBdK,,,,Kat.OP.609,7251
+7252,a2019,OP,,,,,32x40,mittel,breit,,,U,Fk,Sch,,,,H4,cf,Kr3,,mastiges ABCDE,iBdK,res,,,Kat.OP.679,7252
+7253,a2019,OP,,,,,32x40,mittel,breit,,,U,,,,,,H5,g,Kr12a,,spätes Spiel,iBdK,res,,,Kat.OP.162,7253
+7254,a2003,OP,,,,,25x40,mittel,breit,,,Gs,FigG,O,,,,H4,c,,,ship of fools,iBdK,,,,Kat.OP.287,7254
+7255,a2019,OP,,,,,25x40,mittel, breit,,,UoG,O,,,,,H4,cf,,,Ethnografik,iBdK,,,,Kat.OP.196,7255
+7256,a2003,OP,,,,,25x40,mittel,breit,,,Gs,FigG,,,,,H3,cf,Par1,,Beter im Depot,iBdK,,,,Kat.OP.247,7256
+7257,a2019,OP,,,,,25x40,mittel,breit,,,UnG,Ri,,,,,H3,cf,,,bande à part,iBdK,,,,Kat.OP.160,7257
+7258,a2019,OP,,,,,25x40,mittel,breit,,,UoG,L,,,,,H4,cf,Par4,,paysage pathétique (du côté de chez Magnasco),iBdK,,,,Kat.OP.168,7258
+7259,a2019,OP,,,,,25x41,mittel,breit,,,UoG,O,Sch,,,,H5,c,,,kleines Panoptikum,iBdK,,,,Kat.OP.102,7259
+7260,a2019,OP,,,,,25x41,mittel,breit,,,U,,,,,,H2,cf,Kr3,,o.T. (Erinnerung an ein Gedicht von Paul Celan),iBdK,res,,,Kat.OP.177,7260
+7261,a2019,OP,,,,,25x41,mittel,breit,Ul,,UoG,L,,,,,H3,g,Kr4,,zwei Fünflinge,iBdK,res,,,Kat.OP.103,7261
+7262,a2019,OP,,,,,25x41,mittel,breit,Gi,,UnG,Tie,,,,,H3,g,Par2,,Owl's head,iBdK,,,,Kat.OP.678,7262
+7263,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H3,cf,,,Selbstporträt I / XII,iBdK,,,,,7263
+7264,a2015,G,,,,,21x30,klein,breit,Ul,,UnG,Ri,,,,,H3,cf,,,Selbstporträt II / XII,iBdK,,,,,7264
+7265,a2015,G,,,,,21x30,klein,breit,Gi,,UnG,Ri,,,,,H2,cf,,,Selbstporträt III / XII,iBdK,,,,,7265
+7266,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H2,cf,,,Selbstporträt IV / XII,iBdK,,,,,7266
+7267,a2015,zT,G,T,,,21x30,klein,breit,Lst,,U,,,,,,H4,cf,,,Selbstporträt V / XII,iBdK,,,,,7267
+7268,a2015,G,Ko,,,,21x30,klein,breit,,,Gs,Ri,,Sch,,,H3,cf,,,Selbstporträt VI / XII,iBdK,,,,,7268
+7269,a2015,G,,,,,21x30,klein,breit,Lst,,U,,,,,,H3,cf,,,Selbstporträt VII / XII,iBdK,,,,,7269
+7270,a2015,G,Dd,,,,21x30,klein,breit,Lst,,Gs,Ri,,Sch,,,H4,c,,,Selbstporträt VIII / XII,iBdK,,,,,7270
+7271,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H4,cf,,,Selbstporträt IX / XII,iBdK,,,,,7271
+7272,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H1,cf,,,Selbstporträt X / XII,iBdK,,,,,7272
+7273,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H4,cf,,,Selbstporträt XI / XII,iBdK,,,,,7273
+7274,a2015,G,,,,,21x30,klein,breit,,,Gs,Ri,,,,,H3,cf,,,Selbstporträt XII / XII,iBdK,,,,,7274
+7275,a2019,B,,,,,17x23,klein,breit,,,U,,,,,,H4,gr,Kr4,,notturno,iBdK,res,,,,7275
+7276,a2019,B,,,,,11x19,klein,breit,,,UoG,Vo,,,,,H2,gr,Kr6,,spettacolino,iBdK,res,,,,7276
+7277,a2019,B,,,,,11x18,klein,breit,,,UoG,Tie,,,,,H1,gr,Kr2b,,trailing,iBdK,res,,,,7277
+7278,a2019,B,,,,,17x18,klein,breit,,,U,Sch,,,,,H1,bw,Kr6,,neuer Lehrstuhl,iBdK,res,,,,7278
+7279,a2019,zT,Ks,B,,,20x20,klein,quadratisch,,,UnG,Ar,,,,,H2,gr,Kr10a,,enceinte,iBdK,res,,,,7279
+7280,a1998,zT,B,G,,,27x20,klein,hoch,,,Gs,Pf,FigG,,,,H3,cf,Par1,,Zweistromland,iBdK,,,,,7280
+7281,a1998,zT,Fs,G,,,27x18,klein,hoch,,,Gs,Tie,,,,,H3,gr,Par1,,Löwenjagd,iBdK,,,,,7281
+7282,a2019,zT,B,Dd,,,24x18,klein,hoch,,,Gs,mF,,,,,H2,gr,Par1,,Lohan,iBdK,,,,,7282
+7283,a2019,zT,B,Dd,,,26x19,klein,hoch,,,Gs,Tie,,,,,H3,gr,Par1,,Thot,iBdK,,,,,7283
+7284,a1998,zT,B,G,,,16x20,klein,breit,,,Gs,Ri,,,,,H2,gr,Par1,,Head of Nefertiti,iBdK,,,,,7284
+7285,a2019,zT,B,G,,,11x20,klein,breit,,,Gs,mF,,,,,H2,cf,Par1,,The Papyrus of Hunefer,iBdK,,,,,7285
+7286,a1998,B,,,,,27x17,klein,hoch,,,Gs,FigG,,,,,H1,gr,Par1,,The stele of Naram-Sin,iBdK,,,,,7286
+7287,a2019,zT,B,G,,,20x20,klein,quadratisch,,,UoG,Ken,mF,,,,H3,m,Par2,,Kentaurenkampf,iBdK,,,,,7287
+7288,a2019,zT,B,G,,,27x20,klein,hoch,,,UoG,Ken,mF,,,,H4,cf,Par2,,Kentaurenkampf,iBdK,,,,,7288
+7289,a2019,zT,B,G,,,27x20,klein,hoch,,,Gs,FigG,,,,,H3,b,Par3b,,The rape of the Sabines by G. Bologna,iBdK,,,,,7289
+7290,a2019,Mt,B,G,Fal,,27x20,klein,hoch,,,Gs,P,,,,,H2,cf,Par3b,,The rape of the Sabines by G. Bologna,iBdK,,,,,7290
+7291,a2019,zT,B,G,,,27x18,klein,hoch,,,Gs,FigG,,,,,H3,cf,Par3b,,The rape of the Sabines by G. Bologna,iBdK,,,,,7291
+7292,a2019,zT,B,G,,,27x20,klein,hoch,,,Gs,P,,,,,H4,cf,Par3b,,"Giovanni Bologna: ""Florence triumphant over Pisa""",iBdK,,,,,7292
+7293,a1998,zT,B,G,,,27x20,klein,hoch,,,Gs,AP,Tie,,,,H3,v,Par3b,,"Hendrick de Keyser: ""Orpheus and Cerberus""",iBdK,,,,,7293
+7294,a1998,zT,B,G,,,20x27,klein,breit,,,Gs,P,Mw,,,,H2,cf,Par6,,Faun und Sirene (nach Emmanuel Schmutzer),iBdK,,,,,7294
+7295,a2019,B,,,,,21x30,klein,breit,,,Gs,Ar,,,,,H2,gr,Par7a,,"Horst Janssen: ""Portikus der Ottavia – nach Piranesi""",iBdK,,,,,7295
+7296,a2019,zT,Ks,Dd,,,30x19,klein,hoch,,,Gs,Ar,mF,,,,H2,gr,Par5,,"nach Wilhelm Busch: ""Der Heilige Antonius von Padua""",iBdK,,,,,7296
+7297,a2019,zT,Fs,Dd,,,24x19,klein,hoch,,,UoG,Ri,,,,,H4,gr,Par8a,,Gesichter (nach Jorge Molder),iBdK,,,,,7297
+7298,a2019,zT,B,Fa,,,22x18,klein,hoch,,,UoG,mF,Sch,,,,H2,cf,ParPK,,Narr in Trance (nach Paul Klee),iBdK,res,,,,7298
+7299,a1998,B,,,,,27x20,klein,hoch,,,UnG,AP,,,,,H2,bw,Par1,,standing stone figure (Mesopotamia),iBdK,,,,,7299
+7300,a1998,B,,,,,26x20,klein,hoch,,,Gs,Tie,,,,,H3,bw,Par1,,stone bull,iBdK,,,,,7300
+7301,a1998,zT,Ks,G,,,27x20,klein,hoch,,,Gs,FigG,,,,,H2,gr,Par3a,,The Trinity,iBdK,,,,,7301
+7302,a1998,zT,B,Ks,,,27x20,klein,hoch,,,UnG,Ri,,,,,H2,gr,Par3a,,Augenmass,iBdK,,,,,7302
+7303,a1998,zT,B,G,,,27x20,klein,hoch,,,Gs,Kt,,,,,H2,b,Par3b,,,iBdK,,,,,7303
+7304,a2019,zT,B,G,,,19x20,klein,breit,,,Gs,mF,Tie,,,,H1,gr,Par3b,,The rape of Europa,iBdK,,,,,7304
+7305,a1998,zT,B,G,,,26x17,klein,hoch,,,Gs,AP,Tie,,,,H2,cf,Par3b,,Neptune with a dolphin (by Alessandro Vittoria?),iBdK,,,,,7305
+7306,a1998,zT,B,G,,,27x20,klein,hoch,Lst,,UnG,AP,Tie,,,,H2,cf,Par3b,,Neptune with a dolphin (by Alessandro Vittoria?),iBdK,,,,,7306
+7307,a1998,zT,B,G,,,27x20,klein,hoch,,,UnG,P,O,,,,H2,cf,Par3b,,"Antonio Canova: ""Theseus and the Minotaur"" ",iBdK,,,,,7307
+7308,a1998,zT,B,G,,,27x20,klein,hoch,,,UnG,AP,O,,,,H2,m,Par6,,crouching woman (by Auguste Rodin),iBdK,,,,,7308
+7309,a2019,zT,B,G,,,27x20,klein,hoch,,,UnG,AP,O,,,,H2,gr,Par6,,"Lord Frederic Leighton: ""The Sluggard""",iBdK,,,,,7309
+7310,a1998,zT,B,Fs,,,21x20,klein,hoch,,,UnG,mF,O,,,,H1,bw,Kr7b,,"""Infant"" by Barbara Hepworth",iBdK,res,,,,7310
+7311,a2019,zT,B,G,,,15x11,klein,hoch,,,UoG,Pf,,,,,H2,gr,Kr2a,,prätentiöses Pflänzchen,iBdK,res,,,,7311
+7312,a2019,zT,B,G,,,15x11,klein,hoch,,,U,,,,,,H2,gr,Kr1,,3–4–5,iBdK,res,,,,7312
+7313,a2019,Mt,B,Ks,G,,27x20,klein,hoch,,,U,,,,,,H2,gr,Kr6,,Osteologisches,iBdK,res,,,,7313
+7314,a2019,B,,,,,29x21,klein,hoch,,,U,,,,,,H2,bw,Kr6,,Komplikat,iBdK,res,,,,7314
+7315,a2019,B,,,,,21x30,klein,breit,,,U,,,,,,H2,gr,Kr9,,Ariels Brille,iBdK,res,,,,7315
+7316,a2019,Mt,Ks,Fs,C,,27x20,klein,hoch,,,UnG,Ar,,,,,H2,cf,Par10a,,Peristyl (British Museum),iBdK,,,,,7316
+7317,a1998,B,,,,,27x20,klein,hoch,,,Gs,Ri,,,,,H2,bw,,,Basia reading,iBdK,,,,,7317
+7318,a2019,zT,B,Fa,,,27x20,klein,hoch,Lst,,UnG,O,Pf,,,,H2,cf,,,memories of Finborough Road,iBdK,,,,,7318
+7319,a2019,zT,Fs,B,,,27x20,klein,hoch,,,UoG,O,,,,,H3,bw,,,Studio Finborough Road,iBdK,,,,,7319
+7320,a1998,Ks,,,,,20x27,klein,breit,,,Gs,L,,,,,H1,c,,,,iBdK,,,,,7320
+7321,a1998,B,,,,,27x20,klein,hoch,,,Gs,A,P,,,,H1,bw,,,David and Sally,iBdK,,,,,7321
+7322,a1998,B,,,,,27x20,klein,hoch,,,Gs,A,P,,,,H1,bw,,,David and Sally,iBdK,,,,,7322
+7323,a1998,B,,,,,27x20,klein,hoch,,,Gs,A,P,,,,H2,bw,,,David and Sally,iBdK,,,,,7323
+7324,a2019,B,,,,,21x26,klein,breit,,,Gs,A,,,,,H2,bw,,,,iBdK,,,,,7324
+7325,a1998,zT,B,Fs,,,16x20,klein,breit,,,Gs,Tie,Sch,,,,H2,gr,,,Coati Nasua nasua,iBdK,,,,,7325
+7326,a2019,B,,,,,11x15,klein,breit,,,U,,,,,,H1,gr,Kr1,,kurze Flugstunde,iBdK,res,,,,7326
+7327,a2019,Mt,G,B,C,,21x25,klein,breit,,,U,Sch,,,,,H4,cf,Kr7,,MALEREI,iBdK,res,,,,7327
+7328,a1998,zT,B,Fa,,,27x20,klein,hoch,,,UnG,Ri,,,,,H1,gr,Par2,,Head of a Greek God,iBdK,,,,,7328
+7329,a1998,zT,B,Ks,,,27x20,klein,hoch,,,Gs,mF,Sch,,,,H2,gr,Par2,,Nereide,iBdK,,,,,7329
+7330,a1998,Mt,Ks,Fa,B,,20x20,klein,quadratisch,Lst,,Gs,AP,,,,,H3,c,Par3b,,Running woman (by Maffeo Olivieri),iBdK,,,,,7330
+7331,a2019,B,,,,,28x21,klein,hoch,,,UnG,Ken,FigG,,,,H3,gr,Par3b,,Centauressa in lotta con i Lapiti,iBdK,,,,,7331
+7332,a1998,zT,B,Fa,,,27x11,klein,hoch,,,Gs,AP,,,,,H2,gr,Par7b,,"""The Dancer"" by Henri Gaudier-Brzeska",iBdK,,,,,7332
+7333,a2019,Mt,B,G,C,,29x20,klein,hoch,,,UoG,Tie,,,,,H2,cf,Par3b,,Gürtelgarnitur,iBdK,,,,,7333
+7334,a2019,B,,,,,15x19,klein,breit,,,UoG,FigG,,,,,H2,bw,Par4,,La presentazione di Gesù al tempio (secondo Vincenzo da Treviso),iBdK,,,,,7334
+7335,a2019,zT,B,Ks,,,18x15,klein,hoch,Gi,,UnG,P,,,,,H3,gr,Par7a,,La Vision Tisserande (d'après Jean Dubuffet),iBdK,,,,,7335
+7336,a2019,zT,B,Ks,,,21x15,klein,hoch,Gi,,UoG,Sch,,,,,H2,gr,Par7a,,Concomitances (d'après Jean Dubuffet),iBdK,,,,,7336
+7337,a2019,Mt,B,Fa,Dd,,21x16,klein,hoch,,,UoG,mF,,,,,H2,gr,Par7a,,Acrobate isolé (d'après Asger Jorn),iBdK,,,,,7337
+7338,a2019,zT,B,C,,,14x21,klein,breit,,,Gs,Tie,mF,,,,H3,gr,Par7a,,Corrida (d'après René Auberjonois),iBdK,,,,,7338
+7339,a2019,B,,,,,21x30,klein,breit,,,U,,,,,,H3,gr,Par7a,,Courons à Uranus (d'après Louis Soutter),iBdK,,,,,7339
+7340,a2019,zT,B,Dd,,,16x21,klein,breit,,,UnG,Ar,Sch,,,,H3,bw,Par9a,,A und O (zu Anna Oppermann),iBdK,,,,,7340
+7341,a2019,B,,,,,11x14,klein,breit,,,U,,,,,,H3,gr,Kr1,,gehörnter Aufbruch,iBdK,res,,,,7341
+7342,a2019,G,,,,,18x16,klein,hoch,,,U,,,,,,H4,c,Kr5a,,Einäugiger,iBdK,res,,,,7342
+7343,a2019,zT,B,Ks,,,15x11,klein,hoch,,,UoG,O,,,,,H1,gr,Kr6,,Entwurf für ein sehr schönes Gefäss,iBdK,res,,,,7343
+7344,a2019,zT,B,Ks,,,21x13,klein,hoch,,,U,,,,,,H2,gr,Kr7,,Tangenten,iBdK,res,,,,7344
+7345,a2019,B,,,,,18x15,klein,hoch,,,U,,,,,,H2,bw,Kr8,,momentum,iBdK,res,,,,7345
+7346,a2019,zT,B,G,,,21x30,klein,breit,,,UnG,P,A,,,,H3,cf,Kr11,,la règle du jeu,iBdK,res,,,,7346
+7347,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,c,,,fast track,iBdK,,Heidi Mathys,,,7347
+7348,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7348
+7349,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H2,cf,,,fast track,iBdK,,Heidi Mathys,,,7349
+7350,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7350
+7351,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H2,cf,,,fast track,iBdK,,Heidi Mathys,,,7351
+7352,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,b,,,fast track,iBdK,,Heidi Mathys,,,7352
+7353,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,cf,,,fast track,iBdK,,Heidi Mathys,,,7353
+7354,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,c,,,fast track,iBdK,,Heidi Mathys,,,7354
+7355,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,g,,,fast track,iBdK,,Heidi Mathys,,,7355
+7356,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7356
+7357,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7357
+7358,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,cf,,,fast track,iBdK,,Heidi Mathys,,,7358
+7359,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7359
+7360,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,b,,,fast track,iBdK,,Heidi Mathys,,,7360
+7361,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,g,,,fast track,iBdK,,Heidi Mathys,,,7361
+7362,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H4,cf,,,fast track,iBdK,,Heidi Mathys,,,7362
+7363,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,c,,,fast track,iBdK,,Heidi Mathys,,,7363
+7364,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,cf,,,fast track,iBdK,,Heidi Mathys,,,7364
+7365,a2001?,OPa,,,,,70x50,mittel,hoch,,,U,,,,,ft,H4,v,,,fast track,iBdK,,Heidi Mathys,,,7365
+7366,a2001?,OPa,,,,,70x50,mittel,hoch,,,U,,,,,ft,H3,b,,,fast track,iBdK,,Heidi Mathys,,,7366
+7367,a2001?,OPa,,,,,70x50,mittel,hoch,,,U,,,,,ft,H2,cf,,,fast track,iBdK,,Heidi Mathys,,,7367
+7368,a2001?,OPa,,,,,70x50,mittel,hoch,,,U,,,,,ft,H2,cf,,,fast track,iBdK,,Heidi Mathys,,,7368
+7369,a2019,B,,,,,30x42,mittel,breit,Lst,,U,,,,,,H1,gr,Kr6,,Artefakte,iBdK,,,,,7369
+7370,a2019,zT,B,G,,,30x42,mittel,breit,,,UoG,Pf,,,,,H3,gr,Kr2a,,mazzo matto,iBdK,,,,,7370
+7371,a2019,zT,G,Fa,,,30x33,mittel,breit,,,UoG,Fk,,,,,H3,cf,,,5 Farbkörper,iBdK,,,,,7371
+7372,a2019,zT,T,G,,,30x42,mittel,breit,,,U,,,,,,H4,bw,,,nächtliche Erscheinung,iBdK,,,,,7372
+7373,a2019,B,,,,,19x32,klein,breit,,,U,,,,,,H4,gr,Kr8,,turmoil,iBdK,,,,,7373
+7374,a2019,Mt,G,Fs,C,,20x30,klein,breit,,,U,,,,,,H5, bw,Kr7,,black squares,iBdK,res,,,,7374
+7375,a2003,Ac,,,,,21x28,klein,breit,,,U,,,,,,H4,cf,Kr4,,Farbkörper (landschaftlich),iBdK,res,,,,7375
+7376,a2019,zT,G,Fa,,,17x23,klein,breit,,,UoG,O,,,,,H4,cf,Kr6,,"5 Fabrkörper, ergraut",iBdK,res,,,,7376
+7377,a2019,zT,G,Fa,,,13x21,klein,breit,,,Gs,Sch,lL,,,,H4,cf,Kr6,,vier Farbfallen,iBdK,res,,,,7377
+7378,a2019,zT,G,Fa,,,15x29,klein,breit,,,UoG,Tie,,,,,H4,b,Kr2b,,Klees Katze,iBdK,res,,,,7378
+7379,a2019,Fs,,,,,11x15,klein,breit,,,U,,,,,,H2,gr,Kr12c,,Dreiklang,iBdK,res,,,,7379
+7380,a2019,zT,Fs,Ac,,,11x15,klein,breit,,,U,,,,,,H2,gr,Kr6,,Verbauungen,iBdK,res,,,,7380
+7381,a2019,zT,Fs,Ac,,,12x21,klein,breit,,,U,,,,,,H2,gr,Kr6,,Verbauungen,iBdK,res,,,,7381
+7382,a2019,B,,,,,11x15,klein,breit,,,U,,,,,,H1,gr,Kr1,,kurz zusammengefasst,iBdK,res,,,,7382
+7383,a2019,B,,,,,10x21,klein,breit,,,U,,,,,,H2,gr,Kr1,,noch 'mal gut gegangen,iBdK,res,,,,7383
+7384,a2020,B,,,,,11x15,klein,breit,,,U,,,,,,H1,bw,Kr2a,,Ikebana auf die Schnelle,iBdK,res,,,,7384
+7385,a2019,zT,B,Fa,,,21x25,klein,breit,,,U,,,,,,H3,gr,ParPK,,Gedanken (frei nach Paul Klee),iBdK,res,,,,7385
+7386,a2020,B,,,,,30x21,klein,hoch,,,U,,,,,,H4,bw,Kr8,,es ballt sich zusammen,iBdK,res,,,,7386
+7387,a2020,G,Fa,,,,15x19,klein,breit,,,UoG,At,O,,,,H4,cf,Kr10b,,"Atelier mit grossem, grobem, grauem Bild",iBdK,res,,,,7387
+7388,a2020,G,,,,,25x21,klein,hoch,,,U,,,,,,H4,cf,Kr6,,Winterbild,iBdK,res,,,,7388
+7389,a2020,G,,,,,21x28,klein,breit,Lst,,UnG,lL,,,,,H3,c,Kr5b,,Traumtänzer,iBdK,res,,,,7389
+7390,a2019,OP,,,,,25x40,mittel,breit,,,U,,,,,,H4,cf,,,zugemüllt,iBdK,,,,Kat.OP.359,7390
+7391,a2019,zT,G,Fs,,,24x26,mittel,breit,,,U,,,,,,H2,cf,,,,iBdK,,,,,7391
+7392,a2019,OP,,,,,54x67,mittel,breit,sM,,U,Sch,,,,,H4,cf,,,Schnittmenge (Hommage an André Thomkins),iBdK,,,,Kat.OP.592,7392
+7393,a2019,OP,,,,,54x67,mittel,breit,pg,,U,,,,,,H5,cf,,,"nach Mark Bradfords ""Cerberus"" (extrem verdichtet)",iBdK,,,,Kat.OP.375,7393
+7394,a2019,OP,,,,,72x84,mittel,breit,Lst,,U,,,,,,H4,cf,Kr8,,Regentag,iBdK,res,,,,7394
+7395,a2019,OP,,,,,76x89,mittel,breit,Gi,,UoG,Pf,Gä,,,,H3,cf,,,Gartenlaube,iBdK,,,,Kat.OP.683,7395
+7396,a2019,OP,,,,,89x67,mittel,hoch,,,Gs,Tie,O,,,,H3,cf,Par2,,,iBdK,,,,Kat.OP.600,7396
+7397,a2019,OP,,,,,55x41,mittel,breit,sM,,UnG,Tie,,,,,H4,cf,,,MEMENTO LORI,,,,,Kat.OP.57,7397
+7398,a2019,OP,,,,,32x40,mittel,breit,,,U,,,,,,H3,cf,,,schaumgeboren,,,,,Kat.OP.440,7398
+7399,a2019,OP,,,,,32x40,mittel,breit,Ul,,UoG,At,,,,,H2,gr,,,winterliches Atelier,,,,,Kat.OP.682,7399
+7400,a2019,OP,,,,,41x76,mittel,breit,Gi,,UoG,lL,At,,,,H4,cf,Kr10b,,Atelier,,res,,,Kat.OP.637,7400
+7401,a2019,OP,,,,,41x76,mittel,breit,pg,,Gs,At,O,,,,H4,cf,,,Atelier mit rotem Bild,,,,,Kat.OP.457,7401
+7402,a2019,OP,,,,,41x76,mittel,breit,,,U,Sch,Ca,,,,H4,cf,Kr11,,cf,,res,,,Kat.OP.360,7402
+7403,a2019,OP,,,,,41x76,mittel,breit,,,UoG,L,,,,,H4,cf,,,zugemüllt,,,,,Kat.OP.684,7403
+7404,a2020,zT,Opl,G,,,21x26,klein,breit,,,Gs,bb,,,,,H4,cf,,,black box,,,,,,7404
+7405,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,b,,,fast track,,,Heidi Mathys,,,7405
+7406,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H2,gr,,,fast track,,,Heidi Mathys,,,7406
+7407,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,b,,,fast track,,,Heidi Mathys,,,7407
+7408,a2001?,OPa,,,,,50x70,mittel,breit,,,U,,,,,ft,H3,cf,,,fast track,,,Heidi Mathys,,,7408
+7409,a2019,zT,B,Fa,,,21x28,klein,breit,,,Gs,ZM,,,,,H3,gr,,,"Modell, Zeichner",,,,,,7409
+7410,a2019,B,,,,,19x21,klein,breit,,,UnG,ZM,,,,,H2,gr,,,"Zeichner, Modell",,,,,,7410
+7411,a2019,zT,B,Fa,,,21x30,klein,breit,,,UnG,ZM,,,,,H2,gr,,,"Modell, Zeichner",,,,,,7411
