@@ -106,9 +106,9 @@ function render_form($out, dp) {
           'type="' + inputtype + '">' +
         '<label class="form-check-label" ' +
           'for="o_' + this.Column + this.Code + '">' +
+          this.Title +
           (this.Count == 0 ? '' :
             '<span class="count">' + this.Count + '</span> ') +
-          this.Title +
           '</label>' +
       '') +
       '</div>'

@@ -120,7 +120,6 @@ body {
 }
 
 .count {
-  float: right;
   padding: 0.2em 0.4em;
   font-size: 80%;
   background: transparent;
