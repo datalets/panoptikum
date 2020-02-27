@@ -3,21 +3,24 @@ body {
 }
 
 .pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
-  background-color: #ccc !important;
+  background-color: #bbb !important;
 }
 
 .pswp__bg, .pswp__caption, .pswp__top-bar, body {
-  background-color: #ccc !important;
+  background-color: #bbb !important;
   color: #000;
 }
 
-.anleitung-infoblock{
+.anleitung-infoblock {
   background-color:white;
   border: 1px solid transparent;
-  border-radius: .25rem;
+  border-radius: .5rem;
+  margin-top: -1.5em;
+  padding-top: 1em;
 }
-
-.anleitung {
+.anleitung-infoblock button { float: right; }
+.anleitung-infoblock ul { margin-left: 2em; }
+.anleitung-infoblock li {
   margin: 0 .25rem 0 0;
 }
 

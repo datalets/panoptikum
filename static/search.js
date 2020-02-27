@@ -211,7 +211,7 @@ function werkSearchStart(e, from_page, random) {
     if ($('#start').hasClass('disable')) return;
   }
   $('.modal').modal('show');
- 
+
   wsq = get_werkSearchQuery(from_page);
   q = wsq.query;
 
@@ -281,7 +281,8 @@ function werkSearchStart(e, from_page, random) {
 
     }); // -data each
 
-    if (data.length == 1)
+    // Automatically open if only one image or random mode
+    if (data.length == 1 || random)
       $tgt.find('.item:last').click();
 
   }).fail(function(jqxhr, textStatus, error) {
