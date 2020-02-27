@@ -40,7 +40,7 @@
               <a class="nav-item nav-link btn_bildarchiv" data-toggle="tab" href="#form"><i class="fa fa-list"></i> Form</a>
               <a class="nav-item nav-link btn_bildarchiv" data-toggle="tab" href="#anderes"><i class="fa fa-list"></i> Anderes</a>
             </div>
-            
+
             <div class="auswahl">
               <span class="">Ausgewählt: <span id="total">0</span></span>
             </div>
@@ -51,7 +51,7 @@
               <a class="btn_bildarchiv" id="random"><i class="fa fa-random"></i> Zufall</a>
               <a class="btn_bildarchiv disable" id="start"><i class="fa fa-play"></i> Anzeigen</a>
             </div>
-    
+
           <div class="tab-content">
           <div class="tab-pane active show" id="inhalt"></div>
           <div class="tab-pane" id="form"></div>
@@ -59,7 +59,7 @@
             <div class="row">
 
               <div class="col-sm-8">
-              
+
                 <div class="form-group">
                   <label class="col-form-label" for="inputTitel">Titel</label>
                   <input name="Titel" autocomplete="off" autofocus placeholder="Titelsuche" type="text" class="searchOnEnter">
@@ -87,7 +87,7 @@
                         // no value in found
                         result = titlelist_uniqueEntries;
                       }
-                      clusterTitle.update(result);                   
+                      clusterTitle.update(result);
                     };
                   </script>
                   <!--HTML scroll clusterize area-->
@@ -97,18 +97,22 @@
                     </div>
                   </div>
                 </div>
-    
+
                 <div class="form-group" data-cols="1"
                   data-tag="standort"
                   data-type="Standort">
                 </div>
-    
+
+                <div class="form-group" data-cols="1"
+                  data-tag="standort"
+                  data-type="Zus'arbeit">
+                </div>
               </div>
-    
+
               <div class="col-sm-4">
 
-                <div class="form-group">                 
-                  <label class="col-form-label" for="inputJahr">Jahreszahl (ab 1973)</label>
+                <div class="form-group">
+                  <label class="col-form-label" for="inputJahr">Jahreszahl</label>
                   <input placeholder="" id="inputYear" name="Jahr" type="text">
                   <script>
                     let inputyear = document.querySelector('#inputYear');
@@ -127,9 +131,9 @@
                         // no value in found
                         result = yearlist;
                       }
-                      clusterYear.update(result);                   
+                      clusterYear.update(result);
                     };
-                  </script>                  
+                  </script>
                   <!--HTML scroll clusterize area-->
                   <div id="scrollAreaYear" class="clusterize-scroll-5">
                     <div id="contentAreaYear" class="clusterize-content">
@@ -150,7 +154,7 @@
                      data-type="Chronologie">
                 </div>
 -->
-              </div>              
+              </div>
 <!--
               <div class="col-sm-6">
 
@@ -167,7 +171,7 @@
               <div class="col-lg-12">
 
                 <p>Impressum:
-                  2019 <a href="http://datalets.ch">Datalets</a> &bull;
+                  2020 <a href="http://datalets.ch">Datalets</a> &bull;
                   <a href="https://github.com/dataletsch/panoptikum">Open source</a> under the MIT License</a>.</p>
 
               </div>
@@ -257,7 +261,7 @@
     </div>
 
     <script src="/static/lib/jquery-3.3.1.js"></script>
-    <script src="/static/lib/clusterize.min.js"></script>    
+    <script src="/static/lib/clusterize.min.js"></script>
     <script src="/static/lib/bootstrap/bootstrap.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe.min.js"></script>
     <script src="/static/lib/photoswipe/photoswipe-ui-default.min.js"></script>

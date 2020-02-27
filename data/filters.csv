@@ -21,6 +21,7 @@ Lg,Form,Drucktechnik,Technik,Lithografie,,,20
 Od,Form,Drucktechnik,Technik,Offsetdruck,,,8
 R,Form,Drucktechnik,Technik,Radierung,,,358
 S,Form,Drucktechnik,Technik,Siebdruck,,,4
+Rd,Form,Drucktechnik,Technik,Reliefdruck,,,4
 zT,Form,mehrere Techniken,Technik,zwei Techniken,,,2063
 Mt,Form,mehrere Techniken,Technik,Mischtechnik (3 Techniken und mehr),,,1266
 H1,Form,Helligkeit,Helligkeit,hell,,,625
@@ -51,8 +52,10 @@ Lst,Form,Darstellungsformen,Darstellungsformen,Linienstrukturen,,,258
 Lwi,Form,Darstellungsformen,Darstellungsformen,Linienwirbel,,,286
 Mo,Form,Darstellungsformen,Darstellungsformen,Mosaik,,,43
 ovÖ,Form,Darstellungsformen,Darstellungsformen,ovale Öffnung,,,27
+pg,Form,Darstellungsformen,Darstellungsformen,pastos gespachtelt,,,1228
 Schl,Form,Darstellungsformen,Darstellungsformen,Schleifbilder,,,9
 Schü,Form,Darstellungsformen,Darstellungsformen,Schüttbilder,,,4
+sCo,Form,Darstellungsformen,Darstellungsformen,serielle Collage,,,31
 sM,Form,Darstellungsformen,Darstellungsformen,serielle Muster,,,31
 Ul,Form,Darstellungsformen,Darstellungsformen,Umrisslinie,,,142
 Gs,Form,Darstellungsarten,Gegenständlich/Ungegenständlich,Gegenständliches,,,2203
@@ -71,7 +74,7 @@ sch,Form,Bildsprache,Bildsprache,Schütze-/Jupiter-Gestaltung,,,33
 ste,Form,Bildsprache,Bildsprache,Steinbock-/Saturn-Gestaltung,,,112
 was,Form,Bildsprache,Bildsprache,Wassermann-/Uranus-Gestaltung,,,144
 fis,Form,Bildsprache,Bildsprache,Fische-/Neptun-Gestaltung,,,104
-mF,Inhalt,Motive,Motiven,Menschliche Figuren,"A, AP, Ba, FigG, FigR, KiA, P, Sb, Z, ZM",,440
+mF,Inhalt,Motive,Motiven,Menschen,"A, AP, Ba, FigG, FigR, KiA, P, Sb, Z, ZM",,440
 FigG,Inhalt,Motive,Motiven,Figurengruppen,,,280
 FigR,Inhalt,Motive,Motiven,Figuren im Raum (Innenraum),,,228
 KiA,Inhalt,Motive,Motiven,KünstlerInnen im Atelier,,,27
@@ -119,7 +122,7 @@ Par7b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Plastik 20. Jh.,,,33
 Par8a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Fotografie,ParVB,,62
 Par8b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Film, Video",,,33
 Par9a,Inhalt,"Paraphrasen, Variationen",Paraphrasen,Installationen,,,47
-Par9b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Performance, Theater",,,10
+Par9b,Inhalt,"Paraphrasen, Variationen",Paraphrasen,"Performance, Theater, Tanz",,,10
 ParEH,Inhalt,"Paraphrasen, Variationen: grössere Werkgruppen zu",Paraphrasen,Edward Hopper,,,8
 ParAR,Inhalt,"Paraphrasen, Variationen: grössere Werkgruppen zu",Paraphrasen,Auguste Rodin,,,43
 ParFV,Inhalt,"Paraphrasen, Variationen: grössere Werkgruppen zu",Paraphrasen,Félix Vallotton,,,407
@@ -159,6 +162,10 @@ Kr12e,Inhalt,Projekt „Klee revisited“,Paraphrasen,Fünfklang,,,17
 1979-1984,Zeit,Chronologie,Jahr,1979–1984,,,0
 1973-1978,Zeit,Chronologie,Jahr,1973–1978,,,0
 iBdK,Anderes,Standort,Standort,im Besitz des Künstlers,,,6382
-PB,Anderes,Status,Status,Privatbesitz,,,266
-res,Aderes,Status,Status,reserviert,,,2579
+PB,Anderes,Standort,Standort,Privatbesitz,,,266
+vers,Anderes,Standort,Standort,verschollen,,,6382
+vernichtet,Anderes,Standort,Standort,vernichtet,,,6382
+res,Anderes,Status,Status,reserviert,,,2579
+kR,Anderes,Status,Status,keine Reproduktion,,,2579
+x,Anderes,Status,Status,schlechte Reproduktion,,,2579
 .*,Anderes,Standort,Zus'arbeit,Zusammenarbeit,,,37

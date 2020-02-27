@@ -3,7 +3,7 @@
 source=`pwd`/IMPORT
 target=`pwd`/images
 
-for dir in ${source}/WV_ab*/
+for dir in ${source}/WV_*/
 do
     dir=${dir%*/}
     dir=${dir##*/}

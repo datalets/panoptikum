@@ -20,7 +20,7 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
     if (!filters[dm])
       filters[dm] = [];
     if (!filters[dm].includes(d.Type))
-      filters[dm].push(d.Type);    
+      filters[dm].push(d.Type);
   });
   // console.log(filters);
 
@@ -29,7 +29,7 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
   });
 
   // Filter for Titles (calls js function to store titles (all of them) into var titlelist.)
-  listTitles(); 
+  listTitles();
 
 }).fail(function() {
   alert('Could not load data!');
@@ -106,7 +106,8 @@ function render_form($out, dp) {
           'type="' + inputtype + '">' +
         '<label class="form-check-label" ' +
           'for="o_' + this.Column + this.Code + '">' +
-          '<span class="count">' + this.Count + '</span> ' +
+          (this.Count == 0 ? '' :
+            '<span class="count">' + this.Count + '</span> ') +
           this.Title +
           '</label>' +
       '') +
@@ -134,7 +135,7 @@ function yearSearch(e) {
   $('input').prop("checked", false); //unchecks all input boxes, reset selection
   werkSearchCount();
 }
-  
+
 // Run search
 $('#start').click(werkSearchStart); // -button.click
 
