@@ -237,12 +237,16 @@ function werkSearchStart(e, from_page, random) {
     var pswpElement = $('.pswp')[0];
     var pswpItems = [];
     var pswpGallery = null;
+    // var urlPrefix = "http://moirasia.datalets.ch/"
+    // var urlPrefix = "http://new.luc.gr/pano/"
+    var urlPrefix = "http://archiv.juergstraumann.ch/"
 
     // Create item index
     data.forEach(function(item, ix) {
-      // console.log(item);
+      // console.log(item.path);
+      // luc.gr-mod
       pswpItems.push({
-        src: item.path, w: 0, h: 0,
+        src: urlPrefix+item.path, w: 0, h: 0,
         title: werkTitle(item)
       });
     });
@@ -252,7 +256,7 @@ function werkSearchStart(e, from_page, random) {
       $tgt.append(
 
         '<div class="col-sm-2 item">' +
-          '<img src="' + item.thumb + '" />' +
+          '<img src="' + urlPrefix + item.thumb + '" />' +
           // '<small>' + item.Nummer + '</small>' +
         '</div>'
 
