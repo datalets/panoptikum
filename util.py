@@ -8,6 +8,11 @@ def regex_filter(regex, val):
         return False
     return False
 
+
+def get_random(dp_werke):
+    df = dp_werke.copy()
+    return df.sample(30).to_json(orient='records')
+
 def get_paginated(args, dp_werke, as_json=False):
     df = dp_werke.copy()
     for f in df:
@@ -18,12 +23,11 @@ def get_paginated(args, dp_werke, as_json=False):
             dfname = df[f].dtype.name.lower()
             if 'object' in dfname:
                 for v in val.split(','):
-                    # print(v)
-                    # val = r'\b%s\b' % v #auskommentiert um " zu finden
-                    val = re.sub(r'[«»"()]', '.', val) #substitutes special chars with .
-                    #print(f, val)
-                    df = df.loc[df[f].str.contains(val, regex=True, case=False, na=False)]
-                    #print(df)
+                    # print(f, v)
+                    val = r'\b%s\b' % v
+                    # print(f, val)
+                    df = df.loc[df[f].str.contains(val, regex=True)]
+                    # print(df)
                     # df = df[df[f].apply(regex_filter, regex, val)]
             elif 'int' in dfname:
                 try:

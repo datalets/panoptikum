@@ -25,6 +25,11 @@ data = read_datapackage("data")
 def api_dict(resource):
     return get_paginated(request.args, data[resource])
 
+
+@app.route('/api/<resource>.random')
+def api_random(resource):
+    return get_random(data[resource])
+
 @app.route('/api/<resource>.json')
 def api_json(resource):
     return get_paginated(request.args, data[resource], True)

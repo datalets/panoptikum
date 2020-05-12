@@ -18,11 +18,9 @@ function werkSearchNext(e) {
 }
 
 function werkSearchRandom(e) {
-  ranval = Math.round(1+(Math.random() * 232));
-  console.log('random: '+ranval);
   werkSearchReset(e);
   $('#restart').removeClass('disable');
-  werkSearchStart(e, ranval, true);
+  werkSearchStart(e, 1, true);
 }
 
 function werkSearchBack(e) {
@@ -221,7 +219,7 @@ function werkSearchStart(e, from_page, random) {
       $('#results').find('div.row').empty();
   }
 
-  $.getJSON('/api/images.json' + q, function(data) {
+  $.getJSON(random ? '/api/images.random' : '/api/images.json' + q, function(data) {
     setTimeout(function() {
       $('.modal').modal('hide');
     }, 500);
