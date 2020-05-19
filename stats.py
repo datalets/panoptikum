@@ -3,6 +3,9 @@ import os
 from pandas_datapackage_reader import read_datapackage
 
 from util import *
+import pandas
+
+pandas.set_option('display.max_rows', 100000)
 
 def update_stats():
     data = read_datapackage("data")
@@ -15,6 +18,8 @@ def update_stats():
     # print(images.head)
     filters.dropna(subset=['Code', 'Column'], inplace=True)
     # print(filters.head)
+    #print("filters['Code']", images['Grösse'])
+
 
     filters['Count'] = filters.apply(
         lambda row: (
