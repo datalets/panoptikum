@@ -31,6 +31,10 @@ $.getJSON('/api/filters/all.json', function(jsondata) {
   // Filter for Titles (calls js function to store titles (all of them) into var titlelist.)
   listTitles();
 
+  // Hack for display "performance" as wished
+  var elMagic = $('#o_ParaphrasenPar9b').parent();
+  elMagic.appendTo($(elMagic).closest('.col-sm-3').prev());
+
 }).fail(function() {
   alert('Could not load data!');
 });
