@@ -68,7 +68,16 @@ function get_werkSearchQuery(from_page) {
     if (!hasAttr(nm)) return;
     if (!filterdata[nm]) filterdata[nm] = [];
     filterdata[nm].push($(this).attr('value'));
-    filterselect += '<span>' + $(this).parent().find('label').text() + '</span>';
+    var label = $(this).parent().find('label');
+    
+    var labelTitle = label
+      .clone()    //clone the element
+      .children() //select all the children
+      .remove()   //remove all the children
+      .end()  //again go back to selected element
+      .text();
+    var labelNumber = label.find(".count").text()
+    filterselect += '<span>' + labelTitle + ' ' + labelNumber + '</span>';
   });
 
   $('input[type=text]').each(function() {
