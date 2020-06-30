@@ -123,6 +123,26 @@ function werkTitle(item) {
     })
     Techniken = itemarr.join(', ');
   }
+
+  var status = '';
+  //debugger;
+  switch(item ['Status']) {
+    case 'res':
+      status = 'reserviert '
+      break; 
+    case 'vers':
+      status = 'verschollen'
+      break; 
+    case 'vernichtet':
+      status = 'vernichtet'
+      break; 
+    case 'PB':
+      status = 'Privatbesitz'
+      break; 
+    default:
+        status = ''
+  };
+
   var s = '' +
     '<b>' + (item['Titel'] || '(Ohne Titel)') + '</b> ' +
     '[' + item['Nummer'] + '], ' +
@@ -132,8 +152,8 @@ function werkTitle(item) {
     ', ' + item['Jahr'].replace('a', '') + '' : '') +
     '' + (item["Zus'arbeit"] !== null ?
       ', In Zusammenarbeit mit ' + item["Zus'arbeit"] : '') +
-    '' + (item ['Status'] !== null ?
-      ', ' + item ['Status'] : '')
+    '' + (status !== '' ?
+      ', ' +  status : '')
     ;
   return s;
 }
