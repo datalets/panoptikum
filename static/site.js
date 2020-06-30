@@ -126,13 +126,13 @@ function titleSearch(e) {
 //  console.log(this.innerHTML);
   $('input[name="Jahr"]').val(''); //copies Entry to html input form
   $('input[name="Titel"]').val(this.innerHTML); //copies Entry to html input form
-  $('input').prop("checked", false); //unchecks all input boxes, reset selection
+ // $('input').prop("checked", false); //unchecks all input boxes, reset selection
   werkSearchCount();
 }
 function yearSearch(e) {
   $('input[name="Titel"]').val(''); //copies Entry to html input form
   $('input[name="Jahr"]').val(this.innerHTML); //copies Entry to html input form
-  $('input').prop("checked", false); //unchecks all input boxes, reset selection
+  //$('input').prop("checked", false); //unchecks all input boxes, reset selection
   werkSearchCount();
 }
 
