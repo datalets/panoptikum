@@ -162,9 +162,9 @@ Kr12e,Inhalt,Projekt „Klee revisited“,Paraphrasen,Fünfklang,,,14
 1979-1984,Zeit,Chronologie,Jahr,1979–1984,,,0
 1973-1978,Zeit,Chronologie,Jahr,1973–1978,,,0
 iBdK,Anderes,Standort,Standort,im Besitz des Künstlers,,,7278
-PB,Anderes,Standort,Standort,Privatbesitz,,,0
-vers,Anderes,Standort,Standort,verschollen,,,2
-vernichtet,Anderes,Standort,Standort,vernichtet,,,0
+PB,Anderes,Standort,Status,Privatbesitz,,,275
+vers,Anderes,Standort,Status,verschollen,,,30
+vernichtet,Anderes,Standort,Status,vernichtet,,,10
 res,Anderes,Status,Status,reserviert,,,3123
 kR,Anderes,Status,Status,keine Reproduktion,,,0
 x,Anderes,Status,Status,schlechte Reproduktion,,,0
